@@ -1448,9 +1448,23 @@ wcs_do()
         btn.textContent = '📋 지금 상담 신청하기';
         btn.disabled = false;
       }
-      fetch(SCRIPT_URL + '?' + params, {mode: 'no-cors'})
-        .then(showSuccess)
-        .catch(showSuccess);
+      var iframeId = 'gas_iframe_' + Date.now();
+      var iframe = document.createElement('iframe');
+      iframe.name = iframeId;
+      iframe.style.display = 'none';
+      document.body.appendChild(iframe);
+      var hf = document.createElement('form');
+      hf.method = 'GET';
+      hf.action = SCRIPT_URL;
+      hf.target = iframeId;
+      Object.keys(data).forEach(function(k){
+        var inp = document.createElement('input');
+        inp.type = 'hidden'; inp.name = k; inp.value = data[k];
+        hf.appendChild(inp);
+      });
+      document.body.appendChild(hf);
+      hf.submit();
+      setTimeout(function(){ showSuccess(); document.body.removeChild(iframe); document.body.removeChild(hf); }, 1500);
     });
   }
   document.querySelectorAll('a[href^="#"]').forEach(function(a){

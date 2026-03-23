@@ -1437,9 +1437,7 @@ wcs_do()
         return encodeURIComponent(k) + '=' + encodeURIComponent(data[k]);
       }).join('&');
 
-      var img = new Image();
-      img.src = SCRIPT_URL + '?' + params;
-      img.onload = img.onerror = function() {
+      function showSuccess() {
         var m = document.getElementById('successModal');
         if(m) m.classList.add('active');
         form.reset();
@@ -1449,7 +1447,10 @@ wcs_do()
         document.getElementById('fs-sido').selectedIndex = 0;
         btn.textContent = '📋 지금 상담 신청하기';
         btn.disabled = false;
-      };
+      }
+      fetch(SCRIPT_URL + '?' + params, {mode: 'no-cors'})
+        .then(showSuccess)
+        .catch(showSuccess);
     });
   }
   document.querySelectorAll('a[href^="#"]').forEach(function(a){

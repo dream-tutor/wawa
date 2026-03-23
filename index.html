@@ -1952,7 +1952,45 @@ function mOnDong() {
 function openConsultModal(){document.getElementById('consultModalOv').classList.add('open');document.body.style.overflow='hidden';mPopulate();}
 function closeConsultModal(){document.getElementById('consultModalOv').classList.remove('open');document.body.style.overflow='';}
 function consultCloseOut(e){if(e.target===document.getElementById('consultModalOv'))closeConsultModal();}
-function submitConsultModal(e){e.preventDefault();document.getElementById('consultModalForm').style.display='none';document.getElementById('consultModalSuccess').style.display='block';setTimeout(closeConsultModal,3000);}
+function submitConsultModal(e){
+  e.preventDefault();
+  var form = document.getElementById('consultModalForm');
+  var SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbybsuTZMjzlp3HkkVaUX0IUFnNlSfnnN0DGThb-2BOIwZ8IyZNnMgkwoWOb_muHCEx5/exec';
+  var inputs = form.querySelectorAll('input[type=text],input[type=tel]');
+  var selects = form.querySelectorAll('select');
+  var data = {
+    신청일: new Date().toLocaleString('ko-KR'),
+    지점: document.getElementById('m-branch') ? document.getElementById('m-branch').value : '',
+    시도: document.getElementById('m-sido') ? document.getElementById('m-sido').value : '',
+    시군구: document.getElementById('m-sgg') ? document.getElementById('m-sgg').value : '',
+    동: document.getElementById('m-dong') ? document.getElementById('m-dong').value : '',
+    이름: inputs[0] ? inputs[0].value : '',
+    연락처: inputs[1] ? inputs[1].value : '',
+    학년: '', 과목: ''
+  };
+  selects.forEach(function(sel){
+    if(['m-sido','m-sgg','m-dong','m-branch'].indexOf(sel.id) >= 0) return;
+    if(!data.학년) data.학년 = sel.value;
+    else data.과목 = sel.value;
+  });
+  var iframeId = 'gas_iframe_' + Date.now();
+  var iframe = document.createElement('iframe');
+  iframe.name = iframeId; iframe.style.display = 'none';
+  document.body.appendChild(iframe);
+  var hf = document.createElement('form');
+  hf.method = 'GET'; hf.action = SCRIPT_URL; hf.target = iframeId;
+  Object.keys(data).forEach(function(k){
+    var inp = document.createElement('input');
+    inp.type = 'hidden'; inp.name = k; inp.value = data[k];
+    hf.appendChild(inp);
+  });
+  document.body.appendChild(hf);
+  hf.submit();
+  setTimeout(function(){ document.body.removeChild(iframe); document.body.removeChild(hf); }, 3000);
+  form.style.display='none';
+  document.getElementById('consultModalSuccess').style.display='block';
+  setTimeout(closeConsultModal,3000);
+}
 function switchGradeTab(tab){
   ['elem','mid','high'].forEach(function(t){
     document.getElementById('grade-panel-'+t).style.display = t===tab ? '' : 'none';

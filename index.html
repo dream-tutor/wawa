@@ -1450,6 +1450,7 @@ wcs_do(_nasa)
       function showSuccess() {
         var m = document.getElementById('successModal');
         if(m) m.classList.add('active');
+        if(window.wcs){ var _nasa2={}; _nasa2["cnv"]=wcs.cnv("2","1"); wcs_do(_nasa2); }
         form.reset();
         document.getElementById('fs-sgg').disabled = true;
         document.getElementById('fs-dong').disabled = true;
@@ -1999,6 +2000,7 @@ function submitConsultModal(e){
   setTimeout(function(){ document.body.removeChild(iframe); document.body.removeChild(hf); }, 3000);
   form.style.display='none';
   document.getElementById('consultModalSuccess').style.display='block';
+  if(window.wcs){ var _nasa3={}; _nasa3["cnv"]=wcs.cnv("2","1"); wcs_do(_nasa3); }
   setTimeout(closeConsultModal,3000);
 }
 function switchGradeTab(tab){

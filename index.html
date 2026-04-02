@@ -1858,6 +1858,13 @@ wawaShowGuide();
       }
     }
 
+    // branch가 있고 dong이 없으면 BRANCHES 데이터에서 dong 자동 조회
+    if (branch && !dong) {
+      for (var bi = 0; bi < BRANCHES.length; bi++) {
+        if (BRANCHES[bi].name === branch) { dong = BRANCHES[bi].dong || ''; break; }
+      }
+    }
+
     // 2. 팝업 자동선택 (region만 있어도 동작)
     fbPopulate(); mPopulate();
     var fs = document.getElementById('fs-sido');

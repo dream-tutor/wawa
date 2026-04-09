@@ -1122,6 +1122,16 @@ wcs_do(_nasa)
             </select>
           </div>
         </div>
+        <div class="form-group" style="margin-bottom:18px;">
+          <label class="form-label">상담 희망 시간</label>
+          <select class="form-select" id="fs-consult-time">
+            <option value="">시간 선택</option>
+            <option>오전 9시 ~ 12시</option>
+            <option>오후 12시 ~ 3시</option>
+            <option>오후 3시 ~ 6시</option>
+            <option>오후 6시 ~ 9시</option>
+          </select>
+        </div>
         <div class="form-agree">
           <input type="checkbox" id="agree" required>
           <label for="agree">개인정보 수집 및 이용에 동의합니다. (상담 목적으로만 활용됩니다)</label>
@@ -1381,6 +1391,16 @@ wcs_do(_nasa)
           </select>
         </div>
       </div>
+      <div class="form-group" style="margin-bottom:12px;">
+        <label class="form-label">상담 희망 시간</label>
+        <select class="form-select" id="m-consult-time">
+          <option value="">시간 선택</option>
+          <option>오전 9시 ~ 12시</option>
+          <option>오후 12시 ~ 3시</option>
+          <option>오후 3시 ~ 6시</option>
+          <option>오후 6시 ~ 9시</option>
+        </select>
+      </div>
       <div style="display:flex;align-items:center;gap:8px;font-size:13px;color:#6b7280;margin-bottom:14px;">
         <input type="checkbox" id="modalAgree" required style="flex-shrink:0;accent-color:#2C4A63;width:15px;height:15px;">
         <label for="modalAgree" style="margin:0;line-height:1.4;">개인정보 수집 및 이용에 동의합니다. (상담 목적으로만 활용됩니다)</label>
@@ -1426,6 +1446,7 @@ wcs_do(_nasa)
         연락처: form.querySelector('input[type=tel]').value,
         학년:   form.querySelectorAll('select')[4] ? form.querySelectorAll('select')[4].value : '',
         과목:   form.querySelectorAll('select')[5] ? form.querySelectorAll('select')[5].value : '',
+        상담희망시간: document.getElementById('fs-consult-time') ? document.getElementById('fs-consult-time').value : '',
         신청일: new Date().toLocaleString('ko-KR')
       };
 
@@ -1984,6 +2005,7 @@ function submitConsultModal(e){
     동: document.getElementById('m-dong') ? document.getElementById('m-dong').value : '',
     이름: inputs[0] ? inputs[0].value : '',
     연락처: inputs[1] ? inputs[1].value : '',
+    상담희망시간: document.getElementById('m-consult-time') ? document.getElementById('m-consult-time').value : '',
     학년: '', 과목: ''
   };
   selects.forEach(function(sel){

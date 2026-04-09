@@ -1453,7 +1453,7 @@ wcs_do(_nasa)
       // 학년/과목 select 정확히 찾기
       var selects = form.querySelectorAll('select');
       selects.forEach(function(sel) {
-        if(sel.id === 'fs-sido' || sel.id === 'fs-sgg' || sel.id === 'fs-dong' || sel.id === 'fs-branch') return;
+        if(sel.id === 'fs-sido' || sel.id === 'fs-sgg' || sel.id === 'fs-dong' || sel.id === 'fs-branch' || sel.id === 'fs-consult-time') return;
         if(!data.학년 || data.학년 === '') {
           if(sel.value.indexOf('학년') >= 0) data.학년 = sel.value;
         } else {
@@ -2009,7 +2009,7 @@ function submitConsultModal(e){
     학년: '', 과목: ''
   };
   selects.forEach(function(sel){
-    if(['m-sido','m-sgg','m-dong','m-branch'].indexOf(sel.id) >= 0) return;
+    if(['m-sido','m-sgg','m-dong','m-branch','m-consult-time'].indexOf(sel.id) >= 0) return;
     if(!data.학년) data.학년 = sel.value;
     else data.과목 = sel.value;
   });

@@ -58,7 +58,7 @@
   .hero {
     background: linear-gradient(135deg, #1A3D30 0%, #3A6B56 45%, #5B8C75 100%);
     position: relative;
-    padding: 80px 20px 100px;
+    padding: 72px 20px 36px;
     text-align: center;
     overflow: hidden;
   }
@@ -102,6 +102,7 @@
   }
   .hero h1 span {
     color: var(--accent);
+    font-size: 1.2em;
   }
   .hero p {
     color: rgba(255,255,255,0.85);
@@ -152,6 +153,29 @@
   }
   .btn-phone:hover { background: rgba(255,255,255,0.25); }
 
+  /* ── VIDEO SECTION ── */
+.video-crop-outer {
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 440px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.18);
+  }
+  .video-crop-outer iframe {
+    position: absolute;
+    width: 100%;
+    height: 534px; /* 300 * 16/9 */
+    top: -47px;    /* 위아래 47px씩 크롭 */
+    left: 0;
+    border: none;
+  }
+  @media (max-width: 640px) {
+    .video-crop-outer { width: 260px; height: 380px; }
+    .video-crop-outer iframe { height: 462px; top: -41px; }
+  }
+
   /* ── STATS BAR ── */
   .stats-bar {
     background: var(--white);
@@ -180,7 +204,7 @@
   }
 
   /* ── SECTION COMMON ── */
-  .section { padding: 80px 20px; border-top: 1px solid #E8EBF0; }
+  .section { padding: 56px 20px; border-top: 1px solid #E8EBF0; }
   .hero + * { border-top: none; }
   .stats-bar { border-top: none; }
   .section-inner { max-width: 960px; margin: 0 auto; }
@@ -206,7 +230,7 @@
     color: var(--text-light);
     font-size: 17px;
     line-height: 1.85;
-    margin-bottom: 48px;
+    margin-bottom: 28px;
   }
 
   /* ── FEATURES ── */
@@ -561,14 +585,14 @@
   @media (max-width: 640px) {
     /* 히어로 */
     .hero { padding: 52px 20px 68px; }
-    .hero h1 { font-size: 24px; line-height: 1.4; }
+    .hero h1 { font-size: 28px; line-height: 1.4; }
     .hero h1 br { display: block; margin-top: 10px; content: ''; }
     .hero p br { display: block; margin-top: 6px; content: ''; }
     .hero p { font-size: 14px; line-height: 1.8; margin-bottom: 28px; }
     .hero-badge { font-size: 12px; padding: 5px 14px; margin-bottom: 16px; }
-    .btn-primary { font-size: 15px; padding: 14px 24px; width: 100%; text-align: center; }
-    .btn-phone { font-size: 14px; padding: 12px 20px; width: 100%; justify-content: center; }
-    .hero-cta { flex-direction: column; gap: 10px; }
+    .btn-primary { font-size: 13px; padding: 12px 16px; flex: 1; text-align: center; }
+    .btn-phone { font-size: 13px; padding: 12px 16px; white-space: nowrap; }
+    .hero-cta { flex-direction: row; gap: 8px; flex-wrap: nowrap; }
 
     /* 스탯 바 */
     .stats-bar { padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 0; }
@@ -579,7 +603,7 @@
     .stat-label { font-size: 11px; margin-top: 3px; }
 
     /* 섹션 */
-    .section { padding: 52px 16px; }
+    .section { padding: 40px 16px; }
     .section-title { font-size: 20px; line-height: 1.4; }
     .section-sub { font-size: 14px; margin-bottom: 28px; }
 
@@ -791,8 +815,17 @@ wcs_do(_nasa)
 </div>
 
 <!-- FEATURES -->
-<section class="section" style="background:#FFFFFF;">
+<section class="section" style="background:#FFFFFF; padding-top: 20px; border-top:none;">
   <div class="section-inner">
+    <div style="text-align:center;margin-bottom:20px;">
+      <div class="video-crop-outer">
+        <iframe
+          src="https://www.youtube.com/embed/QldZT2Q_8bw"
+          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
     <div class="why-wawa-wrap">
       <!-- 왼쪽: 텍스트 + 피처 -->
       <div class="why-wawa-left">

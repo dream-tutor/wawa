@@ -33,15 +33,15 @@
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Montserrat:wght@700;900&display=swap" rel="stylesheet">
 <style>
   :root {
-    --blue: #4B6B8A;
-    --blue-dark: #2C4A63;
-    --blue-light: #EDF1F5;
-    --blue-mid: #6B8FAD;
-    --accent: #C47F51;
-    --text: #2C3A47;
-    --text-light: #6B7A8D;
+    --blue: #5B8C75;
+    --blue-dark: #3A6B56;
+    --blue-light: #EBF4EF;
+    --blue-mid: #7AAD95;
+    --accent: #D4AF37;
+    --text: #1A2E25;
+    --text-light: #5A7A68;
     --white: #FFFFFF;
-    --gray-light: #F7F8FA;
+    --gray-light: #F4FAF7;
   }
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -56,7 +56,7 @@
 
   /* ── HERO ── */
   .hero {
-    background: linear-gradient(135deg, #1E3448 0%, #2C4A63 45%, #4B6B8A 100%);
+    background: linear-gradient(135deg, #1A3D30 0%, #3A6B56 45%, #5B8C75 100%);
     position: relative;
     padding: 80px 20px 100px;
     text-align: center;
@@ -75,7 +75,7 @@
     position: absolute;
     bottom: -80px; left: -80px;
     width: 300px; height: 300px;
-    background: rgba(245,158,11,0.12);
+    background: rgba(91,140,117,0.12);
     border-radius: 50%;
   }
   .hero-badge {
@@ -371,7 +371,7 @@
     margin-bottom: 32px;
   }
   .form-benefit {
-    background: linear-gradient(90deg, #EDF1F5, #DDE6EE);
+    background: linear-gradient(90deg, #EBF4EF, #D4EDE2);
     border-left: 4px solid var(--blue);
     border-radius: 12px;
     padding: 14px 18px;
@@ -646,13 +646,13 @@
   .consult-modal .form-group{margin-bottom:12px;}
   .consult-modal .form-label{font-size:12px;font-weight:700;color:#374151;margin-bottom:5px;display:block;}
   .consult-modal .form-input,.consult-modal .form-select{width:100%;padding:11px 12px;border:1.5px solid #e2e8f0;border-radius:9px;font-size:14px;font-family:inherit;box-sizing:border-box;background:#fff;}
-  .consult-modal .form-input:focus,.consult-modal .form-select:focus{border-color:#2C4A63;outline:none;}
-  .consult-modal .form-submit{width:100%;padding:14px;background:#2C4A63;color:#fff;border:none;border-radius:10px;font-size:15px;font-weight:700;cursor:pointer;margin-top:4px;font-family:inherit;}
-  .consult-modal .form-submit:hover{background:#1a3347;}
+  .consult-modal .form-input:focus,.consult-modal .form-select:focus{border-color:#3A6B56;outline:none;}
+  .consult-modal .form-submit{width:100%;padding:14px;background:#3A6B56;color:#fff;border:none;border-radius:10px;font-size:15px;font-weight:700;cursor:pointer;margin-top:4px;font-family:inherit;}
+  .consult-modal .form-submit:hover{background:#2E5845;}
   .consult-modal .form-agree{display:flex;align-items:flex-start;gap:8px;font-size:12px;color:#6b7280;margin-bottom:14px;}
   .consult-modal .form-agree input{margin-top:2px;flex-shrink:0;}
   .consult-modal-note{text-align:center;font-size:12px;color:#9ca3af;margin-top:10px;}
-  .consult-modal-note a{color:#2C4A63;font-weight:700;}
+  .consult-modal-note a{color:#3A6B56;font-weight:700;}
   .consult-modal-success{text-align:center;padding:20px 0;display:none;}
   .consult-modal-success .si{font-size:52px;margin-bottom:12px;}
   .consult-modal-success h3{font-size:20px;font-weight:900;color:#1E293B;margin-bottom:8px;}
@@ -670,15 +670,15 @@
 /* 수강료 */
 .fee-grid-mini{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
 .fee-mini-card{background:#fff;border-radius:12px;padding:14px 16px;border:1.5px solid #e2e8f0;font-size:12px;}
-.fee-mini-card-a{border-color:#2C4A63;}
+.fee-mini-card-a{border-color:#3A6B56;}
 .fee-mini-label{font-size:10px;font-weight:700;display:inline-block;padding:2px 8px;border-radius:20px;margin-bottom:6px;}
-.fee-mini-label-b{background:#EDF1F5;color:#4B6B8A;}
-.fee-mini-label-a{background:#2C4A63;color:#fff;}
+.fee-mini-label-b{background:#EBF4EF;color:#5B8C75;}
+.fee-mini-label-a{background:#3A6B56;color:#fff;}
 .fee-mini-name{font-size:13px;font-weight:800;color:#1E293B;margin-bottom:8px;}
 .fee-mini-rows{display:flex;flex-direction:column;gap:4px;}
 .fee-mini-row{display:flex;align-items:center;gap:6px;font-size:12px;color:#374151;}
 .fee-mini-row span:first-child{min-width:28px;color:#64748b;font-weight:600;}
-.fee-mini-price{font-weight:800;color:#2C4A63;flex:1;}
+.fee-mini-price{font-weight:800;color:#3A6B56;flex:1;}
 .fee-mini-time{color:#94a3b8;font-size:11px;}
 @media(max-width:600px){
   .fee-grid-mini{grid-template-columns:1fr;}
@@ -705,7 +705,7 @@
 /* 학년별 섹션 */
 .grade-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;align-items:start;}
 .grade-tab{padding:10px 24px;border-radius:50px;border:2px solid #e2e8f0;background:#fff;font-size:14px;font-weight:700;color:#64748b;cursor:pointer;font-family:inherit;transition:all .2s;}
-.grade-tab:hover{border-color:#4B6B8A;color:#4B6B8A;}
+.grade-tab:hover{border-color:#5B8C75;color:#5B8C75;}
 .grade-tab.active[data-tab="elem"]{background:#f0fdf4;border-color:#16a34a;color:#16a34a;}
 .grade-tab.active[data-tab="mid"]{background:#eff6ff;border-color:#1d4ed8;color:#1d4ed8;}
 .grade-tab.active[data-tab="high"]{background:#faf5ff;border-color:#7c3aed;color:#7c3aed;}
@@ -760,7 +760,7 @@ wcs_do(_nasa)
 <!-- HERO -->
 <section class="hero">
   <div class="hero-badge">🏆 전국 지점 운영</div>
-  <h1 class="fade-up">초중고 자기주도학습 <span>No.1</span><br>와와학습코칭센터</h1>
+  <h1 class="fade-up">초중고 자기주도학습 전문<br><span>와와학습코칭센터</span></h1>
   <p class="fade-up delay-1">과목 전문 강사의 학생 맞춤 코칭으로<br>우리 아이의 학습 습관을 바꿔드립니다.</p>
   <div class="hero-cta fade-up delay-2">
     <button onclick="openConsultModal()" class="btn-primary" style="border:none;cursor:pointer;font-family:inherit;">📋 무료 상담 신청하기</button>
@@ -1000,11 +1000,11 @@ wcs_do(_nasa)
           <span style="position:absolute;left:12px;top:50%;transform:translateY(-50%);pointer-events:none;">🔍</span>
           <input id="branch-search" type="text" placeholder="지점명 또는 주소 검색..."
             style="width:100%;box-sizing:border-box;padding:9px 14px 9px 36px;border:1.5px solid #E2E8F0;border-radius:50px;font-size:14px;font-family:inherit;outline:none;transition:border-color .2s;"
-            onfocus="this.style.borderColor='#4B6B8A'" onblur="this.style.borderColor='#E2E8F0'">
+            onfocus="this.style.borderColor='#5B8C75'" onblur="this.style.borderColor='#E2E8F0'">
         </div>
         <span id="branch-count" style="font-size:13px;color:#64748B;font-weight:700;white-space:nowrap;"></span>
         <div style="display:none;">
-          <button id="btn-map" onclick="wawaSetView('map')" style="padding:7px 16px;border-radius:7px;border:none;font-size:12px;font-weight:700;cursor:pointer;font-family:inherit;background:#4B6B8A;color:#fff;transition:all .2s;">🗺️ 지도</button>
+          <button id="btn-map" onclick="wawaSetView('map')" style="padding:7px 16px;border-radius:7px;border:none;font-size:12px;font-weight:700;cursor:pointer;font-family:inherit;background:#5B8C75;color:#fff;transition:all .2s;">🗺️ 지도</button>
           <button id="btn-list" onclick="wawaSetView('list')" style="padding:7px 16px;border-radius:7px;border:none;font-size:12px;font-weight:700;cursor:pointer;font-family:inherit;background:transparent;color:#64748B;transition:all .2s;">📋 목록</button>
         </div>
       </div>
@@ -1148,7 +1148,7 @@ wcs_do(_nasa)
 
     <!-- 헤더 -->
     <div style="text-align:center;margin-bottom:20px;">
-      <div style="display:inline-block;background:#EDF1F5;color:#2C4A63;padding:3px 14px;border-radius:50px;font-size:11px;font-weight:700;letter-spacing:1px;margin-bottom:10px;">FEE DISCLOSURE</div>
+      <div style="display:inline-block;background:#EBF4EF;color:#3A6B56;padding:3px 14px;border-radius:50px;font-size:11px;font-weight:700;letter-spacing:1px;margin-bottom:10px;">FEE DISCLOSURE</div>
       <h3 style="font-size:20px;font-weight:900;color:#1E293B;margin:0 0 8px;">수강료 공시</h3>
       <p style="font-size:12px;color:#94a3b8;margin:0;line-height:1.7;"><b style="color:#e67e22;">과목 당 수업비 기준</b> · 교육지원청 등록 기준 공시 금액<br>지점별 실제 수업시간은 다를 수 있습니다.</p>
     </div>
@@ -1158,7 +1158,7 @@ wcs_do(_nasa)
 
       <!-- 일반 지점 -->
       <div style="background:#fff;border-radius:14px;padding:16px;border:1.5px solid #e2e8f0;overflow:hidden;">
-        <div style="font-size:11px;font-weight:800;color:#4B6B8A;background:#EDF1F5;padding:6px 10px;border-radius:8px;margin-bottom:12px;line-height:1.6;text-align:center;">
+        <div style="font-size:11px;font-weight:800;color:#5B8C75;background:#EBF4EF;padding:6px 10px;border-radius:8px;margin-bottom:12px;line-height:1.6;text-align:center;">
           일반 지점<br><span style="font-weight:600;color:#64748b;">176개 지점</span>
         </div>
         <table style="width:100%;border-collapse:collapse;">
@@ -1173,29 +1173,29 @@ wcs_do(_nasa)
           <tbody>
             <tr style="border-bottom:1px solid #f1f5f9;">
               <td style="padding:7px 3px;color:#64748b;font-size:11px;font-weight:700;">초등</td>
-              <td style="padding:7px 3px;text-align:right;color:#2C4A63;font-size:11px;font-weight:800;">140,000</td>
-              <td style="padding:7px 3px;text-align:right;color:#2C4A63;font-size:11px;font-weight:800;">200,000</td>
-              <td style="padding:7px 3px;text-align:right;color:#2C4A63;font-size:11px;font-weight:800;">320,000</td>
+              <td style="padding:7px 3px;text-align:right;color:#3A6B56;font-size:11px;font-weight:800;">140,000</td>
+              <td style="padding:7px 3px;text-align:right;color:#3A6B56;font-size:11px;font-weight:800;">200,000</td>
+              <td style="padding:7px 3px;text-align:right;color:#3A6B56;font-size:11px;font-weight:800;">320,000</td>
             </tr>
             <tr style="border-bottom:1px solid #f1f5f9;">
               <td style="padding:7px 3px;color:#64748b;font-size:11px;font-weight:700;">중등</td>
-              <td style="padding:7px 3px;text-align:right;color:#2C4A63;font-size:11px;font-weight:800;">152,000</td>
-              <td style="padding:7px 3px;text-align:right;color:#2C4A63;font-size:11px;font-weight:800;">217,000</td>
-              <td style="padding:7px 3px;text-align:right;color:#2C4A63;font-size:11px;font-weight:800;">347,000</td>
+              <td style="padding:7px 3px;text-align:right;color:#3A6B56;font-size:11px;font-weight:800;">152,000</td>
+              <td style="padding:7px 3px;text-align:right;color:#3A6B56;font-size:11px;font-weight:800;">217,000</td>
+              <td style="padding:7px 3px;text-align:right;color:#3A6B56;font-size:11px;font-weight:800;">347,000</td>
             </tr>
             <tr>
               <td style="padding:7px 3px;color:#64748b;font-size:11px;font-weight:700;">고등</td>
-              <td style="padding:7px 3px;text-align:right;color:#2C4A63;font-size:11px;font-weight:800;">175,000</td>
-              <td style="padding:7px 3px;text-align:right;color:#2C4A63;font-size:11px;font-weight:800;">250,000</td>
-              <td style="padding:7px 3px;text-align:right;color:#2C4A63;font-size:11px;font-weight:800;">400,000</td>
+              <td style="padding:7px 3px;text-align:right;color:#3A6B56;font-size:11px;font-weight:800;">175,000</td>
+              <td style="padding:7px 3px;text-align:right;color:#3A6B56;font-size:11px;font-weight:800;">250,000</td>
+              <td style="padding:7px 3px;text-align:right;color:#3A6B56;font-size:11px;font-weight:800;">400,000</td>
             </tr>
           </tbody>
         </table>
       </div>
 
       <!-- 서울 + 특정 지점 -->
-      <div style="background:#fff;border-radius:14px;padding:16px;border:1.5px solid #2C4A63;overflow:hidden;">
-        <div style="font-size:11px;font-weight:800;color:#fff;background:#2C4A63;padding:6px 10px;border-radius:8px;margin-bottom:12px;line-height:1.6;text-align:center;">
+      <div style="background:#fff;border-radius:14px;padding:16px;border:1.5px solid #3A6B56;overflow:hidden;">
+        <div style="font-size:11px;font-weight:800;color:#fff;background:#3A6B56;padding:6px 10px;border-radius:8px;margin-bottom:12px;line-height:1.6;text-align:center;">
           서울 24개 지점<br><span style="font-weight:600;opacity:.85;">+ 미금·동탄목동·동탄호수·위례창곡·영통구청</span>
         </div>
         <table style="width:100%;border-collapse:collapse;">
@@ -1210,21 +1210,21 @@ wcs_do(_nasa)
           <tbody>
             <tr style="border-bottom:1px solid #f1f5f9;">
               <td style="padding:7px 3px;color:#64748b;font-size:11px;font-weight:700;">초등</td>
-              <td style="padding:7px 3px;text-align:right;color:#2C4A63;font-size:11px;font-weight:800;">160,000</td>
-              <td style="padding:7px 3px;text-align:right;color:#2C4A63;font-size:11px;font-weight:800;">230,000</td>
-              <td style="padding:7px 3px;text-align:right;color:#2C4A63;font-size:11px;font-weight:800;">370,000</td>
+              <td style="padding:7px 3px;text-align:right;color:#3A6B56;font-size:11px;font-weight:800;">160,000</td>
+              <td style="padding:7px 3px;text-align:right;color:#3A6B56;font-size:11px;font-weight:800;">230,000</td>
+              <td style="padding:7px 3px;text-align:right;color:#3A6B56;font-size:11px;font-weight:800;">370,000</td>
             </tr>
             <tr style="border-bottom:1px solid #f1f5f9;">
               <td style="padding:7px 3px;color:#64748b;font-size:11px;font-weight:700;">중등</td>
-              <td style="padding:7px 3px;text-align:right;color:#2C4A63;font-size:11px;font-weight:800;">172,000</td>
-              <td style="padding:7px 3px;text-align:right;color:#2C4A63;font-size:11px;font-weight:800;">247,000</td>
-              <td style="padding:7px 3px;text-align:right;color:#2C4A63;font-size:11px;font-weight:800;">397,000</td>
+              <td style="padding:7px 3px;text-align:right;color:#3A6B56;font-size:11px;font-weight:800;">172,000</td>
+              <td style="padding:7px 3px;text-align:right;color:#3A6B56;font-size:11px;font-weight:800;">247,000</td>
+              <td style="padding:7px 3px;text-align:right;color:#3A6B56;font-size:11px;font-weight:800;">397,000</td>
             </tr>
             <tr>
               <td style="padding:7px 3px;color:#64748b;font-size:11px;font-weight:700;">고등</td>
-              <td style="padding:7px 3px;text-align:right;color:#2C4A63;font-size:11px;font-weight:800;">195,000</td>
-              <td style="padding:7px 3px;text-align:right;color:#2C4A63;font-size:11px;font-weight:800;">280,000</td>
-              <td style="padding:7px 3px;text-align:right;color:#2C4A63;font-size:11px;font-weight:800;">450,000</td>
+              <td style="padding:7px 3px;text-align:right;color:#3A6B56;font-size:11px;font-weight:800;">195,000</td>
+              <td style="padding:7px 3px;text-align:right;color:#3A6B56;font-size:11px;font-weight:800;">280,000</td>
+              <td style="padding:7px 3px;text-align:right;color:#3A6B56;font-size:11px;font-weight:800;">450,000</td>
             </tr>
           </tbody>
         </table>
@@ -1243,35 +1243,35 @@ wcs_do(_nasa)
 
 <style>
 .sido-btn{display:flex;flex-direction:column;align-items:center;padding:10px 14px 8px;border:none;background:transparent;cursor:pointer;border-bottom:3px solid transparent;transition:all .18s;min-width:50px;}
-.sido-btn:hover .tb-name{color:#4B6B8A;}
-.sido-btn.active{border-bottom-color:#4B6B8A;}
-.sido-btn.active .tb-name{color:#4B6B8A;font-weight:800;}
-.sido-btn.active .tb-cnt{background:#4B6B8A;color:#fff;}
+.sido-btn:hover .tb-name{color:#5B8C75;}
+.sido-btn.active{border-bottom-color:#5B8C75;}
+.sido-btn.active .tb-name{color:#5B8C75;font-weight:800;}
+.sido-btn.active .tb-cnt{background:#5B8C75;color:#fff;}
 .tb-name{font-size:16px;font-weight:700;color:#334155;margin-bottom:3px;}
 .tb-cnt{font-size:12px;font-weight:700;padding:1px 6px;border-radius:20px;background:#EEF2FF;color:#6B7280;}
 .sgg-btn{padding:7px 14px;border-radius:50px;border:1.5px solid #E2E8F0;background:#fff;color:#475569;font-size:14px;font-weight:700;cursor:pointer;font-family:inherit;transition:all .18s;white-space:nowrap;}
-.sgg-btn:hover{border-color:#4B6B8A;color:#4B6B8A;}
-.sgg-btn.active{background:#4B6B8A;border-color:#4B6B8A;color:#fff;}
+.sgg-btn:hover{border-color:#5B8C75;color:#5B8C75;}
+.sgg-btn.active{background:#5B8C75;border-color:#5B8C75;color:#fff;}
 .bc{background:#fff;border-radius:12px;padding:13px 14px;border:1.5px solid #E8EEF8;transition:all .18s;display:block;cursor:default;}
-.bc:hover{border-color:#4B6B8A;background:#F2F5F8;}
-.bc-tag{display:inline-block;background:#EDF1F5;color:#4B6B8A;font-size:10px;font-weight:700;padding:1px 7px;border-radius:20px;margin-bottom:5px;}
+.bc:hover{border-color:#5B8C75;background:#F2F5F8;}
+.bc-tag{display:inline-block;background:#EBF4EF;color:#5B8C75;font-size:10px;font-weight:700;padding:1px 7px;border-radius:20px;margin-bottom:5px;}
 .bc-name{font-weight:800;font-size:17px;color:#1E293B;margin-bottom:4px;}
 .bc-addr{font-size:11px;color:#94A3B8;line-height:1.6;}
-.bc-nearby{font-size:13px;color:#4B6B8A;margin-bottom:3px;line-height:1.6;}
+.bc-nearby{font-size:13px;color:#5B8C75;margin-bottom:3px;line-height:1.6;}
 .bc-edu{font-size:10px;color:#94A3B8;margin-top:5px;padding-top:5px;border-top:1px solid #F1F5F9;line-height:1.5;}
 .bc-badge{display:inline-block;font-size:10px;font-weight:700;padding:2px 8px;border-radius:20px;margin-bottom:6px;}
 .bc-badge-kor{background:#FFF0F5;color:#D63384;}
 .bc-badge-math{background:#EFF6FF;color:#2563EB;}
 
 .bc-btns{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-top:10px;}
-.bc-map-icon{cursor:pointer;display:inline-flex;align-items:center;gap:4px;background:#fff;color:#2C4A63;font-size:12px;font-weight:700;padding:4px 10px 4px 8px;border-radius:20px;vertical-align:middle;margin-left:7px;transition:all .2s;box-shadow:0 2px 6px rgba(0,0,0,0.15);border:1.5px solid #2C4A63;gap:5px;}
+.bc-map-icon{cursor:pointer;display:inline-flex;align-items:center;gap:4px;background:#fff;color:#3A6B56;font-size:12px;font-weight:700;padding:4px 10px 4px 8px;border-radius:20px;vertical-align:middle;margin-left:7px;transition:all .2s;box-shadow:0 2px 6px rgba(0,0,0,0.15);border:1.5px solid #3A6B56;gap:5px;}
 .bc-map-icon:hover{background:#f0f4f8;transform:translateY(-2px);box-shadow:0 4px 10px rgba(232,69,44,0.45);}
 .bc-map-icon svg{flex-shrink:0;}
 
-.bc-btn-consult{padding:7px 4px;border-radius:8px;border:none;background:#4B6B8A;color:#fff;font-size:11px;font-weight:700;cursor:pointer;font-family:inherit;transition:all .18s;text-align:center;}
-.bc-btn-consult:hover{background:#2C4A63;}
-.bc-btn-call{padding:7px 4px;border-radius:8px;border:1.5px solid #4B6B8A;background:#fff;color:#4B6B8A;font-size:11px;font-weight:700;cursor:pointer;font-family:inherit;transition:all .18s;text-align:center;text-decoration:none;display:block;}
-.bc-btn-call:hover{background:#EDF1F5;}
+.bc-btn-consult{padding:7px 4px;border-radius:8px;border:none;background:#5B8C75;color:#fff;font-size:11px;font-weight:700;cursor:pointer;font-family:inherit;transition:all .18s;text-align:center;}
+.bc-btn-consult:hover{background:#3A6B56;}
+.bc-btn-call{padding:7px 4px;border-radius:8px;border:1.5px solid #5B8C75;background:#fff;color:#5B8C75;font-size:11px;font-weight:700;cursor:pointer;font-family:inherit;transition:all .18s;text-align:center;text-decoration:none;display:block;}
+.bc-btn-call:hover{background:#EBF4EF;}
 .bc-detail{margin-top:8px;padding-top:8px;border-top:1px solid #f0f0f0;}
 .bc-schools-wrap{display:flex;flex-direction:column;gap:3px;margin-bottom:5px;}
 .bc-school-row{display:flex;flex-wrap:wrap;align-items:center;gap:3px;}
@@ -1294,10 +1294,10 @@ wcs_do(_nasa)
 .bc-tag-high{background:#faf5ff;color:#7c3aed;}
 .bc-grade-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:3px;margin-top:4px;}
 .bc-grade-item{background:#f8fafc;border-radius:6px;padding:3px 5px;font-size:10px;}
-.bc-grade-item b{display:block;color:#2C4A63;font-size:10px;margin-bottom:1px;}
+.bc-grade-item b{display:block;color:#3A6B56;font-size:10px;margin-bottom:1px;}
 .bc-grade-item span{color:#555;}
-.bc-toggle{background:none;border:none;color:#4B6B8A;font-size:11px;font-weight:700;cursor:pointer;padding:4px 0;display:flex;align-items:center;gap:3px;margin-top:4px;}
-.bc-toggle:hover{color:#2C4A63;}
+.bc-toggle{background:none;border:none;color:#5B8C75;font-size:11px;font-weight:700;cursor:pointer;padding:4px 0;display:flex;align-items:center;gap:3px;margin-top:4px;}
+.bc-toggle:hover{color:#3A6B56;}
 
 #branch-list::-webkit-scrollbar{width:4px;}
 #branch-list::-webkit-scrollbar-thumb{background:#CBD5E1;border-radius:10px;}
@@ -1322,8 +1322,8 @@ wcs_do(_nasa)
 
 <!-- PHONE FLOATING -->
 <div class="phone-float" style="display:flex;flex-direction:column;gap:10px;align-items:flex-end;">
-  <button onclick="openConsultModal()" class="float-btn" style="background:linear-gradient(135deg,#C47F51,#a0632d);box-shadow:0 8px 30px rgba(196,127,81,0.35);">✍️ 상담 신청</button>
-  <a href="tel:010-4864-5345" class="float-btn" style="background:linear-gradient(135deg,var(--blue-dark),var(--blue));box-shadow:0 8px 30px rgba(44,74,99,0.35);text-decoration:none;">
+  <button onclick="openConsultModal()" class="float-btn" style="background:linear-gradient(135deg,#D4AF37,#B8942A);box-shadow:0 8px 30px rgba(212,175,55,0.30);">✍️ 상담 신청</button>
+  <a href="tel:010-4864-5345" class="float-btn" style="background:linear-gradient(135deg,#7C3AED,#5B21B6);box-shadow:0 8px 30px rgba(124,58,237,0.35);text-decoration:none;">
     📞 전화 상담
   </a>
 </div>
@@ -1402,11 +1402,11 @@ wcs_do(_nasa)
         </select>
       </div>
       <div style="display:flex;align-items:center;gap:8px;font-size:13px;color:#6b7280;margin-bottom:14px;">
-        <input type="checkbox" id="modalAgree" required style="flex-shrink:0;accent-color:#2C4A63;width:15px;height:15px;">
+        <input type="checkbox" id="modalAgree" required style="flex-shrink:0;accent-color:#3A6B56;width:15px;height:15px;">
         <label for="modalAgree" style="margin:0;line-height:1.4;">개인정보 수집 및 이용에 동의합니다. (상담 목적으로만 활용됩니다)</label>
       </div>
       <button type="submit" class="form-submit">📋 지금 상담 신청하기</button>
-      <div class="consult-modal-note">📞 빠른 상담 <a href="tel:010-4864-5345">010-4864-5345</a></div>
+      <div class="consult-modal-note">📞 빠른 상담은 <a href="tel:010-4864-5345">전화 문의하기</a></div>
     </form>
     <div class="consult-modal-success" id="consultModalSuccess">
       <div class="si">🎉</div>
@@ -1557,7 +1557,7 @@ function wawaShowGuide(){
   var el = document.getElementById('branch-list');
   if(el) el.innerHTML = '<div style="grid-column:1/-1;text-align:center;padding:60px 20px;">'
     + '<div style="font-size:36px;margin-bottom:12px;">📍</div>'
-    + '<div style="font-size:15px;font-weight:700;color:#4B6B8A;margin-bottom:6px;">시도를 선택해주세요</div>'
+    + '<div style="font-size:15px;font-weight:700;color:#5B8C75;margin-bottom:6px;">시도를 선택해주세요</div>'
     + '<div style="font-size:13px;color:#94A3B8;">원하시는 지역의 와와학습코칭센터를 찾아보세요</div>'
     + '</div>';
 }
@@ -1854,7 +1854,7 @@ wawaShowGuide();
               cards.forEach(function(card){
                 var nameEl = card.querySelector('.bc-name');
                 if (nameEl && nameEl.textContent.trim().startsWith(branch)) {
-                  card.style.border = '2.5px solid #2C4A63';
+                  card.style.border = '2.5px solid #3A6B56';
                   card.style.boxShadow = '0 0 0 4px rgba(44,74,99,0.15)';
                 }
               });
@@ -1870,7 +1870,7 @@ wawaShowGuide();
             cards.forEach(function(card){
               var nameEl = card.querySelector('.bc-name');
               if (nameEl && nameEl.textContent.trim().startsWith(branch)) {
-                card.style.border = '2.5px solid #2C4A63';
+                card.style.border = '2.5px solid #3A6B56';
                 card.style.boxShadow = '0 0 0 4px rgba(44,74,99,0.15)';
               }
             });

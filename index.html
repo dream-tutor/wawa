@@ -183,7 +183,7 @@
     padding: 28px 20px;
     display: flex;
     justify-content: center;
-    gap: clamp(30px, 8vw, 80px);
+    gap: clamp(16px, 5vw, 56px);
     flex-wrap: wrap;
     box-shadow: 0 4px 20px rgba(0,0,0,0.06);
   }
@@ -238,12 +238,12 @@
   .features-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 14px;
   }
   .feature-card {
     background: var(--gray-light);
     border-radius: 20px;
-    padding: 32px 28px;
+    padding: 22px 20px;
     border: 1.5px solid #E8EBF0;
     transition: transform 0.22s, box-shadow 0.22s, background 0.22s;
     display: flex;
@@ -292,12 +292,12 @@
   .reviews-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 24px;
+    gap: 14px;
   }
   .review-card {
     background: #FFFFFF;
     border-radius: 20px;
-    padding: 28px;
+    padding: 20px;
     border: 1.5px solid #DDD8D2;
     position: relative;
     transition: box-shadow 0.2s;
@@ -347,7 +347,7 @@
   /* ── BENEFIT BANNER ── */
   .benefit-banner {
     background: linear-gradient(135deg, var(--blue-dark), var(--blue));
-    padding: 60px 20px;
+    padding: 44px 20px;
     text-align: center;
     color: #fff;
   }
@@ -377,7 +377,7 @@
   .form-box {
     background: var(--white);
     border-radius: 24px;
-    padding: clamp(32px, 6vw, 56px);
+    padding: clamp(22px, 4vw, 40px);
     box-shadow: 0 20px 60px rgba(26,86,219,0.1);
     border: 1.5px solid #E2E8F0;
     max-width: 600px;
@@ -543,7 +543,7 @@
   .modal-box {
     background: #fff;
     border-radius: 24px;
-    padding: 48px 36px;
+    padding: 36px 28px;
     text-align: center;
     max-width: 380px;
     width: 90%;
@@ -711,7 +711,7 @@
 }
 
 /* WHY WAWA 좌우 레이아웃 */
-.why-wawa-wrap{display:grid;grid-template-columns:1fr 420px;gap:48px;align-items:center;}
+.why-wawa-wrap{display:grid;grid-template-columns:1fr 420px;gap:32px;align-items:center;}
 .why-wawa-left{}
 .why-wawa-right{position:relative;}
 .why-wawa-img-wrap{position:relative;height:480px;border-radius:20px;overflow:hidden;box-shadow:0 20px 60px rgba(30,52,72,0.18);}
@@ -727,7 +727,7 @@
 @media(max-width:600px){.fee-main-grid{grid-template-columns:1fr 1fr;gap:6px;}#fee table{font-size:10px;}}
 
 /* 학년별 섹션 */
-.grade-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;align-items:start;}
+.grade-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;align-items:start;}
 .grade-tab{padding:10px 24px;border-radius:50px;border:2px solid #e2e8f0;background:#fff;font-size:14px;font-weight:700;color:#64748b;cursor:pointer;font-family:inherit;transition:all .2s;}
 .grade-tab:hover{border-color:#5B8C75;color:#5B8C75;}
 .grade-tab.active[data-tab="elem"]{background:#f0fdf4;border-color:#16a34a;color:#16a34a;}
@@ -735,7 +735,7 @@
 .grade-tab.active[data-tab="high"]{background:#faf5ff;border-color:#7c3aed;color:#7c3aed;}
 .grade-panel{animation:gradeFadeIn .25s ease;}
 @keyframes gradeFadeIn{from{opacity:0;transform:translateY(8px);}to{opacity:1;transform:translateY(0);}}
-.grade-card{border-radius:20px;padding:28px 22px;border:none;display:flex;flex-direction:column;}
+.grade-card{border-radius:20px;padding:20px 18px;border:none;display:flex;flex-direction:column;}
 .grade-elem{background:linear-gradient(160deg,#f0fdf4 0%,#dcfce7 100%);box-shadow:0 4px 24px rgba(22,163,74,0.10);}
 .grade-mid{background:linear-gradient(160deg,#eff6ff 0%,#dbeafe 100%);box-shadow:0 4px 24px rgba(29,78,216,0.10);}
 .grade-high{background:linear-gradient(160deg,#faf5ff 0%,#ede9fe 100%);box-shadow:0 4px 24px rgba(124,58,237,0.10);}

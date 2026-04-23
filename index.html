@@ -688,6 +688,15 @@
   
   @media(max-width:600px){#fee .section-inner>div[style*="grid"]{grid-template-columns:1fr!important;gap:14px!important;}}
 
+  /* 희망 과목 체크박스 — 한 줄 배치 */
+  .subject-checks{display:flex;flex-wrap:nowrap;gap:6px 10px;padding:6px 0 2px;}
+  .subject-checks label{display:inline-flex;align-items:center;gap:4px;font-size:14px;cursor:pointer;white-space:nowrap;}
+  .subject-checks input[type=checkbox]{accent-color:#3A6B56;margin:0;}
+  @media(max-width:480px){
+    .subject-checks{gap:4px 6px;}
+    .subject-checks label{font-size:12px;gap:3px;}
+  }
+
   .fee-visit{gap:8px;}
 }
 
@@ -1114,31 +1123,29 @@ wcs_do(_nasa)
             <input type="tel" class="form-input" placeholder="010-0000-0000" required>
           </div>
         </div>
-        <div class="form-row">
-          <div class="form-group">
-            <label class="form-label">자녀 학년 <span style="color:red">*</span></label>
-            <div style="display:flex;gap:8px;">
-              <select class="form-select" id="fs-school" onchange="fsOnSchoolChange()" required style="flex:1;">
-                <option value="">학교 선택</option>
-                <option value="초등학교">초등학교</option>
-                <option value="중학교">중학교</option>
-                <option value="고등학교">고등학교</option>
-              </select>
-              <select class="form-select" id="fs-grade" required disabled style="flex:1;">
-                <option value="">학년 선택</option>
-              </select>
-            </div>
+        <div class="form-group" style="margin-bottom:14px;">
+          <label class="form-label">자녀 학년 <span style="color:red">*</span></label>
+          <div style="display:flex;gap:8px;">
+            <select class="form-select" id="fs-school" onchange="fsOnSchoolChange()" required style="flex:1;">
+              <option value="">학교 선택</option>
+              <option value="초등학교">초등학교</option>
+              <option value="중학교">중학교</option>
+              <option value="고등학교">고등학교</option>
+            </select>
+            <select class="form-select" id="fs-grade" required disabled style="flex:1;">
+              <option value="">학년 선택</option>
+            </select>
           </div>
         </div>
-        <div class="form-group" style="margin-bottom:18px;">
+        <div class="form-group subject-row" style="margin-bottom:18px;">
           <label class="form-label">희망 과목 <span style="color:red">*</span></label>
-          <div class="subject-checks" id="fs-subjects" style="display:flex;flex-wrap:wrap;gap:8px 14px;padding:6px 0 2px;">
-            <label style="display:inline-flex;align-items:center;gap:5px;font-size:14px;cursor:pointer;"><input type="checkbox" name="fs-subject" value="국어" style="accent-color:#3A6B56;"> 국어</label>
-            <label style="display:inline-flex;align-items:center;gap:5px;font-size:14px;cursor:pointer;"><input type="checkbox" name="fs-subject" value="영어" style="accent-color:#3A6B56;"> 영어</label>
-            <label style="display:inline-flex;align-items:center;gap:5px;font-size:14px;cursor:pointer;"><input type="checkbox" name="fs-subject" value="수학" style="accent-color:#3A6B56;"> 수학</label>
-            <label style="display:inline-flex;align-items:center;gap:5px;font-size:14px;cursor:pointer;"><input type="checkbox" name="fs-subject" value="사회" style="accent-color:#3A6B56;"> 사회</label>
-            <label style="display:inline-flex;align-items:center;gap:5px;font-size:14px;cursor:pointer;"><input type="checkbox" name="fs-subject" value="과학" style="accent-color:#3A6B56;"> 과학</label>
-            <label style="display:inline-flex;align-items:center;gap:5px;font-size:14px;cursor:pointer;"><input type="checkbox" name="fs-subject" value="기타" style="accent-color:#3A6B56;"> 기타</label>
+          <div class="subject-checks" id="fs-subjects">
+            <label><input type="checkbox" name="fs-subject" value="국어"> 국어</label>
+            <label><input type="checkbox" name="fs-subject" value="영어"> 영어</label>
+            <label><input type="checkbox" name="fs-subject" value="수학"> 수학</label>
+            <label><input type="checkbox" name="fs-subject" value="사회"> 사회</label>
+            <label><input type="checkbox" name="fs-subject" value="과학"> 과학</label>
+            <label><input type="checkbox" name="fs-subject" value="기타"> 기타</label>
           </div>
         </div>
         <div class="form-group" style="margin-bottom:18px;">
@@ -1365,31 +1372,29 @@ wcs_do(_nasa)
           <input type="tel" class="form-input" placeholder="010-0000-0000" required>
         </div>
       </div>
-      <div class="form-row">
-        <div class="form-group">
-          <label class="form-label">자녀 학년 <span style="color:red">*</span></label>
-          <div style="display:flex;gap:8px;">
-            <select class="form-select" id="m-school" onchange="mOnSchoolChange()" required style="flex:1;">
-              <option value="">학교 선택</option>
-              <option value="초등학교">초등학교</option>
-              <option value="중학교">중학교</option>
-              <option value="고등학교">고등학교</option>
-            </select>
-            <select class="form-select" id="m-grade" required disabled style="flex:1;">
-              <option value="">학년 선택</option>
-            </select>
-          </div>
+      <div class="form-group" style="margin-bottom:12px;">
+        <label class="form-label">자녀 학년 <span style="color:red">*</span></label>
+        <div style="display:flex;gap:8px;">
+          <select class="form-select" id="m-school" onchange="mOnSchoolChange()" required style="flex:1;">
+            <option value="">학교 선택</option>
+            <option value="초등학교">초등학교</option>
+            <option value="중학교">중학교</option>
+            <option value="고등학교">고등학교</option>
+          </select>
+          <select class="form-select" id="m-grade" required disabled style="flex:1;">
+            <option value="">학년 선택</option>
+          </select>
         </div>
       </div>
-      <div class="form-group" style="margin-bottom:12px;">
+      <div class="form-group subject-row" style="margin-bottom:12px;">
         <label class="form-label">희망 과목 <span style="color:red">*</span></label>
-        <div class="subject-checks" id="m-subjects" style="display:flex;flex-wrap:wrap;gap:8px 14px;padding:6px 0 2px;">
-          <label style="display:inline-flex;align-items:center;gap:5px;font-size:14px;cursor:pointer;"><input type="checkbox" name="m-subject" value="국어" style="accent-color:#3A6B56;"> 국어</label>
-          <label style="display:inline-flex;align-items:center;gap:5px;font-size:14px;cursor:pointer;"><input type="checkbox" name="m-subject" value="영어" style="accent-color:#3A6B56;"> 영어</label>
-          <label style="display:inline-flex;align-items:center;gap:5px;font-size:14px;cursor:pointer;"><input type="checkbox" name="m-subject" value="수학" style="accent-color:#3A6B56;"> 수학</label>
-          <label style="display:inline-flex;align-items:center;gap:5px;font-size:14px;cursor:pointer;"><input type="checkbox" name="m-subject" value="사회" style="accent-color:#3A6B56;"> 사회</label>
-          <label style="display:inline-flex;align-items:center;gap:5px;font-size:14px;cursor:pointer;"><input type="checkbox" name="m-subject" value="과학" style="accent-color:#3A6B56;"> 과학</label>
-          <label style="display:inline-flex;align-items:center;gap:5px;font-size:14px;cursor:pointer;"><input type="checkbox" name="m-subject" value="기타" style="accent-color:#3A6B56;"> 기타</label>
+        <div class="subject-checks" id="m-subjects">
+          <label><input type="checkbox" name="m-subject" value="국어"> 국어</label>
+          <label><input type="checkbox" name="m-subject" value="영어"> 영어</label>
+          <label><input type="checkbox" name="m-subject" value="수학"> 수학</label>
+          <label><input type="checkbox" name="m-subject" value="사회"> 사회</label>
+          <label><input type="checkbox" name="m-subject" value="과학"> 과학</label>
+          <label><input type="checkbox" name="m-subject" value="기타"> 기타</label>
         </div>
       </div>
       <div style="margin-bottom:12px;">

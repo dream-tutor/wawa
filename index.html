@@ -1107,7 +1107,7 @@ wcs_do(_nasa)
         <div class="form-row">
           <div class="form-group">
             <label class="form-label">학생 이름 <span style="color:red">*</span></label>
-            <input type="text" class="form-input" placeholder="성함을 입력하세요" required>
+            <input type="text" class="form-input" id="fs-name" required>
           </div>
           <div class="form-group">
             <label class="form-label">연락처 <span style="color:red">*</span></label>
@@ -1117,42 +1117,28 @@ wcs_do(_nasa)
         <div class="form-row">
           <div class="form-group">
             <label class="form-label">자녀 학년 <span style="color:red">*</span></label>
-            <select class="form-select" required>
-              <option value="">학년 선택</option>
-              <optgroup label="초등학교">
-                <option>초등학교 1학년</option>
-                <option>초등학교 2학년</option>
-                <option>초등학교 3학년</option>
-                <option>초등학교 4학년</option>
-                <option>초등학교 5학년</option>
-                <option>초등학교 6학년</option>
-              </optgroup>
-              <optgroup label="중학교">
-                <option>중학교 1학년</option>
-                <option>중학교 2학년</option>
-                <option>중학교 3학년</option>
-              </optgroup>
-              <optgroup label="고등학교">
-                <option>고등학교 1학년</option>
-                <option>고등학교 2학년</option>
-                <option>고등학교 3학년</option>
-              </optgroup>
-            </select>
+            <div style="display:flex;gap:8px;">
+              <select class="form-select" id="fs-school" onchange="fsOnSchoolChange()" required style="flex:1;">
+                <option value="">학교 선택</option>
+                <option value="초등학교">초등학교</option>
+                <option value="중학교">중학교</option>
+                <option value="고등학교">고등학교</option>
+              </select>
+              <select class="form-select" id="fs-grade" required disabled style="flex:1;">
+                <option value="">학년 선택</option>
+              </select>
+            </div>
           </div>
-          <div class="form-group">
-            <label class="form-label">희망 과목 <span style="color:red">*</span></label>
-            <select class="form-select" required>
-              <option value="">과목 선택</option>
-              <option>국어</option>
-              <option>영어</option>
-              <option>수학</option>
-              <option>사회</option>
-              <option>과학</option>
-              <option>국어 + 영어</option>
-              <option>국어 + 수학</option>
-              <option>영어 + 수학</option>
-              <option>전 과목</option>
-            </select>
+        </div>
+        <div class="form-group" style="margin-bottom:18px;">
+          <label class="form-label">희망 과목 <span style="color:red">*</span></label>
+          <div class="subject-checks" id="fs-subjects" style="display:flex;flex-wrap:wrap;gap:8px 14px;padding:6px 0 2px;">
+            <label style="display:inline-flex;align-items:center;gap:5px;font-size:14px;cursor:pointer;"><input type="checkbox" name="fs-subject" value="국어" style="accent-color:#3A6B56;"> 국어</label>
+            <label style="display:inline-flex;align-items:center;gap:5px;font-size:14px;cursor:pointer;"><input type="checkbox" name="fs-subject" value="영어" style="accent-color:#3A6B56;"> 영어</label>
+            <label style="display:inline-flex;align-items:center;gap:5px;font-size:14px;cursor:pointer;"><input type="checkbox" name="fs-subject" value="수학" style="accent-color:#3A6B56;"> 수학</label>
+            <label style="display:inline-flex;align-items:center;gap:5px;font-size:14px;cursor:pointer;"><input type="checkbox" name="fs-subject" value="사회" style="accent-color:#3A6B56;"> 사회</label>
+            <label style="display:inline-flex;align-items:center;gap:5px;font-size:14px;cursor:pointer;"><input type="checkbox" name="fs-subject" value="과학" style="accent-color:#3A6B56;"> 과학</label>
+            <label style="display:inline-flex;align-items:center;gap:5px;font-size:14px;cursor:pointer;"><input type="checkbox" name="fs-subject" value="기타" style="accent-color:#3A6B56;"> 기타</label>
           </div>
         </div>
         <div class="form-group" style="margin-bottom:18px;">
@@ -1372,7 +1358,7 @@ wcs_do(_nasa)
       <div class="form-row">
         <div class="form-group">
           <label class="form-label">학생 이름 <span style="color:red">*</span></label>
-          <input type="text" class="form-input" placeholder="성함을 입력하세요" required>
+          <input type="text" class="form-input" id="m-name" required>
         </div>
         <div class="form-group">
           <label class="form-label">연락처 <span style="color:red">*</span></label>
@@ -1382,29 +1368,28 @@ wcs_do(_nasa)
       <div class="form-row">
         <div class="form-group">
           <label class="form-label">자녀 학년 <span style="color:red">*</span></label>
-          <select class="form-select" required>
-            <option value="">학년 선택</option>
-            <optgroup label="초등학교">
-              <option>초등학교 1학년</option><option>초등학교 2학년</option>
-              <option>초등학교 3학년</option><option>초등학교 4학년</option>
-              <option>초등학교 5학년</option><option>초등학교 6학년</option>
-            </optgroup>
-            <optgroup label="중학교">
-              <option>중학교 1학년</option><option>중학교 2학년</option><option>중학교 3학년</option>
-            </optgroup>
-            <optgroup label="고등학교">
-              <option>고등학교 1학년</option><option>고등학교 2학년</option><option>고등학교 3학년</option>
-            </optgroup>
-          </select>
+          <div style="display:flex;gap:8px;">
+            <select class="form-select" id="m-school" onchange="mOnSchoolChange()" required style="flex:1;">
+              <option value="">학교 선택</option>
+              <option value="초등학교">초등학교</option>
+              <option value="중학교">중학교</option>
+              <option value="고등학교">고등학교</option>
+            </select>
+            <select class="form-select" id="m-grade" required disabled style="flex:1;">
+              <option value="">학년 선택</option>
+            </select>
+          </div>
         </div>
-        <div class="form-group">
-          <label class="form-label">희망 과목 <span style="color:red">*</span></label>
-          <select class="form-select" required>
-            <option value="">과목 선택</option>
-            <option>국어</option><option>영어</option><option>수학</option><option>사회</option><option>과학</option>
-            <option>국어 + 영어</option><option>국어 + 수학</option>
-            <option>영어 + 수학</option><option>전 과목</option>
-          </select>
+      </div>
+      <div class="form-group" style="margin-bottom:12px;">
+        <label class="form-label">희망 과목 <span style="color:red">*</span></label>
+        <div class="subject-checks" id="m-subjects" style="display:flex;flex-wrap:wrap;gap:8px 14px;padding:6px 0 2px;">
+          <label style="display:inline-flex;align-items:center;gap:5px;font-size:14px;cursor:pointer;"><input type="checkbox" name="m-subject" value="국어" style="accent-color:#3A6B56;"> 국어</label>
+          <label style="display:inline-flex;align-items:center;gap:5px;font-size:14px;cursor:pointer;"><input type="checkbox" name="m-subject" value="영어" style="accent-color:#3A6B56;"> 영어</label>
+          <label style="display:inline-flex;align-items:center;gap:5px;font-size:14px;cursor:pointer;"><input type="checkbox" name="m-subject" value="수학" style="accent-color:#3A6B56;"> 수학</label>
+          <label style="display:inline-flex;align-items:center;gap:5px;font-size:14px;cursor:pointer;"><input type="checkbox" name="m-subject" value="사회" style="accent-color:#3A6B56;"> 사회</label>
+          <label style="display:inline-flex;align-items:center;gap:5px;font-size:14px;cursor:pointer;"><input type="checkbox" name="m-subject" value="과학" style="accent-color:#3A6B56;"> 과학</label>
+          <label style="display:inline-flex;align-items:center;gap:5px;font-size:14px;cursor:pointer;"><input type="checkbox" name="m-subject" value="기타" style="accent-color:#3A6B56;"> 기타</label>
         </div>
       </div>
       <div style="margin-bottom:12px;">
@@ -1470,29 +1455,29 @@ wcs_do(_nasa)
       btn.textContent = '⏳ 전송 중...';
       btn.disabled = true;
 
+      var fsSchool = document.getElementById('fs-school').value;
+      var fsGrade  = document.getElementById('fs-grade').value;
+      var fsGradeCombined = fsSchool && fsGrade ? (fsSchool + ' ' + fsGrade) : '';
+      var fsSubjects = Array.prototype.slice.call(document.querySelectorAll('#fs-subjects input[name="fs-subject"]:checked')).map(function(c){return c.value;});
+      if(fsSubjects.length === 0){
+        alert('희망 과목을 1개 이상 선택해 주세요.');
+        btn.textContent = '📋 지금 상담 신청하기';
+        btn.disabled = false;
+        return;
+      }
+
       var data = {
         지점:   document.getElementById('fs-branch').value || '미선택',
         시도:   document.getElementById('fs-sido').value || '',
         시군구: document.getElementById('fs-sgg').value || '',
         동:     document.getElementById('fs-dong').value || '',
-        이름:   form.querySelector('input[type=text]').value,
+        이름:   document.getElementById('fs-name').value,
         연락처: form.querySelector('input[type=tel]').value,
-        학년:   form.querySelectorAll('select')[4] ? form.querySelectorAll('select')[4].value : '',
-        과목:   form.querySelectorAll('select')[5] ? form.querySelectorAll('select')[5].value : '',
+        학년:   fsGradeCombined,
+        과목:   fsSubjects.join(', '),
         상담희망시간: document.getElementById('fs-consult-time') ? document.getElementById('fs-consult-time').value : '',
         신청일: new Date().toLocaleString('ko-KR')
       };
-
-      // 학년/과목 select 정확히 찾기
-      var selects = form.querySelectorAll('select');
-      selects.forEach(function(sel) {
-        if(sel.id === 'fs-sido' || sel.id === 'fs-sgg' || sel.id === 'fs-dong' || sel.id === 'fs-branch' || sel.id === 'fs-consult-time') return;
-        if(!data.학년 || data.학년 === '') {
-          if(sel.value.indexOf('학년') >= 0) data.학년 = sel.value;
-        } else {
-          data.과목 = sel.value;
-        }
-      });
 
       var SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbybsuTZMjzlp3HkkVaUX0IUFnNlSfnnN0DGThb-2BOIwZ8IyZNnMgkwoWOb_muHCEx5/exec';
 
@@ -1510,6 +1495,9 @@ wcs_do(_nasa)
         document.getElementById('fs-dong').disabled = true;
         document.getElementById('fs-branch').disabled = true;
         document.getElementById('fs-sido').selectedIndex = 0;
+        var fsGradeSel = document.getElementById('fs-grade');
+        fsGradeSel.innerHTML = '<option value="">학년 선택</option>';
+        fsGradeSel.disabled = true;
         btn.textContent = '📋 지금 상담 신청하기';
         btn.disabled = false;
       }
@@ -2028,24 +2016,26 @@ function submitConsultModal(e){
   e.preventDefault();
   var form = document.getElementById('consultModalForm');
   var SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbybsuTZMjzlp3HkkVaUX0IUFnNlSfnnN0DGThb-2BOIwZ8IyZNnMgkwoWOb_muHCEx5/exec';
-  var inputs = form.querySelectorAll('input[type=text],input[type=tel]');
-  var selects = form.querySelectorAll('select');
+  var mSchool = document.getElementById('m-school').value;
+  var mGrade  = document.getElementById('m-grade').value;
+  var mGradeCombined = mSchool && mGrade ? (mSchool + ' ' + mGrade) : '';
+  var mSubjects = Array.prototype.slice.call(document.querySelectorAll('#m-subjects input[name="m-subject"]:checked')).map(function(c){return c.value;});
+  if(mSubjects.length === 0){
+    alert('희망 과목을 1개 이상 선택해 주세요.');
+    return;
+  }
   var data = {
     신청일: new Date().toLocaleString('ko-KR'),
     지점: document.getElementById('m-branch') ? document.getElementById('m-branch').value : '',
     시도: document.getElementById('m-sido') ? document.getElementById('m-sido').value : '',
     시군구: document.getElementById('m-sgg') ? document.getElementById('m-sgg').value : '',
     동: document.getElementById('m-dong') ? document.getElementById('m-dong').value : '',
-    이름: inputs[0] ? inputs[0].value : '',
-    연락처: inputs[1] ? inputs[1].value : '',
+    이름: document.getElementById('m-name') ? document.getElementById('m-name').value : '',
+    연락처: form.querySelector('input[type=tel]') ? form.querySelector('input[type=tel]').value : '',
     상담희망시간: document.getElementById('m-consult-time') ? document.getElementById('m-consult-time').value : '',
-    학년: '', 과목: ''
+    학년: mGradeCombined,
+    과목: mSubjects.join(', ')
   };
-  selects.forEach(function(sel){
-    if(['m-sido','m-sgg','m-dong','m-branch','m-consult-time'].indexOf(sel.id) >= 0) return;
-    if(!data.학년) data.학년 = sel.value;
-    else data.과목 = sel.value;
-  });
   var iframeId = 'gas_iframe_' + Date.now();
   var iframe = document.createElement('iframe');
   iframe.name = iframeId; iframe.style.display = 'none';
@@ -2071,6 +2061,24 @@ function switchGradeTab(tab){
     document.querySelector('.grade-tab[data-tab="'+t+'"]').classList.toggle('active', t===tab);
   });
 }
+
+/* 학교 선택 시 학년 드롭다운 연동 */
+function _populateGrades(schoolSelId, gradeSelId){
+  var schoolEl = document.getElementById(schoolSelId);
+  var gradeEl  = document.getElementById(gradeSelId);
+  var school = schoolEl.value;
+  var max = school === '초등학교' ? 6 : (school === '중학교' || school === '고등학교' ? 3 : 0);
+  gradeEl.innerHTML = '<option value="">학년 선택</option>';
+  if(max === 0){ gradeEl.disabled = true; return; }
+  for(var i=1; i<=max; i++){
+    var o = document.createElement('option');
+    o.value = i + '학년'; o.textContent = i + '학년';
+    gradeEl.appendChild(o);
+  }
+  gradeEl.disabled = false;
+}
+function fsOnSchoolChange(){ _populateGrades('fs-school','fs-grade'); }
+function mOnSchoolChange(){ _populateGrades('m-school','m-grade'); }
 </script>
 
 <!-- MAP MODAL -->

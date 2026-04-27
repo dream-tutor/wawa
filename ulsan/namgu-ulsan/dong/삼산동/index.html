@@ -22,17 +22,50 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "EducationalOrganization",
-  "name": "와와학습코칭센터 삼산점",
-  "description": "울산 남구 삼산동에 위치한 자기주도학습 전문 학원",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "울산 남구",
-    "streetAddress": "울산 남구 돋질로 303 2층",
-    "addressCountry": "KR"
-  },
-  "telephone": "+82-10-4864-5345",
-  "url": "https://wawacenter.kr/ulsan/namgu-ulsan/dong/삼산동/"
+  "@graph": [
+    {
+      "@type": "EducationalOrganization",
+      "name": "와와학습코칭센터 삼산점",
+      "description": "울산 남구 삼산동에 위치한 자기주도학습 전문 학원",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "울산 남구",
+        "streetAddress": "울산 남구 돋질로 303 2층",
+        "addressCountry": "KR"
+      },
+      "telephone": "+82-10-4864-5345",
+      "url": "https://wawacenter.kr/ulsan/namgu-ulsan/dong/삼산동/"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "홈",
+          "item": "https://wawacenter.kr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "울산",
+          "item": "https://wawacenter.kr/ulsan/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "남구",
+          "item": "https://wawacenter.kr/ulsan/namgu-ulsan/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "삼산동",
+          "item": "https://wawacenter.kr/ulsan/namgu-ulsan/dong/%EC%82%BC%EC%82%B0%EB%8F%99/"
+        }
+      ]
+    }
+  ]
 }
 </script>
 </head>

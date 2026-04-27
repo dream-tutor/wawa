@@ -22,17 +22,50 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "EducationalOrganization",
-  "name": "와와학습코칭센터 첨단점",
-  "description": "광주 광산구 월계동에 위치한 자기주도학습 전문 학원",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "광주 광산구",
-    "streetAddress": "광주 광산구 월계로 191 404호",
-    "addressCountry": "KR"
-  },
-  "telephone": "+82-10-4864-5345",
-  "url": "https://wawacenter.kr/gwangju/gwangsan/dong/월계동/"
+  "@graph": [
+    {
+      "@type": "EducationalOrganization",
+      "name": "와와학습코칭센터 첨단점",
+      "description": "광주 광산구 월계동에 위치한 자기주도학습 전문 학원",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "광주 광산구",
+        "streetAddress": "광주 광산구 월계로 191 404호",
+        "addressCountry": "KR"
+      },
+      "telephone": "+82-10-4864-5345",
+      "url": "https://wawacenter.kr/gwangju/gwangsan/dong/월계동/"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "홈",
+          "item": "https://wawacenter.kr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "광주",
+          "item": "https://wawacenter.kr/gwangju/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "광산구",
+          "item": "https://wawacenter.kr/gwangju/gwangsan/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "월계동",
+          "item": "https://wawacenter.kr/gwangju/gwangsan/dong/%EC%9B%94%EA%B3%84%EB%8F%99/"
+        }
+      ]
+    }
+  ]
 }
 </script>
 </head>

@@ -42,7 +42,7 @@
     <a href="../../../../index.html" class="nav-logo">와와학습코칭센터</a>
     <div class="nav-actions">
       <a href="tel:010-4864-5345" class="nav-call">📞 전화 상담</a>
-      <a href="#form" class="nav-cta">무료 상담</a>
+      <a href="javascript:void(0)" onclick="openConsult()" class="nav-cta">무료 상담</a>
     </div>
   </div>
 </nav>
@@ -52,9 +52,9 @@
   <div class="hero-badge">경기 · 광명시 · 철산동</div>
   <div class="hero-pre-title">초중고 자기주도학습 전문</div>
   <h1>철산동 <span>와와학습코칭센터</span></h1>
-  <p><strong>철산동</strong>에서 와와학습코칭센터 1개 지점이 운영 중이며 철산동 거주 학부모님들이 신뢰하는 자기주도학습 전문 학원입니다.</p>
+  <p>경기 광명시 <strong>철산동</strong> 학부모님께 자기주도학습 코칭을 제공하는 와와학습코칭센터입니다. 0개 인근 학교 학생들이 함께하고 있습니다.</p>
   <div class="hero-cta">
-    <a href="#form" class="btn-primary">📋 무료 상담 신청</a>
+    <button onclick="openConsult()" class="btn-primary" style="border:none;cursor:pointer;font-family:inherit;">📋 무료 상담 신청</button>
     <a href="tel:010-4864-5345" class="btn-phone">📞 전화 상담</a>
   </div>
 </section>
@@ -63,8 +63,8 @@
 <div class="section-inner">
   <div style="text-align:center;margin-bottom:16px;">
     <div class="section-tag">철산동 와와센터</div>
-    <h2 class="section-title" style="margin-bottom:6px;">철산동 학원 안내</h2>
-    <p class="section-sub">철산동에 위치한 와와학습코칭센터를 안내해 드립니다.</p>
+    <h2 class="section-title" style="margin-bottom:6px;">철산동 자기주도학습 학원</h2>
+    <p class="section-sub">철산동의 와와학습코칭센터 운영 정보를 확인하세요.</p>
   </div>
   <div class="nearby-branches"><strong>📍 광명시 다른 센터</strong> <a href="../../gwangmyeong/">광명점</a> <a href="../../soha/">소하점</a></div>
   <div class="branch-detail-grid">
@@ -97,52 +97,75 @@
     </div>
   </div>
   <div class="shuttle-note">
-    <span>🚌 &nbsp;철산동에서 도보 이용 가능</span>
-    <span>📅 &nbsp;방문 전 미리 예약해주시면 상담이 원활합니다</span>
+    <span>🚲 &nbsp;철산동 도보·자전거 등원 가능</span>
+    <span>✅ &nbsp;예약 후 방문하시면 대기 없이 상담 가능합니다</span>
   </div>
 </div>
 </section>
 
-<!-- A: WHY WAWA / 학년별 코칭 섹션 제거 → 메인 페이지 링크로 대체 -->
 <section class="section" style="background:#F8FAFC;padding:32px 20px;text-align:center;">
 <div class="section-inner">
-  <p style="font-size:15px;color:#64748B;margin-bottom:16px;">와와학습코칭센터의 4C 프로세스 코칭, 학년별 맞춤 프로그램 등<br>전체 소개는 메인 페이지에서 확인하실 수 있습니다.</p>
+  <p style="font-size:15px;color:#64748B;margin-bottom:16px;">30년 누적 코칭 노하우와 학년별 커리큘럼 안내는<br>와와학습코칭센터 메인 페이지에 정리되어 있습니다.</p>
   <a href="../../../../index.html" style="display:inline-block;padding:12px 28px;background:#0369A1;color:#fff;border-radius:50px;text-decoration:none;font-weight:700;font-size:14px;">와와학습코칭센터 자세히 보기 →</a>
 </div>
 </section>
 
-<section class="section" style="background:#FFFFFF;" id="form">
-<div class="section-inner">
-  <div class="form-box">
-    <div class="form-headline">철산동 무료 상담 신청</div>
-    <div class="form-branch-pre">📍 신청 지점: <strong>경기 광명시 철산점</strong></div>
+<section class="seo-content">
+<div class="seo-content-inner">
+  <h2>철산동 초중고 자기주도학습 — 와와학습코칭센터</h2>
+  <p>철산동에서 영어·수학 학원을 찾고 계신가요? <strong>와와학습코칭센터 철산동</strong>는 경기 광명시 철산동 거주 학생을 위한 학년별 맞춤 학습 코칭을 제공합니다. 단순한 문제 풀이가 아닌, 개념 이해부터 실전 적용까지 단계별 코칭으로 실력을 다집니다.</p>
+  <div class="seo-tag-section">
+    <div class="seo-tag-title">철산동 학교별 학원</div>
+    <div class="seo-tags"></div>
+  </div>
+  <div class="seo-tag-section">
+    <div class="seo-tag-title">철산동 동네 학원</div>
+    <div class="seo-tags"><span>철산동학원</span><span>철산동영어학원</span><span>철산동수학학원</span><span>철산동초등학원</span><span>철산동중등학원</span><span>철산동고등학원</span><span>철산동자기주도학습</span><span>철산동코칭학원</span><span>광명시철산동학원</span><span>철산동입시학원</span></div>
+  </div>
+</div>
+</section>
+
+<!-- 하단 CTA: 한 번 더 -->
+<section style="background:linear-gradient(135deg,#0369A1,#075985);padding:40px 20px;text-align:center;color:#fff;">
+  <h3 style="font-size:22px;font-weight:900;margin-bottom:10px;">철산동에서 와와학습코칭센터를 만나보세요</h3>
+  <p style="font-size:14px;opacity:0.9;margin-bottom:20px;">학습 진단부터 입시 전략까지 — 무료 상담을 받아보실 수 있습니다.</p>
+  <button onclick="openConsult()" style="border:none;cursor:pointer;font-family:inherit;background:#D4AF37;color:#fff;padding:14px 36px;border-radius:50px;font-size:16px;font-weight:700;box-shadow:0 8px 24px rgba(0,0,0,0.2);">📋 지금 무료 상담 신청하기</button>
+</section>
+
+<footer>
+  <strong>와와학습코칭센터</strong><br>
+  전국 200개+ 지점 · 초중고 자기주도학습 전문<br>
+  <a href="tel:010-4864-5345" style="color:rgba(255,255,255,0.85);font-weight:700;">📞 전화 문의하기</a><br>
+  <span style="font-size:11px;color:rgba(255,255,255,0.55);">광고·스팸 전화는 정중히 사절합니다 &nbsp;|&nbsp; 사진 출처: 와와학습코칭센터 제공</span>
+</footer>
+
+<div class="phone-float" style="display:flex;flex-direction:column;gap:10px;align-items:flex-end;">
+  <button onclick="openConsult()" class="float-btn" style="border:none;cursor:pointer;font-family:inherit;background:linear-gradient(135deg,#D4AF37,#B8942A);box-shadow:0 8px 30px rgba(212,175,55,0.30);">✍️ 상담 신청</button>
+  <a href="tel:010-4864-5345" class="float-btn" style="background:linear-gradient(135deg,#0369A1,#075985);box-shadow:0 8px 30px rgba(3,105,161,0.35);text-decoration:none;">📞 전화 상담</a>
+</div>
+
+<!-- 상담 모달 -->
+<div id="consultModalOv" onclick="if(event.target===this)closeConsult()" style="display:none;position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,0.6);backdrop-filter:blur(4px);align-items:center;justify-content:center;padding:20px;">
+  <div style="background:#fff;border-radius:20px;width:100%;max-width:480px;max-height:90vh;overflow-y:auto;padding:24px;box-shadow:0 24px 60px rgba(0,0,0,0.3);">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;">
+      <h3 style="font-size:18px;font-weight:900;color:#1E293B;margin:0;">철산동 무료 상담 신청</h3>
+      <button onclick="closeConsult()" style="background:none;border:none;font-size:22px;cursor:pointer;color:#64748B;">✕</button>
+    </div>
+    <div style="font-size:13px;color:#64748B;margin-bottom:14px;">📍 신청 지점: <strong>경기 광명시 철산점</strong></div>
     <form id="consultForm" autocomplete="off">
       <input type="hidden" name="지점" value="철산점">
       <input type="hidden" name="시도" value="경기">
       <input type="hidden" name="시군구" value="광명시">
       <input type="hidden" name="동" value="철산동">
       <div class="form-row">
-        <div class="form-group">
-          <label class="form-label">학생 이름 <span style="color:red">*</span></label>
-          <input type="text" class="form-input" name="이름" required>
-        </div>
-        <div class="form-group">
-          <label class="form-label">연락처 <span style="color:red">*</span></label>
-          <input type="tel" class="form-input" name="연락처" placeholder="010-0000-0000" required>
-        </div>
+        <div class="form-group"><label class="form-label">학생 이름 <span style="color:red">*</span></label><input type="text" class="form-input" name="이름" required></div>
+        <div class="form-group"><label class="form-label">연락처 <span style="color:red">*</span></label><input type="tel" class="form-input" name="연락처" placeholder="010-0000-0000" required></div>
       </div>
       <div class="form-group" style="margin-bottom:14px;">
         <label class="form-label">자녀 학년 <span style="color:red">*</span></label>
         <div style="display:flex;gap:8px;">
-          <select class="form-select" id="fs-school" required style="flex:1;">
-            <option value="">학교 선택</option>
-            <option>초등학교</option><option>중학교</option><option>고등학교</option>
-          </select>
-          <select class="form-select" id="fs-grade" required style="flex:1;">
-            <option value="">학년 선택</option>
-            <option>1학년</option><option>2학년</option><option>3학년</option>
-            <option>4학년</option><option>5학년</option><option>6학년</option>
-          </select>
+          <select class="form-select" id="fs-school" required style="flex:1;"><option value="">학교 선택</option><option>초등학교</option><option>중학교</option><option>고등학교</option></select>
+          <select class="form-select" id="fs-grade" required style="flex:1;"><option value="">학년 선택</option><option>1학년</option><option>2학년</option><option>3학년</option><option>4학년</option><option>5학년</option><option>6학년</option></select>
         </div>
       </div>
       <div class="form-group" style="margin-bottom:18px;">
@@ -160,36 +183,56 @@
         <label for="agree">개인정보 수집 및 이용에 동의합니다.</label>
       </div>
       <button type="submit" class="form-submit">📋 지금 상담 신청하기</button>
-      <div class="form-note">📞 빠른 상담은 <a href="tel:010-4864-5345" style="color:#0369A1;font-weight:600;">여기를 눌러 전화주세요</a></div>
     </form>
+    <div id="consultSuccess" style="display:none;text-align:center;padding:24px 0;">
+      <div style="font-size:48px;margin-bottom:12px;">🎉</div>
+      <div style="font-size:18px;font-weight:800;color:#1E293B;margin-bottom:8px;">신청 완료!</div>
+      <div style="font-size:14px;color:#64748B;">빠른 시간 내에 연락드리겠습니다.</div>
+    </div>
   </div>
 </div>
-</section>
 
-<section class="seo-content">
-<div class="seo-content-inner">
-  <h2>경기 광명시 철산동 영어·수학 학원 안내</h2>
-  <p>철산동에 사시는 학부모님들이 자녀 학원을 찾을 때 가장 중요하게 생각하는 것은 무엇인가요? <strong>와와학습코칭센터 철산동</strong>는 경기 광명시 철산동에서 학생의 학습 습관·태도·실력을 함께 길러내는 코칭형 학원입니다. 학원에만 의존하지 않고 스스로 공부하는 아이로 자라도록 돕습니다.</p>
-  <div class="seo-tag-section">
-    <div class="seo-tag-title">철산동 학교별 학원</div>
-    <div class="seo-tags"></div>
-  </div>
-  <div class="seo-tag-section">
-    <div class="seo-tag-title">철산동 동네 학원</div>
-    <div class="seo-tags"><span>철산동학원</span><span>철산동영어학원</span><span>철산동수학학원</span><span>철산동초등학원</span><span>철산동중등학원</span><span>철산동고등학원</span><span>철산동자기주도학습</span><span>철산동코칭학원</span><span>광명시철산동학원</span><span>철산동입시학원</span></div>
-  </div>
-</div>
-</section>
-
-<footer>
-  <strong>와와학습코칭센터</strong><br>
-  전국 200개+ 지점 · 초중고 자기주도학습 전문<br>
-  <a href="tel:010-4864-5345" style="color:rgba(255,255,255,0.85);font-weight:700;">📞 전화 문의하기</a><br>
-  <span style="font-size:11px;color:rgba(255,255,255,0.55);">광고·스팸 전화는 정중히 사절합니다 &nbsp;|&nbsp; 사진 출처: 와와학습코칭센터 제공</span>
-</footer>
-<div class="phone-float" style="display:flex;flex-direction:column;gap:10px;align-items:flex-end;">
-  <a href="#form" class="float-btn" style="background:linear-gradient(135deg,#D4AF37,#B8942A);box-shadow:0 8px 30px rgba(212,175,55,0.30);text-decoration:none;">✍️ 상담 신청</a>
-  <a href="tel:010-4864-5345" class="float-btn" style="background:linear-gradient(135deg,#0369A1,#075985);box-shadow:0 8px 30px rgba(3,105,161,0.35);text-decoration:none;">📞 전화 상담</a>
-</div>
+<script>
+function openConsult(){document.getElementById('consultModalOv').style.display='flex';document.body.style.overflow='hidden';}
+function closeConsult(){document.getElementById('consultModalOv').style.display='none';document.body.style.overflow='';}
+(function(){
+  var form = document.getElementById('consultForm');
+  if(!form) return;
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var btn = form.querySelector('.form-submit');
+    btn.textContent = '⏳ 전송 중...';
+    btn.disabled = true;
+    var school = (form.querySelector('#fs-school')||{}).value || '';
+    var grade  = (form.querySelector('#fs-grade')||{}).value || '';
+    var subjs = form.querySelectorAll('[name="과목"]:checked');
+    var subjects = Array.from(subjs).map(function(el){return el.value;}).join(', ');
+    if(!subjects){
+      alert('희망 과목을 1개 이상 선택해 주세요.');
+      btn.textContent = '📋 지금 상담 신청하기'; btn.disabled = false; return;
+    }
+    var data = {
+      지점:   (form.querySelector('[name="지점"]')||{}).value || '',
+      시도:   (form.querySelector('[name="시도"]')||{}).value || '',
+      시군구: (form.querySelector('[name="시군구"]')||{}).value || '',
+      동:     (form.querySelector('[name="동"]')||{}).value || '',
+      이름:   (form.querySelector('[name="이름"]')||{}).value || '',
+      연락처: (form.querySelector('[name="연락처"]')||{}).value || '',
+      학년:   school && grade ? school+' '+grade : school||grade,
+      과목:   subjects,
+      신청일: new Date().toLocaleString('ko-KR')
+    };
+    var params = Object.keys(data).map(function(k){return encodeURIComponent(k)+'='+encodeURIComponent(data[k]);}).join('&');
+    var img = new Image();
+    img.src = 'https://script.google.com/macros/s/AKfycbybsuTZMjzlp3HkkVaUX0IUFnNlSfnnN0DGThb-2BOIwZ8IyZNnMgkwoWOb_muHCEx5/exec?'+params;
+    setTimeout(function(){
+      form.style.display='none';
+      document.getElementById('consultSuccess').style.display='block';
+      if(window.wcs){var _n={};_n["cnv"]=wcs.cnv("2","1");wcs_do(_n);}
+      setTimeout(closeConsult, 2500);
+    }, 800);
+  });
+})();
+</script>
 </body>
 </html>

@@ -16,3 +16,8 @@ naver-ads/config.py
 *.py
 *.xlsx
 와와사진*
+_*.txt
+_*.json
+_*.ps1
+_*.html
+.claude/worktrees/

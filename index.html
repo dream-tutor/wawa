@@ -1159,7 +1159,7 @@ wcs_do(_nasa)
           </select>
         </div>
         <div class="form-agree">
-          <input type="checkbox" id="agree" required>
+          <input type="checkbox" id="agree" required checked onclick="if(!this.checked){alert('체크 해지하시면 상담이 어렵습니다.');this.checked=true;}">
           <label for="agree">개인정보 수집 및 이용에 동의합니다. (상담 목적으로만 활용됩니다)</label>
         </div>
         <button type="submit" class="form-submit">📋 지금 상담 신청하기</button>
@@ -1425,7 +1425,7 @@ wcs_do(_nasa)
         </select>
       </div>
       <div style="display:flex;align-items:center;gap:8px;font-size:13px;color:#6b7280;margin-bottom:14px;">
-        <input type="checkbox" id="modalAgree" required style="flex-shrink:0;accent-color:#3A6B56;width:15px;height:15px;">
+        <input type="checkbox" id="modalAgree" required checked onclick="if(!this.checked){alert('체크 해지하시면 상담이 어렵습니다.');this.checked=true;}" style="flex-shrink:0;accent-color:#3A6B56;width:15px;height:15px;">
         <label for="modalAgree" style="margin:0;line-height:1.4;">개인정보 수집 및 이용에 동의합니다. (상담 목적으로만 활용됩니다)</label>
       </div>
       <button type="submit" class="form-submit">📋 지금 상담 신청하기</button>

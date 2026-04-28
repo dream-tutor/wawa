@@ -421,7 +421,6 @@
   <div style="background:#fff;border-radius:20px;width:100%;max-width:480px;max-height:90vh;overflow-y:auto;padding:24px;box-shadow:0 24px 60px rgba(0,0,0,0.3);position:relative;">
     <button onclick="closeConsult()" type="button" style="position:absolute;top:14px;right:14px;background:none;border:none;font-size:22px;cursor:pointer;color:#64748B;z-index:1;line-height:1;padding:4px 8px;">✕</button>
     <h3 style="font-size:18px;font-weight:900;color:#1E293B;margin:0 0 16px;">무료 상담 신청</h3>
-    <div style="font-size:13px;color:#64748B;margin-bottom:14px;">📍 전국 200여개 지점 중 가까운 지점에서 안내드립니다</div>
     <form id="consultForm" autocomplete="off">
       <div class="form-row">
         <div class="form-group"><label class="form-label">학생 이름 <span style="color:red">*</span></label><input type="text" class="form-input" name="이름" required></div>
@@ -442,6 +441,15 @@
           <label><input type="checkbox" name="과목" value="수학"> 수학</label>
           <label><input type="checkbox" name="과목" value="사회"> 사회</label>
           <label><input type="checkbox" name="과목" value="과학"> 과학</label>
+        </div>
+      </div>
+      <div class="form-group" style="margin-bottom:14px;">
+        <label class="form-label">📍 신청 지점 선택 <span style="color:red">*</span></label>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;">
+          <select class="form-select" id="r-sido" onchange="rOnSido()"><option value="">시도 선택</option></select>
+          <select class="form-select" id="r-sgg" onchange="rOnSgg()" disabled><option value="">시군구 선택</option></select>
+          <select class="form-select" id="r-dong" onchange="rOnDong()" disabled><option value="">동 선택</option></select>
+          <select class="form-select" id="r-branch" required disabled><option value="">지점 선택</option></select>
         </div>
       </div>
       <div class="form-group" style="margin-bottom:14px;">
@@ -466,10 +474,95 @@
   </div>
 </div>
 
+<script src="../branches.js"></script>
 <script>
-function openConsult(){document.getElementById('consultModalOv').style.display='flex';document.body.style.overflow='hidden';}
+function openConsult(){document.getElementById('consultModalOv').style.display='flex';document.body.style.overflow='hidden';rPopulate();}
 function closeConsult(){document.getElementById('consultModalOv').style.display='none';document.body.style.overflow='';}
 document.addEventListener('keydown',function(e){if(e.key==='Escape'){var ov=document.getElementById('consultModalOv');if(ov&&getComputedStyle(ov).display!=='none')closeConsult();}});
+
+// 지점 선택 캐스케이딩 (시도→시군구→동→지점)
+function rPopulate(){
+  var sido = document.getElementById('r-sido');
+  if (!sido || sido.options.length > 1 || typeof BRANCHES === 'undefined') return;
+  var regions = [];
+  for (var i = 0; i < BRANCHES.length; i++){
+    var r = BRANCHES[i].region;
+    if (regions.indexOf(r) < 0) regions.push(r);
+  }
+  regions.sort(function(a,b){return a.localeCompare(b,'ko');});
+  for (var i = 0; i < regions.length; i++){
+    var o = document.createElement('option');
+    o.value = regions[i]; o.textContent = regions[i];
+    sido.appendChild(o);
+  }
+}
+function rOnSido(){
+  var r = document.getElementById('r-sido').value;
+  var sgg = document.getElementById('r-sgg');
+  var dong = document.getElementById('r-dong');
+  var br = document.getElementById('r-branch');
+  sgg.innerHTML = '<option value="">시군구 선택</option>';
+  dong.innerHTML = '<option value="">동 선택</option>';
+  br.innerHTML = '<option value="">지점 선택</option>';
+  dong.disabled = true; br.disabled = true;
+  if (!r){ sgg.disabled = true; return; }
+  var districts = [];
+  for (var i = 0; i < BRANCHES.length; i++){
+    var b = BRANCHES[i];
+    if (b.region === r && b.district && districts.indexOf(b.district) < 0) districts.push(b.district);
+  }
+  districts.sort(function(a,b){return a.localeCompare(b,'ko');});
+  for (var i = 0; i < districts.length; i++){
+    var o = document.createElement('option');
+    o.value = districts[i]; o.textContent = districts[i];
+    sgg.appendChild(o);
+  }
+  sgg.disabled = false;
+}
+function rOnSgg(){
+  var r = document.getElementById('r-sido').value;
+  var d = document.getElementById('r-sgg').value;
+  var dong = document.getElementById('r-dong');
+  var br = document.getElementById('r-branch');
+  dong.innerHTML = '<option value="">동 선택</option>';
+  br.innerHTML = '<option value="">지점 선택</option>';
+  br.disabled = true;
+  if (!d){ dong.disabled = true; return; }
+  var dongs = [];
+  for (var i = 0; i < BRANCHES.length; i++){
+    var b = BRANCHES[i];
+    if (b.region === r && b.district === d && b.dong && dongs.indexOf(b.dong) < 0) dongs.push(b.dong);
+  }
+  dongs.sort(function(a,b){return a.localeCompare(b,'ko');});
+  for (var i = 0; i < dongs.length; i++){
+    var o = document.createElement('option');
+    o.value = dongs[i]; o.textContent = dongs[i];
+    dong.appendChild(o);
+  }
+  dong.disabled = false;
+  if (dongs.length === 1){ dong.value = dongs[0]; rOnDong(); }
+}
+function rOnDong(){
+  var r = document.getElementById('r-sido').value;
+  var d = document.getElementById('r-sgg').value;
+  var g = document.getElementById('r-dong').value;
+  var br = document.getElementById('r-branch');
+  br.innerHTML = '<option value="">지점 선택</option>';
+  if (!g){ br.disabled = true; return; }
+  var list = [];
+  for (var i = 0; i < BRANCHES.length; i++){
+    var b = BRANCHES[i];
+    if (b.region === r && b.district === d && b.dong === g) list.push(b);
+  }
+  list.sort(function(a,b){return a.name.localeCompare(b.name,'ko');});
+  for (var i = 0; i < list.length; i++){
+    var o = document.createElement('option');
+    o.value = list[i].name; o.textContent = list[i].name;
+    br.appendChild(o);
+  }
+  br.disabled = false;
+  if (list.length === 1) br.value = list[0].name;
+}
 
 // 후기 필터
 document.querySelectorAll('.reviews-filter button').forEach(function(btn){
@@ -522,8 +615,16 @@ document.querySelectorAll('.reviews-filter button').forEach(function(btn){
       alert('희망 과목을 1개 이상 선택해 주세요.');
       btn.textContent = '📋 지금 상담 신청하기'; btn.disabled = false; return;
     }
+    var rSido = (document.getElementById('r-sido')||{}).value || '';
+    var rSgg = (document.getElementById('r-sgg')||{}).value || '';
+    var rDong = (document.getElementById('r-dong')||{}).value || '';
+    var rBranch = (document.getElementById('r-branch')||{}).value || '';
+    if (!rBranch){
+      alert('신청 지점을 선택해 주세요.');
+      btn.textContent = '📋 지금 상담 신청하기'; btn.disabled = false; return;
+    }
     var data = {
-      지점: '후기 페이지 신청', 시도: '', 시군구: '', 동: '',
+      지점: rBranch, 시도: rSido, 시군구: rSgg, 동: rDong,
       이름: (form.querySelector('[name="이름"]')||{}).value || '',
       연락처: (form.querySelector('[name="연락처"]')||{}).value || '',
       학년: school && grade ? school+' '+grade : school||grade,

@@ -1289,7 +1289,7 @@ wcs_do(_nasa)
 .bc-badge-kor{background:#FFF0F5;color:#D63384;}
 .bc-badge-math{background:#EFF6FF;color:#2563EB;}
 
-.bc-btns{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-top:10px;}
+.bc-btns{display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px;margin-top:10px;}
 .bc-map-icon{cursor:pointer;display:inline-flex;align-items:center;gap:4px;background:#fff;color:#3A6B56;font-size:12px;font-weight:700;padding:4px 10px 4px 8px;border-radius:20px;vertical-align:middle;margin-left:7px;transition:all .2s;box-shadow:0 2px 6px rgba(0,0,0,0.15);border:1.5px solid #3A6B56;gap:5px;}
 .bc-map-icon:hover{background:#f0f4f8;transform:translateY(-2px);box-shadow:0 4px 10px rgba(232,69,44,0.45);}
 .bc-map-icon svg{flex-shrink:0;}
@@ -1630,12 +1630,13 @@ function wawaFilter(){
       + '<div class="bc-tag">' + tag + '</div>'
       + (b.name.indexOf('글로리드') >= 0 ? '<span class="bc-badge bc-badge-kor">📖 국어 전문</span>' : '')
       + (b.name.indexOf('W+') >= 0 ? '<span class="bc-badge bc-badge-math">🔢 수학·과학 전문</span>' : '')
-      + '<div class="bc-name">' + b.name + ' <span class="bc-map-icon" data-name="' + b.name.replace(/"/g,"'") + '" data-addr="' + b.address.replace(/"/g,"'") + '" data-lat="' + b.lat + '" data-lng="' + b.lng + '" data-link="' + (b.link||'') + '" onclick="openMapModal(this);"><i class=\"fas fa-map-location-dot\"></i> 지도</span></div>'
+      + '<div class="bc-name">' + (b.region_en && b.district_en && b.branch_en ? '<a href="/' + b.region_en + '/' + b.district_en + '/' + b.branch_en + '/" style="color:inherit;text-decoration:none;">' + b.name + '</a>' : b.name) + ' <span class="bc-map-icon" data-name="' + b.name.replace(/"/g,"'") + '" data-addr="' + b.address.replace(/"/g,"'") + '" data-lat="' + b.lat + '" data-lng="' + b.lng + '" data-link="' + (b.link||'') + '" onclick="openMapModal(this);"><i class=\"fas fa-map-location-dot\"></i> 지도</span></div>'
       + (b.nearby && b.nearby.indexOf('/') >= 0 ? '<div class="bc-nearby">📌 ' + b.nearby.split('/').slice(1).map(function(s){return s.trim();}).filter(Boolean).join(' · ') + '</div>' : '')
       + '<div class="bc-addr">' + b.address.split(' ').reduce(function(acc,w,i){if(acc.stop)return acc;if(/^\d+[층호]$/.test(w)||(/[가-힣]+/.test(w)&&/(빌딩|타워|프라자|상가|오피스텔)$/.test(w)&&i>2)){acc.stop=true;return acc;}acc.parts.push(w);return acc;},{parts:[],stop:false}).parts.join(' ') + '</div>'
       + (b.office||b.reg ? '<div class="bc-edu">' + (b.office ? b.office+'<br>' : '') + (b.reg||'') + '</div>' : '')
         + '<div class="bc-detail">' + sHtml + tHtml + '</div>'
       + '<div class="bc-btns">'
+      + (b.region_en && b.district_en && b.branch_en ? '<a class="bc-btn-call" href="/' + b.region_en + '/' + b.district_en + '/' + b.branch_en + '/" style="text-align:center;display:block;text-decoration:none;">📄 지점 페이지</a>' : '')
       + '<button class="bc-btn-consult" data-region="' + b.region + '" data-district="' + (b.district||'') + '" data-dong="' + (b.dong||'') + '" data-name="' + b.name + '" onclick="fbAutoSelect(this);openConsultModal();">📋 상담 신청</button>'
       + '<a class="bc-btn-call" href="tel:010-4864-5345">📞 전화</a>'
       + '</div>'

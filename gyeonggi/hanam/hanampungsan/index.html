@@ -273,10 +273,7 @@
             <option>초등학교</option><option>중학교</option><option>고등학교</option>
           </select>
           <select class="form-select" id="fs-grade" required style="flex:1;">
-            <option value="">학년 선택</option>
-            <option>1학년</option><option>2학년</option><option>3학년</option>
-            <option>4학년</option><option>5학년</option><option>6학년</option>
-          </select>
+            <option value="">학년 선택</option></select>
         </div>
       </div>
       <div class="form-group" style="margin-bottom:18px;">
@@ -338,7 +335,7 @@
 <footer>
   <strong>와와학습코칭센터</strong><br>
   전국 200개+ 지점 · 초중고 자기주도학습 전문<br>
-  <a href="tel:010-4864-5345" style="color:rgba(255,255,255,0.85);font-weight:700;">📞 전화 문의하기</a><br>
+  <a href="/reviews/" style="color:rgba(255,255,255,0.85);font-weight:700;">⭐ 학생·학부모 후기</a> &nbsp;|&nbsp; <a href="tel:010-4864-5345" style="color:rgba(255,255,255,0.85);font-weight:700;">📞 전화 문의하기</a><br>
   <span style="font-size:11px;color:rgba(255,255,255,0.55);">광고·스팸 전화는 정중히 사절합니다 &nbsp;|&nbsp; 사진 출처: 와와학습코칭센터 제공</span>
 </footer>
 <script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
@@ -406,5 +403,23 @@ if(window.wcs) wcs_do();
 <script>
 function openConsult(){document.getElementById('consultModalOv').style.display='flex';document.body.style.overflow='hidden';}
 function closeConsult(){document.getElementById('consultModalOv').style.display='none';document.body.style.overflow='';}
+document.addEventListener('keydown',function(e){if(e.key==='Escape'){var ov=document.getElementById('consultModalOv');if(ov&&getComputedStyle(ov).display!=='none')closeConsult();}});
+</script>
+<script>
+(function(){
+  var s = document.getElementById('fs-school');
+  var g = document.getElementById('fs-grade');
+  if(!s || !g) return;
+  var GRADES = {'초등학교':[1,2,3,4,5,6], '중학교':[1,2,3], '고등학교':[1,2,3]};
+  s.addEventListener('change', function(){
+    var sel = s.value;
+    g.innerHTML = '<option value="">학년 선택</option>';
+    (GRADES[sel]||[]).forEach(function(n){
+      var o = document.createElement('option');
+      o.textContent = n + '학년';
+      g.appendChild(o);
+    });
+  });
+})();
 </script>
 </body></html>

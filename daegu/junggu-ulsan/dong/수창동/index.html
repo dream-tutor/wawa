@@ -183,8 +183,8 @@
 
 <!-- 하단 CTA: 한 번 더 -->
 <section style="background:linear-gradient(135deg,#0369A1,#075985);padding:40px 20px;text-align:center;color:#fff;">
-  <h3 style="font-size:22px;font-weight:900;margin-bottom:10px;">수창동에서 와와학습코칭센터를 만나보세요</h3>
-  <p style="font-size:14px;opacity:0.9;margin-bottom:20px;">학습 진단부터 입시 전략까지 — 무료 상담을 받아보실 수 있습니다.</p>
+  <h3 style="font-size:22px;font-weight:900;margin-bottom:10px;text-wrap:balance;word-break:keep-all;">수창동에서 와와학습코칭센터를 만나보세요</h3>
+  <p style="font-size:14px;opacity:0.9;margin-bottom:20px;text-wrap:balance;word-break:keep-all;">학습 진단부터 입시 전략까지 — 무료 상담을 받아보실 수 있습니다.</p>
   <button onclick="openConsult()" style="border:none;cursor:pointer;font-family:inherit;background:#D4AF37;color:#fff;padding:14px 36px;border-radius:50px;font-size:16px;font-weight:700;box-shadow:0 8px 24px rgba(0,0,0,0.2);">📋 지금 무료 상담 신청하기</button>
 </section>
 
@@ -234,6 +234,14 @@
           <label><input type="checkbox" name="과목" value="과학"> 과학</label>
         </div>
       </div>
+      <div class="form-group" style="margin-bottom:14px;">
+        <label class="form-label">상담 희망 시간</label>
+        <select class="form-select" name="상담희망시간">
+          <option value="">선택 (선택사항)</option>
+          <option>오전 9시~12시</option><option>오후 12시~3시</option>
+          <option>오후 3시~6시</option><option>오후 6시 이후</option>
+        </select>
+      </div>
       <div class="form-agree">
         <input type="checkbox" id="agree" required checked onclick="if(!this.checked){alert('체크 해지하시면 상담이 어렵습니다.');this.checked=true;}">
         <label for="agree">개인정보 수집 및 이용에 동의합니다.</label>
@@ -276,6 +284,7 @@ function closeConsult(){document.getElementById('consultModalOv').style.display=
       연락처: (form.querySelector('[name="연락처"]')||{}).value || '',
       학년:   school && grade ? school+' '+grade : school||grade,
       과목:   subjects,
+      상담희망시간: (form.querySelector('[name="상담희망시간"]')||{}).value || '',
       신청일: new Date().toLocaleString('ko-KR')
     };
     var params = Object.keys(data).map(function(k){return encodeURIComponent(k)+'='+encodeURIComponent(data[k]);}).join('&');

@@ -856,7 +856,50 @@
 }
 
 /* 지점 카드 그리드 (허브 페이지) */
-.branch-cards-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(240px, 1fr)); gap:14px; margin-top:24px; }
+.branch-cards-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(240px, 1fr)); gap:14px; margin-top:14px; }
+
+/* 시도 페이지 시군구 그룹 - 접었다 폈다 */
+.district-group {
+  background: #fff;
+  border: 1.5px solid #E8EBF0;
+  border-radius: 14px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  transition: border-color 0.18s, box-shadow 0.18s;
+}
+.district-group[open] { border-color: #5B8C75; box-shadow: 0 4px 16px rgba(58,107,86,0.08); }
+.district-summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 14px 18px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 800;
+  color: #1E293B;
+  user-select: none;
+}
+.district-summary::-webkit-details-marker { display: none; }
+.district-summary::marker { content: ''; }
+.district-summary:hover { background: #F8FAFC; }
+.district-summary .d-name { flex: 0 0 auto; }
+.district-summary .d-count { font-size: 12px; font-weight: 600; color: #64748B; }
+.district-summary .d-spacer { flex: 1; }
+.district-summary .d-all { font-size: 13px; color: #0369A1; font-weight: 700; text-decoration: none; }
+.district-summary .d-all:hover { text-decoration: underline; }
+.district-summary .d-toggle {
+  font-size: 12px; color: #94A3B8;
+  transition: transform 0.2s;
+  display: inline-block;
+}
+.district-group[open] .d-toggle { transform: rotate(180deg); color: #5B8C75; }
+.district-body { padding: 0 18px 18px; }
+@media(max-width:480px){
+  .district-summary { padding: 12px 14px; font-size: 15px; }
+  .district-summary .d-all { font-size: 12px; }
+  .district-body { padding: 0 14px 14px; }
+}
 .branch-card { display:block; background:#fff; border:1.5px solid #E2E8F0; border-radius:16px; padding:18px 20px; text-decoration:none; color:var(--text); transition:all 0.2s; }
 .branch-card:hover { border-color:var(--blue); transform:translateY(-3px); box-shadow:0 12px 30px rgba(91,140,117,0.15); }
 .branch-card-name { font-size:16px; font-weight:800; color:var(--text); margin-bottom:6px; letter-spacing:-0.3px; }

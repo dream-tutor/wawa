@@ -1407,7 +1407,7 @@ wcs_do(_nasa)
           <select class="form-select" id="m-sido" onchange="mOnSido()">
             <option value="">시도 선택</option>
           </select>
-          <select class="form-select" id="m-sgg" onchange="mOnSgg()" disabled>
+          <select class="form-select" id="m-sgg" onchange="mOnSgg()">
             <option value="">시군구 선택</option>
           </select>
           <select class="form-select" id="m-dong" onchange="mOnDong()" disabled>
@@ -1937,6 +1937,32 @@ wawaShowGuide();
 })();
 
 
+function _buildSgg(filterRegion) {
+  var sgg = document.getElementById('m-sgg');
+  sgg.innerHTML = '<option value="">시군구 선택</option>';
+  var pairs = [];
+  for (var i = 0; i < BRANCHES.length; i++) {
+    var b = BRANCHES[i];
+    if (filterRegion && b.region !== filterRegion) continue;
+    if (b.district) {
+      var key = b.region + '|' + b.district;
+      if (pairs.indexOf(key) < 0) pairs.push(key);
+    }
+  }
+  pairs.sort(function(a,b){
+    var pa = a.split('|'), pb = b.split('|');
+    return pa[0].localeCompare(pb[0],'ko') || pa[1].localeCompare(pb[1],'ko');
+  });
+  for (var i = 0; i < pairs.length; i++) {
+    var p = pairs[i].split('|');
+    var o = document.createElement('option');
+    o.value = p[1];
+    o.dataset.region = p[0];
+    o.textContent = filterRegion ? p[1] : (p[0] + ' ' + p[1]);
+    sgg.appendChild(o);
+  }
+  sgg.disabled = false;
+}
 function mPopulate() {
   var sido = document.getElementById('m-sido');
   if (!sido || sido.options.length > 1) return;
@@ -1951,39 +1977,32 @@ function mPopulate() {
     o.value = regions[i]; o.textContent = regions[i];
     sido.appendChild(o);
   }
+  // 시군구도 처음부터 모든 시군구로 채워서 직접 선택 가능하게
+  _buildSgg(null);
 }
 function mOnSido() {
   var r = document.getElementById('m-sido').value;
-  var sgg = document.getElementById('m-sgg');
   var dong = document.getElementById('m-dong');
   var br = document.getElementById('m-branch');
-  sgg.innerHTML = '<option value="">시군구 선택</option>';
   dong.innerHTML = '<option value="">동 선택</option>';
   br.innerHTML = '<option value="">지점 선택</option>';
   dong.disabled = true; br.disabled = true;
-  if (!r) { sgg.disabled = true; return; }
-  var districts = [];
-  for (var i = 0; i < BRANCHES.length; i++) {
-    var b = BRANCHES[i];
-    if (b.region === r && b.district && districts.indexOf(b.district) < 0) districts.push(b.district);
-  }
-  districts.sort(function(a,b){ return a.localeCompare(b,'ko'); });
-  for (var i = 0; i < districts.length; i++) {
-    var o = document.createElement('option');
-    o.value = districts[i]; o.textContent = districts[i];
-    sgg.appendChild(o);
-  }
-  sgg.disabled = false;
+  // 시군구 재구성 (선택된 시도로 필터)
+  _buildSgg(r || null);
 }
 function mOnSgg() {
-  var r = document.getElementById('m-sido').value;
-  var d = document.getElementById('m-sgg').value;
+  var sggSel = document.getElementById('m-sgg');
+  var d = sggSel.value;
   var dong = document.getElementById('m-dong');
   var br = document.getElementById('m-branch');
   dong.innerHTML = '<option value="">동 선택</option>';
   br.innerHTML = '<option value="">지점 선택</option>';
   br.disabled = true;
   if (!d) { dong.disabled = true; return; }
+  // 선택된 옵션의 data-region으로 시도 자동 설정
+  var selected = sggSel.options[sggSel.selectedIndex];
+  var r = (selected && selected.dataset.region) || document.getElementById('m-sido').value;
+  if (r) document.getElementById('m-sido').value = r;
   var dongs = [];
   for (var i = 0; i < BRANCHES.length; i++) {
     var b = BRANCHES[i];

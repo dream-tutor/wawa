@@ -448,7 +448,7 @@
         <label class="form-label">📍 신청 지점 선택 <span style="color:red">*</span></label>
         <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;">
           <select class="form-select" id="r-sido" onchange="rOnSido()"><option value="">시도 선택</option></select>
-          <select class="form-select" id="r-sgg" onchange="rOnSgg()" disabled><option value="">시군구 선택</option></select>
+          <select class="form-select" id="r-sgg" onchange="rOnSgg()"><option value="">시군구 선택</option></select>
           <select class="form-select" id="r-dong" onchange="rOnDong()" disabled><option value="">동 선택</option></select>
           <select class="form-select" id="r-branch" required disabled><option value="">지점 선택</option></select>
         </div>
@@ -481,7 +481,33 @@ function openConsult(){document.getElementById('consultModalOv').style.display='
 function closeConsult(){document.getElementById('consultModalOv').style.display='none';document.body.style.overflow='';}
 document.addEventListener('keydown',function(e){if(e.key==='Escape'){var ov=document.getElementById('consultModalOv');if(ov&&getComputedStyle(ov).display!=='none')closeConsult();}});
 
-// 지점 선택 캐스케이딩 (시도→시군구→동→지점)
+// 지점 선택 캐스케이딩 (시도/시군구 어느 쪽이든 먼저 선택 가능)
+function _rBuildSgg(filterRegion){
+  var sgg = document.getElementById('r-sgg');
+  sgg.innerHTML = '<option value="">시군구 선택</option>';
+  var pairs = [];
+  for (var i = 0; i < BRANCHES.length; i++){
+    var b = BRANCHES[i];
+    if (filterRegion && b.region !== filterRegion) continue;
+    if (b.district){
+      var key = b.region + '|' + b.district;
+      if (pairs.indexOf(key) < 0) pairs.push(key);
+    }
+  }
+  pairs.sort(function(a,b){
+    var pa = a.split('|'), pb = b.split('|');
+    return pa[0].localeCompare(pb[0],'ko') || pa[1].localeCompare(pb[1],'ko');
+  });
+  for (var i = 0; i < pairs.length; i++){
+    var p = pairs[i].split('|');
+    var o = document.createElement('option');
+    o.value = p[1];
+    o.dataset.region = p[0];
+    o.textContent = filterRegion ? p[1] : (p[0] + ' ' + p[1]);
+    sgg.appendChild(o);
+  }
+  sgg.disabled = false;
+}
 function rPopulate(){
   var sido = document.getElementById('r-sido');
   if (!sido || sido.options.length > 1 || typeof BRANCHES === 'undefined') return;
@@ -496,39 +522,30 @@ function rPopulate(){
     o.value = regions[i]; o.textContent = regions[i];
     sido.appendChild(o);
   }
+  // 시군구 전체로 처음부터 채움 (직접 선택 가능)
+  _rBuildSgg(null);
 }
 function rOnSido(){
   var r = document.getElementById('r-sido').value;
-  var sgg = document.getElementById('r-sgg');
   var dong = document.getElementById('r-dong');
   var br = document.getElementById('r-branch');
-  sgg.innerHTML = '<option value="">시군구 선택</option>';
   dong.innerHTML = '<option value="">동 선택</option>';
   br.innerHTML = '<option value="">지점 선택</option>';
   dong.disabled = true; br.disabled = true;
-  if (!r){ sgg.disabled = true; return; }
-  var districts = [];
-  for (var i = 0; i < BRANCHES.length; i++){
-    var b = BRANCHES[i];
-    if (b.region === r && b.district && districts.indexOf(b.district) < 0) districts.push(b.district);
-  }
-  districts.sort(function(a,b){return a.localeCompare(b,'ko');});
-  for (var i = 0; i < districts.length; i++){
-    var o = document.createElement('option');
-    o.value = districts[i]; o.textContent = districts[i];
-    sgg.appendChild(o);
-  }
-  sgg.disabled = false;
+  _rBuildSgg(r || null);
 }
 function rOnSgg(){
-  var r = document.getElementById('r-sido').value;
-  var d = document.getElementById('r-sgg').value;
+  var sggSel = document.getElementById('r-sgg');
+  var d = sggSel.value;
   var dong = document.getElementById('r-dong');
   var br = document.getElementById('r-branch');
   dong.innerHTML = '<option value="">동 선택</option>';
   br.innerHTML = '<option value="">지점 선택</option>';
   br.disabled = true;
   if (!d){ dong.disabled = true; return; }
+  var selected = sggSel.options[sggSel.selectedIndex];
+  var r = (selected && selected.dataset.region) || document.getElementById('r-sido').value;
+  if (r) document.getElementById('r-sido').value = r;
   var dongs = [];
   for (var i = 0; i < BRANCHES.length; i++){
     var b = BRANCHES[i];

@@ -418,4 +418,50 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape'){var ov=docu
   });
 })();
 </script>
+<script>
+(function(){
+  // UTM 파라미터 sessionStorage에 저장
+  try {
+    var p = new URLSearchParams(window.location.search);
+    ['utm_source','utm_medium','utm_campaign','utm_term','utm_content'].forEach(function(k){
+      var v = p.get(k);
+      if (v) sessionStorage.setItem('wawa_' + k, v);
+    });
+  } catch(e){}
+
+  // 폼 제출 시 utm 자동 추가 (window._wawaGetUtm 으로 노출)
+  window._wawaGetUtm = function(){
+    var s = sessionStorage;
+    return {
+      utm_source:   s.getItem('wawa_utm_source')   || '',
+      utm_medium:   s.getItem('wawa_utm_medium')   || '',
+      utm_campaign: s.getItem('wawa_utm_campaign') || '',
+      utm_term:     s.getItem('wawa_utm_term')     || '',
+      utm_content:  s.getItem('wawa_utm_content')  || ''
+    };
+  };
+
+  // ?open=consult 자동 모달 오픈
+  function autoOpen(){
+    var p = new URLSearchParams(window.location.search);
+    if (p.get('open') !== 'consult') return;
+    setTimeout(function(){
+      if (typeof openConsult === 'function') {
+        openConsult();
+      } else if (typeof openConsultModal === 'function') {
+        openConsultModal();
+      } else {
+        // inline form 페이지 - #form 으로 스크롤
+        var f = document.getElementById('form');
+        if (f) f.scrollIntoView({behavior:'smooth', block:'start'});
+      }
+    }, 600);
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', autoOpen);
+  } else {
+    autoOpen();
+  }
+})();
+</script>
 </body></html>

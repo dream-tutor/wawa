@@ -74,6 +74,11 @@
     <h2 class="section-title">강원 내 센터 찾기</h2>
     <p class="section-sub">시군구별로 가까운 와와학습코칭센터를 찾아보세요.</p>
   </div>
+  <div class="sgg-dropdown-wrap" style="margin-bottom:16px;text-align:center;">
+    <select id="sgg-filter" class="sgg-filter" onchange="filterSgg(this.value)">
+      <option value="">시군구 선택 (전체 보기)</option>
+    </select>
+  </div>
   <details class="district-group">
   <summary class="district-summary">
     <span class="d-name">강릉시</span>
@@ -566,6 +571,50 @@ if(window.wcs) wcs_do();
   } else {
     autoOpen();
   }
+})();
+</script>
+<script>
+function filterSgg(value){
+  var groups = document.querySelectorAll('details.district-group');
+  if (!value){
+    // 전체 보기 — 모두 표시 + 모두 닫음 (기본 상태)
+    groups.forEach(function(g){
+      g.style.display = '';
+      g.open = false;
+    });
+    return;
+  }
+  groups.forEach(function(g){
+    var nameEl = g.querySelector('.d-name');
+    if (!nameEl) return;
+    var name = nameEl.textContent.trim();
+    if (name === value){
+      g.style.display = '';
+      g.open = true;
+      // 스크롤 (살짝 늦게)
+      setTimeout(function(){ g.scrollIntoView({behavior:'smooth', block:'start'}); }, 100);
+    } else {
+      g.style.display = 'none';
+    }
+  });
+}
+// 페이지 로드 시 시군구 옵션 자동 채우기
+(function(){
+  var sel = document.getElementById('sgg-filter');
+  if (!sel) return;
+  var groups = document.querySelectorAll('details.district-group');
+  var sggs = [];
+  groups.forEach(function(g){
+    var name = (g.querySelector('.d-name')||{}).textContent;
+    var count = (g.querySelector('.d-count')||{}).textContent;
+    if (name) sggs.push({name:name.trim(), count:(count||'').trim()});
+  });
+  sggs.forEach(function(s){
+    var o = document.createElement('option');
+    o.value = s.name;
+    o.textContent = s.name + (s.count ? ' ' + s.count : '');
+    sel.appendChild(o);
+  });
 })();
 </script>
 </body></html>

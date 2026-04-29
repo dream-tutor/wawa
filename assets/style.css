@@ -1438,3 +1438,20 @@
 
 /* 폼 섹션 위치 위로 */
 .form-box { margin-top:0; }
+
+
+  /* 시군구 드롭다운 (시도 페이지) */
+  .sgg-dropdown-wrap { max-width:480px; margin:0 auto 16px; }
+  .sgg-filter {
+    width:100%; padding:13px 16px; font-size:15px; font-weight:700;
+    color:#1E293B; background:#fff;
+    border:1.5px solid #5B8C75; border-radius:10px;
+    cursor:pointer; font-family:inherit;
+    appearance:none; -webkit-appearance:none; -moz-appearance:none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%235B8C75'%3e%3cpath d='M7 10l5 5 5-5z'/%3e%3c/svg%3e");
+    background-repeat:no-repeat;
+    background-position:right 12px center;
+    background-size:20px;
+    padding-right:40px;
+  }
+  .sgg-filter:focus { outline:none; border-color:#3A6B56; box-shadow:0 0 0 3px rgba(91,140,117,0.2); }

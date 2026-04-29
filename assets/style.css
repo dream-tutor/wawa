@@ -478,11 +478,14 @@
     background: #0F172A;
     color: rgba(255,255,255,0.5);
     text-align: center;
-    padding: 32px 20px;
+    padding: 32px 20px 130px; /* 하단 padding: 플로팅 버튼 가림 방지 */
     font-size: 13px;
     line-height: 2;
   }
   footer strong { color: rgba(255,255,255,0.8); }
+  @media (min-width: 641px) {
+    footer { padding-bottom: 100px; }
+  }
 
   /* ── ANIMATIONS ── */
   .fade-up {
@@ -837,12 +840,19 @@
 .nav-logo { font-weight:900; font-size:17px; color:var(--blue-dark); text-decoration:none; letter-spacing:-0.5px; }
 .nav-call { color:var(--text-light); font-size:13px; font-weight:600; text-decoration:none; margin-right:10px; }
 .nav-call:hover { color:var(--blue); }
+.nav-reviews { color:var(--text-light); font-size:13px; font-weight:600; text-decoration:none; margin-right:10px; }
+.nav-reviews:hover { color:var(--blue); }
 .nav-cta { background:var(--blue); color:#fff; padding:7px 14px; border-radius:50px; font-size:13px; font-weight:700; text-decoration:none; transition:background 0.2s; }
 .nav-cta:hover { background:var(--blue-dark); }
 @media(max-width:480px){
   .nav-inner { padding:5px 14px; }
   .nav-logo { font-size:15px; }
   .nav-cta { padding:5px 10px; font-size:12px; }
+  .nav-call { font-size:12px; margin-right:6px; }
+  .nav-reviews { font-size:12px; margin-right:6px; }
+}
+@media(max-width:380px){
+  .nav-call { display:none; } /* 좁은 화면에서 전화 텍스트 버튼 숨김 (플로팅에 있음) */
 }
 
 /* 지점 카드 그리드 (허브 페이지) */

@@ -355,6 +355,7 @@
     font-weight: 900;
     margin-bottom: 8px;
     color: var(--text);
+    text-align: center;
   }
   .form-sub {
     font-size: 14px;
@@ -478,13 +479,13 @@
     background: #0F172A;
     color: rgba(255,255,255,0.5);
     text-align: center;
-    padding: 32px 20px 130px; /* 하단 padding: 플로팅 버튼 가림 방지 */
+    padding: 28px 20px 110px; /* 하단 padding: 플로팅 버튼 가림 방지 (모바일) */
     font-size: 13px;
     line-height: 2;
   }
   footer strong { color: rgba(255,255,255,0.8); }
   @media (min-width: 641px) {
-    footer { padding-bottom: 100px; }
+    footer { padding: 24px 20px 50px; } /* PC는 짧게 */
   }
 
   /* ── ANIMATIONS ── */

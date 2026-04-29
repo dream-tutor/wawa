@@ -249,6 +249,9 @@
     <form id="consultForm" autocomplete="off">
       <div class="form-group">
         <label class="form-label">희망 지점 <span style="color:red">*</span></label>
+        <select class="form-select" id="fs-sgg" style="margin-bottom:8px;">
+          <option value="">시군구 선택 (전체)</option>
+        </select>
         <select class="form-select" id="fs-branch" name="지점" required>
           <option value="">지점 선택</option>
           <option value="강릉교동점" data-sido="강원" data-sgg="강릉시" data-dong="교동">강릉시 교동 · 강릉교동점</option>
@@ -444,6 +447,78 @@ if(window.wcs) wcs_do();
       o.textContent = n + '학년';
       g.appendChild(o);
     });
+  });
+})();
+</script>
+<script>
+(function(){
+  // 동 → 구 매핑 (구가 있는 시만 세분화)
+  var DONG_TO_GU = {
+    '고양시': {
+      '성사동':'덕양구','신원동':'덕양구','원흥동':'덕양구','행신동':'덕양구','화정동':'덕양구',
+      '풍동':'일산동구','중산동':'일산동구','장항동':'일산동구',
+      '덕이동':'일산서구','일산동':'일산서구','주엽동':'일산서구','탄현동':'일산서구'
+    },
+    '용인시': {
+      '역북동':'처인구',
+      '구갈동':'기흥구','동백동':'기흥구','보라동':'기흥구','영덕동':'기흥구','중동':'기흥구',
+      '상현동':'수지구','신봉동':'수지구','풍덕천동':'수지구'
+    },
+    '수원시': {
+      '천천동':'장안구',
+      '금곡동':'권선동','호매실동':'권선동',
+      '매탄동':'영통구','영통동':'영통구','망포동':'영통구'
+    },
+    '성남시': {
+      '단대동':'수정구','신흥동':'수정구','창곡동':'수정구',
+      '성남동':'중원구','여수동':'중원구',
+      '금곡동':'분당구','이매동':'분당구'
+    },
+    '안산시': {
+      '고잔동':'단원구'
+    },
+    '안양시': {
+      '비산동':'동안구'
+    },
+    '청주시': {
+      '복대동':'흥덕구','가경동':'흥덕구','산남동':'흥덕구',
+      '개신동':'서원구','봉명동':'서원구'
+    }
+  };
+  function getSggDisplay(sgg, dong){
+    var m = DONG_TO_GU[sgg];
+    if (m && m[dong]) return sgg + ' ' + m[dong];
+    return sgg;
+  }
+  var br = document.getElementById('fs-branch');
+  var sgg = document.getElementById('fs-sgg');
+  if (!br || !sgg) return;
+  var seen = {};
+  var displays = [];
+  Array.from(br.options).forEach(function(o){
+    if (!o.value || !o.dataset.sgg) return;
+    var disp = getSggDisplay(o.dataset.sgg, o.dataset.dong||'');
+    o.dataset.sggDisplay = disp;
+    if (!seen[disp]) { seen[disp] = true; displays.push(disp); }
+  });
+  displays.sort(function(a,b){return a.localeCompare(b,'ko');});
+  displays.forEach(function(d){
+    var o = document.createElement('option');
+    o.value = d; o.textContent = d;
+    sgg.appendChild(o);
+  });
+  sgg.addEventListener('change', function(){
+    var sel = sgg.value;
+    Array.from(br.options).forEach(function(o){
+      if (!o.value) return;
+      var match = !sel || o.dataset.sggDisplay === sel;
+      o.style.display = match ? '' : 'none';
+    });
+    // 현재 선택된 지점이 필터에 안 맞으면 초기화
+    var current = br.options[br.selectedIndex];
+    if (current && current.value && current.dataset.sggDisplay !== sel && sel) {
+      br.value = '';
+    }
   });
 })();
 </script>

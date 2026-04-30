@@ -1,0 +1,46 @@
+name: Update sitemap.xml
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'sitemap.xml'        # 자체 변경 무한 루프 방지
+      - '.github/**'
+      - 'README*'
+      - '**/*.md'
+  schedule:
+    - cron: '0 18 * * 0'     # 매주 일요일 18:00 UTC (한국 월요일 03:00) 강제 갱신
+  workflow_dispatch:         # 수동 실행 버튼
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Generate sitemap.xml
+        run: python _gen_sitemap.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet sitemap.xml; then
+            echo "변경 없음 — sitemap.xml 그대로"
+          else
+            git add sitemap.xml
+            git commit -m "Auto: sitemap.xml 갱신 (GitHub Actions)"
+            git push
+            echo "✅ sitemap.xml 자동 갱신 push됨"
+          fi

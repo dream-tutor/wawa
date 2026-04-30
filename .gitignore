@@ -15,6 +15,7 @@ naver-ads/config.py
 # Local working files (scripts, data, temp images)
 *.py
 !_gen_sitemap.py
+!_bump_dates.py
 __pycache__/
 *.xlsx
 와와사진*

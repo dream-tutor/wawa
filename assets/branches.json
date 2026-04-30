@@ -14539,9 +14539,9 @@
     "price_elem": 60000,
     "price_mid": 65000,
     "price_high": 75000,
-    "time_elem": "10",
-    "time_mid": "10",
-    "time_high": "10",
+    "time_elem": 100,
+    "time_mid": 100,
+    "time_high": 100,
     "keywords": [
       "고창중국어학원",
       "고창중근처학원",

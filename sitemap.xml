@@ -13,19 +13,19 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/busan/bukgu-ulsan/</loc>
+    <loc>https://wawacenter.kr/busan/bukgu/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/busan/bukgu-ulsan/dong/%ED%99%94%EB%AA%85%EB%8F%99/</loc>
+    <loc>https://wawacenter.kr/busan/bukgu/dong/%ED%99%94%EB%AA%85%EB%8F%99/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/busan/bukgu-ulsan/hwamyeong/</loc>
+    <loc>https://wawacenter.kr/busan/bukgu/hwamyeong/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -283,55 +283,55 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/daegu/bukgu-ulsan/</loc>
+    <loc>https://wawacenter.kr/daegu/bukgu/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/daegu/bukgu-ulsan/boghyeon/</loc>
+    <loc>https://wawacenter.kr/daegu/bukgu/boghyeon/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/daegu/bukgu-ulsan/chilgog/</loc>
+    <loc>https://wawacenter.kr/daegu/bukgu/chilgog/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/daegu/bukgu-ulsan/chimsan/</loc>
+    <loc>https://wawacenter.kr/daegu/bukgu/chimsan/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/daegu/bukgu-ulsan/daegudonam/</loc>
+    <loc>https://wawacenter.kr/daegu/bukgu/daegudonam/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/daegu/bukgu-ulsan/dong/%EB%8F%84%EB%82%A8%EB%8F%99/</loc>
+    <loc>https://wawacenter.kr/daegu/bukgu/dong/%EB%8F%84%EB%82%A8%EB%8F%99/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/daegu/bukgu-ulsan/dong/%EB%8F%99%EC%B2%9C%EB%8F%99/</loc>
+    <loc>https://wawacenter.kr/daegu/bukgu/dong/%EB%8F%99%EC%B2%9C%EB%8F%99/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/daegu/bukgu-ulsan/dong/%EB%B3%B5%ED%98%84%EB%8F%99/</loc>
+    <loc>https://wawacenter.kr/daegu/bukgu/dong/%EB%B3%B5%ED%98%84%EB%8F%99/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/daegu/bukgu-ulsan/dong/%EC%B9%A8%EC%82%B0%EB%8F%99/</loc>
+    <loc>https://wawacenter.kr/daegu/bukgu/dong/%EC%B9%A8%EC%82%B0%EB%8F%99/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -391,67 +391,67 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/daegu/donggu-ulsan/</loc>
+    <loc>https://wawacenter.kr/daegu/donggu/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/daegu/donggu-ulsan/dong/%EB%B4%89%EB%AC%B4%EB%8F%99/</loc>
+    <loc>https://wawacenter.kr/daegu/donggu/dong/%EB%B4%89%EB%AC%B4%EB%8F%99/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/daegu/donggu-ulsan/dong/%EC%9C%A8%ED%95%98%EB%8F%99/</loc>
+    <loc>https://wawacenter.kr/daegu/donggu/dong/%EC%9C%A8%ED%95%98%EB%8F%99/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/daegu/donggu-ulsan/isiapolliseu/</loc>
+    <loc>https://wawacenter.kr/daegu/donggu/isiapolliseu/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/daegu/donggu-ulsan/yulha/</loc>
+    <loc>https://wawacenter.kr/daegu/donggu/yulha/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/daegu/junggu-ulsan/</loc>
+    <loc>https://wawacenter.kr/daegu/junggu/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/daegu/junggu-ulsan/banwoldang/</loc>
+    <loc>https://wawacenter.kr/daegu/junggu/banwoldang/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/daegu/junggu-ulsan/daeguyeog/</loc>
+    <loc>https://wawacenter.kr/daegu/junggu/daeguyeog/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/daegu/junggu-ulsan/daeguyeog2hogwan/</loc>
+    <loc>https://wawacenter.kr/daegu/junggu/daeguyeog2hogwan/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/daegu/junggu-ulsan/dong/%EB%B4%89%EC%82%B0%EB%8F%99/</loc>
+    <loc>https://wawacenter.kr/daegu/junggu/dong/%EB%B4%89%EC%82%B0%EB%8F%99/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/daegu/junggu-ulsan/dong/%EC%88%98%EC%B0%BD%EB%8F%99/</loc>
+    <loc>https://wawacenter.kr/daegu/junggu/dong/%EC%88%98%EC%B0%BD%EB%8F%99/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -523,67 +523,67 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/daejeon/junggu-ulsan/</loc>
+    <loc>https://wawacenter.kr/daejeon/junggu/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/daejeon/junggu-ulsan/dong/%ED%83%9C%ED%8F%89%EB%8F%99/</loc>
+    <loc>https://wawacenter.kr/daejeon/junggu/dong/%ED%83%9C%ED%8F%89%EB%8F%99/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/daejeon/junggu-ulsan/taepyeong/</loc>
+    <loc>https://wawacenter.kr/daejeon/junggu/taepyeong/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/daejeon/seogu-busan/</loc>
+    <loc>https://wawacenter.kr/daejeon/seogu/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/daejeon/seogu-busan/doan/</loc>
+    <loc>https://wawacenter.kr/daejeon/seogu/doan/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/daejeon/seogu-busan/dong/%EA%B4%80%EC%A0%80%EB%8F%99/</loc>
+    <loc>https://wawacenter.kr/daejeon/seogu/dong/%EA%B4%80%EC%A0%80%EB%8F%99/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/daejeon/seogu-busan/dong/%EB%8F%84%EC%95%88%EB%8F%99/</loc>
+    <loc>https://wawacenter.kr/daejeon/seogu/dong/%EB%8F%84%EC%95%88%EB%8F%99/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/daejeon/seogu-busan/dong/%EB%91%94%EC%82%B0%EB%8F%99/</loc>
+    <loc>https://wawacenter.kr/daejeon/seogu/dong/%EB%91%94%EC%82%B0%EB%8F%99/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/daejeon/seogu-busan/dunsan/</loc>
+    <loc>https://wawacenter.kr/daejeon/seogu/dunsan/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/daejeon/seogu-busan/dunsan-wplus/</loc>
+    <loc>https://wawacenter.kr/daejeon/seogu/dunsan-wplus/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/daejeon/seogu-busan/gwanjeo/</loc>
+    <loc>https://wawacenter.kr/daejeon/seogu/gwanjeo/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -775,37 +775,37 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/gwangju/namgu-ulsan/</loc>
+    <loc>https://wawacenter.kr/gwangju/namgu/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/gwangju/namgu-ulsan/dong/%EC%A7%84%EC%9B%94%EB%8F%99/</loc>
+    <loc>https://wawacenter.kr/gwangju/namgu/dong/%EC%A7%84%EC%9B%94%EB%8F%99/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/gwangju/namgu-ulsan/jinwol/</loc>
+    <loc>https://wawacenter.kr/gwangju/namgu/jinwol/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/gwangju/seogu-busan/</loc>
+    <loc>https://wawacenter.kr/gwangju/seogu/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/gwangju/seogu-busan/chipyeong/</loc>
+    <loc>https://wawacenter.kr/gwangju/seogu/chipyeong/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/gwangju/seogu-busan/dong/%EC%B9%98%ED%8F%89%EB%8F%99/</loc>
+    <loc>https://wawacenter.kr/gwangju/seogu/dong/%EC%B9%98%ED%8F%89%EB%8F%99/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -2251,31 +2251,31 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/incheon/seogu-busan/</loc>
+    <loc>https://wawacenter.kr/incheon/seogu/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/incheon/seogu-busan/cheongla/</loc>
+    <loc>https://wawacenter.kr/incheon/seogu/cheongla/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/incheon/seogu-busan/dong/%EC%8B%A0%ED%98%84%EB%8F%99/</loc>
+    <loc>https://wawacenter.kr/incheon/seogu/dong/%EC%8B%A0%ED%98%84%EB%8F%99/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/incheon/seogu-busan/dong/%EC%B2%AD%EB%9D%BC%EB%8F%99/</loc>
+    <loc>https://wawacenter.kr/incheon/seogu/dong/%EC%B2%AD%EB%9D%BC%EB%8F%99/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/incheon/seogu-busan/luwonsiti/</loc>
+    <loc>https://wawacenter.kr/incheon/seogu/luwonsiti/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2527,37 +2527,37 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/seoul/gangseo-busan/</loc>
+    <loc>https://wawacenter.kr/seoul/gangseo/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/seoul/gangseo-busan/dong/%EB%A7%88%EA%B3%A1%EB%8F%99/</loc>
+    <loc>https://wawacenter.kr/seoul/gangseo/dong/%EB%A7%88%EA%B3%A1%EB%8F%99/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/seoul/gangseo-busan/dong/%EC%97%BC%EC%B0%BD%EB%8F%99/</loc>
+    <loc>https://wawacenter.kr/seoul/gangseo/dong/%EC%97%BC%EC%B0%BD%EB%8F%99/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/seoul/gangseo-busan/naebalsan/</loc>
+    <loc>https://wawacenter.kr/seoul/gangseo/naebalsan/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/seoul/gangseo-busan/sinbanghwa/</loc>
+    <loc>https://wawacenter.kr/seoul/gangseo/sinbanghwa/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/seoul/gangseo-busan/yeomchang/</loc>
+    <loc>https://wawacenter.kr/seoul/gangseo/yeomchang/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2797,67 +2797,67 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/ulsan/bukgu-ulsan/</loc>
+    <loc>https://wawacenter.kr/ulsan/bukgu/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/ulsan/bukgu-ulsan/dong/%EC%86%A1%EC%A0%95%EB%8F%99/</loc>
+    <loc>https://wawacenter.kr/ulsan/bukgu/dong/%EC%86%A1%EC%A0%95%EB%8F%99/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/ulsan/bukgu-ulsan/songjeong/</loc>
+    <loc>https://wawacenter.kr/ulsan/bukgu/songjeong/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/ulsan/junggu-ulsan/</loc>
+    <loc>https://wawacenter.kr/ulsan/junggu/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/ulsan/junggu-ulsan/bogsan/</loc>
+    <loc>https://wawacenter.kr/ulsan/junggu/bogsan/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/ulsan/junggu-ulsan/dong/%EB%82%A8%EC%99%B8%EB%8F%99/</loc>
+    <loc>https://wawacenter.kr/ulsan/junggu/dong/%EB%82%A8%EC%99%B8%EB%8F%99/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/ulsan/junggu-ulsan/dong/%EB%B3%B5%EC%82%B0%EB%8F%99/</loc>
+    <loc>https://wawacenter.kr/ulsan/junggu/dong/%EB%B3%B5%EC%82%B0%EB%8F%99/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/ulsan/junggu-ulsan/namoe/</loc>
+    <loc>https://wawacenter.kr/ulsan/junggu/namoe/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/ulsan/namgu-ulsan/</loc>
+    <loc>https://wawacenter.kr/ulsan/namgu/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/ulsan/namgu-ulsan/dong/%EC%82%BC%EC%82%B0%EB%8F%99/</loc>
+    <loc>https://wawacenter.kr/ulsan/namgu/dong/%EC%82%BC%EC%82%B0%EB%8F%99/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/ulsan/namgu-ulsan/samsan/</loc>
+    <loc>https://wawacenter.kr/ulsan/namgu/samsan/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>

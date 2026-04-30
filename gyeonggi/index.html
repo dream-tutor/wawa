@@ -1403,9 +1403,19 @@ function filterSgg(value){
 (function(){
   var sel = document.getElementById('sgg-filter');
   if (!sel) return;
-  // 처음 로드 시 모든 details 숨김 (안내 문구 보이게)
-  document.querySelectorAll('details.district-group').forEach(function(g){ g.style.display = 'none'; });
   var groups = document.querySelectorAll('details.district-group');
+  // 시도 내 지점 수가 5개 이하면 드롭다운/안내 숨기고 모두 펼침
+  var totalBranches = document.querySelectorAll('details.district-group .branch-card').length;
+  if (totalBranches <= 5) {
+    var wrap = document.querySelector('.sgg-dropdown-wrap');
+    if (wrap) wrap.style.display = 'none';
+    var hint = document.getElementById('sgg-hint');
+    if (hint) hint.style.display = 'none';
+    groups.forEach(function(g){ g.open = true; });
+    return;
+  }
+  // 6개 이상 — 모두 숨김 + 안내 표시 + 드롭다운 옵션 자동 채움
+  groups.forEach(function(g){ g.style.display = 'none'; });
   var sggs = [];
   groups.forEach(function(g){
     var name = (g.querySelector('.d-name')||{}).textContent;

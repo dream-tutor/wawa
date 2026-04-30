@@ -1455,3 +1455,16 @@
     padding-right:40px;
   }
   .sgg-filter:focus { outline:none; border-color:#3A6B56; box-shadow:0 0 0 3px rgba(91,140,117,0.2); }
+
+/* 주변 시·군 / 동 카드 */
+.neighbor-district-card, .neighbor-dong-card {
+  display:block; background:#fff; border:1.5px solid #E2E8F0;
+  border-radius:10px; padding:10px 12px; text-decoration:none;
+  color:#1E293B; transition:all 0.18s; text-align:center;
+}
+.neighbor-district-card:hover, .neighbor-dong-card:hover {
+  border-color:#5B8C75; background:#F0F4F2;
+  transform:translateY(-1px); box-shadow:0 4px 12px rgba(58,107,86,0.10);
+}
+.ndc-name { font-size:14px; font-weight:700; }
+.ndc-meta { font-size:11px; color:#64748B; margin-top:2px; }

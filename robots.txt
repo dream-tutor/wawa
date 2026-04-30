@@ -1,3 +1,12 @@
+# 네이버 검색 봇 (Yeti)
+User-agent: Yeti
+Allow: /
+
+# 다음 검색 봇
+User-agent: Daum
+Allow: /
+
+# 모든 봇 (구글 등)
 User-agent: *
 Allow: /
 

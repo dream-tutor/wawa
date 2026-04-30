@@ -17,6 +17,7 @@ naver-ads/config.py
 !_gen_sitemap.py
 !_bump_dates.py
 !_indexnow_submit.py
+# _naver_indexing.py 는 의도적으로 ignore (쿠키 사용 비공식 도구)
 __pycache__/
 *.xlsx
 와와사진*

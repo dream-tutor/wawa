@@ -16,6 +16,7 @@ naver-ads/config.py
 *.py
 !_gen_sitemap.py
 !_bump_dates.py
+!_indexnow_submit.py
 __pycache__/
 *.xlsx
 와와사진*

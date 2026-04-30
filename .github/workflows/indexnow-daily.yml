@@ -1,0 +1,31 @@
+name: IndexNow daily submit
+
+on:
+  schedule:
+    - cron: '0 15 * * *'    # 매일 KST 00:00 (UTC 15:00)
+  workflow_dispatch:        # 수동 실행
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Submit to IndexNow (Bing·Yandex 등)
+        run: python _indexnow_submit.py
+
+      - name: Note about Naver
+        if: success() || failure()
+        run: |
+          echo ""
+          echo "ℹ️  네이버는 IndexNow 미지원이지만 등록된 sitemap을 자동 재크롤"
+          echo "   더 빠른 색인을 원하면 사용자가 매일 [요청] → [웹페이지 수집]에서"
+          echo "   하루 50개씩 수동 등록 (scripts/daily_indexing_queue.py)"

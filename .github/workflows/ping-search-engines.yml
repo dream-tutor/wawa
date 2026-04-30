@@ -1,0 +1,30 @@
+name: Ping search engines
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'sitemap.xml'         # sitemap 변경 시만
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Google
+        run: |
+          curl -sI "https://www.google.com/ping?sitemap=https://wawacenter.kr/sitemap.xml" | head -1 || true
+          echo "✅ Google ping 전송"
+
+      - name: Ping Bing
+        run: |
+          curl -sI "https://www.bing.com/ping?sitemap=https://wawacenter.kr/sitemap.xml" | head -1 || true
+          echo "✅ Bing ping 전송"
+
+      - name: Note
+        run: |
+          echo ""
+          echo "📌 네이버는 공식 ping API가 없습니다."
+          echo "   네이버 서치어드바이저는 등록된 sitemap을 매일 자동 재크롤링합니다."
+          echo "   더 빠르게 하려면 사용자가 매일 [요청] → [웹페이지 수집]에서"
+          echo "   하루 50개씩 수동 등록 (scripts/daily_indexing_queue.py 참고)"

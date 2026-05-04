@@ -1,9 +1,10 @@
-name: IndexNow daily submit
+name: IndexNow submit (manual)
 
+# 자동 schedule 비활성화 — IndexNow 키 검증 403 이슈 (Bing/Yandex 효과 한정).
+# 한국 검색은 sitemap 자동 재크롤 + scripts/daily_indexing_queue.py 수동 등록으로 충분.
+# 필요 시 GitHub Actions 탭에서 수동 실행 가능.
 on:
-  schedule:
-    - cron: '0 15 * * *'    # 매일 KST 00:00 (UTC 15:00)
-  workflow_dispatch:        # 수동 실행
+  workflow_dispatch:        # 수동 실행만
 
 jobs:
   submit:

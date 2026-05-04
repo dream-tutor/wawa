@@ -23,7 +23,7 @@ SITE = "wawacenter.kr"
 INDEXNOW_KEY = "0ad0f5dc3cc44c6899ea15e76e773372"
 KEY_LOCATION = f"https://{SITE}/{INDEXNOW_KEY}.txt"
 SITEMAP_URL = f"https://{SITE}/sitemap.xml"
-INDEXNOW_API = "https://api.indexnow.org/indexnow"
+INDEXNOW_API = "https://www.bing.com/indexnow"  # Bing 직접 endpoint (더 안정적)
 BATCH_SIZE = 50
 
 
@@ -67,7 +67,8 @@ def submit_indexnow(urls: list[str]) -> tuple[int, str]:
         method="POST",
         headers={
             "Content-Type": "application/json; charset=utf-8",
-            "User-Agent": "wawa-indexnow/1.0",
+            "User-Agent": "Mozilla/5.0 (compatible; wawa-indexnow/1.0)",
+            "Host": "www.bing.com",
         },
     )
     try:

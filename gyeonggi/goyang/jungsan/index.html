@@ -118,7 +118,7 @@
   <div class="branch-detail-grid">
     <div class="branch-map-wrap">
   <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=126.77693409999999,37.6782465,126.7849341,37.6842465&layer=mapnik&marker=37.6812465%2C126.7809341" loading="lazy"></iframe>
-  <div class="branch-location-guide">📌 일산동구 중산로 103 거풍프라자 202호</div>
+  <div class="branch-location-guide">📌 모당초등학교 인근<br>경기 고양시 일산동구 중산로 103</div>
   <div class="branch-map-actions">
     <a href="https://kko.kakao.com/DC_ZASjxCR" target="_blank" rel="noopener">카카오맵으로 보기</a>
     <a href="https://map.naver.com/v5/search/%EA%B2%BD%EA%B8%B0%20%EA%B3%A0%EC%96%91%EC%8B%9C%20%EC%9D%BC%EC%82%B0%EB%8F%99%EA%B5%AC%20%EC%A4%91%EC%82%B0%EB%A1%9C%20103%20%20%EA%B1%B0%ED%92%8D%ED%94%84%EB%9D%BC%EC%9E%90%20202%ED%98%B8" target="_blank" rel="noopener">네이버맵으로 보기</a>
@@ -294,7 +294,7 @@
         </select>
       </div>
       <div class="form-agree">
-        <input type="checkbox" id="agree" required>
+        <input type="checkbox" id="agree" required checked onclick="if(!this.checked){alert('체크 해지하시면 상담이 어렵습니다.');this.checked=true;}">
         <label for="agree">개인정보 수집 및 이용에 동의합니다.</label>
       </div>
       <button type="submit" class="form-submit">📋 지금 상담 신청하기</button>

@@ -118,8 +118,7 @@
   <div class="branch-detail-grid">
     <div class="branch-map-wrap">
   <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=129.3610787,35.5999089,129.3690787,35.6059089&layer=mapnik&marker=35.6029089%2C129.3650787" loading="lazy"></iframe>
-  <div class="branch-location-guide">📌 울산 북구 화산로 123 골드테라스건물 4층 404호
-1층에 백소정건물있습니다.</div>
+  <div class="branch-location-guide">📌 울산송정반도유보라, 한양수자인 아파트 인근<br>울산 북구 화산로 123 골드테라스</div>
   <div class="branch-map-actions">
     <a href="http://kko.to/59MINgiV4" target="_blank" rel="noopener">카카오맵으로 보기</a>
     <a href="https://map.naver.com/v5/search/%EC%9A%B8%EC%82%B0%20%EB%B6%81%EA%B5%AC%20%ED%99%94%EC%82%B0%EB%A1%9C%20123%20%20%EA%B3%A8%EB%93%9C%ED%85%8C%EB%9D%BC%EC%8A%A4%20404%ED%98%B8" target="_blank" rel="noopener">네이버맵으로 보기</a>
@@ -295,7 +294,7 @@
         </select>
       </div>
       <div class="form-agree">
-        <input type="checkbox" id="agree" required>
+        <input type="checkbox" id="agree" required checked onclick="if(!this.checked){alert('체크 해지하시면 상담이 어렵습니다.');this.checked=true;}">
         <label for="agree">개인정보 수집 및 이용에 동의합니다.</label>
       </div>
       <button type="submit" class="form-submit">📋 지금 상담 신청하기</button>

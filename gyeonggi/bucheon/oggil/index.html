@@ -119,7 +119,9 @@
     <div class="branch-map-wrap">
   <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=126.81854369999999,37.4638253,126.8265437,37.469825300000004&layer=mapnik&marker=37.4668253%2C126.8225437" loading="lazy"></iframe>
   
-  <div class="branch-map-actions">
+  
+  <div class="branch-location-guide">📌 옥길 퀸즈파크 건물 · 제이드카운티아파트1단지 인근<br>경기 부천시 소사구 옥길로 116 퀸즈파크 A동</div>
+<div class="branch-map-actions">
     <a href="http://kko.to/Yt7NfCkYo" target="_blank" rel="noopener">카카오맵으로 보기</a>
     <a href="https://map.naver.com/v5/search/%EA%B2%BD%EA%B8%B0%20%EB%B6%80%EC%B2%9C%EC%8B%9C%20%EC%86%8C%EC%82%AC%EA%B5%AC%20%EC%98%A5%EA%B8%B8%EB%A1%9C%20116%20%20%ED%80%B8%EC%A6%88%ED%8C%8C%ED%81%AC%20A%EB%8F%99%207%EC%B8%B5%20718%ED%98%B8~719" target="_blank" rel="noopener">네이버맵으로 보기</a>
   </div>
@@ -294,7 +296,7 @@
         </select>
       </div>
       <div class="form-agree">
-        <input type="checkbox" id="agree" required>
+        <input type="checkbox" id="agree" required checked onclick="if(!this.checked){alert('체크 해지하시면 상담이 어렵습니다.');this.checked=true;}">
         <label for="agree">개인정보 수집 및 이용에 동의합니다.</label>
       </div>
       <button type="submit" class="form-submit">📋 지금 상담 신청하기</button>

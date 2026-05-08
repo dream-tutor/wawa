@@ -118,7 +118,7 @@
   <div class="branch-detail-grid">
     <div class="branch-map-wrap">
   <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=127.38413849999999,36.3479828,127.3921385,36.3539828&layer=mapnik&marker=36.3509828%2C127.3881385" loading="lazy"></iframe>
-  <div class="branch-location-guide">📌 시청역 7번 출구쪽 30m</div>
+  <div class="branch-location-guide">📌 시청역 7번 출구 인근, 대덕프라자<br>대전 서구 둔산로 130</div>
   <div class="branch-map-actions">
     <a href="https://map.kakao.com/link/search/%EB%8C%80%EC%A0%84%20%EC%84%9C%EA%B5%AC%20%EB%91%94%EC%82%B0%EB%A1%9C%20130%20%20803%ED%98%B8" target="_blank" rel="noopener">카카오맵으로 보기</a>
     <a href="https://map.naver.com/v5/search/%EB%8C%80%EC%A0%84%20%EC%84%9C%EA%B5%AC%20%EB%91%94%EC%82%B0%EB%A1%9C%20130%20%20803%ED%98%B8" target="_blank" rel="noopener">네이버맵으로 보기</a>
@@ -294,7 +294,7 @@
         </select>
       </div>
       <div class="form-agree">
-        <input type="checkbox" id="agree" required>
+        <input type="checkbox" id="agree" required checked onclick="if(!this.checked){alert('체크 해지하시면 상담이 어렵습니다.');this.checked=true;}">
         <label for="agree">개인정보 수집 및 이용에 동의합니다.</label>
       </div>
       <button type="submit" class="form-submit">📋 지금 상담 신청하기</button>

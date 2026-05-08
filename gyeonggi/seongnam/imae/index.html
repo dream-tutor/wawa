@@ -118,7 +118,7 @@
   <div class="branch-detail-grid">
     <div class="branch-map-wrap">
   <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=127.1223777,37.3919809,127.13037770000001,37.3979809&layer=mapnik&marker=37.3949809%2C127.1263777" loading="lazy"></iframe>
-  <div class="branch-location-guide">📌 수인 분당선 이매역 6번 출구 바로 앞 1층 쿠쿠매장 주영빌딩 4층</div>
+  <div class="branch-location-guide">📌 이매역 6번출구 인근<br>경기도 성남시 분당구 이매동 이매로 49</div>
   <div class="branch-map-actions">
     <a href="http://kko.to/FCbpjkkYB" target="_blank" rel="noopener">카카오맵으로 보기</a>
     <a href="https://map.naver.com/v5/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EC%9D%B4%EB%A7%A4%EB%8F%99%20%EC%9D%B4%EB%A7%A4%EB%A1%9C%2049%20%204%EC%B8%B5%20%EC%99%80%EC%99%80%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD%EC%84%BC%ED%84%B0" target="_blank" rel="noopener">네이버맵으로 보기</a>
@@ -294,7 +294,7 @@
         </select>
       </div>
       <div class="form-agree">
-        <input type="checkbox" id="agree" required>
+        <input type="checkbox" id="agree" required checked onclick="if(!this.checked){alert('체크 해지하시면 상담이 어렵습니다.');this.checked=true;}">
         <label for="agree">개인정보 수집 및 이용에 동의합니다.</label>
       </div>
       <button type="submit" class="form-submit">📋 지금 상담 신청하기</button>

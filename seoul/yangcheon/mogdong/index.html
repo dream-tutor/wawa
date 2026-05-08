@@ -119,7 +119,9 @@
     <div class="branch-map-wrap">
   <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=126.8674868,37.5138559,126.8754868,37.5198559&layer=mapnik&marker=37.5168559%2C126.8714868" loading="lazy"></iframe>
   
-  <div class="branch-map-actions">
+  
+  <div class="branch-location-guide">📌 신목초등학교 인근<br>서울 양천구 목동동로8길 23 메리트윈</div>
+<div class="branch-map-actions">
     <a href="http://kko.to/7HkrC1CDB" target="_blank" rel="noopener">카카오맵으로 보기</a>
     <a href="https://map.naver.com/v5/search/%EC%84%9C%EC%9A%B8%20%EC%96%91%EC%B2%9C%EA%B5%AC%20%EB%AA%A9%EB%8F%99%EB%8F%99%EB%A1%9C8%EA%B8%B8%2023%20%20%EB%A9%94%EB%A6%AC%ED%8A%B8%EC%9C%88%203%EC%B8%B5%20305" target="_blank" rel="noopener">네이버맵으로 보기</a>
   </div>
@@ -294,7 +296,7 @@
         </select>
       </div>
       <div class="form-agree">
-        <input type="checkbox" id="agree" required>
+        <input type="checkbox" id="agree" required checked onclick="if(!this.checked){alert('체크 해지하시면 상담이 어렵습니다.');this.checked=true;}">
         <label for="agree">개인정보 수집 및 이용에 동의합니다.</label>
       </div>
       <button type="submit" class="form-submit">📋 지금 상담 신청하기</button>

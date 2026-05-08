@@ -118,7 +118,7 @@
   <div class="branch-detail-grid">
     <div class="branch-map-wrap">
   <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=127.0908144,37.3192416,127.09881440000001,37.3252416&layer=mapnik&marker=37.3222416%2C127.0948144" loading="lazy"></iframe>
-  <div class="branch-location-guide">📌 수지구청역 2번출구 바로 앞에 미스터피자 건물 3층</div>
+  <div class="branch-location-guide">📌 수지구청역 2번 출구 인근<br>경기 용인시 수지구 풍덕천로 114</div>
   <div class="branch-map-actions">
     <a href="https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%20%EC%9A%A9%EC%9D%B8%EC%8B%9C%20%EC%88%98%EC%A7%80%EA%B5%AC%20%ED%92%8D%EB%8D%95%EC%B2%9C%EB%A1%9C%20114%20%203%EC%B8%B5%20%EA%B8%80%EB%A1%9C%EB%A6%AC%EB%93%9C%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD%ED%95%99%EC%9B%90" target="_blank" rel="noopener">카카오맵으로 보기</a>
     <a href="https://map.naver.com/v5/search/%EA%B2%BD%EA%B8%B0%20%EC%9A%A9%EC%9D%B8%EC%8B%9C%20%EC%88%98%EC%A7%80%EA%B5%AC%20%ED%92%8D%EB%8D%95%EC%B2%9C%EB%A1%9C%20114%20%203%EC%B8%B5%20%EA%B8%80%EB%A1%9C%EB%A6%AC%EB%93%9C%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD%ED%95%99%EC%9B%90" target="_blank" rel="noopener">네이버맵으로 보기</a>
@@ -294,7 +294,7 @@
         </select>
       </div>
       <div class="form-agree">
-        <input type="checkbox" id="agree" required>
+        <input type="checkbox" id="agree" required checked onclick="if(!this.checked){alert('체크 해지하시면 상담이 어렵습니다.');this.checked=true;}">
         <label for="agree">개인정보 수집 및 이용에 동의합니다.</label>
       </div>
       <button type="submit" class="form-submit">📋 지금 상담 신청하기</button>

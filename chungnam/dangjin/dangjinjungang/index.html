@@ -119,7 +119,9 @@
     <div class="branch-map-wrap">
   <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=126.6309203,36.8939401,126.63892030000001,36.8999401&layer=mapnik&marker=36.8969401%2C126.6349203" loading="lazy"></iframe>
   
-  <div class="branch-map-actions">
+  
+  <div class="branch-location-guide">📌 다이소 당진본점 인근<br>충남 당진시 당진중앙2로 211-5</div>
+<div class="branch-map-actions">
     <a href="http://kko.to/EWhmfkCDB" target="_blank" rel="noopener">카카오맵으로 보기</a>
     <a href="https://map.naver.com/v5/search/%EC%B6%A9%EB%82%A8%20%EB%8B%B9%EC%A7%84%EC%8B%9C%20%EB%8B%B9%EC%A7%84%EC%A4%91%EC%95%992%EB%A1%9C%20211-5%20%20%ED%9A%A8%EB%AA%85%ED%94%84%EB%9D%BC%EC%9E%90%20404%ED%98%B8" target="_blank" rel="noopener">네이버맵으로 보기</a>
   </div>
@@ -294,7 +296,7 @@
         </select>
       </div>
       <div class="form-agree">
-        <input type="checkbox" id="agree" required>
+        <input type="checkbox" id="agree" required checked onclick="if(!this.checked){alert('체크 해지하시면 상담이 어렵습니다.');this.checked=true;}">
         <label for="agree">개인정보 수집 및 이용에 동의합니다.</label>
       </div>
       <button type="submit" class="form-submit">📋 지금 상담 신청하기</button>

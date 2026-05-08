@@ -118,8 +118,7 @@
   <div class="branch-detail-grid">
     <div class="branch-map-wrap">
   <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=126.7311678,37.50531,126.7391678,37.51131&layer=mapnik&marker=37.50831%2C126.7351678" loading="lazy"></iframe>
-  <div class="branch-location-guide">📌 인천 부평구 체육관로 32 하이존 8층 (삼산체육관에서 도보 5분)
-or 굴포천역 도보 5분 or 삼산타운 7단지 정문 맞은편</div>
+  <div class="branch-location-guide">📌 삼산타운주공7단지아파트 인근<br>인천 부평구 체육관로 32</div>
   <div class="branch-map-actions">
     <a href="http://kko.to/X0DuC1kDo" target="_blank" rel="noopener">카카오맵으로 보기</a>
     <a href="https://map.naver.com/v5/search/%EC%9D%B8%EC%B2%9C%20%EB%B6%80%ED%8F%89%EA%B5%AC%20%EC%B2%B4%EC%9C%A1%EA%B4%80%EB%A1%9C%2032%20%20%ED%95%98%EC%9D%B4%EC%A1%B4%EB%B9%8C%EB%94%A9%208%EC%B8%B5%20802" target="_blank" rel="noopener">네이버맵으로 보기</a>
@@ -295,7 +294,7 @@ or 굴포천역 도보 5분 or 삼산타운 7단지 정문 맞은편</div>
         </select>
       </div>
       <div class="form-agree">
-        <input type="checkbox" id="agree" required>
+        <input type="checkbox" id="agree" required checked onclick="if(!this.checked){alert('체크 해지하시면 상담이 어렵습니다.');this.checked=true;}">
         <label for="agree">개인정보 수집 및 이용에 동의합니다.</label>
       </div>
       <button type="submit" class="form-submit">📋 지금 상담 신청하기</button>

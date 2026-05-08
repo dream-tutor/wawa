@@ -119,7 +119,9 @@
     <div class="branch-map-wrap">
   <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=127.4356741,36.3628722,127.44367410000001,36.3688722&layer=mapnik&marker=36.3658722%2C127.4396741" loading="lazy"></iframe>
   
-  <div class="branch-map-actions">
+  
+  <div class="branch-location-guide">📌 선비마을 3단지 인근<br>대전 대덕구 동춘당로94번길 11-7</div>
+<div class="branch-map-actions">
     <a href="http://kko.to/g7rvfkCDM" target="_blank" rel="noopener">카카오맵으로 보기</a>
     <a href="https://map.naver.com/v5/search/%EB%8C%80%EC%A0%84%20%EB%8C%80%EB%8D%95%EA%B5%AC%20%EB%8F%99%EC%B6%98%EB%8B%B9%EB%A1%9C94%EB%B2%88%EA%B8%B8%2011-7%20%204%EC%B8%B5%20402" target="_blank" rel="noopener">네이버맵으로 보기</a>
   </div>
@@ -294,7 +296,7 @@
         </select>
       </div>
       <div class="form-agree">
-        <input type="checkbox" id="agree" required>
+        <input type="checkbox" id="agree" required checked onclick="if(!this.checked){alert('체크 해지하시면 상담이 어렵습니다.');this.checked=true;}">
         <label for="agree">개인정보 수집 및 이용에 동의합니다.</label>
       </div>
       <button type="submit" class="form-submit">📋 지금 상담 신청하기</button>

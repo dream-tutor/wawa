@@ -118,7 +118,7 @@
   <div class="branch-detail-grid">
     <div class="branch-map-wrap">
   <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=126.8339094,37.6508042,126.8419094,37.6568042&layer=mapnik&marker=37.6538042%2C126.8379094" loading="lazy"></iframe>
-  <div class="branch-location-guide">📌 신원당 입구 맘스터치 건물5층 502호</div>
+  <div class="branch-location-guide">📌 원당역 인근<br>경기 고양시 덕양구 고양대로1384번길 7-5</div>
   <div class="branch-map-actions">
     <a href="http://kko.to/Fmlb4CCYp" target="_blank" rel="noopener">카카오맵으로 보기</a>
     <a href="https://map.naver.com/v5/search/%EA%B2%BD%EA%B8%B0%20%EA%B3%A0%EC%96%91%EC%8B%9C%20%EB%8D%95%EC%96%91%EA%B5%AC%20%EA%B3%A0%EC%96%91%EB%8C%80%EB%A1%9C1384%EB%B2%88%EA%B8%B8%207-5%20%20%EC%84%9C%EA%B0%95%ED%94%84%EB%9D%BC%EC%9E%90%20502%ED%98%B8" target="_blank" rel="noopener">네이버맵으로 보기</a>
@@ -294,7 +294,7 @@
         </select>
       </div>
       <div class="form-agree">
-        <input type="checkbox" id="agree" required>
+        <input type="checkbox" id="agree" required checked onclick="if(!this.checked){alert('체크 해지하시면 상담이 어렵습니다.');this.checked=true;}">
         <label for="agree">개인정보 수집 및 이용에 동의합니다.</label>
       </div>
       <button type="submit" class="form-submit">📋 지금 상담 신청하기</button>

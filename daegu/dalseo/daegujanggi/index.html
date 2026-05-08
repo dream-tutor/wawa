@@ -118,8 +118,7 @@
   <div class="branch-detail-grid">
     <div class="branch-map-wrap">
   <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=128.5289332,35.8409108,128.5369332,35.8469108&layer=mapnik&marker=35.8439108%2C128.5329332" loading="lazy"></iframe>
-  <div class="branch-location-guide">📌 버스정류장(장동초등학교앞) 바로 앞 대로변에 있습니다.
- 장기협성휴포레 상가 2층 (1층에 한솥 도시락이 있습니다)</div>
+  <div class="branch-location-guide">📌 대구장동초등학교 인근<br>대구 달서구 장기로 252 장기협성휴포레</div>
   <div class="branch-map-actions">
     <a href="http://kko.to/LW5EaCCDo" target="_blank" rel="noopener">카카오맵으로 보기</a>
     <a href="https://map.naver.com/v5/search/%EB%8C%80%EA%B5%AC%20%EB%8B%AC%EC%84%9C%EA%B5%AC%20%EC%9E%A5%EA%B8%B0%EB%A1%9C%20252%20%20%EC%9E%A5%EA%B8%B0%ED%98%91%EC%84%B1%ED%9C%B4%ED%8F%AC%EB%A0%88%202%EC%B8%B5%20209%2C210" target="_blank" rel="noopener">네이버맵으로 보기</a>
@@ -295,7 +294,7 @@
         </select>
       </div>
       <div class="form-agree">
-        <input type="checkbox" id="agree" required>
+        <input type="checkbox" id="agree" required checked onclick="if(!this.checked){alert('체크 해지하시면 상담이 어렵습니다.');this.checked=true;}">
         <label for="agree">개인정보 수집 및 이용에 동의합니다.</label>
       </div>
       <button type="submit" class="form-submit">📋 지금 상담 신청하기</button>

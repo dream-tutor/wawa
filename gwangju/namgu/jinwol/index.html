@@ -118,7 +118,7 @@
   <div class="branch-detail-grid">
     <div class="branch-map-wrap">
   <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=126.8933414,35.119021,126.9013414,35.125021&layer=mapnik&marker=35.122021%2C126.8973414" loading="lazy"></iframe>
-  <div class="branch-location-guide">📌 광주광역시 남구 광복마을길 47 4층</div>
+  <div class="branch-location-guide">📌 진월한신아파트, 새한아파트 인근<br>광주 남구 광복마을길 47</div>
   <div class="branch-map-actions">
     <a href="http://kko.to/NA1TzDiJX" target="_blank" rel="noopener">카카오맵으로 보기</a>
     <a href="https://map.naver.com/v5/search/%EA%B4%91%EC%A3%BC%20%EB%82%A8%EA%B5%AC%20%EA%B4%91%EB%B3%B5%EB%A7%88%EC%9D%84%EA%B8%B8%2047%20%204%EC%B8%B5" target="_blank" rel="noopener">네이버맵으로 보기</a>
@@ -294,7 +294,7 @@
         </select>
       </div>
       <div class="form-agree">
-        <input type="checkbox" id="agree" required>
+        <input type="checkbox" id="agree" required checked onclick="if(!this.checked){alert('체크 해지하시면 상담이 어렵습니다.');this.checked=true;}">
         <label for="agree">개인정보 수집 및 이용에 동의합니다.</label>
       </div>
       <button type="submit" class="form-submit">📋 지금 상담 신청하기</button>

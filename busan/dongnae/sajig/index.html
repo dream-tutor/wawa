@@ -118,7 +118,7 @@
   <div class="branch-detail-grid">
     <div class="branch-map-wrap">
   <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=129.0517802,35.1939782,129.05978019999998,35.1999782&layer=mapnik&marker=35.1969782%2C129.0557802" loading="lazy"></iframe>
-  <div class="branch-location-guide">📌 부산시 동래구 사직로 80 쌍용예가상가 222동 311호 (상가 두개 중 맑은샘사우나가 있는 상가 3에 위치)</div>
+  <div class="branch-location-guide">📌 사직쌍용예가 1차 아파트 상가 · 예원초등학교 옆<br>부산 동래구 사직로 80 222동</div>
   <div class="branch-map-actions">
     <a href="https://kko.to/EiHhUaqefk" target="_blank" rel="noopener">카카오맵으로 보기</a>
     <a href="https://map.naver.com/v5/search/%EB%B6%80%EC%82%B0%20%EB%8F%99%EB%9E%98%EA%B5%AC%20%EC%82%AC%EC%A7%81%EB%A1%9C%2080%20%20222%EB%8F%99%20311%ED%98%B8%20%28%EC%82%AC%EC%A7%81%EC%8C%8D%EC%9A%A9%EC%98%88%EA%B0%80%EC%95%84%ED%8C%8C%ED%8A%B8%20%EC%83%81%EA%B0%80%29" target="_blank" rel="noopener">네이버맵으로 보기</a>
@@ -294,7 +294,7 @@
         </select>
       </div>
       <div class="form-agree">
-        <input type="checkbox" id="agree" required>
+        <input type="checkbox" id="agree" required checked onclick="if(!this.checked){alert('체크 해지하시면 상담이 어렵습니다.');this.checked=true;}">
         <label for="agree">개인정보 수집 및 이용에 동의합니다.</label>
       </div>
       <button type="submit" class="form-submit">📋 지금 상담 신청하기</button>

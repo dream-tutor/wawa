@@ -119,7 +119,9 @@
     <div class="branch-map-wrap">
   <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=126.91754999999999,37.5725488,126.92555,37.5785488&layer=mapnik&marker=37.5755488%2C126.92155" loading="lazy"></iframe>
   
-  <div class="branch-map-actions">
+  
+  <div class="branch-location-guide">📌 남가좌동현대아파트 인근<br>서울 서대문구 가재울로 52</div>
+<div class="branch-map-actions">
     <a href="http://kko.to/yRM1DCCDB" target="_blank" rel="noopener">카카오맵으로 보기</a>
     <a href="https://map.naver.com/v5/search/%EC%84%9C%EC%9A%B8%20%EC%84%9C%EB%8C%80%EB%AC%B8%EA%B5%AC%20%EA%B0%80%EC%9E%AC%EC%9A%B8%EB%A1%9C%2052%20%20%EC%8A%B9%EC%9A%B0%EB%B9%8C%EB%94%A9%20301%ED%98%B8" target="_blank" rel="noopener">네이버맵으로 보기</a>
   </div>
@@ -294,7 +296,7 @@
         </select>
       </div>
       <div class="form-agree">
-        <input type="checkbox" id="agree" required>
+        <input type="checkbox" id="agree" required checked onclick="if(!this.checked){alert('체크 해지하시면 상담이 어렵습니다.');this.checked=true;}">
         <label for="agree">개인정보 수집 및 이용에 동의합니다.</label>
       </div>
       <button type="submit" class="form-submit">📋 지금 상담 신청하기</button>

@@ -118,7 +118,7 @@
   <div class="branch-detail-grid">
     <div class="branch-map-wrap">
   <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=127.425376,36.6315549,127.43337600000001,36.6375549&layer=mapnik&marker=36.6345549%2C127.429376" loading="lazy"></iframe>
-  <div class="branch-location-guide">📌 증안초에서 하복대 방향 도보로 5분 / 아인동물병원 옆 건물 3층</div>
+  <div class="branch-location-guide">📌 복대중, 증안초등학교 인근<br>충북 청주시 흥덕구 진재로 37 3</div>
   <div class="branch-map-actions">
     <a href="http://kko.to/W-46fkkYB" target="_blank" rel="noopener">카카오맵으로 보기</a>
     <a href="https://map.naver.com/v5/search/%EC%B6%A9%EB%B6%81%20%EC%B2%AD%EC%A3%BC%EC%8B%9C%20%ED%9D%A5%EB%8D%95%EA%B5%AC%20%EC%A7%84%EC%9E%AC%EB%A1%9C%2037%20%203" target="_blank" rel="noopener">네이버맵으로 보기</a>
@@ -294,7 +294,7 @@
         </select>
       </div>
       <div class="form-agree">
-        <input type="checkbox" id="agree" required>
+        <input type="checkbox" id="agree" required checked onclick="if(!this.checked){alert('체크 해지하시면 상담이 어렵습니다.');this.checked=true;}">
         <label for="agree">개인정보 수집 및 이용에 동의합니다.</label>
       </div>
       <button type="submit" class="form-submit">📋 지금 상담 신청하기</button>

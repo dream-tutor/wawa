@@ -118,7 +118,7 @@
   <div class="branch-detail-grid">
     <div class="branch-map-wrap">
   <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=127.1129637,37.6286461,127.1209637,37.6346461&layer=mapnik&marker=37.6316461%2C127.1169637" loading="lazy"></iframe>
-  <div class="branch-location-guide">📌 안녕하세요, OO학생 학부모님~갈매점. 위치는 (구리시 갈매동79, 에스엠타워602호)입니다. 1층에 새마을금고, 베스킨라빈스 건물 6층입니다.</div>
+  <div class="branch-location-guide">📌 갈매중앙사거리 인근 · 갈매중 인근<br>경기 구리시 갈매중앙로 79</div>
   <div class="branch-map-actions">
     <a href="http://kko.to/cK1BuODfH" target="_blank" rel="noopener">카카오맵으로 보기</a>
     <a href="https://map.naver.com/v5/search/%EA%B2%BD%EA%B8%B0%20%EA%B5%AC%EB%A6%AC%EC%8B%9C%20%EA%B0%88%EB%A7%A4%EC%A4%91%EC%95%99%EB%A1%9C%2079%20%20%EC%97%90%EC%8A%A4%EC%97%A0%ED%83%80%EC%9B%8C%20602%ED%98%B8" target="_blank" rel="noopener">네이버맵으로 보기</a>
@@ -294,7 +294,7 @@
         </select>
       </div>
       <div class="form-agree">
-        <input type="checkbox" id="agree" required>
+        <input type="checkbox" id="agree" required checked onclick="if(!this.checked){alert('체크 해지하시면 상담이 어렵습니다.');this.checked=true;}">
         <label for="agree">개인정보 수집 및 이용에 동의합니다.</label>
       </div>
       <button type="submit" class="form-submit">📋 지금 상담 신청하기</button>

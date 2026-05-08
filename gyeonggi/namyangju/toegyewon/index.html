@@ -118,7 +118,7 @@
   <div class="branch-detail-grid">
     <div class="branch-map-wrap">
   <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=127.13674619999999,37.646694,127.1447462,37.652694&layer=mapnik&marker=37.649694%2C127.1407462" loading="lazy"></iframe>
-  <div class="branch-location-guide">📌 퇴계원 한내과 건물 2층</div>
+  <div class="branch-location-guide">📌 퇴계원역 인근<br>경기 남양주시 퇴계원읍 퇴계원로 29</div>
   <div class="branch-map-actions">
     <a href="https://kko.to/O49_uKr77e" target="_blank" rel="noopener">카카오맵으로 보기</a>
     <a href="https://map.naver.com/v5/search/%EA%B2%BD%EA%B8%B0%20%EB%82%A8%EC%96%91%EC%A3%BC%EC%8B%9C%20%ED%87%B4%EA%B3%84%EC%9B%90%EC%9D%8D%20%ED%87%B4%EA%B3%84%EC%9B%90%EB%A1%9C%2029%20%20202%ED%98%B8" target="_blank" rel="noopener">네이버맵으로 보기</a>
@@ -294,7 +294,7 @@
         </select>
       </div>
       <div class="form-agree">
-        <input type="checkbox" id="agree" required>
+        <input type="checkbox" id="agree" required checked onclick="if(!this.checked){alert('체크 해지하시면 상담이 어렵습니다.');this.checked=true;}">
         <label for="agree">개인정보 수집 및 이용에 동의합니다.</label>
       </div>
       <button type="submit" class="form-submit">📋 지금 상담 신청하기</button>

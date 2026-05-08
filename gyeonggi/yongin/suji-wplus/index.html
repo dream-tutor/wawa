@@ -119,7 +119,9 @@
     <div class="branch-map-wrap">
   <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=127.0940914,37.3171683,127.1020914,37.3231683&layer=mapnik&marker=37.3201683%2C127.0980914" loading="lazy"></iframe>
   
-  <div class="branch-map-actions">
+  
+  <div class="branch-location-guide">📌 수지구청역 롯데캐슬하이브엘 맞은편<br>경기 용인시 수지구 진산로 106</div>
+<div class="branch-map-actions">
     <a href="https://map.kakao.com/link/search/%EA%B2%BD%EA%B8%B0%20%EC%9A%A9%EC%9D%B8%EC%8B%9C%20%EC%88%98%EC%A7%80%EA%B5%AC%20%EC%A7%84%EC%82%B0%EB%A1%9C%20106%20%20%ED%9B%BC%EB%AF%B8%EB%A6%AC%EB%B9%8C%EB%94%A9%20512%ED%98%B8%2C513%ED%98%B8%2C514%ED%98%B8" target="_blank" rel="noopener">카카오맵으로 보기</a>
     <a href="https://map.naver.com/v5/search/%EA%B2%BD%EA%B8%B0%20%EC%9A%A9%EC%9D%B8%EC%8B%9C%20%EC%88%98%EC%A7%80%EA%B5%AC%20%EC%A7%84%EC%82%B0%EB%A1%9C%20106%20%20%ED%9B%BC%EB%AF%B8%EB%A6%AC%EB%B9%8C%EB%94%A9%20512%ED%98%B8%2C513%ED%98%B8%2C514%ED%98%B8" target="_blank" rel="noopener">네이버맵으로 보기</a>
   </div>
@@ -294,7 +296,7 @@
         </select>
       </div>
       <div class="form-agree">
-        <input type="checkbox" id="agree" required>
+        <input type="checkbox" id="agree" required checked onclick="if(!this.checked){alert('체크 해지하시면 상담이 어렵습니다.');this.checked=true;}">
         <label for="agree">개인정보 수집 및 이용에 동의합니다.</label>
       </div>
       <button type="submit" class="form-submit">📋 지금 상담 신청하기</button>

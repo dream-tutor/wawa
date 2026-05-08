@@ -119,7 +119,9 @@
     <div class="branch-map-wrap">
   <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=126.73111139999999,37.7265167,126.7391114,37.7325167&layer=mapnik&marker=37.7295167%2C126.7351114" loading="lazy"></iframe>
   
-  <div class="branch-map-actions">
+  
+  <div class="branch-location-guide">📌 파주 운정 홈플러스 인근 · 산들초 인근<br>경기 파주시 청암로17번길 21 월드타워5차</div>
+<div class="branch-map-actions">
     <a href="http://kko.to/m-o_fmf40" target="_blank" rel="noopener">카카오맵으로 보기</a>
     <a href="https://map.naver.com/v5/search/%EA%B2%BD%EA%B8%B0%20%ED%8C%8C%EC%A3%BC%EC%8B%9C%20%EC%B2%AD%EC%95%94%EB%A1%9C17%EB%B2%88%EA%B8%B8%2021%20%20%EC%9B%94%EB%93%9C%ED%83%80%EC%9B%8C5%EC%B0%A8%20405%ED%98%B8" target="_blank" rel="noopener">네이버맵으로 보기</a>
   </div>
@@ -294,7 +296,7 @@
         </select>
       </div>
       <div class="form-agree">
-        <input type="checkbox" id="agree" required>
+        <input type="checkbox" id="agree" required checked onclick="if(!this.checked){alert('체크 해지하시면 상담이 어렵습니다.');this.checked=true;}">
         <label for="agree">개인정보 수집 및 이용에 동의합니다.</label>
       </div>
       <button type="submit" class="form-submit">📋 지금 상담 신청하기</button>

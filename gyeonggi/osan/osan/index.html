@@ -118,7 +118,7 @@
   <div class="branch-detail-grid">
     <div class="branch-map-wrap">
   <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=127.0720449,37.1465068,127.0800449,37.1525068&layer=mapnik&marker=37.1495068%2C127.0760449" loading="lazy"></iframe>
-  <div class="branch-location-guide">📌 오산시청 우리은행 건물 5층</div>
+  <div class="branch-location-guide">📌 오산시청 인근<br>경기 오산시 성호대로 121</div>
   <div class="branch-map-actions">
     <a href="http://kko.to/LyLvDCCDB" target="_blank" rel="noopener">카카오맵으로 보기</a>
     <a href="https://map.naver.com/v5/search/%EA%B2%BD%EA%B8%B0%20%EC%98%A4%EC%82%B0%EC%8B%9C%20%EC%84%B1%ED%98%B8%EB%8C%80%EB%A1%9C%20121%20%20%EC%9B%94%EB%93%9C%ED%83%80%EC%9B%8C%20505%ED%98%B8" target="_blank" rel="noopener">네이버맵으로 보기</a>
@@ -294,7 +294,7 @@
         </select>
       </div>
       <div class="form-agree">
-        <input type="checkbox" id="agree" required>
+        <input type="checkbox" id="agree" required checked onclick="if(!this.checked){alert('체크 해지하시면 상담이 어렵습니다.');this.checked=true;}">
         <label for="agree">개인정보 수집 및 이용에 동의합니다.</label>
       </div>
       <button type="submit" class="form-submit">📋 지금 상담 신청하기</button>

@@ -118,7 +118,7 @@
   <div class="branch-detail-grid">
     <div class="branch-map-wrap">
   <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=127.1460709,37.4696432,127.15407090000001,37.4756432&layer=mapnik&marker=37.4726432%2C127.1500709" loading="lazy"></iframe>
-  <div class="branch-location-guide">📌 경기도 성남시 수정구 위례동로 141 우성메디피아 401호  1층컴포즈커피</div>
+  <div class="branch-location-guide">📌 위례푸른초 인근 (위례신도시)<br>경기 성남시 수정구 위례동로 141 우성메디피아</div>
   <div class="branch-map-actions">
     <a href="http://kko.to/D7ryC5P4o" target="_blank" rel="noopener">카카오맵으로 보기</a>
     <a href="https://map.naver.com/v5/search/%EA%B2%BD%EA%B8%B0%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC%20%EC%9C%84%EB%A1%80%EB%8F%99%EB%A1%9C%20141%20%20%EC%9A%B0%EC%84%B1%EB%A9%94%EB%94%94%ED%94%BC%EC%95%84%20401%ED%98%B8" target="_blank" rel="noopener">네이버맵으로 보기</a>
@@ -294,7 +294,7 @@
         </select>
       </div>
       <div class="form-agree">
-        <input type="checkbox" id="agree" required>
+        <input type="checkbox" id="agree" required checked onclick="if(!this.checked){alert('체크 해지하시면 상담이 어렵습니다.');this.checked=true;}">
         <label for="agree">개인정보 수집 및 이용에 동의합니다.</label>
       </div>
       <button type="submit" class="form-submit">📋 지금 상담 신청하기</button>

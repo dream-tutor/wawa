@@ -118,7 +118,7 @@
   <div class="branch-detail-grid">
     <div class="branch-map-wrap">
   <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=127.0399429,37.2570418,127.04794290000001,37.2630418&layer=mapnik&marker=37.2600418%2C127.0439429" loading="lazy"></iframe>
-  <div class="branch-location-guide">📌 영통구청 옆 중심상가 내 맘스터치 건물 6층</div>
+  <div class="branch-location-guide">📌 매탄고등학교 인근<br>경기 수원시 영통구 매탄로108번길 10</div>
   <div class="branch-map-actions">
     <a href="http://kko.to/tygCTkCYB" target="_blank" rel="noopener">카카오맵으로 보기</a>
     <a href="https://map.naver.com/v5/search/%EA%B2%BD%EA%B8%B0%20%EC%88%98%EC%9B%90%EC%8B%9C%20%EC%98%81%ED%86%B5%EA%B5%AC%20%EB%A7%A4%ED%83%84%EB%A1%9C108%EB%B2%88%EA%B8%B8%2010%20%20%EB%AA%A8%EB%8B%9D%ED%94%84%EB%9D%BC%EC%9E%90%20602%ED%98%B8" target="_blank" rel="noopener">네이버맵으로 보기</a>
@@ -294,7 +294,7 @@
         </select>
       </div>
       <div class="form-agree">
-        <input type="checkbox" id="agree" required>
+        <input type="checkbox" id="agree" required checked onclick="if(!this.checked){alert('체크 해지하시면 상담이 어렵습니다.');this.checked=true;}">
         <label for="agree">개인정보 수집 및 이용에 동의합니다.</label>
       </div>
       <button type="submit" class="form-submit">📋 지금 상담 신청하기</button>

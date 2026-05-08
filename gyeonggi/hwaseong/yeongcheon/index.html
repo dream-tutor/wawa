@@ -119,7 +119,9 @@
     <div class="branch-map-wrap">
   <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=127.1067149,37.2032511,127.11471490000001,37.2092511&layer=mapnik&marker=37.2062511%2C127.1107149" loading="lazy"></iframe>
   
-  <div class="branch-map-actions">
+  
+  <div class="branch-location-guide">📌 한백고등학교 인근 · 상록리슈빌 아파트 맞은편  (동탄2신도시- 동탄5동)<br>경기 화성시 동탄순환대로 704</div>
+<div class="branch-map-actions">
     <a href="http://kko.to/7B__DCCYM" target="_blank" rel="noopener">카카오맵으로 보기</a>
     <a href="https://map.naver.com/v5/search/%EA%B2%BD%EA%B8%B0%20%ED%99%94%EC%84%B1%EC%8B%9C%20%EB%8F%99%ED%83%84%EC%88%9C%ED%99%98%EB%8C%80%EB%A1%9C%20704%20%20%EC%84%B1%EC%82%B0%EC%97%90%EC%9D%B4%ED%83%80%EC%9B%8C%20%EC%A0%9C4%EC%B8%B5%20%EC%A0%9C%20403%ED%98%B8%20%EC%99%80%EC%99%80%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD%ED%95%99%EC%9B%90" target="_blank" rel="noopener">네이버맵으로 보기</a>
   </div>
@@ -294,7 +296,7 @@
         </select>
       </div>
       <div class="form-agree">
-        <input type="checkbox" id="agree" required>
+        <input type="checkbox" id="agree" required checked onclick="if(!this.checked){alert('체크 해지하시면 상담이 어렵습니다.');this.checked=true;}">
         <label for="agree">개인정보 수집 및 이용에 동의합니다.</label>
       </div>
       <button type="submit" class="form-submit">📋 지금 상담 신청하기</button>

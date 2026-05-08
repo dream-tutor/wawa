@@ -118,7 +118,7 @@
   <div class="branch-detail-grid">
     <div class="branch-map-wrap">
   <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=127.1418465,36.8330637,127.14984650000001,36.8390637&layer=mapnik&marker=36.8360637%2C127.1458465" loading="lazy"></iframe>
-  <div class="branch-location-guide">📌 두정초 정문 앞, 8단지 맞은편 피자마루 건물 3층,</div>
+  <div class="branch-location-guide">📌 천안두정초등학교 인근<br>충청남도 천안시 서북구 두정동 봉정로 382</div>
   <div class="branch-map-actions">
     <a href="http://kko.to/NZ9fJ0x60" target="_blank" rel="noopener">카카오맵으로 보기</a>
     <a href="https://map.naver.com/v5/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%B2%9C%EC%95%88%EC%8B%9C%20%EC%84%9C%EB%B6%81%EA%B5%AC%20%EB%91%90%EC%A0%95%EB%8F%99%20%EB%B4%89%EC%A0%95%EB%A1%9C%20382%20%20%EC%84%B1%EA%B4%91%EB%B9%8C%EB%94%A9%203%EC%B8%B5" target="_blank" rel="noopener">네이버맵으로 보기</a>
@@ -294,7 +294,7 @@
         </select>
       </div>
       <div class="form-agree">
-        <input type="checkbox" id="agree" required>
+        <input type="checkbox" id="agree" required checked onclick="if(!this.checked){alert('체크 해지하시면 상담이 어렵습니다.');this.checked=true;}">
         <label for="agree">개인정보 수집 및 이용에 동의합니다.</label>
       </div>
       <button type="submit" class="form-submit">📋 지금 상담 신청하기</button>

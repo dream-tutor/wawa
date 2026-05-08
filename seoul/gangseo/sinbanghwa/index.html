@@ -118,7 +118,7 @@
   <div class="branch-detail-grid">
     <div class="branch-map-wrap">
   <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=126.8130516,37.5639962,126.8210516,37.5699962&layer=mapnik&marker=37.5669962%2C126.8170516" loading="lazy"></iframe>
-  <div class="branch-location-guide">📌 신방화역 6번출구에서 나와서 바로 왼쪽 마곡 더블유타워</div>
+  <div class="branch-location-guide">📌 신방화역 6번출구 인근<br>서울 강서구 방화대로 294</div>
   <div class="branch-map-actions">
     <a href="http://kko.to/UZcbCQCDB" target="_blank" rel="noopener">카카오맵으로 보기</a>
     <a href="https://map.naver.com/v5/search/%EC%84%9C%EC%9A%B8%20%EA%B0%95%EC%84%9C%EA%B5%AC%20%EB%B0%A9%ED%99%94%EB%8C%80%EB%A1%9C%20294%20%20%EB%A7%88%EA%B3%A1%EB%8D%94%EB%B8%94%EC%9C%A0%ED%83%80%EC%9B%8C%20505" target="_blank" rel="noopener">네이버맵으로 보기</a>
@@ -294,7 +294,7 @@
         </select>
       </div>
       <div class="form-agree">
-        <input type="checkbox" id="agree" required>
+        <input type="checkbox" id="agree" required checked onclick="if(!this.checked){alert('체크 해지하시면 상담이 어렵습니다.');this.checked=true;}">
         <label for="agree">개인정보 수집 및 이용에 동의합니다.</label>
       </div>
       <button type="submit" class="form-submit">📋 지금 상담 신청하기</button>

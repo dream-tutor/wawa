@@ -118,7 +118,7 @@
   <div class="branch-detail-grid">
     <div class="branch-map-wrap">
   <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=128.6156602,35.8922832,128.6236602,35.8982832&layer=mapnik&marker=35.8952832%2C128.6196602" loading="lazy"></iframe>
-  <div class="branch-location-guide">📌 대구 북구 복현동 713 e편한세상복현 상가동 305호</div>
+  <div class="branch-location-guide">📌 대구북중학교 인근<br>대구 북구 동북로 247 이편한세상복현 상가동</div>
   <div class="branch-map-actions">
     <a href="https://kko.to/eAF2jLp9H6" target="_blank" rel="noopener">카카오맵으로 보기</a>
     <a href="https://map.naver.com/v5/search/%EB%8C%80%EA%B5%AC%20%EB%B6%81%EA%B5%AC%20%EB%8F%99%EB%B6%81%EB%A1%9C%20247%20%20%EC%9D%B4%ED%8E%B8%ED%95%9C%EC%84%B8%EC%83%81%EB%B3%B5%ED%98%84%20%EC%83%81%EA%B0%80%EB%8F%99%20305%ED%98%B8%20%EC%99%80%EC%99%80%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD%ED%95%99%EC%9B%90" target="_blank" rel="noopener">네이버맵으로 보기</a>
@@ -294,7 +294,7 @@
         </select>
       </div>
       <div class="form-agree">
-        <input type="checkbox" id="agree" required>
+        <input type="checkbox" id="agree" required checked onclick="if(!this.checked){alert('체크 해지하시면 상담이 어렵습니다.');this.checked=true;}">
         <label for="agree">개인정보 수집 및 이용에 동의합니다.</label>
       </div>
       <button type="submit" class="form-submit">📋 지금 상담 신청하기</button>

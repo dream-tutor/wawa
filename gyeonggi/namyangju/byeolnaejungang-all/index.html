@@ -118,7 +118,7 @@
   <div class="branch-detail-grid">
     <div class="branch-map-wrap">
   <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=127.11721469999999,37.6437053,127.1252147,37.6497053&layer=mapnik&marker=37.6467053%2C127.1212147" loading="lazy"></iframe>
-  <div class="branch-location-guide">📌 우체국과 홈플러스 사이건물 4층입니다!</div>
+  <div class="branch-location-guide">📌 한별중, 한별초, 화접중, 별내고 인근<br>경기도 남양주시 별내3로 66,401호</div>
   <div class="branch-map-actions">
     <a href="https://kko.kakao.com/DKql8QSw-n" target="_blank" rel="noopener">카카오맵으로 보기</a>
     <a href="https://map.naver.com/v5/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EB%82%A8%EC%96%91%EC%A3%BC%EC%8B%9C%20%EB%B3%84%EB%82%B43%EB%A1%9C%2066%2C401%ED%98%B8" target="_blank" rel="noopener">네이버맵으로 보기</a>
@@ -294,7 +294,7 @@
         </select>
       </div>
       <div class="form-agree">
-        <input type="checkbox" id="agree" required>
+        <input type="checkbox" id="agree" required checked onclick="if(!this.checked){alert('체크 해지하시면 상담이 어렵습니다.');this.checked=true;}">
         <label for="agree">개인정보 수집 및 이용에 동의합니다.</label>
       </div>
       <button type="submit" class="form-submit">📋 지금 상담 신청하기</button>

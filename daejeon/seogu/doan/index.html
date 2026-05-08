@@ -119,7 +119,9 @@
     <div class="branch-map-wrap">
   <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=127.3358562,36.3288258,127.3438562,36.3348258&layer=mapnik&marker=36.3318258%2C127.3398562" loading="lazy"></iframe>
   
-  <div class="branch-map-actions">
+  
+  <div class="branch-location-guide">📌 도안 어울림하트 12단지 인근 · 흥도초 인근 (도안신도시)<br>대전 서구 동서대로 692 에프엠프라임 1차 501</div>
+<div class="branch-map-actions">
     <a href="http://kko.to/ReMG4kkYp" target="_blank" rel="noopener">카카오맵으로 보기</a>
     <a href="https://map.naver.com/v5/search/%EB%8C%80%EC%A0%84%20%EC%84%9C%EA%B5%AC%20%EB%8F%99%EC%84%9C%EB%8C%80%EB%A1%9C%20692%20%20%EC%97%90%ED%94%84%EC%97%A0%ED%94%84%EB%9D%BC%EC%9E%84%201%EC%B0%A8%20501" target="_blank" rel="noopener">네이버맵으로 보기</a>
   </div>
@@ -294,7 +296,7 @@
         </select>
       </div>
       <div class="form-agree">
-        <input type="checkbox" id="agree" required>
+        <input type="checkbox" id="agree" required checked onclick="if(!this.checked){alert('체크 해지하시면 상담이 어렵습니다.');this.checked=true;}">
         <label for="agree">개인정보 수집 및 이용에 동의합니다.</label>
       </div>
       <button type="submit" class="form-submit">📋 지금 상담 신청하기</button>

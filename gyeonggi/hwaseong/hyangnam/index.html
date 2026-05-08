@@ -119,7 +119,9 @@
     <div class="branch-map-wrap">
   <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=126.9179987,37.1287503,126.92599870000001,37.1347503&layer=mapnik&marker=37.1317503%2C126.9219987" loading="lazy"></iframe>
   
-  <div class="branch-map-actions">
+  
+  <div class="branch-location-guide">📌 향남 홈플러스 인근<br>경기 화성시 향남읍 발안로 103-6</div>
+<div class="branch-map-actions">
     <a href="http://kko.to/GPfzjCCYo" target="_blank" rel="noopener">카카오맵으로 보기</a>
     <a href="https://map.naver.com/v5/search/%EA%B2%BD%EA%B8%B0%20%ED%99%94%EC%84%B1%EC%8B%9C%20%ED%96%A5%EB%82%A8%EC%9D%8D%20%EB%B0%9C%EC%95%88%EB%A1%9C%20103-6%20%20J%26H%EB%B9%8C%EB%94%A9%20402%ED%98%B8" target="_blank" rel="noopener">네이버맵으로 보기</a>
   </div>
@@ -294,7 +296,7 @@
         </select>
       </div>
       <div class="form-agree">
-        <input type="checkbox" id="agree" required>
+        <input type="checkbox" id="agree" required checked onclick="if(!this.checked){alert('체크 해지하시면 상담이 어렵습니다.');this.checked=true;}">
         <label for="agree">개인정보 수집 및 이용에 동의합니다.</label>
       </div>
       <button type="submit" class="form-submit">📋 지금 상담 신청하기</button>

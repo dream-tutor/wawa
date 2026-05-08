@@ -118,7 +118,7 @@
   <div class="branch-detail-grid">
     <div class="branch-map-wrap">
   <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=128.5054193,35.8514887,128.51341929999998,35.8574887&layer=mapnik&marker=35.8544887%2C128.5094193" loading="lazy"></iframe>
-  <div class="branch-location-guide">📌 대구시 달서구 달구벌대로259길 33 제일빌딩 5층 (1층이 현풍닭칼국수 음식점이 있는 빌딩)</div>
+  <div class="branch-location-guide">📌 대구성서경찰서 인근<br>대구광역시 달서구 이곡동 달구벌대로259길 33</div>
   <div class="branch-map-actions">
     <a href="http://kko.to/fz0iaCCDo" target="_blank" rel="noopener">카카오맵으로 보기</a>
     <a href="https://map.naver.com/v5/search/%EB%8C%80%EA%B5%AC%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%8B%AC%EC%84%9C%EA%B5%AC%20%EC%9D%B4%EA%B3%A1%EB%8F%99%20%EB%8B%AC%EA%B5%AC%EB%B2%8C%EB%8C%80%EB%A1%9C259%EA%B8%B8%2033%20%20%EC%A0%9C%EC%9D%BC%EB%B9%8C%EB%94%A9%205%EC%B8%B5" target="_blank" rel="noopener">네이버맵으로 보기</a>
@@ -294,7 +294,7 @@
         </select>
       </div>
       <div class="form-agree">
-        <input type="checkbox" id="agree" required>
+        <input type="checkbox" id="agree" required checked onclick="if(!this.checked){alert('체크 해지하시면 상담이 어렵습니다.');this.checked=true;}">
         <label for="agree">개인정보 수집 및 이용에 동의합니다.</label>
       </div>
       <button type="submit" class="form-submit">📋 지금 상담 신청하기</button>

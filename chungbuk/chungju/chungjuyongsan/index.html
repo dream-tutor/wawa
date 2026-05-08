@@ -118,7 +118,7 @@
   <div class="branch-detail-grid">
     <div class="branch-map-wrap">
   <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=127.93731659999999,36.9557487,127.9453166,36.9617487&layer=mapnik&marker=36.9587487%2C127.9413166" loading="lazy"></iframe>
-  <div class="branch-location-guide">📌 충주중학교 정문으로 오세요</div>
+  <div class="branch-location-guide">📌 충주중학교 인근<br>충북 충주시 형설로 54-10,2층 (용산동)</div>
   <div class="branch-map-actions">
     <a href="https://kko.kakao.com/rFfYeCjGKi" target="_blank" rel="noopener">카카오맵으로 보기</a>
     <a href="https://map.naver.com/v5/search/%EC%B6%A9%EB%B6%81%20%EC%B6%A9%EC%A3%BC%EC%8B%9C%20%ED%98%95%EC%84%A4%EB%A1%9C%2054-10%2C2%EC%B8%B5%20%28%EC%9A%A9%EC%82%B0%EB%8F%99%29" target="_blank" rel="noopener">네이버맵으로 보기</a>
@@ -294,7 +294,7 @@
         </select>
       </div>
       <div class="form-agree">
-        <input type="checkbox" id="agree" required>
+        <input type="checkbox" id="agree" required checked onclick="if(!this.checked){alert('체크 해지하시면 상담이 어렵습니다.');this.checked=true;}">
         <label for="agree">개인정보 수집 및 이용에 동의합니다.</label>
       </div>
       <button type="submit" class="form-submit">📋 지금 상담 신청하기</button>

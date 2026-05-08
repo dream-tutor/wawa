@@ -118,7 +118,7 @@
   <div class="branch-detail-grid">
     <div class="branch-map-wrap">
   <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=129.07091020000001,35.2030009,129.0789102,35.2090009&layer=mapnik&marker=35.2060009%2C129.0749102" loading="lazy"></iframe>
-  <div class="branch-location-guide">📌 건강검진센터와 동래맥도널드 사이 / 횡단보도 근처 / 건겅검진센터에서 미남역으로 한 블럭</div>
+  <div class="branch-location-guide">📌 내산초등학교 인근 · 동래역 인근<br>부산광역시 동래구 온천동 충렬대로 129-1</div>
   <div class="branch-map-actions">
     <a href="http://kko.to/bFHYakCDp" target="_blank" rel="noopener">카카오맵으로 보기</a>
     <a href="https://map.naver.com/v5/search/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%8F%99%EB%9E%98%EA%B5%AC%20%EC%98%A8%EC%B2%9C%EB%8F%99%20%EC%B6%A9%EB%A0%AC%EB%8C%80%EB%A1%9C%20129-1%20%20%ED%95%9C%EC%95%BC%EB%B9%8C%EB%94%A9%203" target="_blank" rel="noopener">네이버맵으로 보기</a>
@@ -294,7 +294,7 @@
         </select>
       </div>
       <div class="form-agree">
-        <input type="checkbox" id="agree" required>
+        <input type="checkbox" id="agree" required checked onclick="if(!this.checked){alert('체크 해지하시면 상담이 어렵습니다.');this.checked=true;}">
         <label for="agree">개인정보 수집 및 이용에 동의합니다.</label>
       </div>
       <button type="submit" class="form-submit">📋 지금 상담 신청하기</button>

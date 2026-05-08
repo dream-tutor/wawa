@@ -118,7 +118,7 @@
   <div class="branch-detail-grid">
     <div class="branch-map-wrap">
   <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=126.71710069999999,37.4953356,126.7251007,37.5013356&layer=mapnik&marker=37.4983356%2C126.7211007" loading="lazy"></iframe>
-  <div class="branch-location-guide">📌 부평시장역3번출구에서 도보5분거리/쿠우쿠우 있는 건물 5층</div>
+  <div class="branch-location-guide">📌 부평시장역 앞 · 부평여자고등학교 인근<br>인천광역시 부평구 부평동 부흥로 264</div>
   <div class="branch-map-actions">
     <a href="http://kko.to/VOvNk1kDo" target="_blank" rel="noopener">카카오맵으로 보기</a>
     <a href="https://map.naver.com/v5/search/%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%B6%80%ED%8F%89%EA%B5%AC%20%EB%B6%80%ED%8F%89%EB%8F%99%20%EB%B6%80%ED%9D%A5%EB%A1%9C%20264%20%205%EC%B8%B5%20%EC%99%80%EC%99%80%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD%EC%84%BC%ED%84%B0" target="_blank" rel="noopener">네이버맵으로 보기</a>
@@ -294,7 +294,7 @@
         </select>
       </div>
       <div class="form-agree">
-        <input type="checkbox" id="agree" required>
+        <input type="checkbox" id="agree" required checked onclick="if(!this.checked){alert('체크 해지하시면 상담이 어렵습니다.');this.checked=true;}">
         <label for="agree">개인정보 수집 및 이용에 동의합니다.</label>
       </div>
       <button type="submit" class="form-submit">📋 지금 상담 신청하기</button>

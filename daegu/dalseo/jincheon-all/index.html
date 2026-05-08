@@ -118,7 +118,7 @@
   <div class="branch-detail-grid">
     <div class="branch-map-wrap">
   <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=128.5134116,35.8135622,128.5214116,35.8195622&layer=mapnik&marker=35.8165622%2C128.5174116" loading="lazy"></iframe>
-  <div class="branch-location-guide">📌 그랑에비뉴 3층 가장 왼쪽상가 (3층 오름수학 절대아님)</div>
+  <div class="branch-location-guide">📌 대구한샘초, 대구한솔초 인근<br>대구광역시 달서구 조암남로 158,301호(유천동)</div>
   <div class="branch-map-actions">
     <a href="https://kko.to/6HPyh7_bWL" target="_blank" rel="noopener">카카오맵으로 보기</a>
     <a href="https://map.naver.com/v5/search/%EB%8C%80%EA%B5%AC%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%8B%AC%EC%84%9C%EA%B5%AC%20%EC%A1%B0%EC%95%94%EB%82%A8%EB%A1%9C%20158%2C301%ED%98%B8%28%EC%9C%A0%EC%B2%9C%EB%8F%99%29" target="_blank" rel="noopener">네이버맵으로 보기</a>
@@ -294,7 +294,7 @@
         </select>
       </div>
       <div class="form-agree">
-        <input type="checkbox" id="agree" required>
+        <input type="checkbox" id="agree" required checked onclick="if(!this.checked){alert('체크 해지하시면 상담이 어렵습니다.');this.checked=true;}">
         <label for="agree">개인정보 수집 및 이용에 동의합니다.</label>
       </div>
       <button type="submit" class="form-submit">📋 지금 상담 신청하기</button>

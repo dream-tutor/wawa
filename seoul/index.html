@@ -571,7 +571,7 @@
         </select>
       </div>
       <div class="form-agree">
-        <input type="checkbox" id="agree" required>
+        <input type="checkbox" id="agree" required checked onclick="if(!this.checked){alert('체크 해지하시면 상담이 어렵습니다.');this.checked=true;}">
         <label for="agree">개인정보 수집 및 이용에 동의합니다. <span style="color:#94A3B8;font-weight:400;">(상담 목적으로만 활용됩니다.)</span></label>
       </div>
       <button type="submit" class="form-submit">📋 지금 상담 신청하기</button>

@@ -30,7 +30,9 @@
         학년:   fsGradeCombined,
         과목:   fsSubjects.join(', '),
         상담희망시간: document.getElementById('fs-consult-time') ? document.getElementById('fs-consult-time').value : '',
-        신청일: new Date().toLocaleString('ko-KR')
+        신청일: new Date().toLocaleString('ko-KR'),
+      유입페이지: window.location.href,
+      유입경로: document.referrer || '직접입력'
       };
 
       var SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbybsuTZMjzlp3HkkVaUX0IUFnNlSfnnN0DGThb-2BOIwZ8IyZNnMgkwoWOb_muHCEx5/exec';
@@ -588,7 +590,9 @@ function submitConsultModal(e){
     연락처: form.querySelector('input[type=tel]') ? form.querySelector('input[type=tel]').value : '',
     상담희망시간: document.getElementById('m-consult-time') ? document.getElementById('m-consult-time').value : '',
     학년: mGradeCombined,
-    과목: mSubjects.join(', ')
+    과목: mSubjects.join(', '),
+  유입페이지: window.location.href,
+  유입경로: document.referrer || '직접입력'
   };
   var iframeId = 'gas_iframe_' + Date.now();
   var iframe = document.createElement('iframe');

@@ -375,6 +375,7 @@ if(window.wcs) wcs_do();
       상담희망시간: (form.querySelector('[name="상담희망시간"]')||{}).value || '',
       신청일: new Date().toLocaleString('ko-KR'),
     유입페이지: window.location.href,
+    유입페이지제목: document.title,
     유입경로: document.referrer || '직접입력'
     };
     var params = Object.keys(data).map(function(k){

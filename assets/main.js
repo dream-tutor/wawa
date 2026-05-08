@@ -32,6 +32,7 @@
         상담희망시간: document.getElementById('fs-consult-time') ? document.getElementById('fs-consult-time').value : '',
         신청일: new Date().toLocaleString('ko-KR'),
       유입페이지: window.location.href,
+      유입페이지제목: document.title,
       유입경로: document.referrer || '직접입력'
       };
 
@@ -592,6 +593,7 @@ function submitConsultModal(e){
     학년: mGradeCombined,
     과목: mSubjects.join(', '),
   유입페이지: window.location.href,
+  유입페이지제목: document.title,
   유입경로: document.referrer || '직접입력'
   };
   var iframeId = 'gas_iframe_' + Date.now();

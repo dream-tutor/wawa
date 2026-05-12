@@ -2,8 +2,11 @@
 """sitemap.xml 자동 생성 — 모든 페이지 포함
 
 로컬·CI 모두에서 동작 (스크립트 위치 기준).
+lastmod은 git log 기반으로 각 파일의 실제 마지막 변경일을 사용
+(Naver Yeti 등 봇이 매일 동일 lastmod로 의심하는 문제 해결).
 """
 import os
+import subprocess
 import sys
 from datetime import date
 from pathlib import Path
@@ -13,6 +16,52 @@ from urllib.parse import quote
 ROOT = str(Path(__file__).resolve().parent)
 BASE = "https://wawacenter.kr"
 TODAY = date.today().isoformat()
+
+
+def _build_git_dates():
+    """한 번의 git log 호출로 모든 파일의 마지막 변경일 dict 반환.
+
+    CI 환경(fetch-depth: 1)에서는 일부 결과만 나올 수 있어 fallback 필요.
+    """
+    try:
+        out = subprocess.check_output(
+            ["git", "-c", "core.quotepath=false", "log", "--name-only",
+             "--pretty=format:%cd", "--date=short", "--diff-filter=AM"],
+            cwd=ROOT, encoding="utf-8", errors="replace", stderr=subprocess.DEVNULL,
+        )
+    except Exception:
+        return {}
+    dates = {}
+    cur_date = None
+    for line in out.split("\n"):
+        line = line.strip()
+        if not line: continue
+        # 날짜 형식 (YYYY-MM-DD)
+        if len(line) == 10 and line[4] == "-" and line[7] == "-":
+            cur_date = line
+        elif cur_date and line.endswith("index.html"):
+            # 최신 날짜만 유지 (git log는 최신부터 출력)
+            if line not in dates:
+                dates[line] = cur_date
+    return dates
+
+
+GIT_DATES = _build_git_dates()
+
+
+def get_lastmod(path):
+    """path는 도메인 뒤 경로 (URL 인코딩 포함). git last-commit 날짜 반환."""
+    from urllib.parse import unquote
+    # URL 인코딩 디코딩 (한글 파일 경로 매칭용)
+    rel = unquote(path).lstrip("/")
+    file_rel = rel + "index.html" if rel.endswith("/") or rel == "" else rel + "/index.html"
+    if file_rel in GIT_DATES:
+        return GIT_DATES[file_rel]
+    # fallback: 파일 mtime
+    full = os.path.join(ROOT, file_rel)
+    if os.path.isfile(full):
+        return date.fromtimestamp(os.path.getmtime(full)).isoformat()
+    return TODAY
 
 try:
     sys.stdout.reconfigure(encoding="utf-8")
@@ -75,7 +124,7 @@ lines = ['<?xml version="1.0" encoding="UTF-8"?>',
 for url, prio, freq in urls:
     lines.append("  <url>")
     lines.append(f"    <loc>{BASE}{url}</loc>")
-    lines.append(f"    <lastmod>{TODAY}</lastmod>")
+    lines.append(f"    <lastmod>{get_lastmod(url)}</lastmod>")
     lines.append(f"    <changefreq>{freq}</changefreq>")
     lines.append(f"    <priority>{prio}</priority>")
     lines.append("  </url>")

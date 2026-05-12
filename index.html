@@ -1152,7 +1152,7 @@ wcs_do(_nasa)
           </div>
         </div>
         <div class="form-group" style="margin-bottom:18px;">
-          <label class="form-label">상담 희망 시간</label>
+          <label class="form-label">연락 희망 시간</label>
           <select class="form-select" id="fs-consult-time">
             <option value="">시간 선택</option>
             <option>오전 9시 ~ 12시</option>
@@ -1420,7 +1420,7 @@ wcs_do(_nasa)
         </div>
       </div>
       <div class="form-group" style="margin-bottom:12px;">
-        <label class="form-label">상담 희망 시간</label>
+        <label class="form-label">연락 희망 시간</label>
         <select class="form-select" id="m-consult-time">
           <option value="">시간 선택</option>
           <option>오전 9시 ~ 12시</option>
@@ -1485,7 +1485,7 @@ wcs_do(_nasa)
         연락처: form.querySelector('input[type=tel]').value,
         학년:   fsGradeCombined,
         과목:   fsSubjects.join(', '),
-        상담희망시간: document.getElementById('fs-consult-time') ? document.getElementById('fs-consult-time').value : '',
+        연락희망시간: document.getElementById('fs-consult-time') ? document.getElementById('fs-consult-time').value : '',
         신청일: new Date().toLocaleString('ko-KR'),
       유입페이지: window.location.href,
       유입페이지제목: document.title,
@@ -2073,7 +2073,7 @@ function submitConsultModal(e){
     동: document.getElementById('m-dong') ? document.getElementById('m-dong').value : '',
     이름: document.getElementById('m-name') ? document.getElementById('m-name').value : '',
     연락처: form.querySelector('input[type=tel]') ? form.querySelector('input[type=tel]').value : '',
-    상담희망시간: document.getElementById('m-consult-time') ? document.getElementById('m-consult-time').value : '',
+    연락희망시간: document.getElementById('m-consult-time') ? document.getElementById('m-consult-time').value : '',
     학년: mGradeCombined,
     과목: mSubjects.join(', '),
   유입페이지: window.location.href,

@@ -256,8 +256,8 @@
         </div>
       </div>
       <div class="form-group">
-        <label class="form-label">상담 희망 시간</label>
-        <select class="form-select" name="상담희망시간">
+        <label class="form-label">연락 희망 시간</label>
+        <select class="form-select" name="연락희망시간">
           <option value="">선택 (선택사항)</option>
           <option>오전 9시~12시</option><option>오후 12시~3시</option>
           <option>오후 3시~6시</option><option>오후 6시 이후</option>
@@ -380,7 +380,7 @@ if(window.wcs) wcs_do();
       연락처: (form.querySelector('[name="연락처"]')||{}).value || '',
       학년:   school && grade ? school+' '+grade : school||grade,
       과목:   subjects,
-      상담희망시간: (form.querySelector('[name="상담희망시간"]')||{}).value || '',
+      연락희망시간: (form.querySelector('[name="연락희망시간"]')||{}).value || '',
       신청일: new Date().toLocaleString('ko-KR'),
     유입페이지: window.location.href,
     유입페이지제목: document.title,

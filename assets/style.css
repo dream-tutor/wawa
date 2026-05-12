@@ -1344,6 +1344,11 @@
   padding-bottom:8px; border-bottom:1.5px solid #EBF4EF;
 }
 .fee-mini-grid { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+/* 표 1개만 있을 때 가운데 정렬 (PC) */
+.fee-mini-grid:has(> div:only-child) {
+  grid-template-columns:minmax(0,400px);
+  justify-content:center;
+}
 .fee-mini-label {
   font-size:12px; font-weight:700; color:#3A6B56;
   text-align:center; margin-bottom:6px;
@@ -1381,6 +1386,7 @@
 .fee-legal b { color:#1A3D30; font-weight:700; }
 @media(max-width:600px){
   .fee-mini-grid { grid-template-columns:1fr; gap:10px; }
+  .fee-mini-grid:has(> div:only-child) { grid-template-columns:1fr; justify-content:stretch; }
   .fee-mini-section { padding:22px 14px 26px; }
 }
 

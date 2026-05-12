@@ -1479,7 +1479,7 @@ wcs_do(_nasa)
       var data = {
         지점:   document.getElementById('fs-branch').value || '미선택',
         시도:   document.getElementById('fs-sido').value || '',
-        시군구: document.getElementById('fs-sgg').value || '',
+        시군구: (document.getElementById('fs-sgg').value === '_none_' ? '' : document.getElementById('fs-sgg').value) || '',
         동:     document.getElementById('fs-dong').value || '',
         이름:   document.getElementById('fs-name').value,
         연락처: form.querySelector('input[type=tel]').value,
@@ -1771,6 +1771,27 @@ function fbOnSido() {
     if (b.region === r && b.district && districts.indexOf(b.district) < 0)
       districts.push(b.district);
   }
+  // 시군구 없는 시도(예: 세종) → 시군구 단계 자동 스킵, 동 옵션 바로 채움
+  if (districts.length === 0) {
+    var skipOpt = document.createElement('option');
+    skipOpt.value = '_none_'; skipOpt.textContent = '(시군구 없음)'; skipOpt.selected = true;
+    sgg.appendChild(skipOpt);
+    sgg.disabled = true;
+    var dongs = [];
+    for (var i = 0; i < BRANCHES.length; i++) {
+      var b = BRANCHES[i];
+      if (b.region === r && b.dong && dongs.indexOf(b.dong) < 0) dongs.push(b.dong);
+    }
+    dongs.sort(function(a,b){ return a.localeCompare(b,'ko'); });
+    for (var i = 0; i < dongs.length; i++) {
+      var o = document.createElement('option');
+      o.value = dongs[i]; o.textContent = dongs[i];
+      dong.appendChild(o);
+    }
+    dong.disabled = false;
+    if (dongs.length === 1) { dong.value = dongs[0]; fbOnDong(); }
+    return;
+  }
   districts.sort(function(a,b){ return a.localeCompare(b,'ko'); });
   for (var i = 0; i < districts.length; i++) {
     var o = document.createElement('option');
@@ -1813,9 +1834,12 @@ function fbOnDong() {
   br.innerHTML = '<option value="">지점 선택</option>';
   if (!g) { br.disabled = true; return; }
   var list = [];
+  // 시군구 없음(_none_) → district 비교 스킵
+  var skipDist = (d === '_none_' || d === '');
   for (var i = 0; i < BRANCHES.length; i++) {
     var b = BRANCHES[i];
-    if (b.region === r && b.district === d && b.dong === g) list.push(b);
+    var matchDist = skipDist ? !b.district : (b.district === d);
+    if (b.region === r && matchDist && b.dong === g) list.push(b);
   }
   list.sort(function(a,b){ return a.name.localeCompare(b.name,'ko'); });
   for (var i = 0; i < list.length; i++) {
@@ -1961,6 +1985,17 @@ function _buildSgg(filterRegion) {
       if (pairs.indexOf(key) < 0) pairs.push(key);
     }
   }
+  // 시군구 없는 시도(예: 세종) → "(시군구 없음)" 옵션으로 동 선택 가능하게
+  if (filterRegion && pairs.length === 0) {
+    var noneOpt = document.createElement('option');
+    noneOpt.value = '_none_';
+    noneOpt.dataset.region = filterRegion;
+    noneOpt.textContent = '(시군구 없음)';
+    noneOpt.selected = true;
+    sgg.appendChild(noneOpt);
+    sgg.disabled = false;
+    return;
+  }
   pairs.sort(function(a,b){
     var pa = a.split('|'), pb = b.split('|');
     return pa[0].localeCompare(pb[0],'ko') || pa[1].localeCompare(pb[1],'ko');
@@ -2001,6 +2036,11 @@ function mOnSido() {
   dong.disabled = true; br.disabled = true;
   // 시군구 재구성 (선택된 시도로 필터)
   _buildSgg(r || null);
+  // 시군구가 자동 선택(_none_)된 경우 동 선택까지 자동 진행
+  var sggSel = document.getElementById('m-sgg');
+  if (sggSel && sggSel.value === '_none_') {
+    mOnSgg();
+  }
 }
 function mOnSgg() {
   var sggSel = document.getElementById('m-sgg');
@@ -2015,10 +2055,13 @@ function mOnSgg() {
   var selected = sggSel.options[sggSel.selectedIndex];
   var r = (selected && selected.dataset.region) || document.getElementById('m-sido').value;
   if (r) document.getElementById('m-sido').value = r;
+  // 시군구 없음 케이스 (_none_) → district 매칭 스킵
+  var skipDist = (d === '_none_');
   var dongs = [];
   for (var i = 0; i < BRANCHES.length; i++) {
     var b = BRANCHES[i];
-    if (b.region === r && b.district === d && b.dong && dongs.indexOf(b.dong) < 0) dongs.push(b.dong);
+    var matchDist = skipDist ? !b.district : (b.district === d);
+    if (b.region === r && matchDist && b.dong && dongs.indexOf(b.dong) < 0) dongs.push(b.dong);
   }
   dongs.sort(function(a,b){ return a.localeCompare(b,'ko'); });
   for (var i = 0; i < dongs.length; i++) {
@@ -2037,9 +2080,11 @@ function mOnDong() {
   br.innerHTML = '<option value="">지점 선택</option>';
   if (!g) { br.disabled = true; return; }
   var list = [];
+  var skipDist = (d === '_none_' || d === '');
   for (var i = 0; i < BRANCHES.length; i++) {
     var b = BRANCHES[i];
-    if (b.region === r && b.district === d && b.dong === g) list.push(b);
+    var matchDist = skipDist ? !b.district : (b.district === d);
+    if (b.region === r && matchDist && b.dong === g) list.push(b);
   }
   list.sort(function(a,b){ return a.name.localeCompare(b.name,'ko'); });
   for (var i = 0; i < list.length; i++) {
@@ -2069,7 +2114,7 @@ function submitConsultModal(e){
     신청일: new Date().toLocaleString('ko-KR'),
     지점: document.getElementById('m-branch') ? document.getElementById('m-branch').value : '',
     시도: document.getElementById('m-sido') ? document.getElementById('m-sido').value : '',
-    시군구: document.getElementById('m-sgg') ? document.getElementById('m-sgg').value : '',
+    시군구: (function(){var v=document.getElementById('m-sgg')?document.getElementById('m-sgg').value:''; return v==='_none_'?'':v;})(),
     동: document.getElementById('m-dong') ? document.getElementById('m-dong').value : '',
     이름: document.getElementById('m-name') ? document.getElementById('m-name').value : '',
     연락처: form.querySelector('input[type=tel]') ? form.querySelector('input[type=tel]').value : '',

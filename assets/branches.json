@@ -8027,9 +8027,16 @@
       "수학": "초4,초5,초6,중1,중2,중3,고1,고2",
       "과학": "초4,초5,초6,중1,중2,중3,고1,고2"
     },
-    "schools_elem": [],
-    "schools_mid": [],
-    "schools_high": [],
+    "schools_elem": [
+      "다산초"
+    ],
+    "schools_mid": [
+      "다산중"
+    ],
+    "schools_high": [
+      "다산고",
+      "도농고"
+    ],
     "open_time": "평일 오후 2시 이후",
     "weekend": "주말불가",
     "fee_type": "와와회비B",

@@ -1013,7 +1013,10 @@
       "수학": "초1,초2,초3,초4,초5,초6,중1,중2,중3,고1,고2",
       "과학": "초1,초2,초3,초4,초5,초6,중1,중2,중3,고1"
     },
-    "schools_elem": [],
+    "schools_elem": [
+      "광덕초",
+      "안현초"
+    ],
     "schools_mid": [],
     "schools_high": [],
     "open_time": "평일 오후 3시 30분 이후",
@@ -4234,9 +4237,16 @@
       "과학": "초1,초2,초3,초4,초5,초6,중1,중2,중3,고1,고2",
       "사회": "초1,초2,초3,초4,초5,초6,중1,중2,중3,고1,고2,고3"
     },
-    "schools_elem": [],
-    "schools_mid": [],
-    "schools_high": [],
+    "schools_elem": [
+      "수현초"
+    ],
+    "schools_mid": [
+      "수현중",
+      "화담중"
+    ],
+    "schools_high": [
+      "화담고"
+    ],
     "open_time": "평일 오후 3시 이후",
     "weekend": "주말불가",
     "fee_type": "와와회비B",
@@ -6591,9 +6601,16 @@
       "수학": "초4,초5,초6,중1,중2,중3,고1,고2,고3",
       "과학": "초4,초5,초6,중1,중2,중3"
     },
-    "schools_elem": [],
-    "schools_mid": [],
-    "schools_high": [],
+    "schools_elem": [
+      "송북초"
+    ],
+    "schools_mid": [
+      "솔빛중"
+    ],
+    "schools_high": [
+      "전라고",
+      "솔내고"
+    ],
     "open_time": "평일 오후 3시 30분 이후",
     "weekend": "토요일 가능",
     "fee_type": "와와회비B",
@@ -7832,8 +7849,12 @@
     "grades_by_subject": {
       "수학": "초3,초4,초5,초6,중1,중2,중3,고1,고2"
     },
-    "schools_elem": [],
-    "schools_mid": [],
+    "schools_elem": [
+      "옥정초"
+    ],
+    "schools_mid": [
+      "옥정중"
+    ],
     "schools_high": [],
     "open_time": "평일 오후 2시 이후",
     "weekend": "주말불가",
@@ -8127,9 +8148,13 @@
       "영어": "초4,초5,초6,중1,중2,중3,고1,고2,고3",
       "수학": "초4,초5,초6,중1,중2,중3,고1,고2,고3"
     },
-    "schools_elem": [],
+    "schools_elem": [
+      "산들초"
+    ],
     "schools_mid": [],
-    "schools_high": [],
+    "schools_high": [
+      "범박고"
+    ],
     "open_time": "평일 오후 2시 이후",
     "weekend": "주말불가",
     "fee_type": "와와회비B",
@@ -8578,9 +8603,15 @@
       "과학": "초4,초5,초6,중1,중2,중3,고1",
       "사회": "초4,초5,초6,중1,중2,중3,고1"
     },
-    "schools_elem": [],
-    "schools_mid": [],
-    "schools_high": [],
+    "schools_elem": [
+      "배곧초"
+    ],
+    "schools_mid": [
+      "배곧중"
+    ],
+    "schools_high": [
+      "배곧고"
+    ],
     "open_time": "평일 오후 2시 이후",
     "weekend": "주말불가",
     "fee_type": "와와회비B",
@@ -10762,9 +10793,15 @@
     "location_guide": "",
     "subjects": [],
     "grades_by_subject": {},
-    "schools_elem": [],
-    "schools_mid": [],
-    "schools_high": [],
+    "schools_elem": [
+      "양지초"
+    ],
+    "schools_mid": [
+      "양지중"
+    ],
+    "schools_high": [
+      "고잔고"
+    ],
     "open_time": "평일 오후 2시 이후",
     "weekend": "주말불가",
     "fee_type": "와와회비B",
@@ -11855,8 +11892,13 @@
       "국어": "초2,초3,초4,초5,초6,중1,중2,중3,고1,고2,고3",
       "영어": "초2,초3,초4,초5,초6,중1,중2,중3,고1,고2,고3"
     },
-    "schools_elem": [],
-    "schools_mid": [],
+    "schools_elem": [
+      "문화초",
+      "신일초"
+    ],
+    "schools_mid": [
+      "신일중"
+    ],
     "schools_high": [],
     "open_time": "평일 오후 2시 이후",
     "weekend": "주말수업가능",
@@ -12595,8 +12637,13 @@
       "영어": "초1,초2,초3,초4,초5,초6,중1,중2,중3,고1,고2,고3",
       "수학": "초1,초2,초3,초4,초5,초6,중1,중2,중3,고1,고2"
     },
-    "schools_elem": [],
-    "schools_mid": [],
+    "schools_elem": [
+      "산들초",
+      "청암초"
+    ],
+    "schools_mid": [
+      "산들중"
+    ],
     "schools_high": [],
     "open_time": "평일 오후 3시 이후",
     "weekend": "주말불가",
@@ -12864,8 +12911,13 @@
       "수학": "초1,초2,초3,초4,초5,초6,중1,중2,중3,고1,고2,고3",
       "과학": "중1,중2,중3,고1,고2,고3"
     },
-    "schools_elem": [],
-    "schools_mid": [],
+    "schools_elem": [
+      "문화초",
+      "신일초"
+    ],
+    "schools_mid": [
+      "신일중"
+    ],
     "schools_high": [],
     "open_time": "평일 오후 2시 이후",
     "weekend": "주말불가",
@@ -13917,8 +13969,14 @@
       "사회": "초1,초2,초3,초4,초5,초6,중1,중2,중3,고1,고2,고3"
     },
     "schools_elem": [],
-    "schools_mid": [],
-    "schools_high": [],
+    "schools_mid": [
+      "무룡중",
+      "가온중"
+    ],
+    "schools_high": [
+      "울산고",
+      "학성여고"
+    ],
     "open_time": "평일 오후 2시 이후",
     "weekend": "주말불가",
     "fee_type": "와와회비B",
@@ -15291,9 +15349,13 @@
       "영어": "초1,초2,초3,초4,초5,초6,중1,중2,중3,고1,고2",
       "수학": "초1,초2,초3,초4,초5,초6,중1,중2,중3,고1,고2"
     },
-    "schools_elem": [],
+    "schools_elem": [
+      "아름초"
+    ],
     "schools_mid": [],
-    "schools_high": [],
+    "schools_high": [
+      "불당고"
+    ],
     "open_time": "평일 오후 2시이후",
     "weekend": "토요일가능",
     "fee_type": "와와회비B",
@@ -19548,9 +19610,15 @@
       "과학": "초1,초2,초3,초4,초5,초6,중1,중2,중3,고1,고2,고3",
       "사회": "초1,초2,초3,초4,초5,초6,중1,중2,중3,고1,고2,고3"
     },
-    "schools_elem": [],
-    "schools_mid": [],
-    "schools_high": [],
+    "schools_elem": [
+      "백합초"
+    ],
+    "schools_mid": [
+      "대현중"
+    ],
+    "schools_high": [
+      "삼산고"
+    ],
     "open_time": "평일 오후 3시 이후",
     "weekend": "주말불가",
     "fee_type": "와와회비B",
@@ -24817,9 +24885,13 @@
       "수학": "초1,초2,초3,초4,초5,초6,중1,중2,중3,고1",
       "과학": "초1,초2,초3,초4,초5,초6,중1,중2,중3,고1"
     },
-    "schools_elem": [],
+    "schools_elem": [
+      "망월초"
+    ],
     "schools_mid": [],
-    "schools_high": [],
+    "schools_high": [
+      "미사고"
+    ],
     "open_time": "평일 오후 2시 이후",
     "weekend": "주말불가",
     "fee_type": "와와회비B",
@@ -27199,9 +27271,16 @@
       "영어": "초4,초5,초6,중1,중2,중3,고1,고2,고3",
       "수학": "초4,초5,초6,중1,중2,중3,고1,고2,고3"
     },
-    "schools_elem": [],
-    "schools_mid": [],
-    "schools_high": [],
+    "schools_elem": [
+      "위례푸른초",
+      "위례초"
+    ],
+    "schools_mid": [
+      "위례중"
+    ],
+    "schools_high": [
+      "위례고"
+    ],
     "open_time": "평일 오후 2시 이후",
     "weekend": "토요일 가능(시간협의)",
     "fee_type": "와와회비A",
@@ -28799,8 +28878,12 @@
       "과학": "초1,초2,초3,초4,초5,초6,중1,중2,중3,고1,고2,고3",
       "사회": "초1,초2,초3,초4,초5,초6,중1,중2,중3,고1,고2,고3"
     },
-    "schools_elem": [],
-    "schools_mid": [],
+    "schools_elem": [
+      "지산초"
+    ],
+    "schools_mid": [
+      "한가람중"
+    ],
     "schools_high": [],
     "open_time": "평일 오후 2시 이후",
     "weekend": "토요일만 가능",
@@ -28918,8 +29001,12 @@
       "수학": "초1,초2,초3,초4,초5,초6,중1,중2,중3,고1,고2,고3",
       "과학": "초1,초2,초3,초4,초5,초6,중1,중2,중3"
     },
-    "schools_elem": [],
-    "schools_mid": [],
+    "schools_elem": [
+      "탄벌초"
+    ],
+    "schools_mid": [
+      "탄벌중"
+    ],
     "schools_high": [],
     "open_time": "평일 오후 3시 이후",
     "weekend": "주말불가",
@@ -29350,7 +29437,10 @@
       "사회": "초3,초4,초5,초6,중1,중2,중3,고1"
     },
     "schools_elem": [],
-    "schools_mid": [],
+    "schools_mid": [
+      "석우중",
+      "예당중"
+    ],
     "schools_high": [],
     "open_time": "평일 오후 2시 이후",
     "weekend": "국,과 / 토요일",

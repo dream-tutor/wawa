@@ -144,6 +144,32 @@
 </div>
 </section>
 
+
+<!-- WAWA_AUTO_DONG_SUBJECT_LINKS_START -->
+<section class="section" style="background:#F8FAFC;padding:28px 20px;">
+<div class="section-inner" style="text-align:center;">
+  <div class="section-tag">유천동 와와센터 가능 과목</div>
+  <h2 class="section-title" style="margin-bottom:8px;">유천동 과목별 자세히 보기</h2>
+  <p class="section-sub" style="margin-bottom:14px;">각 과목별 가능 학년 · 인근 학교 정보를 자세히 안내드립니다.</p>
+  <div style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center;">
+    <a href="korean/" style="display:inline-block;padding:10px 20px;background:#fff;border:2px solid #0369A1;color:#0369A1;border-radius:50px;text-decoration:none;font-weight:700;font-size:14px;">📖 유천동 국어학원</a><a href="english/" style="display:inline-block;padding:10px 20px;background:#fff;border:2px solid #0369A1;color:#0369A1;border-radius:50px;text-decoration:none;font-weight:700;font-size:14px;">🔤 유천동 영어학원</a><a href="math/" style="display:inline-block;padding:10px 20px;background:#fff;border:2px solid #0369A1;color:#0369A1;border-radius:50px;text-decoration:none;font-weight:700;font-size:14px;">🧮 유천동 수학학원</a><a href="science/" style="display:inline-block;padding:10px 20px;background:#fff;border:2px solid #0369A1;color:#0369A1;border-radius:50px;text-decoration:none;font-weight:700;font-size:14px;">🔬 유천동 과학학원</a><a href="social/" style="display:inline-block;padding:10px 20px;background:#fff;border:2px solid #0369A1;color:#0369A1;border-radius:50px;text-decoration:none;font-weight:700;font-size:14px;">🌏 유천동 사회학원</a>
+  </div>
+</div>
+</section>
+<!-- WAWA_AUTO_DONG_SUBJECT_LINKS_END -->
+
+<!-- WAWA_AUTO_SCHOOL_PAGE_LINKS_START -->
+<section class="section" style="background:#fff;padding:28px 20px;border-top:1px solid #F1F5F9;">
+<div class="section-inner" style="text-align:center;">
+  <div class="section-tag">학교별 학원 안내</div>
+  <h2 class="section-title" style="margin-bottom:8px;">유천동 인근 학교별 자세히 보기</h2>
+  <p class="section-sub" style="margin-bottom:14px;">학교별로 등록 가능한 와와센터 지점과 가능 과목을 안내합니다.</p>
+  <div style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center;">
+    <a href="../../school/월서중/" style="display:inline-block;padding:9px 16px;background:#fff;border:1.5px solid #0EA5E9;color:#0EA5E9;border-radius:50px;text-decoration:none;font-weight:700;font-size:13px;">🏫 월서중 학원</a><a href="../../school/월암중/" style="display:inline-block;padding:9px 16px;background:#fff;border:1.5px solid #0EA5E9;color:#0EA5E9;border-radius:50px;text-decoration:none;font-weight:700;font-size:13px;">🏫 월암중 학원</a><a href="../../school/조암중/" style="display:inline-block;padding:9px 16px;background:#fff;border:1.5px solid #0EA5E9;color:#0EA5E9;border-radius:50px;text-decoration:none;font-weight:700;font-size:13px;">🏫 조암중 학원</a><a href="../../school/상원고/" style="display:inline-block;padding:9px 16px;background:#fff;border:1.5px solid #0EA5E9;color:#0EA5E9;border-radius:50px;text-decoration:none;font-weight:700;font-size:13px;">🏫 상원고 학원</a><a href="../../school/영남고/" style="display:inline-block;padding:9px 16px;background:#fff;border:1.5px solid #0EA5E9;color:#0EA5E9;border-radius:50px;text-decoration:none;font-weight:700;font-size:13px;">🏫 영남고 학원</a><a href="../../school/효성여고/" style="display:inline-block;padding:9px 16px;background:#fff;border:1.5px solid #0EA5E9;color:#0EA5E9;border-radius:50px;text-decoration:none;font-weight:700;font-size:13px;">🏫 효성여고 학원</a>
+  </div>
+</div>
+</section>
+<!-- WAWA_AUTO_SCHOOL_PAGE_LINKS_END -->
 <section class="seo-content">
 <div class="seo-content-inner">
   <h2>달서구 유천동 학원 추천 · 와와학습코칭센터 유천동</h2>
@@ -371,5 +397,51 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape'){var ov=docu
   }
 })();
 </script>
+<!-- WAWA_AUTO_LEAFLET_FALLBACK_START -->
+<script>
+(function(){
+  var iframes=document.querySelectorAll('iframe[src*="openstreetmap.org/export/embed"]');
+  if(!iframes.length)return;
+  // Leaflet CSS
+  var css=document.createElement('link');
+  css.rel='stylesheet';
+  css.href='https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';
+  css.integrity='sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=';
+  css.crossOrigin='';
+  document.head.appendChild(css);
+  // Leaflet JS
+  var s=document.createElement('script');
+  s.src='https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
+  s.integrity='sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=';
+  s.crossOrigin='';
+  s.onload=function(){
+    iframes.forEach(function(iframe){
+      try{
+        var url=new URL(iframe.src);
+        var marker=url.searchParams.get('marker');
+        if(!marker)return;
+        var parts=marker.split(',');
+        var lat=parseFloat(parts[0]),lng=parseFloat(parts[1]);
+        if(!isFinite(lat)||!isFinite(lng))return;
+        var div=document.createElement('div');
+        // iframe의 기존 inline 스타일 / 부모 컨테이너에 맞춤
+        div.style.width='100%';
+        div.style.height=(iframe.offsetHeight||iframe.clientHeight||300)+'px';
+        div.style.minHeight='250px';
+        div.style.borderRadius=getComputedStyle(iframe).borderRadius||'';
+        iframe.parentNode.replaceChild(div,iframe);
+        var map=L.map(div,{scrollWheelZoom:false,zoomControl:true}).setView([lat,lng],16);
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{
+          attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+          maxZoom:19
+        }).addTo(map);
+        L.marker([lat,lng]).addTo(map);
+      }catch(e){console.warn('OSM map fallback failed:',e);}
+    });
+  };
+  document.head.appendChild(s);
+})();
+</script>
+<!-- WAWA_AUTO_LEAFLET_FALLBACK_END -->
 </body>
 </html>

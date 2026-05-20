@@ -136,7 +136,7 @@
 </table></div>
         </div>
       </div>
-      <div class="school-section"><div class="school-section-title">🏫 인근 학교</div><div class="school-group"><span class="school-group-label elem">초등</span><span class="school-list">노형초</span></div><div class="school-group"><span class="school-group-label mid">중등</span><span class="school-list">서중, 중앙중</span></div><div class="school-group"><span class="school-group-label high">고등</span><span class="school-list">지역내 모든 고등학교 가능</span></div><div class="school-extra-note" style="margin-top:8px;font-size:12px;color:#94A3B8;font-style:italic;">※ 이 외의 학교도 수업 가능합니다.</div></div>
+      <div class="school-section"><div class="school-section-title">🏫 인근 학교</div><div class="school-group"><span class="school-group-label elem">초등</span><span class="school-list">노형초</span></div><div class="school-group"><span class="school-group-label mid">중등</span><span class="school-list">서중, 중앙중</span></div><div class="school-extra-note" style="margin-top:8px;font-size:12px;color:#94A3B8;font-style:italic;">※ 이 외의 학교도 수업 가능합니다.</div></div>
     </div>
   </div>
   <div class="shuttle-note">
@@ -307,10 +307,10 @@
 <section class="seo-content">
 <div class="seo-content-inner">
   <h2>제주시 노형 자기주도학습 전문, 와와학습코칭센터 노형점</h2>
-<p><strong>와와학습코칭센터 노형점</strong>은 제주 제주시 노형동에 위치한 자기주도학습 전문 학원입니다. 국어 · 영어 · 수학 · 과학 · 사회 수업을 진행하며, 초등부터 고등까지 학년별 맞춤 코칭을 제공합니다. 인근 노형초, 서중, 중앙중, 지역내 모든 고등학교 가능 학생들이 다니고 있습니다.</p>
+<p><strong>와와학습코칭센터 노형점</strong>은 제주 제주시 노형동에 위치한 자기주도학습 전문 학원입니다. 국어 · 영어 · 수학 · 과학 · 사회 수업을 진행하며, 초등부터 고등까지 학년별 맞춤 코칭을 제공합니다. 인근 노형초, 서중, 중앙중 등 학생들이 다니고 있습니다.</p>
   <div class="seo-tag-section">
   <div class="seo-tag-title">학교별 맞춤 학원</div>
-  <div class="seo-tags"><span>노형초학원</span><span>노형초근처학원</span><span>서중학원</span><span>서중국어학원</span><span>서중영어학원</span><span>서중수학학원</span><span>중앙중학원</span><span>중앙중국어학원</span><span>중앙중영어학원</span><span>중앙중수학학원</span><span>지역내 모든 고 가능학원</span><span>지역내 모든 고 가능국어학원</span><span>지역내 모든 고 가능영어학원</span><span>지역내 모든 고 가능수학학원</span></div>
+  <div class="seo-tags"><span>노형초학원</span><span>노형초근처학원</span><span>서중학원</span><span>서중국어학원</span><span>서중영어학원</span><span>서중수학학원</span><span>중앙중학원</span><span>중앙중국어학원</span><span>중앙중영어학원</span><span>중앙중수학학원</span></div>
 </div><div class="seo-tag-section">
   <div class="seo-tag-title">노형 동네 학원</div>
   <div class="seo-tags"><span>노형학원</span><span>노형자기주도학습</span><span>노형코칭학원</span><span>노형국어학원</span><span>노형초등국어학원</span><span>노형중등국어학원</span><span>노형고등국어학원</span><span>노형영어학원</span><span>노형초등영어학원</span><span>노형중등영어학원</span><span>노형고등영어학원</span><span>노형수학학원</span><span>노형초등수학학원</span><span>노형중등수학학원</span><span>노형고등수학학원</span><span>노형과학학원</span><span>노형초등과학학원</span><span>노형중등과학학원</span><span>노형고등과학학원</span><span>노형사회학원</span><span>노형초등사회학원</span><span>노형중등사회학원</span><span>노형고등사회학원</span></div>
@@ -471,4 +471,50 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape'){var ov=docu
   }
 })();
 </script>
+<!-- WAWA_AUTO_LEAFLET_FALLBACK_START -->
+<script>
+(function(){
+  var iframes=document.querySelectorAll('iframe[src*="openstreetmap.org/export/embed"]');
+  if(!iframes.length)return;
+  // Leaflet CSS
+  var css=document.createElement('link');
+  css.rel='stylesheet';
+  css.href='https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';
+  css.integrity='sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=';
+  css.crossOrigin='';
+  document.head.appendChild(css);
+  // Leaflet JS
+  var s=document.createElement('script');
+  s.src='https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
+  s.integrity='sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=';
+  s.crossOrigin='';
+  s.onload=function(){
+    iframes.forEach(function(iframe){
+      try{
+        var url=new URL(iframe.src);
+        var marker=url.searchParams.get('marker');
+        if(!marker)return;
+        var parts=marker.split(',');
+        var lat=parseFloat(parts[0]),lng=parseFloat(parts[1]);
+        if(!isFinite(lat)||!isFinite(lng))return;
+        var div=document.createElement('div');
+        // iframe의 기존 inline 스타일 / 부모 컨테이너에 맞춤
+        div.style.width='100%';
+        div.style.height=(iframe.offsetHeight||iframe.clientHeight||300)+'px';
+        div.style.minHeight='250px';
+        div.style.borderRadius=getComputedStyle(iframe).borderRadius||'';
+        iframe.parentNode.replaceChild(div,iframe);
+        var map=L.map(div,{scrollWheelZoom:false,zoomControl:true}).setView([lat,lng],16);
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{
+          attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+          maxZoom:19
+        }).addTo(map);
+        L.marker([lat,lng]).addTo(map);
+      }catch(e){console.warn('OSM map fallback failed:',e);}
+    });
+  };
+  document.head.appendChild(s);
+})();
+</script>
+<!-- WAWA_AUTO_LEAFLET_FALLBACK_END -->
 </body></html>

@@ -115,6 +115,23 @@ for entry in sorted(os.listdir(ROOT)):
                     d4_index = os.path.join(full4, "index.html")
                     if os.path.isfile(d4_index):
                         add(f"/{entry}/{d2}/dong/{d4}/", "0.6", "monthly")
+                    # 동×과목 페이지 (korean/english/math/science/social)
+                    for d5 in sorted(os.listdir(full4)):
+                        full5 = os.path.join(full4, d5)
+                        if not os.path.isdir(full5): continue
+                        if d5 not in ("korean", "english", "math", "science", "social"):
+                            continue
+                        d5_index = os.path.join(full5, "index.html")
+                        if os.path.isfile(d5_index):
+                            add(f"/{entry}/{d2}/dong/{d4}/{d5}/", "0.5", "monthly")
+            elif d3 == "school":
+                # 학교 페이지
+                for d4 in sorted(os.listdir(full3)):
+                    full4 = os.path.join(full3, d4)
+                    if not os.path.isdir(full4): continue
+                    d4_index = os.path.join(full4, "index.html")
+                    if os.path.isfile(d4_index):
+                        add(f"/{entry}/{d2}/school/{d4}/", "0.5", "monthly")
             elif os.path.isfile(d3_index):
                 add(f"/{entry}/{d2}/{d3}/", "0.7", "weekly")
 
@@ -134,14 +151,20 @@ with open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8", newline="\n"
     f.write("\n".join(lines) + "\n")
 
 # 통계 출력
-counts = {"메인": 0, "시도": 0, "시군구": 0, "지점": 0, "동": 0}
+counts = {"메인": 0, "시도": 0, "시군구": 0, "지점": 0, "동": 0, "동×과목": 0, "학교": 0}
 for u, _, _ in urls:
     parts = [p for p in u.split("/") if p]
     if len(parts) == 0: counts["메인"] += 1
     elif len(parts) == 1: counts["시도"] += 1
     elif len(parts) == 2: counts["시군구"] += 1
-    elif len(parts) == 3: counts["지점"] += 1
+    elif len(parts) == 3:
+        if parts[2] == "school" or parts[2] == "dong":
+            pass  # 이건 잘못된 패스, 무시
+        else:
+            counts["지점"] += 1
     elif len(parts) == 4 and parts[2] == "dong": counts["동"] += 1
+    elif len(parts) == 4 and parts[2] == "school": counts["학교"] += 1
+    elif len(parts) == 5 and parts[2] == "dong": counts["동×과목"] += 1
 
 print(f"sitemap.xml 생성 완료: {len(urls)} URL")
 for k, v in counts.items():

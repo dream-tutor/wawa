@@ -251,9 +251,33 @@
       <!-- WAWA_AUTO_ADDRESS_FIELD -->
       <div class="form-group" style="margin-bottom:14px;">
         <label class="form-label">거주 주소 <span style="color:red">*</span></label>
-        <input type="text" class="form-input" name="거주주소" required placeholder="예: 경기 성남시 수정구 위례광장로 300">
-        <p style="font-size:11px;color:#94a3b8;margin-top:4px;line-height:1.5;">※ 상세주소는 적어주지 마시고, 도로명 주소까지만 적어주세요.</p>
+        <div style="display:flex;gap:8px;align-items:stretch;">
+          <input type="text" class="form-input" name="거주주소" required readonly placeholder="주소 검색 버튼을 눌러주세요" style="flex:1;background:#F8FAFC;cursor:pointer;" onclick="wawaSearchAddress(this.nextElementSibling)">
+          <button type="button" onclick="wawaSearchAddress(this)" style="flex:0 0 auto;background:#0EA5E9;color:#fff;border:none;padding:0 18px;border-radius:8px;cursor:pointer;font-weight:700;font-size:14px;white-space:nowrap;">🔍 주소 검색</button>
+        </div>
+        <p style="font-size:11px;color:#94a3b8;margin-top:4px;line-height:1.5;">※ 도로명 주소만 자동 입력됩니다 (상세주소 입력 불가)</p>
       </div>
+      <script>
+      window.wawaSearchAddress = window.wawaSearchAddress || function(btn) {
+        var wrapper = btn.parentElement;
+        var input = wrapper.querySelector('input[type="text"]');
+        function openSearch() {
+          new daum.Postcode({
+            oncomplete: function(data) {
+              if (input) input.value = data.roadAddress;
+            }
+          }).open();
+        }
+        if (window.daum && window.daum.Postcode) {
+          openSearch();
+        } else {
+          var s = document.createElement('script');
+          s.src = 'https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js';
+          s.onload = openSearch;
+          document.head.appendChild(s);
+        }
+      };
+      </script>
       <!-- /WAWA_AUTO_ADDRESS_FIELD -->
       <div class="form-group" style="margin-bottom:14px;">
         <label class="form-label">자녀 학년 <span style="color:red">*</span></label>

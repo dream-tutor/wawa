@@ -1126,6 +1126,13 @@ wcs_do(_nasa)
             <input type="tel" class="form-input" placeholder="010-0000-0000" required>
           </div>
         </div>
+        <!-- WAWA_AUTO_ADDRESS_FIELD -->
+        <div class="form-group" style="margin-bottom:14px;">
+          <label class="form-label">거주 주소 <span style="color:red">*</span></label>
+          <input type="text" class="form-input" id="fs-address" required placeholder="예: 경기 성남시 수정구 위례광장로 300">
+          <p style="font-size:11px;color:#94a3b8;margin-top:4px;line-height:1.5;">※ 상세주소는 적어주지 마시고, 도로명 주소까지만 적어주세요.</p>
+        </div>
+        <!-- /WAWA_AUTO_ADDRESS_FIELD -->
         <div class="form-group" style="margin-bottom:14px;">
           <label class="form-label">자녀 학년 <span style="color:red">*</span></label>
           <div style="display:flex;gap:8px;">
@@ -1377,6 +1384,13 @@ wcs_do(_nasa)
           <input type="tel" class="form-input" placeholder="010-0000-0000" required>
         </div>
       </div>
+      <!-- WAWA_AUTO_ADDRESS_FIELD -->
+      <div class="form-group" style="margin-bottom:12px;">
+        <label class="form-label">거주 주소 <span style="color:red">*</span></label>
+        <input type="text" class="form-input" id="m-address" required placeholder="예: 경기 성남시 수정구 위례광장로 300">
+        <p style="font-size:11px;color:#94a3b8;margin-top:4px;line-height:1.5;">※ 상세주소는 적어주지 마시고, 도로명 주소까지만 적어주세요.</p>
+      </div>
+      <!-- /WAWA_AUTO_ADDRESS_FIELD -->
       <div class="form-group" style="margin-bottom:12px;">
         <label class="form-label">자녀 학년 <span style="color:red">*</span></label>
         <div style="display:flex;gap:8px;">
@@ -1483,6 +1497,7 @@ wcs_do(_nasa)
         동:     document.getElementById('fs-dong').value || '',
         이름:   document.getElementById('fs-name').value,
         연락처: form.querySelector('input[type=tel]').value,
+        거주주소: document.getElementById('fs-address') ? document.getElementById('fs-address').value : '',
         학년:   fsGradeCombined,
         과목:   fsSubjects.join(', '),
         연락희망시간: document.getElementById('fs-consult-time') ? document.getElementById('fs-consult-time').value : '',
@@ -2118,6 +2133,7 @@ function submitConsultModal(e){
     동: document.getElementById('m-dong') ? document.getElementById('m-dong').value : '',
     이름: document.getElementById('m-name') ? document.getElementById('m-name').value : '',
     연락처: form.querySelector('input[type=tel]') ? form.querySelector('input[type=tel]').value : '',
+    거주주소: document.getElementById('m-address') ? document.getElementById('m-address').value : '',
     연락희망시간: document.getElementById('m-consult-time') ? document.getElementById('m-consult-time').value : '',
     학년: mGradeCombined,
     과목: mSubjects.join(', '),

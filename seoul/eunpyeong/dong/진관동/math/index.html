@@ -206,6 +206,13 @@
         <div class="form-group"><label class="form-label">학생 이름 <span style="color:red">*</span></label><input type="text" class="form-input" name="이름" required></div>
         <div class="form-group"><label class="form-label">연락처 <span style="color:red">*</span></label><input type="tel" class="form-input" name="연락처" placeholder="010-0000-0000" required></div>
       </div>
+      <!-- WAWA_AUTO_ADDRESS_FIELD -->
+      <div class="form-group" style="margin-bottom:14px;">
+        <label class="form-label">거주 주소 <span style="color:red">*</span></label>
+        <input type="text" class="form-input" name="거주주소" required placeholder="예: 경기 성남시 수정구 위례광장로 300">
+        <p style="font-size:11px;color:#94a3b8;margin-top:4px;line-height:1.5;">※ 상세주소는 적어주지 마시고, 도로명 주소까지만 적어주세요.</p>
+      </div>
+      <!-- /WAWA_AUTO_ADDRESS_FIELD -->
       <div class="form-group" style="margin-bottom:14px;">
         <label class="form-label">자녀 학년 <span style="color:red">*</span></label>
         <div style="display:flex;gap:8px;">
@@ -266,6 +273,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape'){var ov=docu
       동:     (form.querySelector('[name="동"]')||{}).value || '',
       이름:   (form.querySelector('[name="이름"]')||{}).value || '',
       연락처: (form.querySelector('[name="연락처"]')||{}).value || '',
+      거주주소: (form.querySelector('[name="거주주소"]')||{}).value || '',
       학년:   school && grade ? school+' '+grade : school||grade,
       과목:   subjects,
       연락희망시간: (form.querySelector('[name="연락희망시간"]')||{}).value || '',

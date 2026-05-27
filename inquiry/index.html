@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-F83BT1YZ1S"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-F83BT1YZ1S');</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="naver-site-verification" content="1fbf70b04c9db8a9e0152641c27aee67e9e96db2">
+<title>무료 상담 신청 | 와와학습코칭센터</title>
+<meta name="description" content="와와학습코칭센터 무료 상담 신청 페이지. 거주 지역 인근 지점에서 빠르게 연락드립니다. 초중고 자기주도학습 전문 코칭.">
+<link rel="canonical" href="https://wawacenter.kr/inquiry/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://wawacenter.kr/inquiry/">
+<meta property="og:title" content="무료 상담 신청 | 와와학습코칭센터">
+<meta property="og:description" content="와와학습코칭센터 무료 상담 신청. 거주 지역 인근 지점에서 빠르게 연락드립니다.">
+<meta property="og:image" content="https://wawacenter.kr/asd.png">
+<meta property="og:site_name" content="와와학습코칭센터">
+<link rel="icon" type="image/x-icon" href="../favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Montserrat:wght@700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a href="../index.html" class="nav-logo">와와학습코칭센터</a>
+    <div class="nav-actions">
+      <a href="/reviews/" class="nav-reviews">⭐ 후기</a>
+      <a href="tel:010-4864-5345" class="nav-call">📞 전화 상담</a>
+    </div>
+  </div>
+</nav>
+<nav class="breadcrumb"><div class="breadcrumb-inner"><a href="../index.html">홈</a> › <span>무료 상담 신청</span></div></nav>
+
+<section class="hero branch-hero compact-hero" style="padding-top:32px;padding-bottom:28px;">
+  <div class="hero-badge">전국 와와학습코칭센터</div>
+  <div class="hero-pre-title" style="margin:10px 0 6px;">초중고 자기주도학습 전문</div>
+  <h1 style="margin:0 0 14px;line-height:1.25;">무료 <span>상담 신청</span></h1>
+  <p style="max-width:680px;margin:0 auto 18px;text-wrap:balance;word-break:keep-all;line-height:1.65;">
+    아래 정보를 남겨주시면 거주 지역 인근 와와센터에서 빠르게 연락드립니다.<br>
+    학습 상황·진로 고민·학원 운영 모두 상담 가능합니다.
+  </p>
+  <p style="font-size:12px;color:rgba(255,255,255,0.75);margin:14px 0 0;">📞 빠른 상담은 010-4864-5345로 전화주세요.</p>
+</section>
+
+<section class="section" style="background:#F8FAFC;padding:32px 20px 48px;">
+<div class="section-inner" style="max-width:640px;">
+  <div class="consult-form-card" style="background:#fff;border-radius:20px;padding:28px 24px;box-shadow:0 8px 28px rgba(15,23,42,0.06);">
+    <div style="text-align:center;margin-bottom:20px;">
+      <div class="section-tag">FREE CONSULT</div>
+      <h2 class="section-title" style="margin-bottom:6px;">📋 무료 상담 신청</h2>
+      <p class="section-sub">아래 정보를 작성해 주세요. (* 필수)</p>
+    </div>
+    <form id="consultForm" autocomplete="off">
+      <input type="hidden" name="지점" value="일반문의">
+      <input type="hidden" name="시도" value="">
+      <input type="hidden" name="시군구" value="">
+      <input type="hidden" name="동" value="">
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label">학생 이름 <span style="color:red">*</span></label>
+          <input type="text" class="form-input" name="이름" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label">연락처 <span style="color:red">*</span></label>
+          <input type="tel" class="form-input" name="연락처" placeholder="010-0000-0000" required>
+        </div>
+      </div>
+      <!-- WAWA_AUTO_ADDRESS_FIELD -->
+      <div class="form-group" style="margin-bottom:14px;">
+        <label class="form-label">거주 주소 <span style="color:red">*</span></label>
+        <div style="display:flex;gap:8px;align-items:stretch;">
+          <input type="text" class="form-input" name="거주주소" required readonly placeholder="주소 검색 버튼을 눌러주세요" style="flex:1;background:#F8FAFC;cursor:pointer;" onclick="wawaSearchAddress(this.nextElementSibling)">
+          <button type="button" onclick="wawaSearchAddress(this)" style="flex:0 0 auto;background:#0EA5E9;color:#fff;border:none;padding:0 18px;border-radius:8px;cursor:pointer;font-weight:700;font-size:14px;white-space:nowrap;">🔍 주소 검색</button>
+        </div>
+        <p style="font-size:11px;color:#94a3b8;margin-top:4px;line-height:1.5;">※ 도로명 주소만 자동 입력됩니다 (상세주소 입력 불가) — 거주지 인근 지점으로 매칭해 드립니다.</p>
+      </div>
+      <script>
+      window.wawaSearchAddress = window.wawaSearchAddress || function(btn) {
+        var wrapper = btn.parentElement;
+        var input = wrapper.querySelector('input[type="text"]');
+        function openSearch() {
+          new daum.Postcode({
+            oncomplete: function(data) {
+              if (input) input.value = data.roadAddress;
+            }
+          }).open();
+        }
+        if (window.daum && window.daum.Postcode) {
+          openSearch();
+        } else {
+          var s = document.createElement('script');
+          s.src = 'https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js';
+          s.onload = openSearch;
+          document.head.appendChild(s);
+        }
+      };
+      </script>
+      <!-- /WAWA_AUTO_ADDRESS_FIELD -->
+      <div class="form-group" style="margin-bottom:14px;">
+        <label class="form-label">자녀 학년 <span style="color:red">*</span></label>
+        <div style="display:flex;gap:8px;">
+          <select class="form-select" id="fs-school" required style="flex:1;">
+            <option value="">학교 선택</option>
+            <option>초등학교</option><option>중학교</option><option>고등학교</option>
+          </select>
+          <select class="form-select" id="fs-grade" required style="flex:1;">
+            <option value="">학년 선택</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group" style="margin-bottom:18px;">
+        <label class="form-label">희망 과목 <span style="color:red">*</span></label>
+        <div class="subject-checks">
+          <label><input type="checkbox" name="과목" value="국어"> 국어</label>
+          <label><input type="checkbox" name="과목" value="영어"> 영어</label>
+          <label><input type="checkbox" name="과목" value="수학"> 수학</label>
+          <label><input type="checkbox" name="과목" value="사회"> 사회</label>
+          <label><input type="checkbox" name="과목" value="과학"> 과학</label>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="form-label">연락 희망 시간</label>
+        <select class="form-select" name="연락희망시간">
+          <option value="">선택 (선택사항)</option>
+          <option>오전 9시~12시</option><option>오후 12시~3시</option>
+          <option>오후 3시~6시</option><option>오후 6시 이후</option>
+        </select>
+      </div>
+      <div class="form-agree">
+        <input type="checkbox" id="agree" required checked onclick="if(!this.checked){alert('체크 해지하시면 상담이 어렵습니다.');this.checked=true;}">
+        <label for="agree">개인정보 수집 및 이용에 동의합니다. <span style="color:#94A3B8;font-weight:400;">(상담 목적으로만 활용됩니다.)</span></label>
+      </div>
+      <button type="submit" class="form-submit">📋 지금 상담 신청하기</button>
+      <div class="form-note">📞 빠른 상담은 <a href="tel:010-4864-5345" style="color:#0369A1;font-weight:600;">여기를 눌러 전화주세요</a></div>
+    </form>
+  </div>
+</div>
+</section>
+
+<div class="modal-overlay" id="successModal">
+  <div class="modal-box">
+    <div class="modal-icon">🎉</div>
+    <div class="modal-title">상담 신청 완료!</div>
+    <div class="modal-text">빠른 시간 내에 연락드리겠습니다.<br>감사합니다!</div>
+    <button class="modal-close" onclick="document.getElementById('successModal').classList.remove('active')">확인</button>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">와와학습코칭센터</div>
+    <div class="footer-info">
+      📞 010-4864-5345 · <a href="/reviews/">⭐ 후기 보러가기</a> · <a href="/">홈으로</a>
+    </div>
+    <div class="footer-copy">© WAWA Coaching Center</div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var form = document.getElementById('consultForm');
+  if(!form) return;
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var btn = form.querySelector('.form-submit');
+    btn.textContent = '⏳ 전송 중...';
+    btn.disabled = true;
+    var school = (form.querySelector('#fs-school')||{}).value || '';
+    var grade = (form.querySelector('#fs-grade')||{}).value || '';
+    var subjectEls = form.querySelectorAll('[name="과목"]:checked');
+    var subjects = Array.from(subjectEls).map(function(el){return el.value;}).join(', ');
+    if(!subjects){
+      alert('희망 과목을 1개 이상 선택해 주세요.');
+      btn.textContent = '📋 지금 상담 신청하기';
+      btn.disabled = false;
+      return;
+    }
+    var data = {
+      지점:   (form.querySelector('[name="지점"]')||{}).value || '일반문의',
+      시도:   (form.querySelector('[name="시도"]')||{}).value || '',
+      시군구: (form.querySelector('[name="시군구"]')||{}).value || '',
+      동:     (form.querySelector('[name="동"]')||{}).value || '',
+      이름:   (form.querySelector('[name="이름"]')||{}).value || '',
+      연락처: (form.querySelector('[name="연락처"]')||{}).value || '',
+      거주주소: (form.querySelector('[name="거주주소"]')||{}).value || '',
+      학년:   school && grade ? school+' '+grade : school||grade,
+      과목:   subjects,
+      연락희망시간: (form.querySelector('[name="연락희망시간"]')||{}).value || '',
+      신청일: new Date().toLocaleString('ko-KR'),
+      유입페이지: window.location.href,
+      유입페이지제목: document.title,
+      유입경로: document.referrer || '직접입력'
+    };
+    var params = Object.keys(data).map(function(k){
+      return encodeURIComponent(k)+'='+encodeURIComponent(data[k]);
+    }).join('&');
+    var img = new Image();
+    img.src = 'https://script.google.com/macros/s/AKfycbybsuTZMjzlp3HkkVaUX0IUFnNlSfnnN0DGThb-2BOIwZ8IyZNnMgkwoWOb_muHCEx5/exec?'+params;
+    setTimeout(function(){
+      document.getElementById('successModal').classList.add('active');
+      form.reset();
+      btn.textContent = '📋 지금 상담 신청하기';
+      btn.disabled = false;
+    }, 800);
+  });
+})();
+</script>
+<script>
+(function(){
+  var s = document.getElementById('fs-school');
+  var g = document.getElementById('fs-grade');
+  if(!s || !g) return;
+  var GRADES = {'초등학교':[1,2,3,4,5,6], '중학교':[1,2,3], '고등학교':[1,2,3]};
+  s.addEventListener('change', function(){
+    var sel = s.value;
+    g.innerHTML = '<option value="">학년 선택</option>';
+    (GRADES[sel]||[]).forEach(function(n){
+      var o = document.createElement('option');
+      o.textContent = n + '학년';
+      g.appendChild(o);
+    });
+  });
+})();
+</script>
+</body>
+</html>

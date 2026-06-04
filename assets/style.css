@@ -1481,15 +1481,18 @@
    hover/pointer 기반 검출 (창 너비 무관, 더 정확)
    ───────────────────────────────────────────── */
 @media (hover: hover) and (pointer: fine) {
+  /* tel: anchor 직접 숨김 (가장 정확) */
+  a[href^="tel:"] {
+    display: none !important;
+  }
+  /* 전화 안내 wrapper들 (anchor만 숨기면 어색한 텍스트 잔여) */
   .nav-call,
   .btn-phone,
   .form-note,
-  .bc-btn-call,
   .consult-modal-note,
-  .pc-hide-phone,
-  a.float-btn[href^="tel:"],
-  .phone-float a[href^="tel:"] {
+  .pc-hide-phone {
     display: none !important;
   }
-  /* .phone-float 컨테이너는 PC에서도 표시 — ✍️ 무료 상담 버튼 위해 */
+  /* 주의: .bc-btn-call은 "📄 지점 페이지" 링크도 공유하므로 클래스 단독 숨김 금지.
+     a[href^="tel:"] 선택자가 전화 anchor만 정확히 잡음. */
 }

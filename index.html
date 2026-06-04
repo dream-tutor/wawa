@@ -775,6 +775,20 @@
 @media(max-width:540px){
   #fee .fee-grid-mobile{grid-template-columns:1fr !important;}
 }
+
+/* PC(마우스 있는 기기)에서 전화 관련 UI 자동 숨김 */
+@media (hover: hover) and (pointer: fine) {
+  .nav-call,
+  .btn-phone,
+  .form-note,
+  .bc-btn-call,
+  .consult-modal-note,
+  .pc-hide-phone,
+  a.float-btn[href^="tel:"],
+  .phone-float a[href^="tel:"] {
+    display: none !important;
+  }
+}
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
 <script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>

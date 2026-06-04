@@ -1476,18 +1476,20 @@
 .ndc-meta { font-size:11px; color:#64748B; margin-top:2px; }
 
 /* ─────────────────────────────────────────────
-   PC(데스크톱)에서 전화 관련 UI 숨김
-   tel: 링크는 PC에서 동작하지 않으므로 의미 없음
-   모바일/태블릿 (≤1199px) 에서만 표시
+   PC(마우스 있는 기기)에서 전화 관련 UI 자동 숨김
+   tel: 링크는 PC에서 동작 안 함 → 의미 없는 UI 제거
+   hover/pointer 기반 검출 (창 너비 무관, 더 정확)
    ───────────────────────────────────────────── */
-@media (min-width: 1200px) {
+@media (hover: hover) and (pointer: fine) {
   .nav-call,
   .btn-phone,
   .form-note,
-  .phone-float,
   .bc-btn-call,
   .consult-modal-note,
-  .pc-hide-phone {
+  .pc-hide-phone,
+  a.float-btn[href^="tel:"],
+  .phone-float a[href^="tel:"] {
     display: none !important;
   }
+  /* .phone-float 컨테이너는 PC에서도 표시 — ✍️ 무료 상담 버튼 위해 */
 }

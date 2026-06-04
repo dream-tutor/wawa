@@ -1474,3 +1474,20 @@
 }
 .ndc-name { font-size:14px; font-weight:700; }
 .ndc-meta { font-size:11px; color:#64748B; margin-top:2px; }
+
+/* ─────────────────────────────────────────────
+   PC(데스크톱)에서 전화 관련 UI 숨김
+   tel: 링크는 PC에서 동작하지 않으므로 의미 없음
+   모바일/태블릿 (≤1199px) 에서만 표시
+   ───────────────────────────────────────────── */
+@media (min-width: 1200px) {
+  .nav-call,
+  .btn-phone,
+  .form-note,
+  .phone-float,
+  .bc-btn-call,
+  .consult-modal-note,
+  .pc-hide-phone {
+    display: none !important;
+  }
+}

@@ -181,6 +181,37 @@
         <div class="form-group"><label class="form-label">학생 이름 <span style="color:red">*</span></label><input type="text" class="form-input" name="이름" required></div>
         <div class="form-group"><label class="form-label">연락처 <span style="color:red">*</span></label><input type="tel" class="form-input" name="연락처" placeholder="010-0000-0000" required></div>
       </div>
+      <!-- WAWA_AUTO_ADDRESS_FIELD -->
+      <div class="form-group" style="margin-bottom:14px;">
+        <label class="form-label">거주 주소 <span style="color:red">*</span></label>
+        <div style="display:flex;gap:8px;align-items:stretch;">
+          <input type="text" class="form-input" name="거주주소" required readonly placeholder="주소 검색 버튼을 눌러주세요" style="flex:1;background:#F8FAFC;cursor:pointer;" onclick="wawaSearchAddress(this.nextElementSibling)">
+          <button type="button" onclick="wawaSearchAddress(this)" style="flex:0 0 auto;background:#0EA5E9;color:#fff;border:none;padding:0 18px;border-radius:8px;cursor:pointer;font-weight:700;font-size:14px;white-space:nowrap;">🔍 주소 검색</button>
+        </div>
+        <p style="font-size:11px;color:#94a3b8;margin-top:4px;line-height:1.5;">* 도로명 주소까지만 입력해주세요</p>
+      </div>
+      <script>
+      window.wawaSearchAddress = window.wawaSearchAddress || function(btn) {
+        var wrapper = btn.parentElement;
+        var input = wrapper.querySelector('input[type="text"]');
+        function openSearch() {
+          new daum.Postcode({
+            oncomplete: function(data) {
+              if (input) input.value = data.roadAddress;
+            }
+          }).open();
+        }
+        if (window.daum && window.daum.Postcode) {
+          openSearch();
+        } else {
+          var s = document.createElement('script');
+          s.src = 'https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js';
+          s.onload = openSearch;
+          document.head.appendChild(s);
+        }
+      };
+      </script>
+      <!-- /WAWA_AUTO_ADDRESS_FIELD -->
       <div class="form-group" style="margin-bottom:14px;">
         <label class="form-label">자녀 학년 <span style="color:red">*</span></label>
         <div style="display:flex;gap:8px;">
@@ -247,6 +278,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape'){var ov=docu
       동:     (form.querySelector('[name="동"]')||{}).value || '',
       이름:   (form.querySelector('[name="이름"]')||{}).value || '',
       연락처: (form.querySelector('[name="연락처"]')||{}).value || '',
+      거주주소: (form.querySelector('[name="거주주소"]')||{}).value || '',
       학년:   school && grade ? school+' '+grade : school||grade,
       과목:   subjects,
       연락희망시간: (form.querySelector('[name="연락희망시간"]')||{}).value || '',

@@ -113,13 +113,12 @@
     <div class="section-tag">신능중 와와센터 코칭 방식</div>
     <h2 class="section-title" style="margin-bottom:6px;">자기주도학습 + 진로·입시 코칭까지 함께</h2>
   </div>
-  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">자기주도학습은 혼자 공부하는 것이 아니라 자기 학습을 관리할 줄 아는 능력이며, 화정점이 그 능력을 길러줍니다.</p>
-  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">화정동에서 30명에게 똑같은 강의를 진행하는 일반 학원과 운영 방식이 다릅니다.</p>
-  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">국어 · 영어 · 수학 학습 분량은 학생의 이해 속도에 맞추어 매주 조정되며, 화정점 코치가 학생별로 다르게 설계합니다.</p>
-  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">화정동 학생이 매일 학습 일지를 작성하고, 화정점 코치가 그 일지를 함께 점검하는 루틴이 자기주도학습의 출발점입니다.</p>
-  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">성적이 잠시 흔들리는 시기는 누구나 있습니다. 화정점은 그때 학습 습관을 점검하는 시간으로 활용합니다.</p>
-  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">화정동 학생의 학교 시험 출제 패턴을 매년 누적 관리하여 국어 · 영어 · 수학 대비 자료로 활용합니다.</p>
-  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">화정점 코치는 화정동 학생의 학년별 입시 로드맵을 함께 설계해 드립니다.</p>
+  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">스스로 공부하는 힘을 기르도록 고양시 신능중 인근 학생과 매일 계획·점검 루틴을 함께 만듭니다.</p>
+  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">화정동에서 화정점은 국어 · 영어 · 수학 개념부터 심화·서술형까지 단계별로 다집니다.</p>
+  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">통학 동선을 고려해 신능중에서 다니기 좋은 와와센터 지점을 함께 안내해 드립니다.</p>
+  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">화정동 학부모님께 학생의 성향에 맞는 진로 방향을 함께 잡아드리는 것이 화정점 코칭의 일부입니다.</p>
+  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">자녀의 매일 학습량과 이해도를 학습 일지로 정리해 신능중 학부모님께 공유드립니다.</p>
+  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">화정점의 진단 결과에 따라 다른 문제집과 다른 학습 분량을 설계합니다. 화정동에서 같은 교실에 앉아 있어도 학생마다 진도가 다릅니다.</p>
 </div>
 </section>
 
@@ -182,37 +181,6 @@
         <div class="form-group"><label class="form-label">학생 이름 <span style="color:red">*</span></label><input type="text" class="form-input" name="이름" required></div>
         <div class="form-group"><label class="form-label">연락처 <span style="color:red">*</span></label><input type="tel" class="form-input" name="연락처" placeholder="010-0000-0000" required></div>
       </div>
-      <!-- WAWA_AUTO_ADDRESS_FIELD -->
-      <div class="form-group" style="margin-bottom:14px;">
-        <label class="form-label">거주 주소 <span style="color:red">*</span></label>
-        <div style="display:flex;gap:8px;align-items:stretch;">
-          <input type="text" class="form-input" name="거주주소" required readonly placeholder="주소 검색 버튼을 눌러주세요" style="flex:1;background:#F8FAFC;cursor:pointer;" onclick="wawaSearchAddress(this.nextElementSibling)">
-          <button type="button" onclick="wawaSearchAddress(this)" style="flex:0 0 auto;background:#0EA5E9;color:#fff;border:none;padding:0 18px;border-radius:8px;cursor:pointer;font-weight:700;font-size:14px;white-space:nowrap;">🔍 주소 검색</button>
-        </div>
-        <p style="font-size:11px;color:#94a3b8;margin-top:4px;line-height:1.5;">* 도로명 주소까지만 입력해주세요</p>
-      </div>
-      <script>
-      window.wawaSearchAddress = window.wawaSearchAddress || function(btn) {
-        var wrapper = btn.parentElement;
-        var input = wrapper.querySelector('input[type="text"]');
-        function openSearch() {
-          new daum.Postcode({
-            oncomplete: function(data) {
-              if (input) input.value = data.roadAddress;
-            }
-          }).open();
-        }
-        if (window.daum && window.daum.Postcode) {
-          openSearch();
-        } else {
-          var s = document.createElement('script');
-          s.src = 'https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js';
-          s.onload = openSearch;
-          document.head.appendChild(s);
-        }
-      };
-      </script>
-      <!-- /WAWA_AUTO_ADDRESS_FIELD -->
       <div class="form-group" style="margin-bottom:14px;">
         <label class="form-label">자녀 학년 <span style="color:red">*</span></label>
         <div style="display:flex;gap:8px;">
@@ -279,7 +247,6 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape'){var ov=docu
       동:     (form.querySelector('[name="동"]')||{}).value || '',
       이름:   (form.querySelector('[name="이름"]')||{}).value || '',
       연락처: (form.querySelector('[name="연락처"]')||{}).value || '',
-      거주주소: (form.querySelector('[name="거주주소"]')||{}).value || '',
       학년:   school && grade ? school+' '+grade : school||grade,
       과목:   subjects,
       연락희망시간: (form.querySelector('[name="연락희망시간"]')||{}).value || '',

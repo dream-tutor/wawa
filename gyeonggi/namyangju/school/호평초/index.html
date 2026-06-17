@@ -113,11 +113,13 @@
     <div class="section-tag">호평초 와와센터 코칭 방식</div>
     <h2 class="section-title" style="margin-bottom:6px;">자기주도학습 + 진로·입시 코칭까지 함께</h2>
   </div>
-  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">호평동 학생이 스스로 계획을 세우고 매일 점검하는 자기주도학습 루틴을 만들어 갑니다.</p>
-  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">강의식 수업은 잘하는 학생에겐 지루하고 따라가지 못하는 학생에겐 부담이라, 호평점은 1:1 코칭으로 그 한계를 넘습니다.</p>
-  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">같은 단원이어도 학생마다 다른 문제집·다른 분량으로 다루어 호평동의 모든 학생이 자기 속도로 성장하게 합니다.</p>
-  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">호평동 학생이 매일 학습 일지를 작성하고, 호평점 코치가 그 일지를 함께 점검하는 루틴이 자기주도학습의 출발점입니다.</p>
+  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">남양주시에서 호평초을 다니는 학생이라면 학교 진도와 출발선이 달라도 진단 후 자기 단계부터 시작합니다.</p>
+  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">학습 일지·주간 점검·복습 사이클을 4C 프로세스에 따라 호평점에서 운영합니다.</p>
+  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">호평초 내신 대비는 학교별 기출과 평가 일정을 반영해 시험 2~3주 전부터 집중 점검에 들어갑니다.</p>
+  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">공부하는 방법 자체를 가르치는 것이 호평점의 출발점이며, 자기주도학습 습관이 자리잡으면 학년이 올라가도 성적이 흔들리지 않습니다.</p>
+  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">학년이 올라가도 흔들리지 않도록 호평초 학생의 국어 · 영어 · 수학 기초 개념부터 단단히 잡습니다.</p>
   <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">호평동 학부모님께서 자녀의 학습 방향에 확신이 없으실 때 호평점의 입시리포트가 객관적 기준이 됩니다.</p>
+  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">기초 단원에서 막히면 다음 단원이 무너지기에, 호평동 학생도 기초 점검부터 시작합니다.</p>
 </div>
 </section>
 
@@ -188,37 +190,6 @@
         <div class="form-group"><label class="form-label">학생 이름 <span style="color:red">*</span></label><input type="text" class="form-input" name="이름" required></div>
         <div class="form-group"><label class="form-label">연락처 <span style="color:red">*</span></label><input type="tel" class="form-input" name="연락처" placeholder="010-0000-0000" required></div>
       </div>
-      <!-- WAWA_AUTO_ADDRESS_FIELD -->
-      <div class="form-group" style="margin-bottom:14px;">
-        <label class="form-label">거주 주소 <span style="color:red">*</span></label>
-        <div style="display:flex;gap:8px;align-items:stretch;">
-          <input type="text" class="form-input" name="거주주소" required readonly placeholder="주소 검색 버튼을 눌러주세요" style="flex:1;background:#F8FAFC;cursor:pointer;" onclick="wawaSearchAddress(this.nextElementSibling)">
-          <button type="button" onclick="wawaSearchAddress(this)" style="flex:0 0 auto;background:#0EA5E9;color:#fff;border:none;padding:0 18px;border-radius:8px;cursor:pointer;font-weight:700;font-size:14px;white-space:nowrap;">🔍 주소 검색</button>
-        </div>
-        <p style="font-size:11px;color:#94a3b8;margin-top:4px;line-height:1.5;">* 도로명 주소까지만 입력해주세요</p>
-      </div>
-      <script>
-      window.wawaSearchAddress = window.wawaSearchAddress || function(btn) {
-        var wrapper = btn.parentElement;
-        var input = wrapper.querySelector('input[type="text"]');
-        function openSearch() {
-          new daum.Postcode({
-            oncomplete: function(data) {
-              if (input) input.value = data.roadAddress;
-            }
-          }).open();
-        }
-        if (window.daum && window.daum.Postcode) {
-          openSearch();
-        } else {
-          var s = document.createElement('script');
-          s.src = 'https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js';
-          s.onload = openSearch;
-          document.head.appendChild(s);
-        }
-      };
-      </script>
-      <!-- /WAWA_AUTO_ADDRESS_FIELD -->
       <div class="form-group" style="margin-bottom:14px;">
         <label class="form-label">자녀 학년 <span style="color:red">*</span></label>
         <div style="display:flex;gap:8px;">
@@ -285,7 +256,6 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape'){var ov=docu
       동:     (form.querySelector('[name="동"]')||{}).value || '',
       이름:   (form.querySelector('[name="이름"]')||{}).value || '',
       연락처: (form.querySelector('[name="연락처"]')||{}).value || '',
-      거주주소: (form.querySelector('[name="거주주소"]')||{}).value || '',
       학년:   school && grade ? school+' '+grade : school||grade,
       과목:   subjects,
       연락희망시간: (form.querySelector('[name="연락희망시간"]')||{}).value || '',

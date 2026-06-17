@@ -113,12 +113,13 @@
     <div class="section-tag">흥덕고 와와센터 코칭 방식</div>
     <h2 class="section-title" style="margin-bottom:6px;">자기주도학습 + 진로·입시 코칭까지 함께</h2>
   </div>
-  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">공부하는 방법 자체를 가르치는 것이 복대점의 출발점이며, 자기주도학습 습관이 자리잡으면 학년이 올라가도 성적이 흔들리지 않습니다.</p>
-  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">강사가 일방적으로 설명하는 시간을 최소화하고, 복대동 학생이 직접 풀어내는 시간을 최대로 확보합니다.</p>
-  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">획일적인 진도표가 아닌, 학생의 이해 속도에 맞춘 국어 · 영어 · 수학 진도와 복습 주기로 복대점이 운영됩니다.</p>
-  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">복대동 학생의 학습 루틴이 자리잡으면 학원에 의존하지 않고도 스스로 공부할 수 있게 됩니다.</p>
-  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">복대동에서 학원을 옮기는 것이 아니라 학습 방식을 바꾸는 것이 와와센터의 제안입니다.</p>
-  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">수능 영역별 출제 흐름과 국어 · 영어 · 수학 학습 흐름을 연계해 복대점에서 함께 다룹니다.</p>
+  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">약한 단원을 학생별로 진단해 흥덕고 학생 한 명 한 명에게 맞는 국어 · 영어 · 수학 보충 자료를 따로 만듭니다.</p>
+  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">복대동 학부모님께서 자녀의 학습 방향에 확신이 없으실 때 복대점의 입시리포트가 객관적 기준이 됩니다.</p>
+  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">시험 기간에는 흥덕고의 출제 범위와 문항 유형에 맞춘 실전 점검으로 내신 점수를 끌어올립니다.</p>
+  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">복대점은 학원이라기보다 학습실에 가깝습니다. 칠판 강의 대신 복대동 학생 한 명 한 명이 자기 자리에서 학습합니다.</p>
+  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">학교 수업을 따라가기 버거운 흥덕고 학생도 강의식이 아닌 1:1 코칭으로 자기 속도를 찾습니다.</p>
+  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">복대점이 만드는 학습 습관은 시험 대비용이 아니라 평생 학습 태도로 이어집니다.</p>
+  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">같은 단원이어도 학생마다 다른 문제집·다른 분량으로 다루어 복대동의 모든 학생이 자기 속도로 성장하게 합니다.</p>
 </div>
 </section>
 
@@ -181,37 +182,6 @@
         <div class="form-group"><label class="form-label">학생 이름 <span style="color:red">*</span></label><input type="text" class="form-input" name="이름" required></div>
         <div class="form-group"><label class="form-label">연락처 <span style="color:red">*</span></label><input type="tel" class="form-input" name="연락처" placeholder="010-0000-0000" required></div>
       </div>
-      <!-- WAWA_AUTO_ADDRESS_FIELD -->
-      <div class="form-group" style="margin-bottom:14px;">
-        <label class="form-label">거주 주소 <span style="color:red">*</span></label>
-        <div style="display:flex;gap:8px;align-items:stretch;">
-          <input type="text" class="form-input" name="거주주소" required readonly placeholder="주소 검색 버튼을 눌러주세요" style="flex:1;background:#F8FAFC;cursor:pointer;" onclick="wawaSearchAddress(this.nextElementSibling)">
-          <button type="button" onclick="wawaSearchAddress(this)" style="flex:0 0 auto;background:#0EA5E9;color:#fff;border:none;padding:0 18px;border-radius:8px;cursor:pointer;font-weight:700;font-size:14px;white-space:nowrap;">🔍 주소 검색</button>
-        </div>
-        <p style="font-size:11px;color:#94a3b8;margin-top:4px;line-height:1.5;">* 도로명 주소까지만 입력해주세요</p>
-      </div>
-      <script>
-      window.wawaSearchAddress = window.wawaSearchAddress || function(btn) {
-        var wrapper = btn.parentElement;
-        var input = wrapper.querySelector('input[type="text"]');
-        function openSearch() {
-          new daum.Postcode({
-            oncomplete: function(data) {
-              if (input) input.value = data.roadAddress;
-            }
-          }).open();
-        }
-        if (window.daum && window.daum.Postcode) {
-          openSearch();
-        } else {
-          var s = document.createElement('script');
-          s.src = 'https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js';
-          s.onload = openSearch;
-          document.head.appendChild(s);
-        }
-      };
-      </script>
-      <!-- /WAWA_AUTO_ADDRESS_FIELD -->
       <div class="form-group" style="margin-bottom:14px;">
         <label class="form-label">자녀 학년 <span style="color:red">*</span></label>
         <div style="display:flex;gap:8px;">
@@ -278,7 +248,6 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape'){var ov=docu
       동:     (form.querySelector('[name="동"]')||{}).value || '',
       이름:   (form.querySelector('[name="이름"]')||{}).value || '',
       연락처: (form.querySelector('[name="연락처"]')||{}).value || '',
-      거주주소: (form.querySelector('[name="거주주소"]')||{}).value || '',
       학년:   school && grade ? school+' '+grade : school||grade,
       과목:   subjects,
       연락희망시간: (form.querySelector('[name="연락희망시간"]')||{}).value || '',

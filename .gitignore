@@ -25,4 +25,5 @@ _*.txt
 _*.json
 _*.ps1
 _*.html
+today_urls.txt
 .claude/worktrees/

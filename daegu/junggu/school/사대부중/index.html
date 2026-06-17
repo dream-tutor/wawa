@@ -120,11 +120,13 @@
     <div class="section-tag">사대부중 와와센터 코칭 방식</div>
     <h2 class="section-title" style="margin-bottom:6px;">자기주도학습 + 진로·입시 코칭까지 함께</h2>
   </div>
-  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">코치가 옆에 앉아 국어 · 영어 · 수학 풀이 과정을 직접 보며, 잘못된 풀이 습관은 그 자리에서 교정합니다.</p>
-  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">국어 · 영어 · 수학 강의를 듣기만 하는 학원이 아니라, 듣고 풀고 점검하는 사이클이 도는 학습 공간입니다.</p>
-  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">성적이 잠시 흔들리는 시기는 누구나 있습니다. 반월당점은 그때 학습 습관을 점검하는 시간으로 활용합니다.</p>
-  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">봉산동 인근 학교 시험의 출제 유형을 분석해 국어 · 영어 · 수학 내신 점수 상승으로 이어지는 학습을 진행합니다.</p>
-  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">봉산동 와와센터가 30년간 가장 잘해 온 영역은 자기주도학습 코칭입니다.</p>
+  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">와와학습코칭센터는 사대부중 재학생이 자기주도학습 습관을 잡도록 코치가 1:1로 함께합니다.</p>
+  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">수능 영역별 출제 흐름과 국어 · 영어 · 수학 학습 흐름을 연계해 반월당점에서 함께 다룹니다.</p>
+  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">중구에서 사대부중을 다니는 학생이라면 학교 진도와 출발선이 달라도 진단 후 자기 단계부터 시작합니다.</p>
+  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">반월당점이 30년간 지켜온 원칙은 '가르치기보다 스스로 하게 만든다'이며, 봉산동 학생도 같은 원칙으로 코칭합니다.</p>
+  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">시험 직후 틀린 문제의 원인을 한 줄로 정리하는 습관으로 사대부중 다음 시험 대비를 이어갑니다.</p>
+  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">국어 · 영어 · 수학 개념을 자기 언어로 설명할 수 있을 때까지 다지는 것이 반월당점의 기초 단계 목표입니다.</p>
+  <p style="font-size:15px;line-height:1.85;color:#475569;word-break:keep-all;text-wrap:pretty;margin-top:14px;">반월당점의 4C 프로세스(Check 진단 · Calendar 계획 · Coaching 실행 · Confirm 점검)로 봉산동 학생의 학습 사이클을 만듭니다.</p>
 </div>
 </section>
 
@@ -195,37 +197,6 @@
         <div class="form-group"><label class="form-label">학생 이름 <span style="color:red">*</span></label><input type="text" class="form-input" name="이름" required></div>
         <div class="form-group"><label class="form-label">연락처 <span style="color:red">*</span></label><input type="tel" class="form-input" name="연락처" placeholder="010-0000-0000" required></div>
       </div>
-      <!-- WAWA_AUTO_ADDRESS_FIELD -->
-      <div class="form-group" style="margin-bottom:14px;">
-        <label class="form-label">거주 주소 <span style="color:red">*</span></label>
-        <div style="display:flex;gap:8px;align-items:stretch;">
-          <input type="text" class="form-input" name="거주주소" required readonly placeholder="주소 검색 버튼을 눌러주세요" style="flex:1;background:#F8FAFC;cursor:pointer;" onclick="wawaSearchAddress(this.nextElementSibling)">
-          <button type="button" onclick="wawaSearchAddress(this)" style="flex:0 0 auto;background:#0EA5E9;color:#fff;border:none;padding:0 18px;border-radius:8px;cursor:pointer;font-weight:700;font-size:14px;white-space:nowrap;">🔍 주소 검색</button>
-        </div>
-        <p style="font-size:11px;color:#94a3b8;margin-top:4px;line-height:1.5;">* 도로명 주소까지만 입력해주세요</p>
-      </div>
-      <script>
-      window.wawaSearchAddress = window.wawaSearchAddress || function(btn) {
-        var wrapper = btn.parentElement;
-        var input = wrapper.querySelector('input[type="text"]');
-        function openSearch() {
-          new daum.Postcode({
-            oncomplete: function(data) {
-              if (input) input.value = data.roadAddress;
-            }
-          }).open();
-        }
-        if (window.daum && window.daum.Postcode) {
-          openSearch();
-        } else {
-          var s = document.createElement('script');
-          s.src = 'https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js';
-          s.onload = openSearch;
-          document.head.appendChild(s);
-        }
-      };
-      </script>
-      <!-- /WAWA_AUTO_ADDRESS_FIELD -->
       <div class="form-group" style="margin-bottom:14px;">
         <label class="form-label">자녀 학년 <span style="color:red">*</span></label>
         <div style="display:flex;gap:8px;">
@@ -292,7 +263,6 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape'){var ov=docu
       동:     (form.querySelector('[name="동"]')||{}).value || '',
       이름:   (form.querySelector('[name="이름"]')||{}).value || '',
       연락처: (form.querySelector('[name="연락처"]')||{}).value || '',
-      거주주소: (form.querySelector('[name="거주주소"]')||{}).value || '',
       학년:   school && grade ? school+' '+grade : school||grade,
       과목:   subjects,
       연락희망시간: (form.querySelector('[name="연락희망시간"]')||{}).value || '',

@@ -1277,6 +1277,11 @@
 .compact-hero {
   padding:72px 20px 76px !important;
 }
+/* 학교·동×과목 히어로는 컴팩트 의도(인라인 22px)인데 위 !important에 막힘 → 인라인 가진 것만 보정 */
+.compact-hero[style*="padding-top:22px"] {
+  padding-top:26px !important;
+  padding-bottom:24px !important;
+}
 /* 히어로 소제목 (초중고 자기주도학습 전문) */
 .hero-pre-title {
   font-size:clamp(14px,1.6vw,17px);

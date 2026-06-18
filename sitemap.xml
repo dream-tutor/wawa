@@ -2065,12 +2065,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/daegu/donggu/school/%EA%B2%BD%EC%83%81%EA%B3%A0/</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://wawacenter.kr/daegu/donggu/school/%EB%8F%99%EB%B6%80%EA%B3%A0/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
@@ -2096,12 +2090,6 @@
   </url>
   <url>
     <loc>https://wawacenter.kr/daegu/donggu/school/%EC%83%88%EB%A1%A0%EC%A4%91/</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wawacenter.kr/daegu/donggu/school/%EC%84%B1%EA%B4%91%EC%A4%91/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -2144,12 +2132,6 @@
   </url>
   <url>
     <loc>https://wawacenter.kr/daegu/donggu/school/%EC%98%81%EC%8B%A0%EC%B4%88/</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wawacenter.kr/daegu/donggu/school/%EC%98%81%EC%A7%84%EA%B3%A0/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -2366,12 +2348,6 @@
   </url>
   <url>
     <loc>https://wawacenter.kr/daegu/junggu/school/%EC%A2%85%EB%A1%9C%EC%B4%88/</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wawacenter.kr/daegu/junggu/school/%EC%B9%A0%EC%84%B1%EA%B3%A0/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -2924,12 +2900,6 @@
   </url>
   <url>
     <loc>https://wawacenter.kr/daejeon/seogu/school/%EC%84%9C%EC%9D%BC%EC%97%AC%EA%B3%A0/</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wawacenter.kr/daejeon/seogu/school/%EC%9C%A0%EC%84%B1%EA%B3%A0/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -9733,6 +9703,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://wawacenter.kr/gyeonggi/suwon/school/%EB%8B%A4%EC%82%B0%EC%A4%91/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://wawacenter.kr/gyeonggi/suwon/school/%EB%8C%80%ED%8F%89%EA%B3%A0/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
@@ -9920,18 +9896,6 @@
   </url>
   <url>
     <loc>https://wawacenter.kr/gyeonggi/suwon/school/%ED%9A%A8%EC%9B%90%EA%B3%A0/</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wawacenter.kr/gyeonggi/suwon/school/%ED%9D%A5%EB%8D%95%EA%B3%A0/</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wawacenter.kr/gyeonggi/suwon/school/%ED%9D%A5%EB%8D%95%EC%A4%91/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -10400,12 +10364,6 @@
   </url>
   <url>
     <loc>https://wawacenter.kr/gyeonggi/yongin/school/%EB%82%98%EA%B3%A1%EC%B4%88/</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wawacenter.kr/gyeonggi/yongin/school/%EB%8B%A4%EC%82%B0%EC%A4%91/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -12805,19 +12763,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/seoul/mapo/school/%EA%B0%80%EC%9E%AC%EC%9A%B8%EA%B3%A0/</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://wawacenter.kr/seoul/mapo/school/%EA%B4%91%EC%84%B1%EA%B3%A0/</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wawacenter.kr/seoul/mapo/school/%EB%8C%80%EC%84%B1%EA%B3%A0/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

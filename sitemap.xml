@@ -4244,7 +4244,7 @@
   </url>
   <url>
     <loc>https://wawacenter.kr/gyeongbuk/pohang/dong/%EB%91%90%ED%98%B8%EB%8F%99/</loc>
-    <lastmod>2026-06-19</lastmod>
+    <lastmod>2026-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -4280,7 +4280,7 @@
   </url>
   <url>
     <loc>https://wawacenter.kr/gyeongbuk/pohang/dong/%EC%96%91%EB%8D%95%EB%8F%99/</loc>
-    <lastmod>2026-06-19</lastmod>
+    <lastmod>2026-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -4316,7 +4316,7 @@
   </url>
   <url>
     <loc>https://wawacenter.kr/gyeongbuk/pohang/duho/</loc>
-    <lastmod>2026-06-19</lastmod>
+    <lastmod>2026-06-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -4412,7 +4412,7 @@
   </url>
   <url>
     <loc>https://wawacenter.kr/gyeongbuk/pohang/yangdeog/</loc>
-    <lastmod>2026-06-19</lastmod>
+    <lastmod>2026-06-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -7442,7 +7442,7 @@
   </url>
   <url>
     <loc>https://wawacenter.kr/gyeonggi/namyangju/byeolnae/</loc>
-    <lastmod>2026-06-19</lastmod>
+    <lastmod>2026-06-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -7514,7 +7514,7 @@
   </url>
   <url>
     <loc>https://wawacenter.kr/gyeonggi/namyangju/dong/%EB%B3%84%EB%82%B4%EB%8F%99/</loc>
-    <lastmod>2026-06-19</lastmod>
+    <lastmod>2026-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -9986,7 +9986,7 @@
   </url>
   <url>
     <loc>https://wawacenter.kr/gyeonggi/yangju/dong/%EC%98%A5%EC%A0%95%EB%8F%99/</loc>
-    <lastmod>2026-06-19</lastmod>
+    <lastmod>2026-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -9998,9 +9998,33 @@
   </url>
   <url>
     <loc>https://wawacenter.kr/gyeonggi/yangju/ogjeong/</loc>
-    <lastmod>2026-06-19</lastmod>
+    <lastmod>2026-06-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wawacenter.kr/gyeonggi/yangju/school/%EC%97%B0%ED%91%B8%EB%A5%B8%EC%B4%88/</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wawacenter.kr/gyeonggi/yangju/school/%EC%98%A5%EB%B9%9B%EA%B3%A0/</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wawacenter.kr/gyeonggi/yangju/school/%EC%98%A5%EB%B9%9B%EC%A4%91/</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wawacenter.kr/gyeonggi/yangju/school/%EC%98%A5%EC%A0%95%EA%B3%A0/</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://wawacenter.kr/gyeonggi/yangju/school/%EC%98%A5%EC%A0%95%EC%A4%91/</loc>
@@ -10011,6 +10035,18 @@
   <url>
     <loc>https://wawacenter.kr/gyeonggi/yangju/school/%EC%98%A5%EC%A0%95%EC%B4%88/</loc>
     <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wawacenter.kr/gyeonggi/yangju/school/%EC%9C%A8%EB%B9%9B%EC%B4%88/</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wawacenter.kr/gyeonggi/yangju/school/%EC%9C%A8%EC%A0%95%EC%A4%91/</loc>
+    <lastmod>2026-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -11360,7 +11396,7 @@
   </url>
   <url>
     <loc>https://wawacenter.kr/incheon/yeonsu/dong/%EB%8F%99%EC%B6%98%EB%8F%99/</loc>
-    <lastmod>2026-06-19</lastmod>
+    <lastmod>2026-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -11426,7 +11462,7 @@
   </url>
   <url>
     <loc>https://wawacenter.kr/incheon/yeonsu/dongchun/</loc>
-    <lastmod>2026-06-19</lastmod>
+    <lastmod>2026-06-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

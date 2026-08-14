@@ -511,12 +511,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/chungbuk/cheongju/dong/%EA%B0%9C%EC%8B%A0%EB%8F%99/science/</loc>
-    <lastmod>2026-08-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://wawacenter.kr/chungbuk/cheongju/dong/%EB%B3%B5%EB%8C%80%EB%8F%99/</loc>
     <lastmod>2026-08-13</lastmod>
     <changefreq>monthly</changefreq>
@@ -4423,12 +4417,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/gyeonggi/ansan/dong/%EA%B3%A0%EC%9E%94%EB%8F%99/korean/</loc>
-    <lastmod>2026-08-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://wawacenter.kr/gyeonggi/ansan/dong/%EA%B3%A0%EC%9E%94%EB%8F%99/math/</loc>
     <lastmod>2026-08-13</lastmod>
     <changefreq>monthly</changefreq>
@@ -5023,19 +5011,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://wawacenter.kr/gyeonggi/gimpo/dong/%EC%9E%A5%EA%B8%B0%EB%8F%99/korean/</loc>
-    <lastmod>2026-08-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://wawacenter.kr/gyeonggi/gimpo/dong/%EC%9E%A5%EA%B8%B0%EB%8F%99/math/</loc>
-    <lastmod>2026-08-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wawacenter.kr/gyeonggi/gimpo/dong/%EC%9E%A5%EA%B8%B0%EB%8F%99/science/</loc>
     <lastmod>2026-08-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -6380,12 +6356,6 @@
   </url>
   <url>
     <loc>https://wawacenter.kr/gyeonggi/gwangmyeong/dong/%EC%86%8C%ED%95%98%EB%8F%99/english/</loc>
-    <lastmod>2026-08-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wawacenter.kr/gyeonggi/gwangmyeong/dong/%EC%86%8C%ED%95%98%EB%8F%99/korean/</loc>
     <lastmod>2026-08-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

@@ -311,7 +311,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape'){var ov=docu
       시군구: (form.querySelector('[name="시군구"]')||{}).value || '',
       동:     (form.querySelector('[name="동"]')||{}).value || '',
       이름:   (form.querySelector('[name="이름"]')||{}).value || '',
-      연락처: (form.querySelector('[name="연락처"]')||{}).value || '',
+      연락처: (function(v){v=String(v||'').replace(/\D/g,'');if(v.length===11)return v.slice(0,3)+'-'+v.slice(3,7)+'-'+v.slice(7);if(v.length===10)return v.slice(0,3)+'-'+v.slice(3,6)+'-'+v.slice(6);return v;})((form.querySelector('[name="연락처"]')||{}).value),
       거주주소: (form.querySelector('[name="거주주소"]')||{}).value || '',
       학년:   school && grade ? school+' '+grade : school||grade,
       과목:   subjects,

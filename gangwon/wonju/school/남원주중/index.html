@@ -177,7 +177,7 @@
       <input type="hidden" name="동" value="무실동">
       <div class="form-row">
         <div class="form-group"><label class="form-label">학생 이름 <span style="color:red">*</span></label><input type="text" class="form-input" name="이름" required></div>
-        <div class="form-group"><label class="form-label">연락처 <span style="color:red">*</span></label><input type="tel" class="form-input" name="연락처" placeholder="010-0000-0000" required></div>
+        <div class="form-group"><label class="form-label">연락처 <span style="color:red">*</span></label><div style="display:flex;gap:6px"><select class="form-input" name="연락처앞" style="flex:0 0 88px;padding:0 8px"><option value="010" selected>010</option><option value="011">011</option><option value="016">016</option><option value="017">017</option><option value="018">018</option><option value="019">019</option></select><input type="tel" class="form-input" name="연락처" placeholder="1234-5678" required style="flex:1;min-width:0"></div></div>
       </div>
       <!-- WAWA_AUTO_ADDRESS_FIELD -->
       <div class="form-group" style="margin-bottom:14px;">
@@ -273,7 +273,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape'){var ov=docu
       시군구: (form.querySelector('[name="시군구"]')||{}).value || '',
       동:     (form.querySelector('[name="동"]')||{}).value || '',
       이름:   (form.querySelector('[name="이름"]')||{}).value || '',
-      연락처: (function(v){v=String(v||'').replace(/\D/g,'');if(v.length===11)return v.slice(0,3)+'-'+v.slice(3,7)+'-'+v.slice(7);if(v.length===10)return v.slice(0,3)+'-'+v.slice(3,6)+'-'+v.slice(6);return v;})((form.querySelector('[name="연락처"]')||{}).value),
+      연락처: (function(p,v){v=String(v||'').replace(/\D/g,'');if(v.length===11)return v.slice(0,3)+'-'+v.slice(3,7)+'-'+v.slice(7);if(v.length===10)return v.slice(0,3)+'-'+v.slice(3,6)+'-'+v.slice(6);if(v.length===8)return p+'-'+v.slice(0,4)+'-'+v.slice(4);if(v.length===7)return p+'-'+v.slice(0,3)+'-'+v.slice(3);return p+'-'+v;})(((form.querySelector('[name="연락처앞"]')||{}).value||'010'),(form.querySelector('[name="연락처"]')||{}).value),
       거주주소: (form.querySelector('[name="거주주소"]')||{}).value || '',
       학년:   school && grade ? school+' '+grade : school||grade,
       과목:   subjects,

@@ -1134,7 +1134,7 @@ wcs_do(_nasa)
           </div>
           <div class="form-group">
             <label class="form-label">연락처 <span style="color:red">*</span></label>
-            <input type="tel" class="form-input" placeholder="010-0000-0000" required>
+            <div style="display:flex;gap:6px"><select class="form-input" name="연락처앞" style="flex:0 0 88px;padding:0 8px"><option value="010" selected>010</option><option value="011">011</option><option value="016">016</option><option value="017">017</option><option value="018">018</option><option value="019">019</option></select><input type="tel" class="form-input" placeholder="1234-5678" required style="flex:1;min-width:0"></div>
           </div>
         </div>
         <!-- WAWA_AUTO_ADDRESS_FIELD -->
@@ -1416,7 +1416,7 @@ wcs_do(_nasa)
         </div>
         <div class="form-group">
           <label class="form-label">연락처 <span style="color:red">*</span></label>
-          <input type="tel" class="form-input" placeholder="010-0000-0000" required>
+          <div style="display:flex;gap:6px"><select class="form-input" name="연락처앞" style="flex:0 0 88px;padding:0 8px"><option value="010" selected>010</option><option value="011">011</option><option value="016">016</option><option value="017">017</option><option value="018">018</option><option value="019">019</option></select><input type="tel" class="form-input" placeholder="1234-5678" required style="flex:1;min-width:0"></div>
         </div>
       </div>
       <!-- WAWA_AUTO_ADDRESS_FIELD -->
@@ -1555,7 +1555,7 @@ wcs_do(_nasa)
         시군구: (document.getElementById('fs-sgg').value === '_none_' ? '' : document.getElementById('fs-sgg').value) || '',
         동:     document.getElementById('fs-dong').value || '',
         이름:   document.getElementById('fs-name').value,
-        연락처: form.querySelector('input[type=tel]').value,
+        연락처: (function(p,v){v=String(v||'').replace(/\D/g,'');if(v.length===11)return v.slice(0,3)+'-'+v.slice(3,7)+'-'+v.slice(7);if(v.length===10)return v.slice(0,3)+'-'+v.slice(3,6)+'-'+v.slice(6);if(v.length===8)return p+'-'+v.slice(0,4)+'-'+v.slice(4);if(v.length===7)return p+'-'+v.slice(0,3)+'-'+v.slice(3);return p+'-'+v;})((form.querySelector('select[name="연락처앞"]')||{value:'010'}).value,form.querySelector('input[type=tel]').value),
         거주주소: document.getElementById('fs-address') ? document.getElementById('fs-address').value : '',
         학년:   fsGradeCombined,
         과목:   fsSubjects.join(', '),
@@ -2191,7 +2191,7 @@ function submitConsultModal(e){
     시군구: (function(){var v=document.getElementById('m-sgg')?document.getElementById('m-sgg').value:''; return v==='_none_'?'':v;})(),
     동: document.getElementById('m-dong') ? document.getElementById('m-dong').value : '',
     이름: document.getElementById('m-name') ? document.getElementById('m-name').value : '',
-    연락처: form.querySelector('input[type=tel]') ? form.querySelector('input[type=tel]').value : '',
+    연락처: (function(p,v){v=String(v||'').replace(/\D/g,'');if(v.length===11)return v.slice(0,3)+'-'+v.slice(3,7)+'-'+v.slice(7);if(v.length===10)return v.slice(0,3)+'-'+v.slice(3,6)+'-'+v.slice(6);if(v.length===8)return p+'-'+v.slice(0,4)+'-'+v.slice(4);if(v.length===7)return p+'-'+v.slice(0,3)+'-'+v.slice(3);return p+'-'+v;})((form.querySelector('select[name="연락처앞"]')||{value:'010'}).value,form.querySelector('input[type=tel]') ? form.querySelector('input[type=tel]').value : ''),
     거주주소: document.getElementById('m-address') ? document.getElementById('m-address').value : '',
     연락희망시간: document.getElementById('m-consult-time') ? document.getElementById('m-consult-time').value : '',
     학년: mGradeCombined,

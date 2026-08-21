@@ -14,7 +14,7 @@ from urllib.parse import quote
 
 # 스크립트 파일 위치 기준 (CI/GitHub Actions에서도 동작)
 ROOT = str(Path(__file__).resolve().parent)
-BASE = "https://wawacenter.kr"
+BASE = "https://wcoachingcenter.com"
 TODAY = date.today().isoformat()
 
 
@@ -71,8 +71,28 @@ except Exception:
 # 결과 URL 모음
 urls = []
 
+def is_stub(path):
+    """noindex·meta refresh만 있는 리다이렉트 스텁인지 확인.
+
+    URL 오타를 고칠 때 구 주소를 살려두려고 남긴 페이지들이다.
+    색인 대상이 아니므로 사이트맵에 넣으면 크롤 예산만 쓴다.
+    (예: 당삼동 → 당산동, 2026-08 오타 수정 때 생김)
+    """
+    f = os.path.join(ROOT, path.strip("/").replace("/", os.sep), "index.html")
+    if not os.path.isfile(f):
+        return False
+    try:
+        with open(f, encoding="utf-8") as fp:
+            head = fp.read(1200)
+    except OSError:
+        return False
+    return 'name="robots" content="noindex"' in head and 'http-equiv="refresh"' in head
+
+
 def add(path, priority, changefreq):
     """path는 도메인 뒤 경로 (예: /seoul/mapo/), 끝에 슬래시 포함"""
+    if is_stub(path):
+        return
     # 한글 등은 URL 인코딩
     encoded = quote(path, safe="/")
     urls.append((encoded, priority, changefreq))

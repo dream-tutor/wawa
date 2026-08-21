@@ -256,14 +256,6 @@
         <label class="form-label">희망 과목 <span style="color:red">*</span></label>
         <div class="subject-checks"><label><input type="checkbox" name="과목" value="영어"> 영어</label><label><input type="checkbox" name="과목" value="수학" checked> 수학</label><label><input type="checkbox" name="과목" value="사회"> 사회</label></div>
       </div>
-      <div class="form-group" style="margin-bottom:14px;">
-        <label class="form-label">연락 희망 시간</label>
-        <select class="form-select" name="연락희망시간">
-          <option value="">선택 (선택사항)</option>
-          <option>오전 9시~12시</option><option>오후 12시~3시</option>
-          <option>오후 3시~6시</option><option>오후 6시 이후</option>
-        </select>
-      </div>
       <div class="form-agree">
         <input type="checkbox" id="agree" required checked onclick="if(!this.checked){alert('체크 해지하시면 상담이 어렵습니다.');this.checked=true;}">
         <label for="agree">개인정보 수집 및 이용에 동의합니다. <span style="color:#94A3B8;font-weight:400;">(상담 목적으로만 활용됩니다.)</span></label>
@@ -308,7 +300,6 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape'){var ov=docu
       거주주소: (form.querySelector('[name="거주주소"]')||{}).value || '',
       학년:   school && grade ? school+' '+grade : school||grade,
       과목:   subjects,
-      연락희망시간: (form.querySelector('[name="연락희망시간"]')||{}).value || '',
       신청일: new Date().toLocaleString('ko-KR'),
     유입페이지: window.location.href,
     유입페이지제목: document.title,

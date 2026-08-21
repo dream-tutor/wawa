@@ -1193,16 +1193,6 @@ wcs_do(_nasa)
             <label><input type="checkbox" name="fs-subject" value="기타"> 기타</label>
           </div>
         </div>
-        <div class="form-group" style="margin-bottom:18px;">
-          <label class="form-label">연락 희망 시간</label>
-          <select class="form-select" id="fs-consult-time">
-            <option value="">시간 선택</option>
-            <option>오전 9시 ~ 12시</option>
-            <option>오후 12시 ~ 3시</option>
-            <option>오후 3시 ~ 6시</option>
-            <option>오후 6시 ~ 9시</option>
-          </select>
-        </div>
         <div class="form-agree">
           <input type="checkbox" id="agree" required checked onclick="if(!this.checked){alert('체크 해지하시면 상담이 어렵습니다.');this.checked=true;}">
           <label for="agree">개인정보 수집 및 이용에 동의합니다. <span style="color:#94A3B8;font-weight:400;">(상담 목적으로만 활용됩니다.)</span></label>
@@ -1492,16 +1482,6 @@ wcs_do(_nasa)
           </select>
         </div>
       </div>
-      <div class="form-group" style="margin-bottom:12px;">
-        <label class="form-label">연락 희망 시간</label>
-        <select class="form-select" id="m-consult-time">
-          <option value="">시간 선택</option>
-          <option>오전 9시 ~ 12시</option>
-          <option>오후 12시 ~ 3시</option>
-          <option>오후 3시 ~ 6시</option>
-          <option>오후 6시 ~ 9시</option>
-        </select>
-      </div>
       <div style="display:flex;align-items:center;gap:8px;font-size:13px;color:#6b7280;margin-bottom:14px;">
         <input type="checkbox" id="modalAgree" required checked onclick="if(!this.checked){alert('체크 해지하시면 상담이 어렵습니다.');this.checked=true;}" style="flex-shrink:0;accent-color:#3A6B56;width:15px;height:15px;">
         <label for="modalAgree" style="margin:0;line-height:1.4;">개인정보 수집 및 이용에 동의합니다. <span style="color:#94A3B8;font-weight:400;">(상담 목적으로만 활용됩니다.)</span></label>
@@ -1559,7 +1539,6 @@ wcs_do(_nasa)
         거주주소: document.getElementById('fs-address') ? document.getElementById('fs-address').value : '',
         학년:   fsGradeCombined,
         과목:   fsSubjects.join(', '),
-        연락희망시간: document.getElementById('fs-consult-time') ? document.getElementById('fs-consult-time').value : '',
         신청일: new Date().toLocaleString('ko-KR'),
       유입페이지: window.location.href,
       유입페이지제목: document.title,
@@ -2193,7 +2172,6 @@ function submitConsultModal(e){
     이름: document.getElementById('m-name') ? document.getElementById('m-name').value : '',
     연락처: (function(p,v){v=String(v||'').replace(/\D/g,'');if(v.length===11)return v.slice(0,3)+'-'+v.slice(3,7)+'-'+v.slice(7);if(v.length===10)return v.slice(0,3)+'-'+v.slice(3,6)+'-'+v.slice(6);if(v.length===8)return p+'-'+v.slice(0,4)+'-'+v.slice(4);if(v.length===7)return p+'-'+v.slice(0,3)+'-'+v.slice(3);return p+'-'+v;})((form.querySelector('select[name="연락처앞"]')||{value:'010'}).value,form.querySelector('input[type=tel]') ? form.querySelector('input[type=tel]').value : ''),
     거주주소: document.getElementById('m-address') ? document.getElementById('m-address').value : '',
-    연락희망시간: document.getElementById('m-consult-time') ? document.getElementById('m-consult-time').value : '',
     학년: mGradeCombined,
     과목: mSubjects.join(', '),
   유입페이지: window.location.href,

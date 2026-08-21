@@ -291,7 +291,7 @@
       </script>
       <!-- /WAWA_AUTO_ADDRESS_FIELD -->
       <div class="form-group" style="margin-bottom:14px;">
-        <label class="form-label">자녀 학년 <span style="color:red">*</span></label>
+        <label class="form-label">학년 <span style="color:red">*</span></label>
         <div style="display:flex;gap:8px;">
           <select class="form-select" id="fs-school" required style="flex:1;">
             <option value="">학교 선택</option>
@@ -300,6 +300,8 @@
           <select class="form-select" id="fs-grade" required style="flex:1;">
             <option value="">학년 선택</option></select>
         </div>
+        <label class="form-label" style="margin-top:14px;">학교 이름 <span style="color:#94a3b8;font-weight:400;">(선택)</span></label>
+        <input type="text" class="form-input" name="학교" placeholder="예: 덕풍중" maxlength="30">
       </div>
       <div class="form-group" style="margin-bottom:18px;">
         <label class="form-label">희망 과목 <span style="color:red">*</span></label>
@@ -424,7 +426,8 @@ if(window.wcs) wcs_do();
       이름:   (form.querySelector('[name="이름"]')||{}).value || '',
       연락처: (function(p,v){v=String(v||'').replace(/\D/g,'');if(v.length===11)return v.slice(0,3)+'-'+v.slice(3,7)+'-'+v.slice(7);if(v.length===10)return v.slice(0,3)+'-'+v.slice(3,6)+'-'+v.slice(6);if(v.length===8)return p+'-'+v.slice(0,4)+'-'+v.slice(4);if(v.length===7)return p+'-'+v.slice(0,3)+'-'+v.slice(3);return p+'-'+v;})(((form.querySelector('[name="연락처앞"]')||{}).value||'010'),(form.querySelector('[name="연락처"]')||{}).value),
       거주주소: (form.querySelector('[name="거주주소"]')||{}).value || '',
-      학년:   school && grade ? school+' '+grade : school||grade,
+      학교:   (form.querySelector('[name="학교"]')||{}).value || '',
+      학년:   (function(){var sc=((form.querySelector('[name="학교"]')||{}).value||'').trim();var g=school && grade ? school+' '+grade : school||grade;return sc?(sc+' '+(grade||g)):g;})(),
       과목:   subjects,
       신청일: new Date().toLocaleString('ko-KR'),
     유입페이지: window.location.href,
@@ -458,12 +461,14 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape'){var ov=docu
   var GRADES = {'초등학교':[1,2,3,4,5,6], '중학교':[1,2,3], '고등학교':[1,2,3]};
   s.addEventListener('change', function(){
     var sel = s.value;
-    g.innerHTML = '<option value="">학년 선택</option>';
-    (GRADES[sel]||[]).forEach(function(n){
+    var list = GRADES[sel] || [];
+    g.innerHTML = '<option value="">' + (list.length ? '학년 선택' : '-') + '</option>';
+    list.forEach(function(n){
       var o = document.createElement('option');
       o.textContent = n + '학년';
       g.appendChild(o);
     });
+    g.disabled = !list.length;
   });
 })();
 </script>

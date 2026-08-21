@@ -460,11 +460,13 @@
       </script>
       <!-- /WAWA_AUTO_ADDRESS_FIELD -->
       <div class="form-group" style="margin-bottom:14px;">
-        <label class="form-label">자녀 학년 <span style="color:red">*</span></label>
+        <label class="form-label">학년 <span style="color:red">*</span></label>
         <div style="display:flex;gap:8px;">
-          <select class="form-select" id="fs-school" required style="flex:1;"><option value="">학교 선택</option><option>초등학교</option><option>중학교</option><option>고등학교</option></select>
+          <select class="form-select" id="fs-school" required style="flex:1;"><option value="">선택</option><option>초등학교</option><option>중학교</option><option>고등학교</option><option>기타</option></select>
           <select class="form-select" id="fs-grade" required style="flex:1;"><option value="">학년 선택</option></select>
         </div>
+        <label class="form-label" style="margin-top:14px;">학교 이름 <span style="color:#94a3b8;font-weight:400;">(선택)</span></label>
+        <input type="text" class="form-input" name="학교" placeholder="예: 덕풍중" maxlength="30">
       </div>
       <div class="form-group" style="margin-bottom:14px;">
         <label class="form-label">희망 과목 <span style="color:red">*</span></label>

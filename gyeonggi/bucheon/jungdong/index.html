@@ -287,6 +287,10 @@
           var s = document.createElement('script');
           s.src = 'https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js';
           s.onload = openSearch;
+          s.onerror = function () {
+            alert('주소 검색을 불러오지 못했습니다. 이번만 주소를 직접 입력해 주세요.');
+            if (input) { input.removeAttribute('readonly'); input.focus(); }
+          };
           document.head.appendChild(s);
         }
       };

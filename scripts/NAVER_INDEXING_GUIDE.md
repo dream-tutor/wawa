@@ -30,7 +30,7 @@
 
 ## 4단계: .env 파일 만들기
 
-프로젝트 root (`C:\Users\goodj\Desktop\AI\와와(wawacenter.kr)`)에 `.env` 파일:
+프로젝트 root (`C:\Users\goodj\Desktop\AI\학원(wawa)\와와(wawacenter.kr)`)에 `.env` 파일:
 
 ```
 NAVER_COOKIE='NID_AUT=...; NID_SES=...; NID_JKL=...; ...전체쿠키복사붙여넣기'

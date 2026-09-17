@@ -780,16 +780,7 @@
   #fee .fee-grid-mobile{grid-template-columns:1fr !important;}
 }
 
-/* PC(마우스 있는 기기)에서 전화 관련 UI 자동 숨김 */
-@media (hover: hover) and (pointer: fine) {
-  a[href^="tel:"] { display: none !important; }
-  .nav-call,
-  .btn-phone,
-  .form-note,
-  .consult-modal-note,
-  .pc-hide-phone { display: none !important; }
-  /* .bc-btn-call은 "📄 지점 페이지" 링크도 공유 → 클래스 단독 숨김 금지 */
-}
+/* PC에서도 전화 버튼 노출 (2026-09-17): 예전 PC 숨김 규칙 삭제 — 공용 t.js가 PC tel: 클릭 시 번호 창을 띄운다. 다시 숨기지 말 것 */
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
 <script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>

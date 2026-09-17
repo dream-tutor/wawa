@@ -1451,23 +1451,9 @@
 .ndc-meta { font-size:11px; color:#64748B; margin-top:2px; }
 
 /* ─────────────────────────────────────────────
-   PC(마우스 있는 기기)에서 전화 관련 UI 자동 숨김
-   tel: 링크는 PC에서 동작 안 함 → 의미 없는 UI 제거
-   hover/pointer 기반 검출 (창 너비 무관, 더 정확)
+   PC에서도 전화 버튼 노출 (2026-09-17)
+   예전엔 마우스 기기(hover/pointer 미디어쿼리)에서 tel: 링크·.nav-call·.btn-phone·
+   .form-note·.consult-modal-note·.pc-hide-phone을 숨겼으나 삭제했다.
+   공용 t.js가 PC에서 tel: 클릭 시 번호 안내 창을 띄우므로 PC에서도 보여야 한다.
+   ⚠ 다시 PC 숨김 규칙을 넣지 말 것 (index.html 인라인 스타일도 같음).
    ───────────────────────────────────────────── */
-@media (hover: hover) and (pointer: fine) {
-  /* tel: anchor 직접 숨김 (가장 정확) */
-  a[href^="tel:"] {
-    display: none !important;
-  }
-  /* 전화 안내 wrapper들 (anchor만 숨기면 어색한 텍스트 잔여) */
-  .nav-call,
-  .btn-phone,
-  .form-note,
-  .consult-modal-note,
-  .pc-hide-phone {
-    display: none !important;
-  }
-  /* 주의: .bc-btn-call은 "📄 지점 페이지" 링크도 공유하므로 클래스 단독 숨김 금지.
-     a[href^="tel:"] 선택자가 전화 anchor만 정확히 잡음. */
-}

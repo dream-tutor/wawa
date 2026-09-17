@@ -173,7 +173,8 @@
   "kakao_link": "https://kko.to/vTvHXEi51w",
   "nearby_text": "경기 하남시 덕풍동 / 하남풍산 대명 세라뷰 아파트 인근",
   "office": "하남풍산점와와학습코칭학원",
-  "reg": "경기도광주하남교육지원청 제 하남314호"
+  "reg": "경기도광주하남교육지원청 제 하남314호",
+  "fee_link": "https://drive.google.com/file/d/1rVzQJ7C4ujVAuK9vOT0-HI-qWByuRwH4/view?usp=sharing"
  },
  "사동점": {
   "name": "사동점",
@@ -329,7 +330,8 @@
   "kakao_link": "https://kko.to/dUSFBWxreP",
   "nearby_text": "경북 경산시 사동 / 경산사동6차 부영아파트 인근",
   "office": "사동점와와학습코칭학원",
-  "reg": "경상북도경산교육지원청 제1276호"
+  "reg": "경상북도경산교육지원청 제1276호",
+  "fee_link": "https://drive.google.com/file/d/1oSbm78M7Vhjb_X-arFSSJnQqtcefL4lg/view?usp=sharing"
  },
  "하계점": {
   "name": "하계점",
@@ -508,7 +510,8 @@
   "kakao_link": "https://kko.to/u2_FcYO35T",
   "nearby_text": "서울 노원구 하계동 / 혜성여자고등학교 인근",
   "office": "하계점와와학습코칭학원",
-  "reg": "서울북부교육청 등록 제 2016-12호"
+  "reg": "서울북부교육청 등록 제 2016-12호",
+  "fee_link": "https://drive.google.com/file/d/1sWl9oLeetEfm6y0hwn_SCCIVk5bo70vq/view?usp=sharing"
  },
  "수지점": {
   "name": "수지점",
@@ -651,7 +654,8 @@
   "kakao_link": "http://kko.to/jN5fbBPr1U",
   "nearby_text": "경기 용인시 풍덕천동 / 수지구청 인근",
   "office": "수지점와와학습코칭학원",
-  "reg": "용인교육지원청 등록 제4774호"
+  "reg": "용인교육지원청 등록 제4774호",
+  "fee_link": "https://drive.google.com/file/d/1KMumO8Hy1oX8WhtfREY6o7NK3-043ETT/view?usp=sharing"
  },
  "이곡점": {
   "name": "이곡점",
@@ -825,7 +829,8 @@
   "kakao_link": "http://kko.to/fz0iaCCDo",
   "nearby_text": "대구 달서구 이곡동 / 대구성서경찰서 인근",
   "office": "이곡점와와학습코칭학원",
-  "reg": "대구남부교육지원청 등록 제2016-13호"
+  "reg": "대구남부교육지원청 등록 제2016-13호",
+  "fee_link": "https://drive.google.com/file/d/1OQzmquEbFdYkG0_wxcydeYMcZNdT7pdC/view?usp=sharing"
  },
  "탄현점": {
   "name": "탄현점",
@@ -860,8 +865,6 @@
   "schools_high": [
    "일산동고",
    "덕이고",
-   "중산고",
-   "일산동고",
    "중산고"
   ],
   "open_time": "평일 오후 2시 이후",
@@ -995,7 +998,8 @@
   "kakao_link": "http://kko.to/flGh4kkDM",
   "nearby_text": "경기 고양시 일산서구 탄현동/ 탄현마을12단지 인근 / 일산고등학교 인근",
   "office": "탄현점와와학습코칭학원",
-  "reg": "고양교육지원청 등록 제5930호"
+  "reg": "고양교육지원청 등록 제5930호",
+  "fee_link": "https://drive.google.com/file/d/1TgSRlhKawlPPI3tfHwCFL2B7xdvPc2S0/view?usp=sharing"
  },
  "철산점": {
   "name": "철산점",
@@ -1148,7 +1152,8 @@
   "kakao_link": "http://kko.to/9J8eCQCYo",
   "nearby_text": "경기 광명시 철산동  / 브라운스톤2단지 인근",
   "office": "철산점와와학습코칭학원",
-  "reg": "광명교육지원청 등록 제1781호"
+  "reg": "광명교육지원청 등록 제1781호",
+  "fee_link": "https://drive.google.com/file/d/1oUzlN7R1bEqBFNr8Aq0e2U2ZFkBykfjp/view?usp=sharing"
  },
  "치평점": {
   "name": "치평점",
@@ -1307,7 +1312,8 @@
   "kakao_link": "http://kko.to/QxertkCDM",
   "nearby_text": "광주 서구 치평동 / 운천초등학교 인근/ 계수초 인근 /상무지구",
   "office": "와와학습코칭학원",
-  "reg": "광주서부교육지원청 등록 제6027호"
+  "reg": "광주서부교육지원청 등록 제6027호",
+  "fee_link": "https://drive.google.com/file/d/1LtA9KOrbDrrEUUYRfe9URM-jzy9XJWW0/view?usp=sharing"
  },
  "지족점": {
   "name": "지족점",
@@ -1447,7 +1453,8 @@
   "kakao_link": "http://kko.to/8TnufkkDp",
   "nearby_text": "대전 유성구 지족동 / 노은역 3번출구 인근",
   "office": "와와학습코칭학원",
-  "reg": "대전서부교육지원청 등록 제 서4241호"
+  "reg": "대전서부교육지원청 등록 제 서4241호",
+  "fee_link": "https://drive.google.com/file/d/1QHtqS4wEhMihbWOe_MueyM7NLi8ftNSw/view?usp=sharing"
  },
  "수완점": {
   "name": "수완점",
@@ -1585,7 +1592,8 @@
   "kakao_link": "http://kko.to/_2n_Qm43U",
   "nearby_text": "광주 광산구 수완동 / 한양수자인아파트 인근",
   "office": "와와학습코칭수완학원",
-  "reg": "광주서부교육지원청 등록 제6778호"
+  "reg": "광주서부교육지원청 등록 제6778호",
+  "fee_link": "https://drive.google.com/file/d/1rVNvy0fWplWhfDbL7RRVGbHHwJVJiZ94/view?usp=sharing"
  },
  "호매실점": {
   "name": "호매실점",
@@ -1720,7 +1728,8 @@
   "kakao_link": "http://kko.to/KdEo0kCDB",
   "nearby_text": "경기 수원시 권선구 금곡동 / 칠보중학교 인근",
   "office": "와와학습코칭센터호매실학원",
-  "reg": "수원교육지원청 등록 제6830호"
+  "reg": "수원교육지원청 등록 제6830호",
+  "fee_link": "https://drive.google.com/file/d/1uE2uyom_t72GYFJiF0NDssMa1dV-BYiB/view?usp=sharing"
  },
  "신곡점": {
   "name": "신곡점",
@@ -1756,7 +1765,7 @@
    "경민it고"
   ],
   "open_time": "평일 오후 2시 이후",
-  "weekend": "토요일11시~13시",
+  "weekend": "토요일 11시~13시",
   "fee_type": "와와회비B",
   "price_elem": 60000,
   "price_mid": 65000,
@@ -1853,7 +1862,8 @@
   "kakao_link": "http://kko.to/MkSvDCkYM",
   "nearby_text": "경기 의정부시 신곡동 / 경기도청북부청사역 인근",
   "office": "와와학습코칭센터학원",
-  "reg": "의정부교육지원청 등록 제2071호"
+  "reg": "의정부교육지원청 등록 제2071호",
+  "fee_link": "https://drive.google.com/file/d/14cQ_66aRmC9R_CUFHQzhqKyJXylgXZO4/view?usp=sharing"
  },
  "행신점": {
   "name": "행신점",
@@ -2016,7 +2026,8 @@
   "kakao_link": "http://kko.to/HfAO10vS_Q",
   "nearby_text": "경기도 고양시 덕양구 행신동 / 부영1단지 아파트 인근",
   "office": "행신점와와학습코칭센터학원",
-  "reg": "경기도고양교육지원청 등록 제6408호"
+  "reg": "경기도고양교육지원청 등록 제6408호",
+  "fee_link": "https://drive.google.com/file/d/1JHOvxPmsSQO6lVR9ABk798tB-YwNXI60/view?usp=sharing"
  },
  "서신점": {
   "name": "서신점",
@@ -2047,7 +2058,7 @@
    "근영고"
   ],
   "open_time": "평일 오후 3시 이후",
-  "weekend": "토일부가능",
+  "weekend": "상담 시 안내",
   "fee_type": "와와회비B",
   "price_elem": 60000,
   "price_mid": 65000,
@@ -2161,7 +2172,8 @@
   "kakao_link": "http://kko.to/fF8ttCCDM",
   "nearby_text": "전북 전주시 완산구 서신동 / 전주화산코오롱하늘채아파트 인근",
   "office": "와와학습코칭학원",
-  "reg": "전주교육지원청 등록 제6457호"
+  "reg": "전주교육지원청 등록 제6457호",
+  "fee_link": "https://drive.google.com/file/d/19kgaLTGR_i34mXOMCWYgvgGqb1RtS57k/view?usp=sharing"
  },
  "센트럴점": {
   "name": "센트럴점",
@@ -2330,7 +2342,8 @@
   "kakao_link": "http://kko.to/SNVCYCkDo",
   "nearby_text": "경기 하남시 풍산동 / 미사강변센트럴자이아파트 인근",
   "office": "센트럴점와와학습코칭학원",
-  "reg": "광주하남교육지원청 등록 제1894호"
+  "reg": "광주하남교육지원청 등록 제1894호",
+  "fee_link": "https://drive.google.com/file/d/1Au8HH1TwbnyScIBtgcWTG1iELXv_OK_G/view?usp=sharing"
  },
  "미금점": {
   "name": "미금점",
@@ -2463,7 +2476,8 @@
   "kakao_link": "http://kko.to/kftMjkCYB",
   "nearby_text": "경기 성남시 분당구 금곡동 / 미금역 2번출구 인근",
   "office": "금곡점와와학습코칭학원",
-  "reg": "성남교육지원청 등록 제5313호"
+  "reg": "성남교육지원청 등록 제5313호",
+  "fee_link": "https://drive.google.com/file/d/16S5c5FSWL2ZuSEGBEMNC8Ht-aUYHpxaB/view?usp=sharing"
  },
  "야탑점": {
   "name": "야탑점",
@@ -2615,7 +2629,8 @@
   "kakao_link": "http://kko.to/1ydyDkkYM",
   "nearby_text": "경기 성남시 중원구 여수동 / 야탑중학교 인근",
   "office": "야탑와와학습코칭학원",
-  "reg": "성남교육지원청 등록 제6056호"
+  "reg": "성남교육지원청 등록 제6056호",
+  "fee_link": "https://drive.google.com/file/d/1893Z9VQpdNcRidWbmyHtBzBCPdQOexgL/view?usp=sharing"
  },
  "갈매점": {
   "name": "갈매점",
@@ -2652,7 +2667,7 @@
    "갈매고"
   ],
   "open_time": "평일 오후 2시 이후",
-  "weekend": "내신시험대비기간 1달전만 진행합니다.",
+  "weekend": "시험 한 달 전 기간에만 운영",
   "fee_type": "와와회비B",
   "price_elem": 60000,
   "price_mid": 65000,
@@ -2749,7 +2764,8 @@
   "kakao_link": "http://kko.to/cK1BuODfH",
   "nearby_text": "경기 구리시 갈매동 / 갈매중앙사거리 인근 / 갈매중 인근",
   "office": "갈매점와와학습코칭학원",
-  "reg": "구리남양주교육지원청 등록 제4331호"
+  "reg": "구리남양주교육지원청 등록 제4331호",
+  "fee_link": "https://drive.google.com/file/d/1yZ7WnTXeQ-ZtgI5kYRMwuZu47OR74p82/view?usp=sharing"
  },
  "마두점": {
   "name": "마두점",
@@ -2927,7 +2943,8 @@
   "kakao_link": "http://kko.to/jE4wC8g4H",
   "nearby_text": "경기 고양시 일산동구 장항동, 마두동 / 마두역 인근",
   "office": "마두점와와학습코칭센터학원",
-  "reg": "고양교육지원청 등록 제6135호"
+  "reg": "고양교육지원청 등록 제6135호",
+  "fee_link": "https://drive.google.com/file/d/1np8WIbKE9lXZUvjC7lnV0vS9O1KaPYlp/view?usp=sharing"
  },
  "첨단점": {
   "name": "첨단점",
@@ -3074,7 +3091,8 @@
   "kakao_link": "http://kko.to/wjqy2pj92",
   "nearby_text": "광주 광산구 월계동 / 첨단3-5차호반리젠시빌 인근",
   "office": "첨단점와와학습코칭센터학원",
-  "reg": "광주서부교육지원청 등록 제7200호"
+  "reg": "광주서부교육지원청 등록 제7200호",
+  "fee_link": "https://drive.google.com/file/d/1w35vhr-sPjDTDJZlJ7dqgtmXARUtpbxi/view?usp=sharing"
  },
  "송정점": {
   "name": "송정점",
@@ -3213,7 +3231,8 @@
   "kakao_link": "http://kko.to/59MINgiV4",
   "nearby_text": "울산 북구 송정동 / 울산송정반도유보라, 한양수자인 아파트 인근",
   "office": "송정점와와학습코칭학원",
-  "reg": "울산강북교육지원청 등록 제5652호"
+  "reg": "울산강북교육지원청 등록 제5652호",
+  "fee_link": "https://drive.google.com/file/d/1BWPi4adr8jNxO8TUc10_exbC01Oj9t1z/view?usp=sharing"
  },
  "석동점": {
   "name": "석동점",
@@ -3313,7 +3332,8 @@
   "kakao_link": "https://kko.to/wbZvcOmdmB",
   "nearby_text": "경남 창원시 진해구 석동 / 동부초, 석동중학교 인근",
   "office": "석동점와와학습코칭학원",
-  "reg": "창원교육지원청 등록 제1933호"
+  "reg": "창원교육지원청 등록 제1933호",
+  "fee_link": "https://drive.google.com/file/d/1R0vPkxVr45fITcOw8jMe6AS5xfYc9DRW/view?usp=sharing"
  },
  "수진점": {
   "name": "수진점",
@@ -3490,7 +3510,8 @@
   "kakao_link": "http://kko.to/Vmji_6uPE",
   "nearby_text": "경기 성남시 중원구 성남동 / 동광고등학교 인근 / 성남 중앙초 인근",
   "office": "수진점와와학습코칭학원",
-  "reg": "성남교육지원청 등록 제6533호"
+  "reg": "성남교육지원청 등록 제6533호",
+  "fee_link": "https://drive.google.com/file/d/1y1_uXuKb_wpW2oVkeHbOvLepKh1jTk5N/view?usp=sharing"
  },
  "수성2가점": {
   "name": "수성2가점",
@@ -3670,7 +3691,8 @@
   "kakao_link": "https://kko.to/oFJvXyFscy",
   "nearby_text": "대구 수성구 수성동2가 / 수성시장역 2번출구 인근",
   "office": "수성2가점와와학습코칭학원",
-  "reg": "대구광역시동부교육지원청 제6704호"
+  "reg": "대구광역시동부교육지원청 제6704호",
+  "fee_link": "https://drive.google.com/file/d/1DK8auZgRzF4cxI0GzS-HHbf4SK14WlCk/view?usp=sharing"
  },
  "기흥구청점": {
   "name": "기흥구청점",
@@ -3814,7 +3836,8 @@
   "kakao_link": "http://kko.to/79Zcph-wff",
   "nearby_text": "경기 용인시 기흥구 구갈동 / 기흥구청 인근",
   "office": "기흥구청점와와학습코칭학원",
-  "reg": "경기도용인교육지원청 등록 제 5253호"
+  "reg": "경기도용인교육지원청 등록 제 5253호",
+  "fee_link": "https://drive.google.com/file/d/1Y0lqapkUK3plt0oWnROh7ZKFIW-OqiEI/view?usp=sharing"
  },
  "대구도남점": {
   "name": "대구도남점",
@@ -3845,7 +3868,8 @@
    "국우초"
   ],
   "schools_mid": [
-   "학남중 강북중"
+   "학남중",
+   "강북중"
   ],
   "schools_high": [
    "학남고",
@@ -3950,7 +3974,8 @@
   "kakao_link": "https://kko.kakao.com/TMDPrMqD69",
   "nearby_text": "대구 북구 도남동 / 힐스테이트데시앙 도남3단지 아파트 인근",
   "office": "대구도남점와와학습코칭학원",
-  "reg": "대구광역시서부교육지원청 제2023-4500호"
+  "reg": "대구광역시서부교육지원청 제2023-4500호",
+  "fee_link": "https://drive.google.com/file/d/1iODYdQQ-SbUENxuLHqxgZy_SmWOTCKO3/view?usp=sharing"
  },
  "반석점": {
   "name": "반석점",
@@ -4085,7 +4110,8 @@
   "kakao_link": "http://kko.to/Z6pK4CkYp",
   "nearby_text": "대전 유성구 지족동 / 반석고 인근",
   "office": "반석점와와학습코칭학원",
-  "reg": "대전서부교육지원청 등록 제 서4638호"
+  "reg": "대전서부교육지원청 등록 제 서4638호",
+  "fee_link": "https://drive.google.com/file/d/1T_nzCZ6uMwLTT9qoxJNF-RNip70twtbG/view?usp=sharing"
  },
  "화성태안점": {
   "name": "화성태안점",
@@ -4216,7 +4242,8 @@
   "kakao_link": "https://kko.to/dSjhqR0IEV",
   "nearby_text": "경기 화성시 병점동 / 병점고등학교 인근",
   "office": "화성태안점와와학습코칭학원",
-  "reg": "경기도화성오산교육지원청 제4750호"
+  "reg": "경기도화성오산교육지원청 제4750호",
+  "fee_link": "https://drive.google.com/file/d/1f6_KbJcJ4QXstOyDArm0yISD-QhnYgXs/view?usp=sharing"
  },
  "봉담점": {
   "name": "봉담점",
@@ -4307,7 +4334,8 @@
   "kakao_link": "https://kko.to/lvzFXC3Qdh",
   "nearby_text": "경기 화성시 봉담읍 / 삼봉그린공원 인근 / 힐스테이트봉담아파트 인근",
   "office": "봉담점와와학습코칭학원",
-  "reg": "경기도화성오산교육지원청 제 5025호"
+  "reg": "경기도화성오산교육지원청 제 5025호",
+  "fee_link": "https://drive.google.com/file/d/1A8Jnx307EKm4_xpI9PnDVRfNSctjYBYk/view?usp=sharing"
  },
  "삼각산점": {
   "name": "삼각산점",
@@ -4488,13 +4516,14 @@
   "kakao_link": "http://kko.to/4llFk1CYM",
   "nearby_text": "서울 강북구 미아동 / 삼양제일교회 앞 / 삼각산고등학교 인근",
   "office": "삼각산점와와학습코칭학원",
-  "reg": "성북강북교육지원청 등록 제2017-58호"
+  "reg": "성북강북교육지원청 등록 제2017-58호",
+  "fee_link": "https://drive.google.com/file/d/10rF-MU_IKnRE1eu4Ly9seaboig8x4U4T/view?usp=sharing"
  },
  "당산점": {
   "name": "당산점",
   "region": "서울",
   "district": "영등포구",
-  "dong": "당삼동",
+  "dong": "당산동",
   "region_slug": "seoul",
   "district_slug": "yeongdeungpo",
   "branch_slug": "dangsan",
@@ -4579,35 +4608,35 @@
    "당삼고등자기주도학습",
    "당삼고등학원",
    "당삼국어학원",
-   "당삼동고등국어학원",
-   "당삼동고등수학학원",
-   "당삼동고등영어학원",
-   "당삼동고등자기주도학습",
-   "당삼동고등학원",
-   "당삼동국어학원",
-   "당삼동보습학원",
-   "당삼동수학학원",
-   "당삼동영어학원",
-   "당삼동와와코칭학원",
-   "당삼동와와학습코칭센터",
-   "당삼동와와학습코칭학원",
-   "당삼동와와학원",
-   "당삼동자기주도학습",
-   "당삼동자기주도학원",
-   "당삼동중등국어학원",
-   "당삼동중등수학학원",
-   "당삼동중등영어학원",
-   "당삼동중등자기주도학습",
-   "당삼동중등학원",
-   "당삼동초등국어학원",
-   "당삼동초등수학학원",
-   "당삼동초등영어학원",
-   "당삼동초등자기주도학습",
-   "당삼동초등학원",
-   "당삼동학습코칭",
-   "당삼동학습코칭센터",
-   "당삼동학원",
-   "당삼동학원추천",
+   "당산동고등국어학원",
+   "당산동고등수학학원",
+   "당산동고등영어학원",
+   "당산동고등자기주도학습",
+   "당산동고등학원",
+   "당산동국어학원",
+   "당산동보습학원",
+   "당산동수학학원",
+   "당산동영어학원",
+   "당산동와와코칭학원",
+   "당산동와와학습코칭센터",
+   "당산동와와학습코칭학원",
+   "당산동와와학원",
+   "당산동자기주도학습",
+   "당산동자기주도학원",
+   "당산동중등국어학원",
+   "당산동중등수학학원",
+   "당산동중등영어학원",
+   "당산동중등자기주도학습",
+   "당산동중등학원",
+   "당산동초등국어학원",
+   "당산동초등수학학원",
+   "당산동초등영어학원",
+   "당산동초등자기주도학습",
+   "당산동초등학원",
+   "당산동학습코칭",
+   "당산동학습코칭센터",
+   "당산동학원",
+   "당산동학원추천",
    "당삼보습학원",
    "당삼수학학원",
    "당삼영어학원",
@@ -4666,7 +4695,8 @@
   "kakao_link": "http://kko.to/sbQ2k1CDo",
   "nearby_text": "서울 영등포구 당산동 / 당서초등학교 인근",
   "office": "당산점와와학습코칭학원",
-  "reg": "서울남부교육지원청 등록 제 5746호"
+  "reg": "서울남부교육지원청 등록 제 5746호",
+  "fee_link": "https://drive.google.com/file/d/1HBcFVVL0Zglpscx_9GHZoqKtRUG--zer/view?usp=sharing"
  },
  "은평점": {
   "name": "은평점",
@@ -4706,7 +4736,7 @@
    "진관고"
   ],
   "open_time": "평일 오후 2시 이후",
-  "weekend": "토요일11시~3시",
+  "weekend": "토요일 11시~15시",
   "fee_type": "와와회비A",
   "price_elem": 70000,
   "price_mid": 75000,
@@ -4812,7 +4842,8 @@
   "kakao_link": "http://kko.to/IKBNca2fH",
   "nearby_text": "서울 은평구 진관동 / 구파발역 인근",
   "office": "와와학습코칭학원",
-  "reg": "서울서부교육지원청 등록 제02201700112호"
+  "reg": "서울서부교육지원청 등록 제02201700112호",
+  "fee_link": "https://drive.google.com/file/d/1E4m4PRwW168cKfBfDB8VIw3Rn44ozdaT/view?usp=sharing"
  },
  "화정점": {
   "name": "화정점",
@@ -4984,7 +5015,8 @@
   "kakao_link": "https://kko.to/od4Nr1M1qF",
   "nearby_text": "경기 고양시 화정동/ 옥빛마을 14단지, 근린공원 인근",
   "office": "화정점와와학습코칭학원",
-  "reg": "고양교육지원청 등록 제5768호"
+  "reg": "고양교육지원청 등록 제5768호",
+  "fee_link": "https://drive.google.com/file/d/1UW7Oo12FCgk4yf5TYMg2tVTKiuG-hbhg/view?usp=sharing"
  },
  "인창점": {
   "name": "인창점",
@@ -5121,7 +5153,8 @@
   "kakao_link": "http://kko.to/I-1IC1CDo",
   "nearby_text": "경기 구리시 인창동 / 인창주공1단지아파트 인근",
   "office": "와와학습코칭센터학원",
-  "reg": "구리남양주교육지원청 등록 제3467호"
+  "reg": "구리남양주교육지원청 등록 제3467호",
+  "fee_link": "https://drive.google.com/file/d/1L5yFKGjY9l5vjItOyY6DaqRxErIgisZd/view?usp=sharing"
  },
  "염창점": {
   "name": "염창점",
@@ -5291,7 +5324,8 @@
   "kakao_link": "http://kko.to/HINOkQkYM",
   "nearby_text": "서울 강서구 염창동 / 염창초등학교 인근",
   "office": "와와코칭보습학원",
-  "reg": "강서양천교육지원청 등록 제 5716호"
+  "reg": "강서양천교육지원청 등록 제 5716호",
+  "fee_link": "https://drive.google.com/file/d/19aIv6p6u2BTvNeNna_S_pexB0pxEIiGw/view?usp=sharing"
  },
  "인천삼산점": {
   "name": "인천삼산점",
@@ -5470,7 +5504,8 @@
   "kakao_link": "http://kko.to/X0DuC1kDo",
   "nearby_text": "인천 부평구 삼산동 / 삼산타운주공7단지아파트 인근",
   "office": "인천삼산점와와학습코칭학원",
-  "reg": "인천북부교육지원청 등록 제4641호"
+  "reg": "인천북부교육지원청 등록 제4641호",
+  "fee_link": "https://drive.google.com/file/d/1GznySQN0OFs4CynyMeDflvetuYhl-PIB/view?usp=sharing"
  },
  "이매점": {
   "name": "이매점",
@@ -5630,7 +5665,8 @@
   "kakao_link": "http://kko.to/FCbpjkkYB",
   "nearby_text": "경기 성남시 분당구 이매동 / 이매역 6번출구 인근",
   "office": "이매점와와학습코칭학원",
-  "reg": "성남교육지원청 등록 제5320호"
+  "reg": "성남교육지원청 등록 제5320호",
+  "fee_link": "https://drive.google.com/file/d/1rGgKrQ7u_tF5AdWF19xob7ektq6NJiGr/view?usp=sharing"
  },
  "침산점": {
   "name": "침산점",
@@ -5813,7 +5849,8 @@
   "kakao_link": "http://kko.to/HaZcakCDB",
   "nearby_text": "대구 북구 침산동 / 침산중학교 인근",
   "office": "침산점와와학습코칭학원",
-  "reg": "대구서부교육지원청 등록 제2019-4229호"
+  "reg": "대구서부교육지원청 등록 제2019-4229호",
+  "fee_link": "https://drive.google.com/file/d/1CBjkutpOaVwsGGvY-pg8HIx2i86oBTos/view?usp=sharing"
  },
  "오산점": {
   "name": "오산점",
@@ -5951,7 +5988,8 @@
   "kakao_link": "http://kko.to/LyLvDCCDB",
   "nearby_text": "경기 오산시 오산동 / 오산시청 인근",
   "office": "와와학습코칭학원",
-  "reg": "화성오산교육지원청 등록 제2840호"
+  "reg": "화성오산교육지원청 등록 제2840호",
+  "fee_link": "https://drive.google.com/file/d/1YCxKIA8zZYo0rcLNNNdX_I5CvkZKL6Vs/view?usp=sharing"
  },
  "별내점": {
   "name": "별내점",
@@ -6092,7 +6130,8 @@
   "kakao_link": "http://kko.to/H3LDkQkYB",
   "nearby_text": "경기 남양주시 별내동 / 별가람중학교 인근",
   "office": "별내점와와학습코칭학원",
-  "reg": "구리남양주교육지원청 등록 제4170호"
+  "reg": "구리남양주교육지원청 등록 제4170호",
+  "fee_link": "https://drive.google.com/file/d/1bBebCi11f2P2N2dyI1lJW8qowVpA8CNR/view?usp=sharing"
  },
  "영통구청점": {
   "name": "영통구청점",
@@ -6269,7 +6308,8 @@
   "kakao_link": "http://kko.to/tygCTkCYB",
   "nearby_text": "경기 수원시 영통구 매탄동 / 매탄고등학교 인근",
   "office": "영통구청점와와학습코칭학원",
-  "reg": "수원교육지원청 등록 제6824-1호"
+  "reg": "수원교육지원청 등록 제6824-1호",
+  "fee_link": "https://drive.google.com/file/d/1XEPHp6tlFj74KCS1zhiY9XUIvkX9TpuM/view?usp=sharing"
  },
  "부평점": {
   "name": "부평점",
@@ -6446,7 +6486,8 @@
   "kakao_link": "http://kko.to/VOvNk1kDo",
   "nearby_text": "인천 부평구 부평동 / 부평시장역 앞 / 부평여자고등학교 인근",
   "office": "와와학습코칭센터부평학원",
-  "reg": "인천북부교육지원청 등록 제4371호"
+  "reg": "인천북부교육지원청 등록 제4371호",
+  "fee_link": "https://drive.google.com/file/d/1oJO0Ih8uOx_txj7fbp2CS91AoJQSLK65/view?usp=sharing"
  },
  "풍동점": {
   "name": "풍동점",
@@ -6584,13 +6625,14 @@
   "kakao_link": "http://kko.to/J4Hj6hfnCc",
   "nearby_text": "경기 고양시 일산동구 풍동 / 풍산초등학교 인근",
   "office": "풍동와와학습코칭학원",
-  "reg": "고양교육지원청 등록 제5785호"
+  "reg": "고양교육지원청 등록 제5785호",
+  "fee_link": "https://drive.google.com/file/d/1-r0h-F-EINVJgYsrlEvIh-xq-A18iYuK/view?usp=sharing"
  },
  "송천점": {
   "name": "송천점",
   "region": "전북",
   "district": "전주시",
-  "dong": "송천점",
+  "dong": "송천동",
   "region_slug": "jeonbuk",
   "district_slug": "jeonju",
   "branch_slug": "songcheon",
@@ -6678,7 +6720,8 @@
   "kakao_link": "http://kko.to/gUftakkYM",
   "nearby_text": "전북 전주시 덕진구 송천동 / 전라고등학교 인근",
   "office": "와와학습코칭송천점학원",
-  "reg": "전주교육지원청 등록 제6679호"
+  "reg": "전주교육지원청 등록 제6679호",
+  "fee_link": "https://drive.google.com/file/d/1E7YYGwuu-RsPqLmSaDLC2wixVUGgqLTX/view?usp=sharing"
  },
  "태평점": {
   "name": "태평점",
@@ -6847,7 +6890,8 @@
   "kakao_link": "http://kko.to/ufvXfCkDp",
   "nearby_text": "대전 중구 태평동 / 버드내초등학교 인근",
   "office": "태평와와학습코칭학원",
-  "reg": "대전동부교육지원청등록 제 2동3247호"
+  "reg": "대전동부교육지원청등록 제 2동3247호",
+  "fee_link": "https://drive.google.com/file/d/1_vf_w2_7js-C1SIMDF2LLz_NssyujvO1/view?usp=sharing"
  },
  "목감점(모두)": {
   "name": "목감점(모두)",
@@ -6981,7 +7025,8 @@
   "kakao_link": "http://kko.to/ymWdr3SfM",
   "nearby_text": "경기 시흥시 조남동 / 목감퍼스트리움, 네이처하임 아파트 인근",
   "office": "목감점모두오름학습코칭학원",
-  "reg": "시흥교육지원청 등록 제 시1311호"
+  "reg": "시흥교육지원청 등록 제 시1311호",
+  "fee_link": "https://drive.google.com/file/d/166AO1w0NNyh0ONVPZvyLfdY4G7U3mlvQ/view?usp=drive_link"
  },
  "송촌점": {
   "name": "송촌점",
@@ -7157,7 +7202,8 @@
   "kakao_link": "http://kko.to/g7rvfkCDM",
   "nearby_text": "대전 대덕구 송촌동 / 선비마을 3단지 인근",
   "office": "송촌와와학습코칭학원",
-  "reg": "대전동부교육지원청등록 제 2동3248호"
+  "reg": "대전동부교육지원청등록 제 2동3248호",
+  "fee_link": "https://drive.google.com/file/d/1LbuVOcG6WfrwEi-aaTaOuuN5_0LH4p4f/view?usp=sharing"
  },
  "중동점": {
   "name": "중동점",
@@ -7186,7 +7232,7 @@
    "부명중"
   ],
   "schools_high": [
-   "증흥고",
+   "중흥고",
    "중원고",
    "경기예고"
   ],
@@ -7288,7 +7334,8 @@
   "kakao_link": "http://kko.to/cmG3ral4H",
   "nearby_text": "경기 부천시 중동/ 부천시청역 인근",
   "office": "와와학습코칭보습학원",
-  "reg": "부천교육지원청 등록 제5918호"
+  "reg": "부천교육지원청 등록 제5918호",
+  "fee_link": "https://drive.google.com/file/d/1S629AeKOy38neMow4WxDALYCEQNUOE3-/view?usp=drive_link"
  },
  "중동점(W+)": {
   "name": "중동점(W+)",
@@ -7317,7 +7364,7 @@
    "부명중"
   ],
   "schools_high": [
-   "증흥고",
+   "중흥고",
    "중원고",
    "경기예고"
   ],
@@ -7419,7 +7466,8 @@
   "kakao_link": "https://kko.to/8onqD6sW-x",
   "nearby_text": "경기 부천시 중동 / 부천시청역 5번 출구 인근, 부천시청 맞은편",
   "office": "중동점더블유플러스보습학원",
-  "reg": "부천교육지원청 등록 제6516호"
+  "reg": "부천교육지원청 등록 제6516호",
+  "fee_link": "https://drive.google.com/file/d/1dT2JWW0JivNCDm7E6NmRAgf2dDBhsgcq/view?usp=drive_link"
  },
  "신중동점": {
   "name": "신중동점",
@@ -7565,7 +7613,8 @@
   "kakao_link": "http://kko.to/3HAH0CkDB",
   "nearby_text": "경기 부천시 중동 / 계남중학교 인근 / 그린타운우성아파트 맞은편",
   "office": "와와학습코칭신중동보습학원",
-  "reg": "부천교육지원청 등록 제6330호"
+  "reg": "부천교육지원청 등록 제6330호",
+  "fee_link": "https://drive.google.com/file/d/1JhcUFxtq7XXPWYiTUXrJkuyUUBOt6Mfq/view?usp=sharing"
  },
  "화정점(W+)": {
   "name": "화정점(W+)",
@@ -7598,7 +7647,7 @@
    "화정고"
   ],
   "open_time": "평일 오후 1시 이후",
-  "weekend": "토요일 2시~5시10분만\n가능",
+  "weekend": "토요일 2시~5시10분만 가능",
   "fee_type": "와와회비B",
   "price_elem": 60000,
   "price_mid": 65000,
@@ -7695,7 +7744,8 @@
   "kakao_link": "https://kko.to/-So8fR9mkh",
   "nearby_text": "경기 고양시 화정동 / 고양어린이박물관, 옥빛마을 14단지 인근",
   "office": "화정점더블유플러스학원",
-  "reg": "고양교육지원청 등록 제6077호"
+  "reg": "고양교육지원청 등록 제6077호",
+  "fee_link": "https://drive.google.com/file/d/1R2RfSjDUMkn3udsW-Hn3Hm-KT1yu2y4z/view?usp=sharing"
  },
  "양덕점": {
   "name": "양덕점",
@@ -7722,13 +7772,21 @@
    "사회": "초1,초2,초3,초4,초5,초6,중1,중2,중3,고1,고2,고3"
   },
   "schools_elem": [
-   "양덕초 양서초 장흥초"
+   "양덕초",
+   "양서초",
+   "장흥초"
   ],
   "schools_mid": [
-   "양덕중 장흥중 대도중 환호여중"
+   "양덕중",
+   "장흥중",
+   "대도중",
+   "환호여중"
   ],
   "schools_high": [
-   "장성고 포항고 포항여고 유성여고"
+   "장성고",
+   "포항고",
+   "포항여고",
+   "유성여고"
   ],
   "open_time": "평일 오후 2시 이후",
   "weekend": "토요일가능",
@@ -7838,7 +7896,8 @@
   "kakao_link": "http://kko.to/u9dP7w153",
   "nearby_text": "경북 포항시 양덕동 / 농협 하나로마트 인근 / 양덕 하우스스토리 아파트 인근",
   "office": "양덕점와와학습코칭학원",
-  "reg": "포항교육지원청 등록 제2584호"
+  "reg": "포항교육지원청 등록 제2584호",
+  "fee_link": "https://drive.google.com/file/d/1sZ61z3e3AhD_n2iCxyam34QwnDo6gh1L/view?usp=sharing"
  },
  "옥정점": {
   "name": "옥정점",
@@ -7948,7 +8007,8 @@
   "kakao_link": "http://kko.to/0LHCAzMxpN",
   "nearby_text": "경기 양주시 옥정동 / e편한세상옥정어반센트럴아파트 인근",
   "office": "옥정점와와학습코칭학원",
-  "reg": "경기도동두천양주교육지원청 제1331호"
+  "reg": "경기도동두천양주교육지원청 제1331호",
+  "fee_link": "https://drive.google.com/file/d/1FzF4qEZhdYbpg-szHvhEiXIHSpYY4Ivw/view?usp=sharing"
  },
  "은평점(글로리드)": {
   "name": "은평점(글로리드)",
@@ -8044,7 +8104,8 @@
   "kakao_link": "https://kko.to/4Ymc1nXftx",
   "nearby_text": "서울 은평구 진관동 / 구파발역 2번 출구 인근",
   "office": "은평점글로리드학습코칭학원",
-  "reg": "서울특별시 서부교육지원청 제 02202300049호"
+  "reg": "서울특별시 서부교육지원청 제 02202300049호",
+  "fee_link": "https://drive.google.com/file/d/1gXHjSbsI8ii6mK958H3tMtmpE3U2m3eB/view?usp=sharing"
  },
  "다산점(W+)": {
   "name": "다산점(W+)",
@@ -8142,7 +8203,8 @@
   "kakao_link": "https://kko.to/oFjaF0NlIC",
   "nearby_text": "경기 남양주시 다산동 / 다산 롯데캐슬 인근, KB골든타워",
   "office": "다산점더블유플러스학원",
-  "reg": "경기도구리남양주교육지원청 제4711호"
+  "reg": "경기도구리남양주교육지원청 제4711호",
+  "fee_link": "https://drive.google.com/file/d/1BK827lNn5X5LTYbwAav1f5gL1bCJSEs1/view?usp=sharing"
  },
  "옥길스타점": {
   "name": "옥길스타점",
@@ -8243,7 +8305,8 @@
   "kakao_link": "https://kko.to/6C2cEe0C2B",
   "nearby_text": "경기 부천시 옥길동 / 부천스타필드 뒤 옥길중앙타워",
   "office": "옥길스타점와와학습코칭보습학원",
-  "reg": "경기도부천교육지원청 등록 제6775호"
+  "reg": "경기도부천교육지원청 등록 제6775호",
+  "fee_link": "https://drive.google.com/file/d/1r5K-ii3QY36_Gmlyg3eLw0X06N43m_Ut/view?usp=sharing"
  },
  "광장점": {
   "name": "광장점",
@@ -8416,7 +8479,8 @@
   "kakao_link": "http://kko.to/-ffhC1CYB",
   "nearby_text": "서울 광진구 구의동 / 광장동청구아파트 인근 / 양진초등학교 인근",
   "office": "와와학습코칭학원",
-  "reg": "성동광진교육지원청 등록 제 2316호"
+  "reg": "성동광진교육지원청 등록 제 2316호",
+  "fee_link": "https://drive.google.com/file/d/1JB_0Yvmj1RlSQk06pIHW86F_gLEBh8ZY/view?usp=sharing"
  },
  "반월당점": {
   "name": "반월당점",
@@ -8593,7 +8657,8 @@
   "kakao_link": "https://kko.kakao.com/-sxOopUB-U",
   "nearby_text": "대구 중구 봉산동 / 센트로펠리스아파트 인근",
   "office": "반월당점와와학습코칭학원",
-  "reg": "대구광역시동부교육지원청 제6834호"
+  "reg": "대구광역시동부교육지원청 제6834호",
+  "fee_link": "https://drive.google.com/file/d/1GhY7mMSV5iqF3qFp3VsqdfFrB38r1pXa/view?usp=sharing"
  },
  "배곧점": {
   "name": "배곧점",
@@ -8720,7 +8785,8 @@
   "kakao_link": "https://kko.kakao.com/_v6IOOS78Q",
   "nearby_text": "경기 시흥시 배곧동 / 배곧초 인근",
   "office": "배곧점와와학습코칭학원",
-  "reg": "경기도시흥교육지원청 제 시1653 호"
+  "reg": "경기도시흥교육지원청 제 시1653 호",
+  "fee_link": "https://drive.google.com/file/d/1RxIlEp-RZXhMWHEHiF_rqXxUkOPuJqxY/view?usp=sharing"
  },
  "명지대역점": {
   "name": "명지대역점",
@@ -8847,7 +8913,8 @@
   "kakao_link": "https://kko.kakao.com/paSzPvSvY2",
   "nearby_text": "경기 용인시 처인구 역북동 / 이마트 용인점 인근",
   "office": "명지대역점와와학습코칭학원",
-  "reg": "경기도용인교육지원청 제 5578 호"
+  "reg": "경기도용인교육지원청 제 5578 호",
+  "fee_link": "https://drive.google.com/file/d/1TcSJFWunhCG4Bgnr5KACT5xL8D1XZzQ-/view?usp=sharing"
  },
  "칠금점": {
   "name": "칠금점",
@@ -9010,7 +9077,8 @@
   "kakao_link": "http://kko.to/YQ81fkCYM",
   "nearby_text": "충북 충주시 칠금동 / 탄금초등학교 인근",
   "office": "칠금점와와학습코칭학원",
-  "reg": "충주교육지원청 등록 제1469호"
+  "reg": "충주교육지원청 등록 제1469호",
+  "fee_link": "https://drive.google.com/file/d/1EQl1vVG7si2Pvw08DdGffOM9pebt270B/view?usp=sharing"
  },
  "세교점": {
   "name": "세교점",
@@ -9142,7 +9210,8 @@
   "kakao_link": "http://kko.to/8DAqC5P4p",
   "nearby_text": "경기 오산시 금암동 / 세교신도시 / 세교센트럴파크 아파트 앞",
   "office": "세교점와와학습코칭학원",
-  "reg": "화성오산교육지원청 등록 제4098호"
+  "reg": "화성오산교육지원청 등록 제4098호",
+  "fee_link": "https://drive.google.com/file/d/1H5Pc5UI6DQEL3xy_TjsKokzA8LPysVW3/view?usp=sharing"
  },
  "수지점(글로리드)": {
   "name": "수지점(글로리드)",
@@ -9285,7 +9354,8 @@
   "kakao_link": "https://kko.to/8AV9az11-d",
   "nearby_text": "경기 용인시 풍덕천동 / 수지구청역 2번 출구 인근",
   "office": "수지점글로리드학습코칭학원",
-  "reg": "경기도용인교육지원청 제5340호"
+  "reg": "경기도용인교육지원청 제5340호",
+  "fee_link": "https://drive.google.com/file/d/19NIQXFBiQ_KtGtj0S1oQ3iG4rRpay3A3/view?usp=sharing"
  },
  "마포2호점": {
   "name": "마포2호점",
@@ -9445,7 +9515,8 @@
   "kakao_link": "https://kko.kakao.com/dAIXWtO4S2",
   "nearby_text": "서울 마포구 용강동 / 서울 신선초등학교 인근",
   "office": "마포2호점와와학습코칭학원",
-  "reg": "서울특별시 서부교육지원청 제02202300102호"
+  "reg": "서울특별시 서부교육지원청 제02202300102호",
+  "fee_link": "https://drive.google.com/file/d/1Bj32uK2GRguE6GkcqRBKEW3GvPEEqKd6/view?usp=sharing"
  },
  "다산도농점": {
   "name": "다산도농점",
@@ -9584,7 +9655,8 @@
   "kakao_link": "https://kko.to/2ujPeW89YE",
   "nearby_text": "경기 남양주시 도농동 / 부영 아파트 인근",
   "office": "다산도농점와와학습코칭학원",
-  "reg": "경기도구리남양주교육지원청 제4749호"
+  "reg": "경기도구리남양주교육지원청 제4749호",
+  "fee_link": "https://drive.google.com/file/d/1lHpYzhSlIFx0s5bGr3OP6LBnmEZE5qhf/view?usp=sharing"
  },
  "별가람점": {
   "name": "별가람점",
@@ -9721,7 +9793,8 @@
   "kakao_link": "https://kko.to/gnT21qdfzk",
   "nearby_text": "경기 남양주시 별내동 / 별가람역 인근",
   "office": "별가람점와와학습코칭학원",
-  "reg": "경기도구리남양주교육지원청 제4785호"
+  "reg": "경기도구리남양주교육지원청 제4785호",
+  "fee_link": "https://drive.google.com/file/d/1efAXs3iaYice36iEq2e8OXBrB4xPQpVC/view?usp=sharing"
  },
  "동탄목동점": {
   "name": "동탄목동점",
@@ -9878,7 +9951,8 @@
   "kakao_link": "https://kko.to/XRm3FQrY6v",
   "nearby_text": "경기 화성시 목동 / 동탄2신도시 호반베르디움 22단지 아파트 인근",
   "office": "동탄목동점와와학습코칭학원",
-  "reg": "경기도화성오산교육지원청 제4752호"
+  "reg": "경기도화성오산교육지원청 제4752호",
+  "fee_link": "https://drive.google.com/file/d/1EivkZoaX1zyNqM-DWe0BSUaM1tYN3MOL/view?usp=sharing"
  },
  "두호점": {
   "name": "두호점",
@@ -10010,7 +10084,8 @@
   "kakao_link": "http://kko.to/1UhptCCYp",
   "nearby_text": "경북 포항시 두호동 / 제일우성아파트 인근",
   "office": "와와학습코칭센터학원",
-  "reg": "포항교육지원청 등록 제2124호"
+  "reg": "포항교육지원청 등록 제2124호",
+  "fee_link": "https://drive.google.com/file/d/1E8_BXUI1HRi14NzBNb90Uauq8wJnRm8H/view?usp=sharing"
  },
  "선운점": {
   "name": "선운점",
@@ -10141,7 +10216,8 @@
   "kakao_link": "https://kko.to/A-UDalo6Ky",
   "nearby_text": "광주 광산구 선암동 / 선운중학교인근 / 선운초 인근",
   "office": "선운점와와학습코칭학원",
-  "reg": "광주광역시서부교육지원청 제7446호"
+  "reg": "광주광역시서부교육지원청 제7446호",
+  "fee_link": "https://drive.google.com/file/d/16W6SDSlwye2slqKBROWADHSrApZG2zoe/view?usp=sharing"
  },
  "교하점": {
   "name": "교하점",
@@ -10273,7 +10349,8 @@
   "kakao_link": "https://kko.to/uvGESRr6SJ",
   "nearby_text": "경기 파주시 동패동 / 숲속길마을7단지(월드메르디앙센트럴파크아파트) 인근",
   "office": "교하점와와학습코칭학원",
-  "reg": "경기도파주교육지원청 제1975호"
+  "reg": "경기도파주교육지원청 제1975호",
+  "fee_link": "https://drive.google.com/file/d/1Z43mPQvXPFFpYrXwPcSe6PHxkK0lfduB/view?usp=sharing"
  },
  "송파위례점": {
   "name": "송파위례점",
@@ -10447,7 +10524,8 @@
   "kakao_link": "https://kko.to/zGEW25dyTJ",
   "nearby_text": "서울 송파구 장지동 / 위례송파 푸르지오 아파트 인근",
   "office": "송파위례점와와학습코칭학원",
-  "reg": "서울특별시강동송파교육지원청 제8296호"
+  "reg": "서울특별시강동송파교육지원청 제8296호",
+  "fee_link": "https://drive.google.com/file/d/1kmcbQeUAaA9R4FvxMPmv0lkYHDNt0aR-/view?usp=sharing"
  },
  "산본점": {
   "name": "산본점",
@@ -10625,7 +10703,8 @@
   "kakao_link": "https://kko.to/8aae4vVcPR",
   "nearby_text": "경기 군포시 산본동 / 광정초등학교 앞",
   "office": "산본점와와학습코칭학원",
-  "reg": "경기도군포의왕교육지원청 제2444호"
+  "reg": "경기도군포의왕교육지원청 제2444호",
+  "fee_link": "https://drive.google.com/file/d/1PeCy7L6Xt5rObCAZ-udsSZLnGabOuzog/view?usp=sharing"
  },
  "구월점": {
   "name": "구월점",
@@ -10797,7 +10876,8 @@
   "kakao_link": "https://kko.to/6zzceEOg6N",
   "nearby_text": "인천 남동구 구월동 / 구월아시아드선수촌 아파트 인근",
   "office": "구월점와와학습코칭학원",
-  "reg": "인천광역시동부교육지원청 제4031호"
+  "reg": "인천광역시동부교육지원청 제4031호",
+  "fee_link": "https://drive.google.com/file/d/1_9-kk50IgswGc1rdWcTuuxVB38wxLCHL/view?usp=sharing"
  },
  "고잔점": {
   "name": "고잔점",
@@ -10911,7 +10991,8 @@
   "kakao_link": "http://kko.to/iTFwHkkYM",
   "nearby_text": "경기 안산시 단원구 고잔동 / 고잔고등학교 인근",
   "office": "와와학습코칭센터안산학원",
-  "reg": "안산교육지원청 등록 제4176호"
+  "reg": "안산교육지원청 등록 제4176호",
+  "fee_link": "https://drive.google.com/file/d/1_MwTOAyVIeWO53F97U-nezZEF7jjNVaY/view?usp=sharing"
  },
  "가좌점": {
   "name": "가좌점",
@@ -11084,7 +11165,8 @@
   "kakao_link": "http://kko.to/yRM1DCCDB",
   "nearby_text": "서울 서대문구 남가좌동/ 남가좌동현대아파트 인근",
   "office": "가좌점와와학습코칭학원",
-  "reg": "서울서부교육지원청 등록 제02202000014호"
+  "reg": "서울서부교육지원청 등록 제02202000014호",
+  "fee_link": "https://drive.google.com/file/d/1j0ih4SRdImd7ObaZ51sX70Wa_dblKO0L/view?usp=sharing"
  },
  "호평점": {
   "name": "호평점",
@@ -11221,7 +11303,8 @@
   "kakao_link": "http://kko.to/oxx2fkkYM",
   "nearby_text": "경기 남양주시 호평동 / 호평마을 한화 꿈에그린 인근",
   "office": "호평점와와학습코칭학원",
-  "reg": "구리남양주교육지원청 등록 제4177호"
+  "reg": "구리남양주교육지원청 등록 제4177호",
+  "fee_link": "https://drive.google.com/file/d/1y3HqS6ngj6gqG4Df7OEYetULTeYjSRuF/view?usp=sharing"
  },
  "평내점": {
   "name": "평내점",
@@ -11352,7 +11435,8 @@
   "kakao_link": "http://kko.to/dIhvkQkDM",
   "nearby_text": "경기 남양주시 평내동 / 평내마을어울림아파트 인근 / 평내중학교 인근",
   "office": "평내점와와학습코칭학원",
-  "reg": "구리남양주교육지원청 등록 제3712호"
+  "reg": "구리남양주교육지원청 등록 제3712호",
+  "fee_link": "https://drive.google.com/file/d/1bNlicT0F0UXH9pUNpDxFA81GGkfb3CAY/view?usp=sharing"
  },
  "부발점": {
   "name": "부발점",
@@ -11489,7 +11573,8 @@
   "kakao_link": "http://kko.to/VtzYjkCDo",
   "nearby_text": "경기 이천시 부발읍 / 이천신일해피트리빌2단지 인근",
   "office": "와와학습코칭부발학원",
-  "reg": "이천교육지원청 등록 제1222호"
+  "reg": "이천교육지원청 등록 제1222호",
+  "fee_link": "https://drive.google.com/file/d/1k_OG34gCErHK7bKWRo2vgIREJFFv_qNf/view?usp=sharing"
  },
  "율하점": {
   "name": "율하점",
@@ -11651,7 +11736,8 @@
   "kakao_link": "http://kko.to/cIsZ9zzf0",
   "nearby_text": "대구 동구 율하동 / 율하휴먼시아 9단지 앞 / 율원중 인근",
   "office": "율하점와와학습코칭학원",
-  "reg": "대구동부교육지원청 등록 제6183호"
+  "reg": "대구동부교육지원청 등록 제6183호",
+  "fee_link": "https://drive.google.com/file/d/1VsinCaHKPHAeKH7Ap5VRrhsW8WXs3BEA/view?usp=sharing"
  },
  "비전점": {
   "name": "비전점",
@@ -11676,13 +11762,22 @@
    "과학": "중1,중2,중3"
   },
   "schools_elem": [
-   "이화초 가내초 자란초"
+   "이화초",
+   "가내초",
+   "자란초"
   ],
   "schools_mid": [
-   "비전중 한광중 한광여중 평택여중 소사벌중"
+   "비전중",
+   "한광중",
+   "한광여중",
+   "평택여중",
+   "소사벌중"
   ],
   "schools_high": [
-   "비전고 한광고 한광여고 평택여고"
+   "비전고",
+   "한광고",
+   "한광여고",
+   "평택여고"
   ],
   "open_time": "평일 오전 11시이후",
   "weekend": "토요일가능",
@@ -11765,7 +11860,8 @@
   "kakao_link": "http://kko.to/RnSJk1kYo",
   "nearby_text": "경기 평택시 비전동 / 비전중학교 인근/ 이곡사거리 올리브영 건물",
   "office": "와와학습코칭센터학원",
-  "reg": "평택교육지원청 등록 제 2126호"
+  "reg": "평택교육지원청 등록 제 2126호",
+  "fee_link": "https://drive.google.com/file/d/1qXICwYaoUapjxPoUggu7pBDrX0SPu0yi/view?usp=sharing"
  },
  "옥길점": {
   "name": "옥길점",
@@ -11896,7 +11992,8 @@
   "kakao_link": "http://kko.to/Yt7NfCkYo",
   "nearby_text": "경기 부천시 옥길동 / 옥길 퀸즈파크 건물 / 제이드카운티아파트1단지 인근",
   "office": "옥길점와와학습코칭보습학원",
-  "reg": "부천교육지원청 등록 제6454호"
+  "reg": "부천교육지원청 등록 제6454호",
+  "fee_link": "https://drive.google.com/file/d/1FwPpDBhpqmU_-uRlD7EvHSqQqq6nD79S/view?usp=sharing"
  },
  "후곡점": {
   "name": "후곡점",
@@ -12020,7 +12117,8 @@
   "kakao_link": "http://kko.to/Oj7ajkCYB",
   "nearby_text": "경기 고양시 일산서구 일산동 / 신일중학교 인근 / 태영17단지 아파트 앞",
   "office": "후곡점와와학습코칭학원",
-  "reg": "고양교육지원청 등록 제5985호"
+  "reg": "고양교육지원청 등록 제5985호",
+  "fee_link": "https://drive.google.com/file/d/1k5ujReBvrwI7fN2HteQ2GEXEU9fdCYwo/view?usp=sharing"
  },
  "단구점": {
   "name": "단구점",
@@ -12197,7 +12295,8 @@
   "kakao_link": "http://kko.to/u7kFakCYM",
   "nearby_text": "강원 원주시 개운동, 단구동 / 강원도 원주의료원 인근",
   "office": "와와학습코칭학원",
-  "reg": "원주교육지원청 등록 제2412호"
+  "reg": "원주교육지원청 등록 제2412호",
+  "fee_link": "https://drive.google.com/file/d/1WuZUqX9l2nko8ghWFt6zOnetwjm4cr8V/view?usp=sharing"
  },
  "복대점": {
   "name": "복대점",
@@ -12335,7 +12434,8 @@
   "kakao_link": "http://kko.to/W-46fkkYB",
   "nearby_text": "충북 청주시 흥덕구 복대동 / 복대중, 증안초등학교 인근",
   "office": "복대점와와학습코칭학원",
-  "reg": "청주교육지원청 등록 제5298호"
+  "reg": "청주교육지원청 등록 제5298호",
+  "fee_link": "https://drive.google.com/file/d/1gsbeanPgY5J0WNV1vPie68gZyNGFGqQu/view?usp=sharing"
  },
  "단대점": {
   "name": "단대점",
@@ -12371,7 +12471,7 @@
    "동광고"
   ],
   "open_time": "평일 오후 3시 이후",
-  "weekend": "토  영어",
+  "weekend": "토 영어",
   "fee_type": "와와회비B",
   "price_elem": 60000,
   "price_mid": 65000,
@@ -12509,7 +12609,8 @@
   "kakao_link": "http://kko.to/V2iyDkkYB",
   "nearby_text": "경기 성남시 수정구 단대동 / 성남단대푸르지오아파트 인근 / 금광시장 인근",
   "office": "단대점와와학습코칭학원",
-  "reg": "성남교육지원청 등록 제6183호"
+  "reg": "성남교육지원청 등록 제6183호",
+  "fee_link": "https://drive.google.com/file/d/1FLwv1sMKb_AhjxibGXEYOJ-Cd2w_q1tU/view?usp=sharing"
  },
  "은평점(W+)": {
   "name": "은평점(W+)",
@@ -12642,7 +12743,8 @@
   "kakao_link": "https://kko.to/3b0TwB8X1E",
   "nearby_text": "서울 은평구 진관동 / 스타벅스 구파발역점 맞은편, 휴먼프라자",
   "office": "은평점더블유플러스수학보습학원",
-  "reg": "서울서부교육지원청 등록 제02202100037호"
+  "reg": "서울서부교육지원청 등록 제02202100037호",
+  "fee_link": "https://drive.google.com/file/d/1CZ409m2DDq9ZKDXUNDqCqhznB1LIA1d_/view?usp=sharing"
  },
  "산내점": {
   "name": "산내점",
@@ -12748,7 +12850,8 @@
   "kakao_link": "http://kko.to/m-o_fmf40",
   "nearby_text": "경기 파주시 목동동 / 파주 운정 홈플러스 인근 / 산들초 인근",
   "office": "산내점와와학습코칭학원",
-  "reg": "파주교육지원청 등록 제1713호"
+  "reg": "파주교육지원청 등록 제1713호",
+  "fee_link": "https://drive.google.com/file/d/11eEXxQ_DM6nTWLyk3rXiuduTcuWbgOSu/view?usp=sharing"
  },
  "동춘점": {
   "name": "동춘점",
@@ -12918,7 +13021,8 @@
   "kakao_link": "http://kko.to/vFo-CSQVT",
   "nearby_text": "인천 연수구 동춘동 / 연수한양2차아파트 인근",
   "office": "동춘점와와학습코칭학원",
-  "reg": "인천동부교육지원청 등록 제3723호"
+  "reg": "인천동부교육지원청 등록 제3723호",
+  "fee_link": "https://drive.google.com/file/d/1HdcgFGd7HUl157RDlwUzw3cNT29ajyEr/view?usp=sharing"
  },
  "후곡점(W+)": {
   "name": "후곡점(W+)",
@@ -13032,7 +13136,8 @@
   "kakao_link": "https://kko.to/VPRRkgZH5x",
   "nearby_text": "경기 고양시 일산동 / 일산3동행정복지센터 맞은편",
   "office": "후곡점더블유플러스학원",
-  "reg": "경기도고양교육지원청 등록 제6354호"
+  "reg": "경기도고양교육지원청 등록 제6354호",
+  "fee_link": "https://drive.google.com/file/d/1KXikoHPmemf0eNx330zpOqoyAY48LThS/view?usp=sharing"
  },
  "알파시티점": {
   "name": "알파시티점",
@@ -13168,7 +13273,8 @@
   "kakao_link": "http://kko.to/2gHNjcmKqH",
   "nearby_text": "대구 수성구 시지동 /  수성알파시티동화아이위시아파트 인근",
   "office": "알파시티점와와학습코칭학원",
-  "reg": "대구광역시동부교육지원청 제6562호"
+  "reg": "대구광역시동부교육지원청 제6562호",
+  "fee_link": "https://drive.google.com/file/d/1IcuDV4GLDPP4al4w0mmJ7w1FaTNnCFgG/view?usp=sharing"
  },
  "신월성점": {
   "name": "신월성점",
@@ -13220,9 +13326,9 @@
   "price_elem": 60000,
   "price_mid": 65000,
   "price_high": 75000,
-  "time_elem": "90분",
-  "time_mid": "90분",
-  "time_high": "90분",
+  "time_elem": "90",
+  "time_mid": "90",
+  "time_high": "90",
   "keywords": [
    "대건중국어학원",
    "대건중근처학원",
@@ -13312,7 +13418,8 @@
   "kakao_link": "http://kko.to/EZ8PaCCDM",
   "nearby_text": "대구 달서구 월성동 / 조암초등학교 인근",
   "office": "신월성와와학습코칭학원",
-  "reg": "대구남부교육지원청 등록 제2017-120호"
+  "reg": "대구남부교육지원청 등록 제2017-120호",
+  "fee_link": "https://drive.google.com/file/d/1Z0F217J4a_ov6t-DwOSxGSrLS1eR4m_k/view?usp=sharing"
  },
  "대구역점": {
   "name": "대구역점",
@@ -13495,7 +13602,8 @@
   "kakao_link": "http://kko.to/W9LCMYicmi",
   "nearby_text": "대구 중구 수창동 / 대구역센트럴자이 상가",
   "office": "대구역점와와학습코칭학원",
-  "reg": "대구광역시동부교육지원청 제6571호"
+  "reg": "대구광역시동부교육지원청 제6571호",
+  "fee_link": "https://drive.google.com/file/d/1fWUfZKnyj6R-rLpvZ1uqhjzpSWtN7oz1/view?usp=sharing"
  },
  "신방화점": {
   "name": "신방화점",
@@ -13660,7 +13768,8 @@
   "kakao_link": "http://kko.to/UZcbCQCDB",
   "nearby_text": "서울 강서구 마곡동 / 신방화역 6번출구 인근",
   "office": "신방화점와와학습코칭학원",
-  "reg": "강서양천교육지원청 등록 제 5879호"
+  "reg": "강서양천교육지원청 등록 제 5879호",
+  "fee_link": "https://drive.google.com/file/d/1ZQGHf_JiGE50Qks_3e4jTCpL2f_r-PvP/view?usp=sharing"
  },
  "청라점": {
   "name": "청라점",
@@ -13694,7 +13803,7 @@
    "해원고"
   ],
   "open_time": "평일 오후 3시 이후",
-  "weekend": "토요일은\n수학과학만\n12시부터",
+  "weekend": "토요일은 수학과학만 12시부터",
   "fee_type": "와와회비B",
   "price_elem": 60000,
   "price_mid": 65000,
@@ -13810,7 +13919,8 @@
   "kakao_link": "http://kko.to/iz25CQCDo",
   "nearby_text": "인천 서구 청라동 / 청라풍림엑슬루타워아파트 인근",
   "office": "와와학습코칭청라학원",
-  "reg": "인천서부교육지원청 등록 서부 제1903호"
+  "reg": "인천서부교육지원청 등록 서부 제1903호",
+  "fee_link": "https://drive.google.com/file/d/1OXA3FyvfSKwzuGlWKMHeC11z4vCGqgv8/view?usp=sharing"
  },
  "소하점": {
   "name": "소하점",
@@ -13971,7 +14081,8 @@
   "kakao_link": "http://kko.to/0budCQkDp",
   "nearby_text": "경기 광명시 소하동 / 광명역세권휴먼시아3단지아파트 인근",
   "office": "소하점와와학습코칭학원",
-  "reg": "광명교육지원청 등록 제1965호"
+  "reg": "광명교육지원청 등록 제1965호",
+  "fee_link": "https://drive.google.com/file/d/1MD9CG9Ym96WblML8no8o8ul2p5cZBN1O/view?usp=sharing"
  },
  "복산점": {
   "name": "복산점",
@@ -14139,7 +14250,8 @@
   "kakao_link": "http://kko.to/94xztkkYM",
   "nearby_text": "울산 중구 복산동 / 복산초등학교 인근",
   "office": "복산점와와학습코칭학원",
-  "reg": "울산강북교육지원청 등록 제5462호"
+  "reg": "울산강북교육지원청 등록 제5462호",
+  "fee_link": "https://drive.google.com/file/d/1h5Z4YhRsG2VLo1JzIxGwjxZzvPN7p18R/view?usp=sharing"
  },
  "동탄호수점": {
   "name": "동탄호수점",
@@ -14277,7 +14389,8 @@
   "kakao_link": "https://kko.to/NHx7gMfe1z",
   "nearby_text": "경기 화성시 산척동 / 더레이크시티부영4단지아파트 인근 (동탄2신도시- 동탄6동)",
   "office": "동탄호수와와학습코칭학원",
-  "reg": "화성오산교육지원청 등록 제3775호"
+  "reg": "화성오산교육지원청 등록 제3775호",
+  "fee_link": "https://drive.google.com/file/d/11NIf55TKqVyZGpigbeyKCqdrBHQP9D_K/view?usp=sharing"
  },
  "동백점": {
   "name": "동백점",
@@ -14446,7 +14559,8 @@
   "kakao_link": "http://kko.to/YU6LTkCYo",
   "nearby_text": "경기 용인시 기흥구 중동 / 동백역 1번 2번출구 인근",
   "office": "동백점와와학습코칭학원",
-  "reg": "용인교육지원청 등록 제3918호"
+  "reg": "용인교육지원청 등록 제3918호",
+  "fee_link": "https://drive.google.com/file/d/1wJ4WEFAYH8rUwMykhk6AF_K90JisMNMc/view?usp=sharing"
  },
  "노형점": {
   "name": "노형점",
@@ -14572,7 +14686,8 @@
   "kakao_link": "http://kko.to/Xt62tkCDM",
   "nearby_text": "제주 제주시 노형동 / 한라초등학교 인근",
   "office": "와와학습코칭학원",
-  "reg": "제주시교육지원청 등록 제2163호"
+  "reg": "제주시교육지원청 등록 제2163호",
+  "fee_link": "https://drive.google.com/file/d/1MeZkzMvXXa1Pe1Pi-U8_CtXgbKphECL1/view?usp=sharing"
  },
  "장기점": {
   "name": "장기점",
@@ -14615,9 +14730,9 @@
   "price_elem": 60000,
   "price_mid": 65000,
   "price_high": 75000,
-  "time_elem": 100,
-  "time_mid": 100,
-  "time_high": 100,
+  "time_elem": "100",
+  "time_mid": "100",
+  "time_high": "100",
   "keywords": [
    "고창중국어학원",
    "고창중근처학원",
@@ -14707,7 +14822,8 @@
   "kakao_link": "http://kko.to/BC6wTkCYp",
   "nearby_text": "경기 김포시 장기동 / 장기중학교 인근 / 탐앤탐스건물 5층",
   "office": "와와학습코칭센터김포학원",
-  "reg": "김포교육지원청 등록 제1237호"
+  "reg": "김포교육지원청 등록 제1237호",
+  "fee_link": "https://drive.google.com/file/d/14RZ-_GzInuf6K-UAtbt03T0QRM85Mzs8/view?usp=sharing"
  },
  "좌동점": {
   "name": "좌동점",
@@ -14891,7 +15007,8 @@
   "kakao_link": "http://kko.to/Q2Qm3fP4H",
   "nearby_text": "부산 해운대구 좌동 / 해운대문화회관사거리 인근",
   "office": "와와학습코칭센터학원",
-  "reg": "해운대교육지원청 등록 제3142호"
+  "reg": "해운대교육지원청 등록 제3142호",
+  "fee_link": "https://drive.google.com/file/d/1AKWAJpy3XqkpymVaVe0IKiW7HBoE3beT/view?usp=sharing"
  },
  "신방점": {
   "name": "신방점",
@@ -15048,7 +15165,8 @@
   "kakao_link": "http://kko.to/TgmQfCkDB",
   "nearby_text": "충남 천안시 동남구 신방동 / 성지새말2단지아파트 인근",
   "office": "와와학습코칭학원",
-  "reg": "천안교육지원청 등록 제3413호"
+  "reg": "천안교육지원청 등록 제3413호",
+  "fee_link": "https://drive.google.com/file/d/1L3WXzkkfOJlnXUWA4b7xaGDplwEUeLa6/view?usp=sharing"
  },
  "쌍용점": {
   "name": "쌍용점",
@@ -15071,13 +15189,17 @@
    "수학": "초1,초2,초3,초4,초5,초6,중1,중2,중3,고1,고2,고3"
   },
   "schools_elem": [
-   "쌍용초.미라초."
+   "쌍용초",
+   "미라초"
   ],
   "schools_mid": [
-   "쌍용중.계광중.월봉중"
+   "쌍용중",
+   "계광중",
+   "월봉중"
   ],
   "schools_high": [
-   "쌍용고.월봉고"
+   "쌍용고",
+   "월봉고"
   ],
   "open_time": "평일 오후 2시이후",
   "weekend": "토요일 제한적 가능",
@@ -15202,7 +15324,8 @@
   "kakao_link": "http://kko.to/jTmLfCCYM",
   "nearby_text": "충남 천안시 서북구 쌍용동 / 쌍용초등학교 인근",
   "office": "와와학습코칭쌍용점학원",
-  "reg": "천안교육지원청 등록 제3502호"
+  "reg": "천안교육지원청 등록 제3502호",
+  "fee_link": "https://drive.google.com/file/d/1FFkM84SzLFaZNUC4sfVNgKzYhHshsZLr/view?usp=sharing"
  },
  "병점점": {
   "name": "병점점",
@@ -15344,7 +15467,8 @@
   "kakao_link": "https://kko.to/qqMlpjsD8u",
   "nearby_text": "경기도 화성시 진안동/ 병점중학교 인근 / 중심상가 사거리 인근",
   "office": "병점점와와학습코칭학원",
-  "reg": "화성오산교육지원청 등록 제4050호"
+  "reg": "화성오산교육지원청 등록 제4050호",
+  "fee_link": "https://drive.google.com/file/d/1ThxQ15gBDQNP7pGwXu0Yy9gLco1FszrL/view?usp=sharing"
  },
  "불당점": {
   "name": "불당점",
@@ -15449,7 +15573,8 @@
   "kakao_link": "http://kko.to/_II-9rDf0",
   "nearby_text": "충남 천안 불당동 / 신불당 스타벅스 옆 / 서울대정병원 옆 (신불당)",
   "office": "불당점와와학습코칭학원",
-  "reg": "천안교육지원청 등록 제4191호"
+  "reg": "천안교육지원청 등록 제4191호",
+  "fee_link": "https://drive.google.com/file/d/16ouA2EsB4rcOuGEPQhdKcQGe5opIkFQX/view?usp=sharing"
  },
  "웰카운티점": {
   "name": "웰카운티점",
@@ -15599,7 +15724,8 @@
   "kakao_link": "http://kko.to/lsV2n6XFXM",
   "nearby_text": "인천 연수구 송도동 / 해송중 인근 / 지식정보단지 역 인근",
   "office": "웰카운티점와와학습코칭학원",
-  "reg": "인천광역시동부교육지원청 등록 제3877호"
+  "reg": "인천광역시동부교육지원청 등록 제3877호",
+  "fee_link": "https://drive.google.com/file/d/1J9xBYPPo1lbiwQR1oNMWkwsqeX_PlNN_/view?usp=sharing"
  },
  "중산점": {
   "name": "중산점",
@@ -15766,7 +15892,8 @@
   "kakao_link": "https://kko.kakao.com/DC_ZASjxCR",
   "nearby_text": "경기 고양 일산동구 중산동 / 모당초등학교 인근",
   "office": "중산점와와학습코칭학원",
-  "reg": "경기도고양교육지원청 제 6727호"
+  "reg": "경기도고양교육지원청 제 6727호",
+  "fee_link": "https://drive.google.com/file/d/1Vhw4XfIDdmspo4uOZ0s7do-DEAMOV4DI/view?usp=sharing"
  },
  "가경점": {
   "name": "가경점",
@@ -15796,8 +15923,7 @@
   ],
   "schools_mid": [
    "서현중",
-   "경덕중",
-   "서현중"
+   "경덕중"
   ],
   "schools_high": [
    "사대부고",
@@ -15902,7 +16028,8 @@
   "kakao_link": "https://kko.to/ms3cpnEOj6",
   "nearby_text": "충북 청주시 흥덕구 가경동 / 가로수마을대원칸타빌아파트 인근",
   "office": "가경점와와학습코칭학원",
-  "reg": "충청북도청주교육지원청 제 5888호"
+  "reg": "충청북도청주교육지원청 제 5888호",
+  "fee_link": "https://drive.google.com/file/d/14YxyjjwDqpBlUKpv0b1C3pA8hS0tlJGe/view?usp=sharing"
  },
  "탕정점(모두)": {
   "name": "탕정점(모두)",
@@ -16035,7 +16162,8 @@
   "kakao_link": "https://kko.kakao.com/UxgNmK6EA1",
   "nearby_text": "충남 아산시 탕정면 / 탕정역 인근",
   "office": "탕정점모두오름학습코칭학원",
-  "reg": "충청남도아산교육지원청 제 1560호"
+  "reg": "충청남도아산교육지원청 제 1560호",
+  "fee_link": "https://drive.google.com/file/d/1aK_GKQglPBG58FkSdmgHMlrQo9VMbEd4/view?usp=sharing"
  },
  "이시아폴리스점": {
   "name": "이시아폴리스점",
@@ -16187,7 +16315,8 @@
   "kakao_link": "https://kko.kakao.com/ntZXeK81zY",
   "nearby_text": "대구 동구 봉무동 / 이시아폴리스더샵3차아파트 인근",
   "office": "이시아폴리스점 와와학습코칭학원",
-  "reg": "대구동부교육지원청 제 6935호"
+  "reg": "대구동부교육지원청 제 6935호",
+  "fee_link": "https://drive.google.com/file/d/1Kpce6Y6h3NJkhL12nmStCdEbNU5X6nA7/view?usp=sharing"
  },
  "신봉점": {
   "name": "신봉점",
@@ -16327,7 +16456,8 @@
   "kakao_link": "https://kko.kakao.com/jR-CzZBmRK",
   "nearby_text": "경기 용인시 수지구 신봉동 / 신봉마을자이2차아파트 앞 / 신일초 인근",
   "office": "신봉점와와학습코칭학원",
-  "reg": "경기도용인교육지원청 제 5625호"
+  "reg": "경기도용인교육지원청 제 5625호",
+  "fee_link": "https://drive.google.com/file/d/1oXVuiOw4Y6nD2ZPD3AoWoJcg8iCXEoul/view?usp=sharing"
  },
  "퇴계원점": {
   "name": "퇴계원점",
@@ -16459,7 +16589,8 @@
   "kakao_link": "https://kko.to/O49_uKr77e",
   "nearby_text": "경기 남양주시 퇴계원읍 / 퇴계원역 인근",
   "office": "퇴계원점와와학습코칭학원",
-  "reg": "경기도구리남양주교육지원청 제4787호"
+  "reg": "경기도구리남양주교육지원청 제4787호",
+  "fee_link": "https://drive.google.com/file/d/1ViaSyWubybddoc7JPh_7m34uYzKzxHRT/view?usp=sharing"
  },
  "마포점": {
   "name": "마포점",
@@ -16638,7 +16769,8 @@
   "kakao_link": "http://kko.to/Pcn-CQkDo",
   "nearby_text": "서울 마포구 염리동 / 염리초등학교 인근",
   "office": "마포점와와학습코칭학원",
-  "reg": "서울서부교육지원청 등록 제02201800007호"
+  "reg": "서울서부교육지원청 등록 제02201800007호",
+  "fee_link": "https://drive.google.com/file/d/1-MeRe5AhIICToS02b7nDuFBxuxwVLNuZ/view?usp=sharing"
  },
  "용인백현점(모두)": {
   "name": "용인백현점(모두)",
@@ -16775,7 +16907,8 @@
   "kakao_link": "https://kko.to/rI3mXyQkwg",
   "nearby_text": "경기 용인시 기흥구 동백동 / 동백고등학교 인근",
   "office": "용인백현점 모두오름학습코칭학원",
-  "reg": "경기도용인교육지원청 제5632호"
+  "reg": "경기도용인교육지원청 제5632호",
+  "fee_link": "https://drive.google.com/file/d/1im4kR9bea4hQmtzxMa6eZLj8tgYcQFWf/view?usp=sharing"
  },
  "대구역점2호관": {
   "name": "대구역점2호관",
@@ -16915,7 +17048,8 @@
   "kakao_link": "https://kko.to/exXmTL6M8Z",
   "nearby_text": "대구 중구 수창동 / 대구역센트럴자이 상가",
   "office": "대구역점2호관 와와학습코칭학원",
-  "reg": "대구동부교육지원청 제 6950 호"
+  "reg": "대구동부교육지원청 제 6950 호",
+  "fee_link": "https://drive.google.com/file/d/1HT-qGAgWeAYM1GSbx5_N1f0hrmp4jVhX/view?usp=sharing"
  },
  "운정중앙점": {
   "name": "운정중앙점",
@@ -17048,7 +17182,8 @@
   "kakao_link": "https://kko.kakao.com/Eu883Xo1ue",
   "nearby_text": "경기 파주시 동패동 / 초롱초등학교 인근 / 초롱꽃마을12단지아파트 인근",
   "office": "운정중앙점 와와학습코칭학원",
-  "reg": "파주교육지원청 제2139호"
+  "reg": "파주교육지원청 제2139호",
+  "fee_link": "https://drive.google.com/file/d/1AtBLLrKkXz-AN4j7LRdkbVM1N3gmfCIF/view?usp=sharing"
  },
  "충주용산점": {
   "name": "충주용산점",
@@ -17196,7 +17331,8 @@
   "kakao_link": "https://kko.kakao.com/rFfYeCjGKi",
   "nearby_text": "충북 충주시 호암동 / 충주중학교 인근",
   "office": "충주용산점 와와학습코칭학원",
-  "reg": "충주교육지원청 제 1693호"
+  "reg": "충주교육지원청 제 1693호",
+  "fee_link": "https://drive.google.com/file/d/19UjPos_pxzqw1pEcZr_N964_m6krnqL1/view?usp=sharing"
  },
  "진천점(모두)": {
   "name": "진천점(모두)",
@@ -17356,7 +17492,8 @@
   "kakao_link": "https://kko.to/6HPyh7_bWL",
   "nearby_text": "대구 달서구 유천동 / 대구한샘초, 대구한솔초 인근",
   "office": "진천점 모두오름학습코칭학원",
-  "reg": "대구남부교육지원청 제 2025-53호"
+  "reg": "대구남부교육지원청 제 2025-53호",
+  "fee_link": "https://drive.google.com/file/d/1aCWrjKIWzN-qW-CzUE3iW9urK61MZRHq/view?usp=sharing"
  },
  "별내중앙점(모두)": {
   "name": "별내중앙점(모두)",
@@ -17486,7 +17623,8 @@
   "kakao_link": "https://kko.kakao.com/DKql8QSw-n",
   "nearby_text": "경기 남양주시 별내동 / 한별중, 한별초, 화접중, 별내고 인근",
   "office": "별내중앙점 모두오름학습코칭학원",
-  "reg": "경기도구리남양주교육지원청 제 5006 호"
+  "reg": "경기도구리남양주교육지원청 제 5006 호",
+  "fee_link": "https://drive.google.com/file/d/1JZisOfim91nslPuskHK3-9pTzLrqqJbM/view?usp=drive_link"
  },
  "목동점": {
   "name": "목동점",
@@ -17667,7 +17805,8 @@
   "kakao_link": "http://kko.to/7HkrC1CDB",
   "nearby_text": "서울 양천구 신정동 / 신목초등학교 인근",
   "office": "와와학습코칭학원",
-  "reg": "강서양천교육지원청 등록 제 5353호"
+  "reg": "강서양천교육지원청 등록 제 5353호",
+  "fee_link": "https://drive.google.com/file/d/10mbexM9fWTyZMaKKfMkY_WMxifGqU9e5/view?usp=sharing"
  },
  "신도림점": {
   "name": "신도림점",
@@ -17840,7 +17979,8 @@
   "kakao_link": "http://kko.to/2q_nCQCYp",
   "nearby_text": "서울 구로구 신도림동 / 서울신미림초등학교 인근",
   "office": "와와학습코칭신도림학원",
-  "reg": "서울남부교육지원청 등록 제 5525호"
+  "reg": "서울남부교육지원청 등록 제 5525호",
+  "fee_link": "https://drive.google.com/file/d/1dZBHFRmqVEisH8cm9pG8PRlTr-Vq1XWI/view?usp=sharing"
  },
  "제기점": {
   "name": "제기점",
@@ -18004,7 +18144,8 @@
   "kakao_link": "https://kko.to/cD1b3lkxmX",
   "nearby_text": "서울 동대문구 용두동 / 용두롯데캐슬리치아파트 인근 / 용두동사거리",
   "office": "제기와와학습코칭학원",
-  "reg": "서울동부교육지원청 등록 제 3066호"
+  "reg": "서울동부교육지원청 등록 제 3066호",
+  "fee_link": "https://drive.google.com/file/d/1HMDq2VEK8bG03OKmK1A3iDGqshrc34_F/view?usp=sharing"
  },
  "종암점": {
   "name": "종암점",
@@ -18108,26 +18249,26 @@
    "종암중학교영어학원",
    "종암중학교학원",
    "종암중학원",
-   "종앙점고등과학학원",
-   "종앙점고등국어학원",
-   "종앙점고등수학학원",
-   "종앙점고등영어학원",
-   "종앙점고등자기주도학습",
-   "종앙점고등학원",
-   "종앙점과학학원",
-   "종앙점국어학원",
-   "종앙점보습학원",
-   "종앙점수학학원",
-   "종앙점영어학원",
-   "종앙점와와코칭학원",
-   "종앙점와와학습코칭센터",
-   "종앙점와와학습코칭학원",
-   "종앙점와와학원",
-   "종앙점자기주도학습",
-   "종앙점자기주도학원",
-   "종앙점중등과학학원",
-   "종앙점중등국어학원",
-   "종앙점중등수학학원"
+   "종암동고등과학학원",
+   "종암동고등국어학원",
+   "종암동고등수학학원",
+   "종암동고등영어학원",
+   "종암동고등자기주도학습",
+   "종암동고등학원",
+   "종암동과학학원",
+   "종암동국어학원",
+   "종암동보습학원",
+   "종암동수학학원",
+   "종암동영어학원",
+   "종암동와와코칭학원",
+   "종암동와와학습코칭센터",
+   "종암동와와학습코칭학원",
+   "종암동와와학원",
+   "종암동자기주도학습",
+   "종암동자기주도학원",
+   "종암동중등과학학원",
+   "종암동중등국어학원",
+   "종암동중등수학학원"
   ],
   "nearby_keywords": [
    "월곡1동학원",
@@ -18177,7 +18318,8 @@
   "kakao_link": "http://kko.to/OQtWkQkYB",
   "nearby_text": "서울 성북구 종암동 / 종암삼성래미안아파트 인근",
   "office": "종암와와학습코칭학원",
-  "reg": "성북강북교육지원청 등록 제2019-56호"
+  "reg": "성북강북교육지원청 등록 제2019-56호",
+  "fee_link": "https://drive.google.com/file/d/1hXGwfNYWz180dBAXHRz7_p759Jyx4kEw/view?usp=sharing"
  },
  "명일점": {
   "name": "명일점",
@@ -18349,7 +18491,8 @@
   "kakao_link": "http://kko.to/3Hk4C1CDp",
   "nearby_text": "서울 강동구 명일동 / 명일역 사거리 인근 / 성덕여중 인근",
   "office": "명일점와와학습코칭학원",
-  "reg": "서울강동교육지원청 등록 제 7641호"
+  "reg": "서울강동교육지원청 등록 제 7641호",
+  "fee_link": "https://drive.google.com/file/d/17LIOCcTnopkxqE5ajPljl8rcJ9TYdh7e/view?usp=sharing"
  },
  "구산점": {
   "name": "구산점",
@@ -18519,7 +18662,8 @@
   "kakao_link": "http://kko.to/hvUik1kDp",
   "nearby_text": "서울 은평구 역촌동 / 구산역 인근",
   "office": "구산점와와학습코칭학원",
-  "reg": "서울서부교육지원청 등록 제02201700143호"
+  "reg": "서울서부교육지원청 등록 제02201700143호",
+  "fee_link": "https://drive.google.com/file/d/1wc5qShKhPV-e6axdSQKMCbZmKYYu8STv/view?usp=sharing"
  },
  "내발산점": {
   "name": "내발산점",
@@ -18695,7 +18839,8 @@
   "kakao_link": "http://kko.to/g5RbkQkDp",
   "nearby_text": "서울 강서구 내발산동 / 우장산힐스테이트아파트 인근 / 발산역 인근",
   "office": "내발산점와와학습코칭학원",
-  "reg": "강서양천교육지원청 등록 제 5444호"
+  "reg": "강서양천교육지원청 등록 제 5444호",
+  "fee_link": "https://drive.google.com/file/d/11YzP9rk79EIe6Vi8gsQaz05Yz73kROaA/view?usp=sharing"
  },
  "금천점": {
   "name": "금천점",
@@ -18873,7 +19018,8 @@
   "kakao_link": "http://kko.to/6Z2lk1CYB",
   "nearby_text": "서울 금천구 시흥동 / 동일여자고등학교 인근",
   "office": "금천점와와학습코칭학원",
-  "reg": "서울남부교육지원청 등록 제 5726호"
+  "reg": "서울남부교육지원청 등록 제 5726호",
+  "fee_link": "https://drive.google.com/file/d/1RgAnTVGG63p-yk_GdwnuTeatJ8G0OC21/view?usp=sharing"
  },
  "위례점": {
   "name": "위례점",
@@ -18914,7 +19060,7 @@
   ],
   "open_time": "평일 오후 2시 이후",
   "weekend": "토요일가능",
-  "fee_type": "와외회비B",
+  "fee_type": "와와회비B",
   "price_elem": 60000,
   "price_mid": 65000,
   "price_high": 75000,
@@ -19010,7 +19156,8 @@
   "kakao_link": "https://kko.to/ps4k9Fkm9D",
   "nearby_text": "경기 성남시 수정구 창곡동 / 위례 35단지 맞은편, 우리·하나·신한은행 건물",
   "office": "위례와와학습코칭학원",
-  "reg": "성남교육지원청 등록 제6054호"
+  "reg": "성남교육지원청 등록 제6054호",
+  "fee_link": "https://drive.google.com/file/d/1d5hTE_E0f8cYI5jdazykn-9dh_UYywem/view?usp=sharing"
  },
  "상현점": {
   "name": "상현점",
@@ -19169,7 +19316,8 @@
   "kakao_link": "http://kko.to/1Yk34kCYM",
   "nearby_text": "경기 용인시 수지구 상현동/ 수자원공사 삼거리 인근",
   "office": "상현점와와학습코칭학원",
-  "reg": "용인교육지원청 등록 제4241-1호"
+  "reg": "용인교육지원청 등록 제4241-1호",
+  "fee_link": "https://drive.google.com/file/d/14fpxBjAPEv4i9Dakd33Z0v2Lc53nCASL/view?usp=sharing"
  },
  "사우점": {
   "name": "사우점",
@@ -19306,7 +19454,8 @@
   "kakao_link": "http://kko.to/O8P1HCCDp",
   "nearby_text": "경기 김포시 사우동. 북변동 / 사우역 인근 / 한라아파트 인근",
   "office": "사우점와와학습코칭학원",
-  "reg": "김포교육지원청 등록 제1769호"
+  "reg": "김포교육지원청 등록 제1769호",
+  "fee_link": "https://drive.google.com/file/d/1e0JWX0ObaRPkKNnlzYbn8rUxRbhct_4s/view?usp=sharing"
  },
  "수지점(W+)": {
   "name": "수지점(W+)",
@@ -19457,7 +19606,8 @@
   "kakao_link": "https://kko.to/flk8_AHYFB",
   "nearby_text": "경기 용인시 풍덕천동 / 수지구청역 롯데캐슬하이브엘 맞은편",
   "office": "수지점더블유플러스학원",
-  "reg": "용인교육지원청 등록 제5126호"
+  "reg": "용인교육지원청 등록 제5126호",
+  "fee_link": "https://drive.google.com/file/d/1XiezIsmncUCdWY5VcyaWRX4LcHmZtXre/view?usp=sharing"
  },
  "새롬점": {
   "name": "새롬점",
@@ -19465,7 +19615,7 @@
   "district": "",
   "dong": "새롬동",
   "region_slug": "sejong",
-  "district_slug": "unknown",
+  "district_slug": "sejong",
   "branch_slug": "saelom",
   "address": "세종특별자치시 새롬중앙로 62-15 해피라움W 305호",
   "location_guide": "",
@@ -19589,7 +19739,8 @@
   "kakao_link": "http://kko.to/Ot-5akCDp",
   "nearby_text": "세종특별자치시 새롬세종로 새롬동 / 새뜸중학교 인근",
   "office": "새롬와와학습코칭학원",
-  "reg": "세종특별자치시교육청 등록 제1211호"
+  "reg": "세종특별자치시교육청 등록 제1211호",
+  "fee_link": "https://drive.google.com/file/d/15uih_-mugF_kuATSxhdepxIySi3ox38A/view?usp=sharing"
  },
  "삼산점": {
   "name": "삼산점",
@@ -19737,7 +19888,8 @@
   "kakao_link": "http://kko.to/WN3bvNYeXC",
   "nearby_text": "울산 남구 삼산동 / 평창현대2단지 아파트 인근 / 삼산고 인근",
   "office": "삼산점와와학습코칭학원",
-  "reg": "울산강남교육지원청 등록 제6001호"
+  "reg": "울산강남교육지원청 등록 제6001호",
+  "fee_link": "https://drive.google.com/file/d/1Y_kugdTxKTubbnufJZ_TYJM-ERwuFvTl/view?usp=sharing"
  },
  "상남점": {
   "name": "상남점",
@@ -19876,7 +20028,8 @@
   "kakao_link": "http://kko.to/AzajtkCYM",
   "nearby_text": "경남 창원시 성산구 상남동/ 상남시장 인근/ 대동아파트 인근",
   "office": "상남점와와학습코칭학원",
-  "reg": "창원교육지원청 등록 제1020호"
+  "reg": "창원교육지원청 등록 제1020호",
+  "fee_link": "https://drive.google.com/file/d/1WKiwdEFe7GNb4eKQPqW6RXJKtfEZxeKG/view?usp=sharing"
  },
  "향남점": {
   "name": "향남점",
@@ -20012,7 +20165,8 @@
   "kakao_link": "https://kko.to/L8AVJ4FCUC",
   "nearby_text": "경기 화성시 향남읍 / 향남 홈플러스 인근",
   "office": "향남점와와학습코칭학원",
-  "reg": "화성오산교육지원청 등록 제3567호"
+  "reg": "화성오산교육지원청 등록 제3567호",
+  "fee_link": "https://drive.google.com/file/d/1hhGu4GEHqs2Sugms-FqDiOVOEp6RC0Ho/view?usp=sharing"
  },
  "동래점": {
   "name": "동래점",
@@ -20190,7 +20344,8 @@
   "kakao_link": "http://kko.to/bFHYakCDp",
   "nearby_text": "부산 동래구 온천동 / 내산초등학교 인근/동래역 인근",
   "office": "동래점와와학습코칭학원",
-  "reg": "동래교육지원청 등록 제4888호"
+  "reg": "동래교육지원청 등록 제4888호",
+  "fee_link": "https://drive.google.com/file/d/1TT_pJdP2DN-wqsJTkMWiIEZfGKw3ARUt/view?usp=sharing"
  },
  "장곡점": {
   "name": "장곡점",
@@ -20227,7 +20382,7 @@
    "시흥고"
   ],
   "open_time": "평일 오후 4시 30분 이후",
-  "weekend": "토.일 둘다불가",
+  "weekend": "주말불가",
   "fee_type": "와와회비B",
   "price_elem": 60000,
   "price_mid": 65000,
@@ -20324,7 +20479,8 @@
   "kakao_link": "http://kko.to/JkyADkCYM",
   "nearby_text": "경기 시흥시 장곡동 / 장곡중학교 인근",
   "office": "와와학습코칭학원",
-  "reg": "시흥교육지원청 등록 제 시871호"
+  "reg": "시흥교육지원청 등록 제 시871호",
+  "fee_link": "https://drive.google.com/file/d/1GgCNj0VVJN62qRrxnGJ6hlgK8zGokw2a/view?usp=sharing"
  },
  "갈산점": {
   "name": "갈산점",
@@ -20469,7 +20625,8 @@
   "kakao_link": "http://kko.to/Dhu00CCYp",
   "nearby_text": "경기 이천시 갈산동 / 이천제일고등학교 인근 / 갈산휴먼시아 3단지 맞은편",
   "office": "와와학습코칭갈산학원",
-  "reg": "이천교육지원청 등록 제1127호"
+  "reg": "이천교육지원청 등록 제1127호",
+  "fee_link": "https://drive.google.com/file/d/16hEy3kG8bEnX1pHqsD2ggUJE81yu57Sn/view?usp=sharing"
  },
  "금릉점": {
   "name": "금릉점",
@@ -20608,7 +20765,8 @@
   "kakao_link": "http://kko.to/Z4DCYCkDo",
   "nearby_text": "경기 파주시 금촌동 / 금화초등학교 인근 / 새꽃마을 3단지 인근",
   "office": "와와학습코칭학원(금릉점)",
-  "reg": "파주교육지원청 등록 제1594호"
+  "reg": "파주교육지원청 등록 제1594호",
+  "fee_link": "https://drive.google.com/file/d/1mmS9KTKXVAiDrZJr6298KcBmtR764Ptd/view?usp=sharing"
  },
  "반달점": {
   "name": "반달점",
@@ -20739,7 +20897,8 @@
   "kakao_link": "https://kko.to/3Ha5u03E34",
   "nearby_text": "경기 부천시 상동 / 반달마을 상가 / 부인중학교인근",
   "office": "반달점와와학습코칭보습학원",
-  "reg": "부천교육지원청 등록 제6730호"
+  "reg": "부천교육지원청 등록 제6730호",
+  "fee_link": "https://drive.google.com/file/d/1xQiE1pOWaG1w2Xf0REQTXDaMuoiIe8OI/view?usp=sharing"
  },
  "관평점": {
   "name": "관평점",
@@ -20871,7 +21030,8 @@
   "kakao_link": "http://kko.to/kYTIfkCYp",
   "nearby_text": "대전 유성구 관평동 / 동화중학교 인근",
   "office": "관평점와와학습코칭학원",
-  "reg": "대전서부교육지원청 등록 제 서4761호"
+  "reg": "대전서부교육지원청 등록 제 서4761호",
+  "fee_link": "https://drive.google.com/file/d/1fvVDqj5_BZi5J64JfpXKnJHy_nnBSM4f/view?usp=sharing"
  },
  "개신점": {
   "name": "개신점",
@@ -20924,7 +21084,7 @@
   "price_elem": 60000,
   "price_mid": 65000,
   "price_high": 75000,
-  "time_elem": "90분",
+  "time_elem": "90",
   "time_mid": "90",
   "time_high": "90",
   "keywords": [
@@ -21035,7 +21195,8 @@
   "kakao_link": "http://kko.to/hrwJ4CkDB",
   "nearby_text": "충북 청주시 개신동 / 개신주공그린빌3단지아파트 인근/개신동우체국 인근",
   "office": "와와학습코칭센터학원",
-  "reg": "청주교육지원청 등록 제4620호"
+  "reg": "청주교육지원청 등록 제4620호",
+  "fee_link": "https://drive.google.com/file/d/13otvKBXXGInUYRaKvgOPM7F_Vn8PhI6m/view?usp=sharing"
  },
  "상동점": {
   "name": "상동점",
@@ -21058,13 +21219,21 @@
    "수학": "초5,초6,중1,중2,중3,고1,고2"
   },
   "schools_elem": [
-   "석천초  상인초"
+   "석천초",
+   "상인초"
   ],
   "schools_mid": [
-   "석천중 상동중 상일중 부인중"
+   "석천중",
+   "상동중",
+   "상일중",
+   "부인중"
   ],
   "schools_high": [
-   "상동고 상일고 상원고 중흥고 중원고"
+   "상동고",
+   "상일고",
+   "상원고",
+   "중흥고",
+   "중원고"
   ],
   "open_time": "평일 오후2시반 이후",
   "weekend": "토요일가능",
@@ -21157,7 +21326,8 @@
   "kakao_link": "http://kko.to/AEYjjkCDo",
   "nearby_text": "경기 부천시 상동 / 상동역 6번출구 인근 / 서해그랑블아파트 맞은편",
   "office": "와와학습코칭상동보습학원",
-  "reg": "부천교육지원청 등록 제5950호"
+  "reg": "부천교육지원청 등록 제5950호",
+  "fee_link": "https://drive.google.com/file/d/1yst4sIxuIJJrqJRlxcIsu52h8D3xsPIC/view?usp=drive_link"
  },
  "논현점": {
   "name": "논현점",
@@ -21287,7 +21457,8 @@
   "kakao_link": "http://kko.to/dbPzMLkDM",
   "nearby_text": "인천 남동구 논현동 / 인천논현역 인근",
   "office": "와와학습코칭인천논현학원",
-  "reg": "인천동부교육지원청 등록 제3283호"
+  "reg": "인천동부교육지원청 등록 제3283호",
+  "fee_link": "https://drive.google.com/file/d/1f4Hr_Nuc_yHVZ4X_7G6CUSnYvUWhJTHQ/view?usp=sharing"
  },
  "광명점": {
   "name": "광명점",
@@ -21456,7 +21627,8 @@
   "kakao_link": "http://kko.to/pw1vC1CYM",
   "nearby_text": "경기 광명시 광명동 /  광명새마을시장 인근 / 광명해모로아파트 인근",
   "office": "광명점와와학습코칭학원",
-  "reg": "광명교육지원청 등록 제1964호"
+  "reg": "광명교육지원청 등록 제1964호",
+  "fee_link": "https://drive.google.com/file/d/1Pt3inny9xAm_cD5VbQdxgSFBoA3sIibW/view?usp=sharing"
  },
  "정평점": {
   "name": "정평점",
@@ -21605,7 +21777,8 @@
   "kakao_link": "http://kko.to/1zaTtCCDp",
   "nearby_text": "경북 경산시 정평동 / 정평역 1번출구 인근",
   "office": "와와학습코칭학원",
-  "reg": "경산교육지원청 등록 제941호"
+  "reg": "경산교육지원청 등록 제941호",
+  "fee_link": "https://drive.google.com/file/d/1AXdTDlLvJAXHUbKsAVtFxa5MMNyPAbI3/view?usp=sharing"
  },
  "영천점": {
   "name": "영천점",
@@ -21722,9 +21895,10 @@
   "lat": 37.2075814,
   "lng": 127.1107818,
   "kakao_link": "https://kko.to/XttT386J4Q",
-  "nearby_text": "경기 화성시 영천동 / 한백고등학교 인근 / 상록리슈빌 아파트 맞은편  (동탄2신도시- 동탄5동)",
+  "nearby_text": "경기 화성시 영천동 / 한백고등학교 인근 / 상록리슈빌 아파트 맞은편 (동탄2신도시 동탄5동)",
   "office": "영천점와와학습코칭학원",
-  "reg": "화성오산교육지원청 등록 제2851호"
+  "reg": "화성오산교육지원청 등록 제2851호",
+  "fee_link": "https://drive.google.com/file/d/1rEe-9XZCy7ztZobpYoj4Qf8QhP-73STn/view?usp=sharing"
  },
  "송도점": {
   "name": "송도점",
@@ -21878,7 +22052,8 @@
   "kakao_link": "http://kko.to/vdl5ca24j",
   "nearby_text": "인천 연수구 송도동 / 송도힐스테이트 6단지 인근",
   "office": "WAWA와와학습코칭인천송도점학원",
-  "reg": "인천동부교육지원청 등록 제3284호"
+  "reg": "인천동부교육지원청 등록 제3284호",
+  "fee_link": "https://drive.google.com/file/d/1A1PmbOmnKxlWXzQcRFxlVz006RaqdK74/view?usp=sharing"
  },
  "둔산점": {
   "name": "둔산점",
@@ -22033,7 +22208,8 @@
   "kakao_link": "https://kko.to/QUefTUajac",
   "nearby_text": "대전 서구 둔산동/ 대전 시청역 인근",
   "office": "와와학습코칭센터학원",
-  "reg": "대전서부교육지원청 등록 제 서4002호"
+  "reg": "대전서부교육지원청 등록 제 서4002호",
+  "fee_link": "https://drive.google.com/file/d/1QBYKIlUiIIxD9Ma1x91qYK-nWjoDvNGr/view?usp=sharing"
  },
  "관저점": {
   "name": "관저점",
@@ -22194,7 +22370,8 @@
   "kakao_link": "http://kko.to/oGLu4kkYp",
   "nearby_text": "대전 서구 관저동 / 느리울중학교 인근",
   "office": "관저점와와학습코칭학원",
-  "reg": "대전서부교육지원청 등록 제 서4277호"
+  "reg": "대전서부교육지원청 등록 제 서4277호",
+  "fee_link": "https://drive.google.com/file/d/1I5xpmGOOdJyDwM-EZYLNVIGEAtY5E5vH/view?usp=sharing"
  },
  "전주혁신점": {
   "name": "전주혁신점",
@@ -22325,7 +22502,8 @@
   "kakao_link": "https://kko.to/FJOP-4EkuY",
   "nearby_text": "전북 완주군 이서면 / 전북혁신5차호반 베르디움더센트럴1아파트 인근",
   "office": "전주혁신점와와학습코칭학원",
-  "reg": "완주교육지원청 제 454호"
+  "reg": "완주교육지원청 제 454호",
+  "fee_link": "https://drive.google.com/file/d/1VKDN_aiMtGhLccY57m6YCX2PA1gDFXYN/view?usp=sharing"
  },
  "주엽점": {
   "name": "주엽점",
@@ -22460,7 +22638,8 @@
   "kakao_link": "http://kko.to/1wNY0kCDp",
   "nearby_text": "경기 고양시 일산서구 주엽동 / 주엽역 4번출구 인근 /효림요양병원 건물",
   "office": "주엽점와와학습코칭학원",
-  "reg": "고양교육지원청 등록 제5403호"
+  "reg": "고양교육지원청 등록 제5403호",
+  "fee_link": "https://drive.google.com/file/d/1NBpsrDmN0k4HjHXt5MqATOuOwLU2qSw7/view?usp=sharing"
  },
  "다산점": {
   "name": "다산점",
@@ -22599,7 +22778,8 @@
   "kakao_link": "http://kko.to/jjuofCCYo",
   "nearby_text": "경기 남양주시 다산동 / 남양주다산고등학교 인근",
   "office": "다산점와와학습코칭학원",
-  "reg": "구리남양주교육지원청 등록 제4125호"
+  "reg": "구리남양주교육지원청 등록 제4125호",
+  "fee_link": "https://drive.google.com/file/d/10xM29ypf-xXYhgmuLZR5Et09xStDzsI5/view?usp=sharing"
  },
  "비산점": {
   "name": "비산점",
@@ -22776,7 +22956,8 @@
   "kakao_link": "http://kko.to/oKuM4kkDB",
   "nearby_text": "경기 안양시 비산동 / 비산삼성래미안아파트 인근",
   "office": "와와학습코칭비산센터학원",
-  "reg": "안양과천교육지원청 등록 제 2017-063호"
+  "reg": "안양과천교육지원청 등록 제 2017-063호",
+  "fee_link": "https://drive.google.com/file/d/1DAF3k6vG07h2oZb3E6Z7sjNZpjkJ6yqF/view?usp=sharing"
  },
  "두정점": {
   "name": "두정점",
@@ -22909,7 +23090,8 @@
   "kakao_link": "http://kko.to/NZ9fJ0x60",
   "nearby_text": "충남 천안시 서북구 두정동 / 천안두정초등학교 인근",
   "office": "와와학습코칭두정점학원",
-  "reg": "천안교육지원청 등록 제3444호"
+  "reg": "천안교육지원청 등록 제3444호",
+  "fee_link": "https://drive.google.com/file/d/1U7WEv3UiYOsh55RMKRcMwCe45m0Vg8Hw/view?usp=sharing"
  },
  "원주시청점": {
   "name": "원주시청점",
@@ -23044,7 +23226,8 @@
   "kakao_link": "http://kko.to/P2ObtCkDM",
   "nearby_text": "강원 원주시 무실동 / 원주시청, 만대초등학교 인근",
   "office": "와와학습코칭학원원주시청점",
-  "reg": "원주교육지원청 등록 제2605호"
+  "reg": "원주교육지원청 등록 제2605호",
+  "fee_link": "https://drive.google.com/file/d/1tocte5DcDNDQrLxrwPQPRq9c4V4Q421_/view?usp=drive_link"
  },
  "오산대역점": {
   "name": "오산대역점",
@@ -23186,7 +23369,8 @@
   "kakao_link": "http://kko.to/TNtb4CCYM",
   "nearby_text": "경기 오산시 수청동 / 오산대역 인근",
   "office": "오산대역점와와학습코칭학원",
-  "reg": "화성오산교육지원청 등록 제3851호"
+  "reg": "화성오산교육지원청 등록 제3851호",
+  "fee_link": "https://drive.google.com/file/d/11d81v4WhwKLCT5R8bkQCsTEnvxyuOmUL/view?usp=sharing"
  },
  "신창점": {
   "name": "신창점",
@@ -23214,8 +23398,7 @@
   ],
   "schools_mid": [
    "진흥중",
-   "신창중",
-   "진흥중"
+   "신창중"
   ],
   "schools_high": [
    "숭덕고",
@@ -23321,7 +23504,8 @@
   "kakao_link": "http://kko.to/lvg9tkkYB",
   "nearby_text": "광주 광산구 신창동 / 신창초등학교 인근",
   "office": "와와학습코칭신창학원",
-  "reg": "광주서부교육지원청 등록 제6884호"
+  "reg": "광주서부교육지원청 등록 제6884호",
+  "fee_link": "https://drive.google.com/file/d/1N4z51JB5iUmfH6Gl9fC7RW4CAZrGjRYT/view?usp=sharing"
  },
  "칠곡점": {
   "name": "칠곡점",
@@ -23466,7 +23650,8 @@
   "kakao_link": "http://kko.to/Z0fxakkYM",
   "nearby_text": "대구 북구 동천동 / 보성서한타운2차아파트 인근",
   "office": "칠곡점와와학습코칭학원",
-  "reg": "대구서부교육지원청 등록 제2020-4298호"
+  "reg": "대구서부교육지원청 등록 제2020-4298호",
+  "fee_link": "https://drive.google.com/file/d/15k5KqDbCmEFxzT8qZts-XWrw7p76ALT8/view?usp=sharing"
  },
  "운정점": {
   "name": "운정점",
@@ -23589,7 +23774,8 @@
   "kakao_link": "http://kko.to/ZChCDkkDp",
   "nearby_text": "경기 파주시 동패동 / 파주운정점 이마트 인근",
   "office": "운정점와와학습코칭학원",
-  "reg": "파주교육지원청 등록 제1424호"
+  "reg": "파주교육지원청 등록 제1424호",
+  "fee_link": "https://drive.google.com/file/d/1aWJGZLX3ncNSj1wHMmCxdDtCQjbc18Er/view?usp=sharing"
  },
  "다산지금점": {
   "name": "다산지금점",
@@ -23720,7 +23906,8 @@
   "kakao_link": "http://kko.to/KAzmigrfp",
   "nearby_text": "경기 남양주시 다산동 / 다산한강중학교 인근 / 금강 펜테리움 1차 인근",
   "office": "다산지금점와와학습코칭학원",
-  "reg": "구리남양주교육지원청 등록 제4349-1호"
+  "reg": "구리남양주교육지원청 등록 제4349-1호",
+  "fee_link": "https://drive.google.com/file/d/1ekgP0fZRPrGFiAeNjncmewEShHTUC_g8/view?usp=sharing"
  },
  "수성만촌점": {
   "name": "수성만촌점",
@@ -23748,7 +23935,7 @@
   },
   "schools_elem": [],
   "schools_mid": [
-   "동중"
+   "대구동중"
   ],
   "schools_high": [],
   "open_time": "평일 오후 1시 이후",
@@ -23761,18 +23948,18 @@
   "time_mid": "90",
   "time_high": "90",
   "keywords": [
-   "동중국어학원",
-   "동중근처학원",
-   "동중내신학원",
-   "동중수학학원",
-   "동중영어학원",
-   "동중학교국어학원",
-   "동중학교근처학원",
-   "동중학교내신학원",
-   "동중학교수학학원",
-   "동중학교영어학원",
-   "동중학교학원",
-   "동중학원",
+   "대구동중국어학원",
+   "대구동중근처학원",
+   "대구동중내신학원",
+   "대구동중수학학원",
+   "대구동중영어학원",
+   "대구동중학교국어학원",
+   "대구동중학교근처학원",
+   "대구동중학교내신학원",
+   "대구동중학교수학학원",
+   "대구동중학교영어학원",
+   "대구동중학교학원",
+   "대구동중학원",
    "만촌고등국어학원",
    "만촌고등사회학원",
    "만촌고등수학학원",
@@ -23890,7 +24077,8 @@
   "kakao_link": "http://kko.to/h5kSakCYM",
   "nearby_text": "대구 수성구 만촌동 / 효신초등학교 인근 / 메트로팔레스 1단지 인근",
   "office": "수성만촌점와와학습코칭학원",
-  "reg": "대구동부교육지원청 등록 제6028호"
+  "reg": "대구동부교육지원청 등록 제6028호",
+  "fee_link": "https://drive.google.com/file/d/1WiIk2UXzb_ufTQxdsXXrKQvw1NkdH1S_/view?usp=sharing"
  },
  "천천점": {
   "name": "천천점",
@@ -24067,7 +24255,8 @@
   "kakao_link": "http://kko.to/ZAcmTkkYM",
   "nearby_text": "경기 수원시 장안구 천천동 / 천천고등학교 인근",
   "office": "천천와와학습코칭학원",
-  "reg": "수원교육지원청 등록 제6090-1호"
+  "reg": "수원교육지원청 등록 제6090-1호",
+  "fee_link": "https://drive.google.com/file/d/1O5JaqhA1ztrkctZAWRBOJ9U7ObM21oQy/view?usp=sharing"
  },
  "산남점": {
   "name": "산남점",
@@ -24097,10 +24286,14 @@
    "샛별초"
   ],
   "schools_mid": [
-   "수곡중 산남중"
+   "수곡중",
+   "산남중"
   ],
   "schools_high": [
-   "충북고 운호고 충북여고 산남고"
+   "충북고",
+   "운호고",
+   "충북여고",
+   "산남고"
   ],
   "open_time": "평일 오후 2시 이후",
   "weekend": "토요일가능, 일요일가능",
@@ -24241,7 +24434,8 @@
   "kakao_link": "http://kko.to/Sh0QfkCDB",
   "nearby_text": "충북 청주시 서원구 산남동 / 현진에버빌아파트 인근",
   "office": "산남점와와학습코칭학원",
-  "reg": "청주교육지원청 등록 제4696호"
+  "reg": "청주교육지원청 등록 제4696호",
+  "fee_link": "https://drive.google.com/file/d/15MU6oyqrxbAJ5B9XISYQOPYI0IlEV00D/view?usp=drive_link"
  },
  "석사점": {
   "name": "석사점",
@@ -24280,7 +24474,7 @@
    "강원고",
    "사대부고",
    "춘고",
-   "춘여고",
+   "춘천여고",
    "봉의고",
    "성수여고",
    "유봉여고"
@@ -24302,7 +24496,8 @@
   "kakao_link": "http://kko.to/BUvFtCCYB",
   "nearby_text": "강원 춘천시 석사동 / 강남프라자 7층 (투탑시티 카펠라 휘트니스 건너편)",
   "office": "석사2호점와와학습코칭학원",
-  "reg": "춘천교육지원청 등록 제1593호"
+  "reg": "춘천교육지원청 등록 제1593호",
+  "fee_link": "https://drive.google.com/file/d/1tooh_xe_hU1K9Ae_nQYwHSjVsYwymbdI/view?usp=sharing"
  },
  "후평점": {
   "name": "후평점",
@@ -24472,7 +24667,8 @@
   "kakao_link": "http://kko.to/LHM2tCCDp",
   "nearby_text": "강원 춘천시 후평동 / 춘천더샵아파트 인근",
   "office": "후평점와와학습코칭학원",
-  "reg": "춘천교육지원청 등록 제1741호"
+  "reg": "춘천교육지원청 등록 제1741호",
+  "fee_link": "https://drive.google.com/file/d/1xkfhXMjunXflkjZ042uRb7Vg54EMI0HO/view?usp=sharing"
  },
  "옥계점": {
   "name": "옥계점",
@@ -24606,7 +24802,8 @@
   "kakao_link": "http://kko.to/234MtCCDp",
   "nearby_text": "경북 구미시 옥계동 /삼구트리니엔 인근 / 옥계동부중학교 인근",
   "office": "옥계점와와학습코칭학원",
-  "reg": "구미교육지원청 등록 제2536호"
+  "reg": "구미교육지원청 등록 제2536호",
+  "fee_link": "https://drive.google.com/file/d/1lOqtLHzwGLXGqTFI6mdV8Apc6Ygrq3uh/view?usp=sharing"
  },
  "당진중앙점": {
   "name": "당진중앙점",
@@ -24741,7 +24938,8 @@
   "kakao_link": "http://kko.to/EWhmfkCDB",
   "nearby_text": "충남 당진시 읍내동 / 다이소 당진본점 인근",
   "office": "당진중앙와와학습코칭학원",
-  "reg": "당진교육지원청 등록 제617호"
+  "reg": "당진교육지원청 등록 제617호",
+  "fee_link": "https://drive.google.com/file/d/1bl7roUWmdKUy8HZWNzpecHfyfYXBcvSr/view?usp=sharing"
  },
  "미사점": {
   "name": "미사점",
@@ -24856,7 +25054,8 @@
   "kakao_link": "http://kko.to/H4pCyQkDM",
   "nearby_text": "경기 하남시 망월동 / 미사강변스타힐스아파트 인근",
   "office": "미사점와와학습코칭학원",
-  "reg": "광주하남교육지원청 등록 제1913호"
+  "reg": "광주하남교육지원청 등록 제1913호",
+  "fee_link": "https://drive.google.com/file/d/1ayc6EpsbY0xxvhSRFpmNqi-g8huoIdGr/view?usp=sharing"
  },
  "영통점": {
   "name": "영통점",
@@ -25035,7 +25234,8 @@
   "kakao_link": "http://kko.to/Y0XmTkCDB",
   "nearby_text": "경기 수원시 영통구 영통동 / 영덕중학교 인근 / 수원가정법원 인근",
   "office": "와와학습코칭학원",
-  "reg": "수원교육지원청 등록 제6117호"
+  "reg": "수원교육지원청 등록 제6117호",
+  "fee_link": "https://drive.google.com/file/d/1SFEtVXmoNSgMTAJLFxjFDCfgYkKfsesx/view?usp=sharing"
  },
  "망포점": {
   "name": "망포점",
@@ -25215,7 +25415,8 @@
   "kakao_link": "http://kko.to/bckmTCkDB",
   "nearby_text": "경기 수원시 망포동 / 망포중학교 인근",
   "office": "망포와와학습코칭학원",
-  "reg": "수원교육지원청 등록 제6338호"
+  "reg": "수원교육지원청 등록 제6338호",
+  "fee_link": "https://drive.google.com/file/d/1-d4V1oGK8gAP5fRukdKomWUWUrdRn2yg/view?usp=sharing"
  },
  "강릉교동점": {
   "name": "강릉교동점",
@@ -25380,7 +25581,8 @@
   "kakao_link": "https://kko.to/W8XqFDoDVH",
   "nearby_text": "강원 강릉시 교동 / 교동3차 주공아파트 인근",
   "office": "와와학습코칭학원",
-  "reg": "강릉교육지원청 등록 제1386호"
+  "reg": "강릉교육지원청 등록 제1386호",
+  "fee_link": "https://drive.google.com/file/d/1grckTuhEevfCOF41lRTaYSjDua8nCSxY/view?usp=sharing"
  },
  "서수원점": {
   "name": "서수원점",
@@ -25521,7 +25723,8 @@
   "kakao_link": "http://kko.to/4I1B0CkDo",
   "nearby_text": "경기 수원시 권선구 호매실동 / 호매실 스위첸아파트 인근",
   "office": "서수원와와학습코칭학원",
-  "reg": "수원교육지원청 등록 제6949호"
+  "reg": "수원교육지원청 등록 제6949호",
+  "fee_link": "https://drive.google.com/file/d/1MsZDo-afnJ9KuWs_XPSoxqseN-Z6lcnn/view?usp=sharing"
  },
  "원당점": {
   "name": "원당점",
@@ -25548,13 +25751,17 @@
    "사회": "초1,초2,초3,초4,초5,초6,중1,중2,중3,고1,고2"
   },
   "schools_elem": [
-   "성라초 성사초"
+   "성라초",
+   "성사초"
   ],
   "schools_mid": [
-   "화수중 성사중 원당중"
+   "화수중",
+   "성사중",
+   "원당중"
   ],
   "schools_high": [
-   "성사고 화수고"
+   "성사고",
+   "화수고"
   ],
   "open_time": "평일오후3시이후",
   "weekend": "토요일가능",
@@ -25695,7 +25902,8 @@
   "kakao_link": "http://kko.to/Fmlb4CCYp",
   "nearby_text": "경기 고양시 덕양구 성사동 / 원당역 인근",
   "office": "원당점와와학습코칭학원",
-  "reg": "고양교육지원청 등록 제5951호"
+  "reg": "고양교육지원청 등록 제5951호",
+  "fee_link": "https://drive.google.com/file/d/1Hc3P16SbBQdtyDuT-HNbAKMUmOrkkNjN/view?usp=sharing"
  },
  "송도점(W+)": {
   "name": "송도점(W+)",
@@ -25822,7 +26030,8 @@
   "kakao_link": "https://kko.to/Wxw3VRx30B",
   "nearby_text": "인천 연수구 송도동 / 송도대경스위트리아파크뷰 인근, 꿈에계단",
   "office": "송도점더블유플러스학원",
-  "reg": "인천동부교육지원청 등록 제3518호"
+  "reg": "인천동부교육지원청 등록 제3518호",
+  "fee_link": "https://drive.google.com/file/d/1YoGajhAjNJoVv89fstozJAZiFls5xs4a/view?usp=sharing"
  },
  "운양점": {
   "name": "운양점",
@@ -25941,7 +26150,8 @@
   "kakao_link": "http://kko.to/Saye-MMfo",
   "nearby_text": "경기 김포시 운양동 / 운양역 인근 / 하늘빛 초중학교 인근",
   "office": "운양점와와학습코칭학원",
-  "reg": "김포교육지원청 등록 제1913호"
+  "reg": "김포교육지원청 등록 제1913호",
+  "fee_link": "https://drive.google.com/file/d/17Ds4hHMgM8WCVt6Uj-uSJb4P-rwC7Fgv/view?usp=sharing"
  },
  "도안점": {
   "name": "도안점",
@@ -26083,7 +26293,8 @@
   "kakao_link": "http://kko.to/ReMG4kkYp",
   "nearby_text": "대전 서구 도안동 / 도안 어울림하트 12단지 인근 / 흥도초 인근 (도안신도시)",
   "office": "도안점와와학습코칭학원",
-  "reg": "대전서부교육지원청 등록 제 서4790호"
+  "reg": "대전서부교육지원청 등록 제 서4790호",
+  "fee_link": "https://drive.google.com/file/d/1NQzPqwkdIs8wEGSQzGEELthBmuBO9-r0/view?usp=sharing"
  },
  "시흥대야점": {
   "name": "시흥대야점",
@@ -26223,7 +26434,8 @@
   "kakao_link": "http://kko.to/pThFrrY4B",
   "nearby_text": "경기 시흥시 대야동 / 은계지구 / 시흥시립대야도서관 인근",
   "office": "시흥대야점와와학습코칭학원",
-  "reg": "시흥교육지원청 등록 제 시1277호"
+  "reg": "시흥교육지원청 등록 제 시1277호",
+  "fee_link": "https://drive.google.com/file/d/1Qwn4xZbeKNpm0XJ-1OFMxfZiEZ2o7GVF/view?usp=sharing"
  },
  "둔산점(W+)": {
   "name": "둔산점(W+)",
@@ -26325,7 +26537,8 @@
   "kakao_link": "https://kko.to/589ljEz50W",
   "nearby_text": "대전 서구 둔산동 / 시청역 7번 출구 인근, 대덕프라자",
   "office": "둔산점더블유플러스학원",
-  "reg": "대전서부교육지원청 등록 제 서4833호"
+  "reg": "대전서부교육지원청 등록 제 서4833호",
+  "fee_link": "https://drive.google.com/file/d/19iSsiWVMf4pvTjDiF0odNT3lRBiySdij/view?usp=sharing"
  },
  "반여점": {
   "name": "반여점",
@@ -26500,7 +26713,8 @@
   "kakao_link": "http://kko.to/uH0tLFcfT",
   "nearby_text": "부산 해운대구 반여동 / 인지초등학교 인근 / 아시아선수촌아파트 앞",
   "office": "반여점와와학습코칭학원",
-  "reg": "해운대교육지원청 등록 제3955호"
+  "reg": "해운대교육지원청 등록 제3955호",
+  "fee_link": "https://drive.google.com/file/d/1Qq0cdryWq69yn7iByiBV5POm1PuhFE7I/view?usp=sharing"
  },
  "화명점": {
   "name": "화명점",
@@ -26659,7 +26873,8 @@
   "kakao_link": "http://kko.to/hivjGlc4M",
   "nearby_text": "부산 북구 화명동 / 화명역 인근 / 코오롱 하늘채 앞 (화명신도시)",
   "office": "화명점와와학습코칭학원",
-  "reg": "부산북부교육지원청 등록 제2830호"
+  "reg": "부산북부교육지원청 등록 제2830호",
+  "fee_link": "https://drive.google.com/file/d/1hqcd55tCPtmilhUMKXfSAI4-QeSvvcyQ/view?usp=sharing"
  },
  "보라점": {
   "name": "보라점",
@@ -26800,7 +27015,8 @@
   "kakao_link": "http://kko.to/HErb93Z4j",
   "nearby_text": "경기 용인시 기흥구 보라동 / 나곡초등학교 인근 / 노브랜드 맞은편",
   "office": "보라점와와학습코칭학원",
-  "reg": "용인교육지원청 등록 제4991호"
+  "reg": "용인교육지원청 등록 제4991호",
+  "fee_link": "https://drive.google.com/file/d/14wEgQGPyf5mkDMGhnqppmxlg0_QtKkHK/view?usp=sharing"
  },
  "대구장기점": {
   "name": "대구장기점",
@@ -26974,7 +27190,8 @@
   "kakao_link": "http://kko.to/LW5EaCCDo",
   "nearby_text": "대구 달서구 장기동 / 대구장동초등학교 인근",
   "office": "대구장기점와와학습코칭학원",
-  "reg": "대구남부교육지원청 등록 제2020-80호"
+  "reg": "대구남부교육지원청 등록 제2020-80호",
+  "fee_link": "https://drive.google.com/file/d/1BD61hG-XiO7LvWeP2um1bgNKOGuvoqJL/view?usp=sharing"
  },
  "범박점": {
   "name": "범박점",
@@ -27114,7 +27331,8 @@
   "kakao_link": "http://kko.to/7ldWr3Z4H",
   "nearby_text": "경기 부천시 소사본동 / 소안초등학교 옆 / 소사주공 사거리 인근",
   "office": "범박점와와학습코칭보습학원",
-  "reg": "부천교육지원청 등록 제6495호"
+  "reg": "부천교육지원청 등록 제6495호",
+  "fee_link": "https://drive.google.com/file/d/187gK8EhRvJSdsevZZdCEqLoLCCzlz433/view?usp=sharing"
  },
  "위례창곡점": {
   "name": "위례창곡점",
@@ -27222,7 +27440,8 @@
   "kakao_link": "http://kko.to/D7ryC5P4o",
   "nearby_text": "경기 성남시 수정구 창곡동 / 위례푸른초 인근 (위례신도시)",
   "office": "위례창곡점와와학습코칭학원",
-  "reg": "성남교육지원청 등록 제6458호"
+  "reg": "성남교육지원청 등록 제6458호",
+  "fee_link": "https://drive.google.com/file/d/1ILLc1mkd9i-OS17T42-VCSh-QXRhYXNw/view?usp=sharing"
  },
  "혁신점": {
   "name": "혁신점",
@@ -27349,7 +27568,8 @@
   "kakao_link": "http://kko.to/9WW0BNPfT",
   "nearby_text": "강원 원주시 반곡동 / 심평원사거리 앞 / 힐데스하임 5단지 인근 (원주혁신도시)",
   "office": "혁신점와와학습코칭학원",
-  "reg": "원주교육지원청 등록 제2762호"
+  "reg": "원주교육지원청 등록 제2762호",
+  "fee_link": "https://drive.google.com/file/d/171mN1t-t5V_EDQ73myoHfOC8IgS92PVc/view?usp=sharing"
  },
  "원흥점": {
   "name": "원흥점",
@@ -27481,7 +27701,8 @@
   "kakao_link": "http://kko.to/dh6n---4p",
   "nearby_text": "경기도 고양시 덕양구 원흥동 /  원흥역 인근 /  원흥역 푸르지오 인근",
   "office": "원흥점와와학습코칭학원",
-  "reg": "고양교육지원청 등록 제6096호"
+  "reg": "고양교육지원청 등록 제6096호",
+  "fee_link": "https://drive.google.com/file/d/1Cb_lwqG3BjjYUfPCpI0b7j6miCLJTHS_/view?usp=sharing"
  },
  "거제수월점": {
   "name": "거제수월점",
@@ -27612,7 +27833,8 @@
   "kakao_link": "http://kko.to/-pvPLc34H",
   "nearby_text": "경남 거제시 수월동 / 수월삼거리 인근 / 거제신현두산위브 인근",
   "office": "거제수월점와와학습코칭학원",
-  "reg": "거제교육지원청 등록 제1558호"
+  "reg": "거제교육지원청 등록 제1558호",
+  "fee_link": "https://drive.google.com/file/d/1bEw8cjhfKaOgvMEZ9xCyxr6CLti6KCfJ/view?usp=sharing"
  },
  "덕이점": {
   "name": "덕이점",
@@ -27644,7 +27866,7 @@
   "schools_mid": [],
   "schools_high": [],
   "open_time": "평일 오후 2시 이후",
-  "weekend": "토요일 : 고등모의고사 상시 특강(구문독해 실력향상>내신도 자연상승! 수능연습!)",
+  "weekend": "토요일 고등 모의고사 대비 수업",
   "fee_type": "와와회비B",
   "price_elem": 60000,
   "price_mid": 65000,
@@ -27741,7 +27963,8 @@
   "kakao_link": "http://kko.to/E1Ap1nRMS",
   "nearby_text": "경기 고양시 일산서구 덕이동 / 일산하이파크 3단지 맞은편",
   "office": "덕이점와와학습코칭학원",
-  "reg": "고양교육지원청 등록 제6169호"
+  "reg": "고양교육지원청 등록 제6169호",
+  "fee_link": "https://drive.google.com/file/d/1B71TuZ5WzWzFaKGiW03udtKvvs-LDVJB/view?usp=sharing"
  },
  "삼송점": {
   "name": "삼송점",
@@ -27777,7 +28000,7 @@
    "신원고"
   ],
   "open_time": "평일 오후 2시 이후",
-  "weekend": "주말  수학 ,과학가능",
+  "weekend": "주말 수학·과학 가능",
   "fee_type": "와와회비B",
   "price_elem": 60000,
   "price_mid": 65000,
@@ -27874,7 +28097,8 @@
   "kakao_link": "http://kko.to/_yABGvhfj",
   "nearby_text": "경기 고양시 덕양구 신원동 / 신원마을 6단지 인근",
   "office": "삼송점와와학습코칭학원",
-  "reg": "고양교육지원청 등록 제6173호"
+  "reg": "고양교육지원청 등록 제6173호",
+  "fee_link": "https://drive.google.com/file/d/1XZ5EnjKni8OtLm-2ArNLnfa00ybiSFYr/view?usp=sharing"
  },
  "진월점": {
   "name": "진월점",
@@ -28026,7 +28250,8 @@
   "kakao_link": "http://kko.to/NA1TzDiJX",
   "nearby_text": "광주 남구 진월동 / 진월한신아파트, 새한아파트 인근",
   "office": "진월점와와학습코칭센터학원",
-  "reg": "광주서부교육지원청 등록 제7193호"
+  "reg": "광주서부교육지원청 등록 제7193호",
+  "fee_link": "https://drive.google.com/file/d/1RDcQTYeDwO1m1sSQS8ycGq662srBw7C_/view?usp=sharing"
  },
  "이충점": {
   "name": "이충점",
@@ -28155,7 +28380,8 @@
   "kakao_link": "http://kko.to/xo5rOnTxJ",
   "nearby_text": "경기 평택시 이충동 / 이충부영3단지 인근 / 송탄농협 이충지점 옆",
   "office": "이충점와와학습코칭학원",
-  "reg": "평택교육지원청 등록 제 2599호"
+  "reg": "평택교육지원청 등록 제 2599호",
+  "fee_link": "https://drive.google.com/file/d/1l-bmkd295T_mfUw6tkU2uxVKl-sRsrsv/view?usp=sharing"
  },
  "루원시티점": {
   "name": "루원시티점",
@@ -28303,7 +28529,8 @@
   "kakao_link": "http://kko.to/Cicqt3yc_",
   "nearby_text": "인천 서구 신현동 / 루원시티 대성베르힐 아파트 앞",
   "office": "루원시티점와와학습코칭학원",
-  "reg": "인천서부교육지원청 등록 서부 제2212호"
+  "reg": "인천서부교육지원청 등록 서부 제2212호",
+  "fee_link": "https://drive.google.com/file/d/1vnp1MJv5LeEZDGL3JIddYzbNv80M1hjx/view?usp=sharing"
  },
  "복현점": {
   "name": "복현점",
@@ -28477,7 +28704,8 @@
   "kakao_link": "https://kko.to/eAF2jLp9H6",
   "nearby_text": "대구 북구 복현동 / 대구북중학교 인근",
   "office": "복현점와와학습코칭학원",
-  "reg": "대구광역시서부교육지원청 제2024-4559호"
+  "reg": "대구광역시서부교육지원청 제2024-4559호",
+  "fee_link": "https://drive.google.com/file/d/13VHDs0XygRHYYPUNq-s9WVn51xUnHJwx/view?usp=sharing"
  },
  "진접점": {
   "name": "진접점",
@@ -28500,13 +28728,16 @@
    "수학": "초3,초4,초5,초6,중1,중2,중3,고1,고2"
   },
   "schools_elem": [
-   "해밀초 화봉초"
+   "해밀초",
+   "화봉초"
   ],
   "schools_mid": [
-   "풍양중 주곡중"
+   "풍양중",
+   "주곡중"
   ],
   "schools_high": [
-   "진접고 오남고"
+   "진접고",
+   "오남고"
   ],
   "open_time": "평일 오후3시 이후",
   "weekend": "주말불가",
@@ -28555,7 +28786,8 @@
   "kakao_link": "http://kko.to/Oc4ZG-YZR",
   "nearby_text": "경기 남양주시 진접읍 / 해밀초등학교 인근",
   "office": "진접점와와학습코칭학원",
-  "reg": "경기도구리남양주교육지원청등록 제4552호"
+  "reg": "경기도구리남양주교육지원청등록 제4552호",
+  "fee_link": "https://drive.google.com/file/d/1913WW2VPl4JjE4gJJkzDXVUYR2rFjTaA/view?usp=sharing"
  },
  "사직점": {
   "name": "사직점",
@@ -28715,7 +28947,8 @@
   "kakao_link": "https://kko.to/EiHhUaqefk",
   "nearby_text": "부산 동래구 사직동 / 사직쌍용예가 1차 아파트 상가 / 예원초등학교 옆",
   "office": "사직점와와학습코칭학원",
-  "reg": "동래교육지원청 등록 제5468호"
+  "reg": "동래교육지원청 등록 제5468호",
+  "fee_link": "https://drive.google.com/file/d/1VtNAwOPvqNpQOijmq_TwZPyPcwRJlBHO/view?usp=sharing"
  },
  "운정호수점": {
   "name": "운정호수점",
@@ -28840,7 +29073,8 @@
   "kakao_link": "http://kko.to/cpcva97Zxz",
   "nearby_text": "경기 파주시 와동동 /  지산초, 가람도서관 인근",
   "office": "운정호수점와와학습코칭센터학원",
-  "reg": "경기도파주교육지원청 등록 제1878호"
+  "reg": "경기도파주교육지원청 등록 제1878호",
+  "fee_link": "https://drive.google.com/file/d/19SIHrQyXkZSkCZnHk9SlSeG5GM_Hlu0X/view?usp=sharing"
  },
  "탄벌점": {
   "name": "탄벌점",
@@ -28951,7 +29185,8 @@
   "kakao_link": "http://kko.to/Sp1Kk5g4j",
   "nearby_text": "경기 광주시 탄벌동 / 탄벌리현대아파트 인근 / 탄벌중 인근",
   "office": "탄벌점와와학습코칭학원",
-  "reg": "광주하남교육지원청 등록 제2007호"
+  "reg": "광주하남교육지원청 등록 제2007호",
+  "fee_link": "https://drive.google.com/file/d/17P4PvLMsf0dpRtoZzfena-RCp-UOjJVV/view?usp=sharing"
  },
  "남외점": {
   "name": "남외점",
@@ -29099,7 +29334,8 @@
   "kakao_link": "http://kko.to/NrCHMjRgp",
   "nearby_text": "울산 중구 남외동 / 남외초등학교 인근",
   "office": "남외점와와학습코칭학원",
-  "reg": "울산강북교육지원청 등록 제5626호"
+  "reg": "울산강북교육지원청 등록 제5626호",
+  "fee_link": "https://drive.google.com/file/d/1Ubd6ec3Q0JtFI0iJyjRHePAnMtt6_p2f/view?usp=sharing"
  },
  "흥덕점": {
   "name": "흥덕점",
@@ -29273,7 +29509,8 @@
   "kakao_link": "http://kko.to/dVa79FSfp",
   "nearby_text": "경기 용인시 기흥구 영덕동 / 흥덕마을 3단지 인근",
   "office": "흥덕점와와학습코칭학원",
-  "reg": "용인교육지원청 등록 제4989호"
+  "reg": "용인교육지원청 등록 제4989호",
+  "fee_link": "https://drive.google.com/file/d/1EbvDRonAykNGa6Dr9E8TFNu66ia8HYRN/view?usp=sharing"
  },
  "반송점": {
   "name": "반송점",
@@ -29395,7 +29632,8 @@
   "kakao_link": "https://kko.to/EsGWjvDKL2",
   "nearby_text": "경기 화성시 반송동 / 석우중 인근 / 위너스타 빌딩",
   "office": "반송점와와학습코칭학원",
-  "reg": "화성오산교육지원청 등록 제3130호"
+  "reg": "화성오산교육지원청 등록 제3130호",
+  "fee_link": "https://drive.google.com/file/d/1Cz3k5i45CV_emSktIVKWEQAor29BZPyQ/view?usp=sharing"
  },
  "돈암점": {
   "name": "돈암점",
@@ -29570,7 +29808,8 @@
   "kakao_link": "http://kko.to/2JVEk1CYM",
   "nearby_text": "서울 성북구 돈암동 / 매원초, 고명중 인근",
   "office": "돈암점와와학습코칭학원",
-  "reg": "성북강북교육지원청 등록 제2017-43호"
+  "reg": "성북강북교육지원청 등록 제2017-43호",
+  "fee_link": "https://drive.google.com/file/d/1MjRhJZfnei5B10J8KZlngdmbyHduEze-/view?usp=sharing"
  },
  "동소문점": {
   "name": "동소문점",
@@ -29734,7 +29973,8 @@
   "kakao_link": "https://kko.to/0eDvMkc-nO",
   "nearby_text": "서울 성북구 동소문동 / 서울정덕초등학교 인근",
   "office": "동소문점와와학습코칭학원",
-  "reg": "성북강북교육지원청 등록 제2017-39호"
+  "reg": "성북강북교육지원청 등록 제2017-39호",
+  "fee_link": "https://drive.google.com/file/d/1WxeSdNjDEnda3WQJeWYKuA8ux_9sF3vx/view?usp=sharing"
  },
  "상암점": {
   "name": "상암점",
@@ -29879,6 +30119,7 @@
   "kakao_link": "http://kko.to/NlQtk1kYB",
   "nearby_text": "서울 마포구 상암동 / 상암월드컵파크6,7단지아파트 인근",
   "office": "와와학습코칭센터학원",
-  "reg": "서울서부교육지원청 등록 제022015001127호"
+  "reg": "서울서부교육지원청 등록 제022015001127호",
+  "fee_link": "https://drive.google.com/file/d/1XT6jmbFrUjOh3keKGT4kd71MaQllT5CU/view?usp=sharing"
  }
 }

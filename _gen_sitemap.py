@@ -108,6 +108,11 @@ for entry in sorted(os.listdir(ROOT)):
     if not os.path.isdir(full): continue
     if entry in SKIP_DIRS or entry.startswith(".") or entry.startswith("_"):
         continue
+    # 개인정보처리방침 (2026-09-17): 시도 폴더가 아니므로 낮은 우선순위로 따로 넣는다
+    if entry == "privacy":
+        if os.path.isfile(os.path.join(full, "index.html")):
+            add("/privacy/", "0.3", "yearly")
+        continue
 
     # 시도 폴더 (예: seoul/) - index.html 있을 때만 추가
     region_index = os.path.join(full, "index.html")

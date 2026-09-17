@@ -2504,7 +2504,7 @@
   </url>
   <url>
     <loc>https://wcoachingcenter.com/daegu/suseong/school/%EB%8C%80%EA%B5%AC%EB%8F%99%EC%A4%91/</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-09-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -2528,12 +2528,6 @@
   </url>
   <url>
     <loc>https://wcoachingcenter.com/daegu/suseong/school/%EB%8F%99%EC%9D%BC%EC%B4%88/</loc>
-    <lastmod>2026-09-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wcoachingcenter.com/daegu/suseong/school/%EB%8F%99%EC%A4%91/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -3151,6 +3145,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://wcoachingcenter.com/gangwon/chuncheon/dong/%EC%84%9D%EC%82%AC%EB%8F%99/</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://wcoachingcenter.com/gangwon/chuncheon/dong/%EC%84%9D%EC%82%AC%EB%8F%99/english/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>monthly</changefreq>
@@ -3271,14 +3271,8 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://wcoachingcenter.com/gangwon/chuncheon/school/%EC%B6%98%EC%97%AC%EA%B3%A0/</loc>
-    <lastmod>2026-09-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://wcoachingcenter.com/gangwon/chuncheon/school/%EC%B6%98%EC%B2%9C%EC%97%AC%EA%B3%A0/</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-09-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -4904,7 +4898,7 @@
   </url>
   <url>
     <loc>https://wcoachingcenter.com/gyeonggi/bucheon/school/%EC%A4%91%ED%9D%A5%EA%B3%A0/</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-09-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -4916,12 +4910,6 @@
   </url>
   <url>
     <loc>https://wcoachingcenter.com/gyeonggi/bucheon/school/%EC%A4%91%ED%9D%A5%EC%B4%88/</loc>
-    <lastmod>2026-09-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wcoachingcenter.com/gyeonggi/bucheon/school/%EC%A6%9D%ED%9D%A5%EA%B3%A0/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -11599,32 +11587,32 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://wcoachingcenter.com/jeonbuk/jeonju/dong/%EC%86%A1%EC%B2%9C%EC%A0%90/</loc>
-    <lastmod>2026-09-11</lastmod>
+    <loc>https://wcoachingcenter.com/jeonbuk/jeonju/dong/%EC%86%A1%EC%B2%9C%EB%8F%99/</loc>
+    <lastmod>2026-09-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://wcoachingcenter.com/jeonbuk/jeonju/dong/%EC%86%A1%EC%B2%9C%EC%A0%90/english/</loc>
-    <lastmod>2026-09-11</lastmod>
+    <loc>https://wcoachingcenter.com/jeonbuk/jeonju/dong/%EC%86%A1%EC%B2%9C%EB%8F%99/english/</loc>
+    <lastmod>2026-09-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://wcoachingcenter.com/jeonbuk/jeonju/dong/%EC%86%A1%EC%B2%9C%EC%A0%90/korean/</loc>
-    <lastmod>2026-09-11</lastmod>
+    <loc>https://wcoachingcenter.com/jeonbuk/jeonju/dong/%EC%86%A1%EC%B2%9C%EB%8F%99/korean/</loc>
+    <lastmod>2026-09-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://wcoachingcenter.com/jeonbuk/jeonju/dong/%EC%86%A1%EC%B2%9C%EC%A0%90/math/</loc>
-    <lastmod>2026-09-11</lastmod>
+    <loc>https://wcoachingcenter.com/jeonbuk/jeonju/dong/%EC%86%A1%EC%B2%9C%EB%8F%99/math/</loc>
+    <lastmod>2026-09-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://wcoachingcenter.com/jeonbuk/jeonju/dong/%EC%86%A1%EC%B2%9C%EC%A0%90/science/</loc>
-    <lastmod>2026-09-11</lastmod>
+    <loc>https://wcoachingcenter.com/jeonbuk/jeonju/dong/%EC%86%A1%EC%B2%9C%EB%8F%99/science/</loc>
+    <lastmod>2026-09-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -11743,6 +11731,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://wcoachingcenter.com/privacy/</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://wcoachingcenter.com/reviews/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -11755,62 +11749,62 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://wcoachingcenter.com/sejong/unknown/dong/%EC%83%88%EB%A1%AC%EB%8F%99/</loc>
-    <lastmod>2026-09-11</lastmod>
+    <loc>https://wcoachingcenter.com/sejong/sejong/dong/%EC%83%88%EB%A1%AC%EB%8F%99/</loc>
+    <lastmod>2026-09-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://wcoachingcenter.com/sejong/unknown/dong/%EC%83%88%EB%A1%AC%EB%8F%99/english/</loc>
-    <lastmod>2026-09-11</lastmod>
+    <loc>https://wcoachingcenter.com/sejong/sejong/dong/%EC%83%88%EB%A1%AC%EB%8F%99/english/</loc>
+    <lastmod>2026-09-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://wcoachingcenter.com/sejong/unknown/dong/%EC%83%88%EB%A1%AC%EB%8F%99/korean/</loc>
-    <lastmod>2026-09-11</lastmod>
+    <loc>https://wcoachingcenter.com/sejong/sejong/dong/%EC%83%88%EB%A1%AC%EB%8F%99/korean/</loc>
+    <lastmod>2026-09-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://wcoachingcenter.com/sejong/unknown/dong/%EC%83%88%EB%A1%AC%EB%8F%99/math/</loc>
-    <lastmod>2026-09-11</lastmod>
+    <loc>https://wcoachingcenter.com/sejong/sejong/dong/%EC%83%88%EB%A1%AC%EB%8F%99/math/</loc>
+    <lastmod>2026-09-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://wcoachingcenter.com/sejong/unknown/saelom/</loc>
-    <lastmod>2026-09-11</lastmod>
+    <loc>https://wcoachingcenter.com/sejong/sejong/saelom/</loc>
+    <lastmod>2026-09-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://wcoachingcenter.com/sejong/unknown/school/%EC%83%88%EB%9C%B8%EC%A4%91/</loc>
-    <lastmod>2026-09-11</lastmod>
+    <loc>https://wcoachingcenter.com/sejong/sejong/school/%EC%83%88%EB%9C%B8%EC%A4%91/</loc>
+    <lastmod>2026-09-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://wcoachingcenter.com/sejong/unknown/school/%EC%83%88%EB%9C%B8%EC%B4%88/</loc>
-    <lastmod>2026-09-11</lastmod>
+    <loc>https://wcoachingcenter.com/sejong/sejong/school/%EC%83%88%EB%9C%B8%EC%B4%88/</loc>
+    <lastmod>2026-09-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://wcoachingcenter.com/sejong/unknown/school/%EC%83%88%EB%A1%AC%EA%B3%A0/</loc>
-    <lastmod>2026-09-11</lastmod>
+    <loc>https://wcoachingcenter.com/sejong/sejong/school/%EC%83%88%EB%A1%AC%EA%B3%A0/</loc>
+    <lastmod>2026-09-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://wcoachingcenter.com/sejong/unknown/school/%EC%83%88%EB%A1%AC%EC%A4%91/</loc>
-    <lastmod>2026-09-11</lastmod>
+    <loc>https://wcoachingcenter.com/sejong/sejong/school/%EC%83%88%EB%A1%AC%EC%A4%91/</loc>
+    <lastmod>2026-09-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://wcoachingcenter.com/sejong/unknown/school/%EC%83%88%EB%A1%AC%EC%B4%88/</loc>
-    <lastmod>2026-09-11</lastmod>
+    <loc>https://wcoachingcenter.com/sejong/sejong/school/%EC%83%88%EB%A1%AC%EC%B4%88/</loc>
+    <lastmod>2026-09-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

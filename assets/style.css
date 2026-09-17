@@ -1457,3 +1457,9 @@
    공용 t.js가 PC에서 tel: 클릭 시 번호 안내 창을 띄우므로 PC에서도 보여야 한다.
    ⚠ 다시 PC 숨김 규칙을 넣지 말 것 (index.html 인라인 스타일도 같음).
    ───────────────────────────────────────────── */
+
+/* 지점 지도 (Leaflet, 2026-09-17) */
+.branch-map-wrap .wawa-map { width:100%; height:380px; display:block; background:#f0f4f7; }
+@media(max-width:760px){
+  .branch-map-wrap .wawa-map { height:300px; }
+}

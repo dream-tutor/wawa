@@ -1463,3 +1463,13 @@
 @media(max-width:760px){
   .branch-map-wrap .wawa-map { height:300px; }
 }
+
+/* 2026-09-18 사용자 요청: 영상 위아래 유튜브 제목바·채널바를 가려 유튜브로 넘어가지 않게 한다(마스크가 클릭도 막는다) */
+.video-crop-outer::before,
+.video-crop-outer::after { content:''; position:absolute; left:0; right:0; background:#000; z-index:2; }
+.video-crop-outer::before { top:0; height:56px; }
+.video-crop-outer::after { bottom:0; height:70px; }
+@media (max-width:640px) {
+  .video-crop-outer::before { height:48px; }
+  .video-crop-outer::after { height:60px; }
+}

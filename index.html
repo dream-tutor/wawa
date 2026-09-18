@@ -781,6 +781,16 @@
 }
 
 /* PC에서도 전화 버튼 노출 (2026-09-17): 예전 PC 숨김 규칙 삭제 — 공용 t.js가 PC tel: 클릭 시 번호 창을 띄운다. 다시 숨기지 말 것 */
+
+/* 2026-09-18 사용자 요청: 영상 위아래 유튜브 제목바·채널바를 가려 유튜브로 넘어가지 않게 한다(마스크가 클릭도 막는다) */
+.video-crop-outer::before,
+.video-crop-outer::after { content:''; position:absolute; left:0; right:0; background:#000; z-index:2; }
+.video-crop-outer::before { top:0; height:56px; }
+.video-crop-outer::after { bottom:0; height:70px; }
+@media (max-width:640px) {
+  .video-crop-outer::before { height:48px; }
+  .video-crop-outer::after { height:60px; }
+}
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
 <script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
@@ -1074,31 +1084,7 @@ wcs_do(_nasa)
 
 
 <!-- WAWA_AUTO_REGION_LINKS_START -->
-<section class="region-index" style="background:#fff;padding:32px 20px;border-top:1px solid #E8EBF0;">
-<style>.region-index .ri-in{max-width:1000px;margin:0 auto}.region-index h2{font-size:20px;font-weight:900;margin:0 0 6px;text-align:center;word-break:keep-all}.region-index .ri-sub{font-size:14px;color:#64748B;margin:0 0 16px;text-align:center;word-break:keep-all}.region-index ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:8px 20px}.region-index li{font-size:13px;line-height:1.9;color:#94A3B8;word-break:keep-all}.region-index li a{color:#475569;text-decoration:none}.region-index li a:hover{text-decoration:underline}.region-index a.ri-sido{font-weight:800;color:#0369A1}.region-index .ri-sep{color:#CBD5E1}</style>
-<div class="ri-in">
-  <h2>지역별 지점 안내</h2>
-  <p class="ri-sub">시·도나 시·군·구를 누르면 그 지역 지점과 수강료 안내를 볼 수 있습니다.</p>
-  <ul>
-    <li data-r="seoul"><a class="ri-sido" href="/seoul/">서울</a> <span class="ri-sep">|</span> <a href="/seoul/gangdong/">강동구</a> · <a href="/seoul/gangbuk/">강북구</a> · <a href="/seoul/gangseo/">강서구</a> · <a href="/seoul/gwangjin/">광진구</a> · <a href="/seoul/guro/">구로구</a> · <a href="/seoul/geumcheon/">금천구</a> · <a href="/seoul/nowon/">노원구</a> · <a href="/seoul/dongdaemun/">동대문구</a> · <a href="/seoul/mapo/">마포구</a> · <a href="/seoul/seodaemun/">서대문구</a> · <a href="/seoul/seongbuk/">성북구</a> · <a href="/seoul/songpa/">송파구</a> · <a href="/seoul/yangcheon/">양천구</a> · <a href="/seoul/yeongdeungpo/">영등포구</a> · <a href="/seoul/eunpyeong/">은평구</a></li>
-    <li data-r="gyeonggi"><a class="ri-sido" href="/gyeonggi/">경기</a> <span class="ri-sep">|</span> <a href="/gyeonggi/goyang/">고양시</a> · <a href="/gyeonggi/gwangmyeong/">광명시</a> · <a href="/gyeonggi/gwangju/">광주시</a> · <a href="/gyeonggi/guri/">구리시</a> · <a href="/gyeonggi/gunpo/">군포시</a> · <a href="/gyeonggi/gimpo/">김포시</a> · <a href="/gyeonggi/namyangju/">남양주시</a> · <a href="/gyeonggi/bucheon/">부천시</a> · <a href="/gyeonggi/seongnam/">성남시</a> · <a href="/gyeonggi/suwon/">수원시</a> · <a href="/gyeonggi/siheung/">시흥시</a> · <a href="/gyeonggi/ansan/">안산시</a> · <a href="/gyeonggi/anyang/">안양시</a> · <a href="/gyeonggi/yangju/">양주시</a> · <a href="/gyeonggi/osan/">오산시</a> · <a href="/gyeonggi/yongin/">용인시</a> · <a href="/gyeonggi/uijeongbu/">의정부시</a> · <a href="/gyeonggi/icheon/">이천시</a> · <a href="/gyeonggi/paju/">파주시</a> · <a href="/gyeonggi/pyeongtaek/">평택시</a> · <a href="/gyeonggi/hanam/">하남시</a> · <a href="/gyeonggi/hwaseong/">화성시</a></li>
-    <li data-r="incheon"><a class="ri-sido" href="/incheon/">인천</a> <span class="ri-sep">|</span> <a href="/incheon/namdong/">남동구</a> · <a href="/incheon/bupyeong/">부평구</a> · <a href="/incheon/seogu/">서구</a> · <a href="/incheon/yeonsu/">연수구</a></li>
-    <li data-r="busan"><a class="ri-sido" href="/busan/">부산</a> <span class="ri-sep">|</span> <a href="/busan/dongnae/">동래구</a> · <a href="/busan/bukgu/">북구</a> · <a href="/busan/haeundae/">해운대구</a></li>
-    <li data-r="daegu"><a class="ri-sido" href="/daegu/">대구</a> <span class="ri-sep">|</span> <a href="/daegu/dalseo/">달서구</a> · <a href="/daegu/donggu/">동구</a> · <a href="/daegu/bukgu/">북구</a> · <a href="/daegu/suseong/">수성구</a> · <a href="/daegu/junggu/">중구</a></li>
-    <li data-r="gwangju"><a class="ri-sido" href="/gwangju/">광주</a> <span class="ri-sep">|</span> <a href="/gwangju/gwangsan/">광산구</a> · <a href="/gwangju/namgu/">남구</a> · <a href="/gwangju/seogu/">서구</a></li>
-    <li data-r="daejeon"><a class="ri-sido" href="/daejeon/">대전</a> <span class="ri-sep">|</span> <a href="/daejeon/daedeok/">대덕구</a> · <a href="/daejeon/seogu/">서구</a> · <a href="/daejeon/yuseong/">유성구</a> · <a href="/daejeon/junggu/">중구</a></li>
-    <li data-r="ulsan"><a class="ri-sido" href="/ulsan/">울산</a> <span class="ri-sep">|</span> <a href="/ulsan/namgu/">남구</a> · <a href="/ulsan/bukgu/">북구</a> · <a href="/ulsan/junggu/">중구</a></li>
-    <li data-r="gangwon"><a class="ri-sido" href="/gangwon/">강원</a> <span class="ri-sep">|</span> <a href="/gangwon/gangneung/">강릉시</a> · <a href="/gangwon/wonju/">원주시</a> · <a href="/gangwon/chuncheon/">춘천시</a></li>
-    <li data-r="chungbuk"><a class="ri-sido" href="/chungbuk/">충북</a> <span class="ri-sep">|</span> <a href="/chungbuk/cheongju/">청주시</a> · <a href="/chungbuk/chungju/">충주시</a></li>
-    <li data-r="chungnam"><a class="ri-sido" href="/chungnam/">충남</a> <span class="ri-sep">|</span> <a href="/chungnam/dangjin/">당진시</a> · <a href="/chungnam/asan/">아산시</a> · <a href="/chungnam/cheonan/">천안시</a></li>
-    <li data-r="jeonbuk"><a class="ri-sido" href="/jeonbuk/">전북</a> <span class="ri-sep">|</span> <a href="/jeonbuk/wanju/">완주군</a> · <a href="/jeonbuk/jeonju/">전주시</a></li>
-    <li data-r="gyeongbuk"><a class="ri-sido" href="/gyeongbuk/">경북</a> <span class="ri-sep">|</span> <a href="/gyeongbuk/gyeongsan/">경산시</a> · <a href="/gyeongbuk/gumi/">구미시</a> · <a href="/gyeongbuk/pohang/">포항시</a></li>
-    <li data-r="gyeongnam"><a class="ri-sido" href="/gyeongnam/">경남</a> <span class="ri-sep">|</span> <a href="/gyeongnam/geoje/">거제시</a> · <a href="/gyeongnam/changwon/">창원시</a></li>
-    <li data-r="sejong"><a class="ri-sido" href="/sejong/">세종</a></li>
-    <li data-r="jeju"><a class="ri-sido" href="/jeju/">제주</a> <span class="ri-sep">|</span> <a href="/jeju/jeju-si/">제주시</a></li>
-  </ul>
-</div>
-</section>
+
 <!-- WAWA_AUTO_REGION_LINKS_END -->
 
 <!-- FORM -->
@@ -1345,7 +1331,7 @@ wcs_do(_nasa)
     <div id="fee-lookup" style="margin-top:14px;background:#fff;border:1px solid #e2e8f0;border-radius:12px;padding:14px 16px;">
       <label for="fee-lookup-sel" style="display:block;font-size:12px;font-weight:800;color:#1E293B;margin-bottom:8px;">지점별 학원 명칭 · 교육청 등록번호 · 1회 수업 시간</label>
       <select id="fee-lookup-sel" style="width:100%;padding:9px 10px;border:1px solid #cbd5e1;border-radius:8px;font-size:14px;background:#fff;color:#1E293B;"><option value="">지점을 선택하세요</option></select>
-      <div id="fee-lookup-out" style="margin-top:10px;font-size:12px;color:#475569;line-height:1.7;word-break:keep-all;">교습비는 지점마다 교육청에 따로 등록합니다. 지점을 고르면 정식 학원 명칭과 등록번호, 적용 교습비, 1회 수업 시간, 교습비 공시 자료를 보여 드립니다. 각 지점 페이지의 수강료 안내에도 같은 내용이 있습니다.</div>
+      <div id="fee-lookup-out" style="margin-top:10px;font-size:12px;color:#475569;line-height:1.7;word-break:keep-all;"></div>
     </div>
     <script>
     (function () {
@@ -1461,6 +1447,7 @@ wcs_do(_nasa)
   <span style="font-size:11px;color:rgba(255,255,255,0.4);">광고 전화는 정중히 사절합니다. &nbsp;|&nbsp; 그림 출처: 와와학습코칭센터, AI로 이미지 생성</span>
   <div class="footer-privacy" style="margin-top:6px;font-size:12px;"><a href="/privacy/" style="color:rgba(255,255,255,0.85);font-weight:700;">개인정보처리방침</a></div>
   <div class="page-updated" data-iso="2026-09-11" style="font-size:11px;color:rgba(255,255,255,0.45);margin-top:8px;">📅 최종 업데이트: 2026.09.11</div>
+<div class="ft-region" style="margin-top:10px;font-size:12px;color:#94A3B8;line-height:1.9;word-break:keep-all;">지역별 지점 : <a href="/seoul/" style="color:#94A3B8;text-decoration:none;">서울</a> · <a href="/gyeonggi/" style="color:#94A3B8;text-decoration:none;">경기</a> · <a href="/incheon/" style="color:#94A3B8;text-decoration:none;">인천</a> · <a href="/busan/" style="color:#94A3B8;text-decoration:none;">부산</a> · <a href="/daegu/" style="color:#94A3B8;text-decoration:none;">대구</a> · <a href="/gwangju/" style="color:#94A3B8;text-decoration:none;">광주</a> · <a href="/daejeon/" style="color:#94A3B8;text-decoration:none;">대전</a> · <a href="/ulsan/" style="color:#94A3B8;text-decoration:none;">울산</a> · <a href="/sejong/" style="color:#94A3B8;text-decoration:none;">세종</a> · <a href="/gangwon/" style="color:#94A3B8;text-decoration:none;">강원</a> · <a href="/chungbuk/" style="color:#94A3B8;text-decoration:none;">충북</a> · <a href="/chungnam/" style="color:#94A3B8;text-decoration:none;">충남</a> · <a href="/jeonbuk/" style="color:#94A3B8;text-decoration:none;">전북</a> · <a href="/gyeongbuk/" style="color:#94A3B8;text-decoration:none;">경북</a> · <a href="/gyeongnam/" style="color:#94A3B8;text-decoration:none;">경남</a> · <a href="/jeju/" style="color:#94A3B8;text-decoration:none;">제주</a></div>
 </footer>
 
 <!-- PHONE FLOATING -->

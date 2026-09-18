@@ -270,7 +270,7 @@
         <div class="subject-checks"><label><input type="checkbox" name="과목" value="국어"> 국어</label><label><input type="checkbox" name="과목" value="영어"> 영어</label><label><input type="checkbox" name="과목" value="수학"> 수학</label><label><input type="checkbox" name="과목" value="사회" checked> 사회</label><label><input type="checkbox" name="과목" value="과학"> 과학</label></div>
       </div>
       <div class="form-agree">
-        <input type="checkbox" id="agree" required oninvalid="this.setCustomValidity('개인정보 수집·이용에 동의하셔야 상담 신청이 가능합니다.')" onchange="this.setCustomValidity('')">
+        <input type="checkbox" id="agree" required checked onclick="if(!this.checked){alert('체크를 해제하시면 상담 신청이 어렵습니다.');this.checked=true;}">
         <label for="agree">개인정보 수집·이용에 동의합니다. <span style="color:#94A3B8;font-weight:400;">(필수)</span></label>
       </div>
       <!-- WAWA_AUTO_PRIVACY_NOTICE -->
@@ -285,10 +285,7 @@
           <a href="/privacy/" style="color:#0369A1;font-weight:700;">개인정보처리방침 보기</a>
         </div>
       </details>
-      <div class="form-agree">
-        <input type="checkbox" id="agreeShare" required oninvalid="this.setCustomValidity('상담 지점에 개인정보를 제공하는 데 동의하셔야 상담 신청이 가능합니다.')" onchange="this.setCustomValidity('')">
-        <label for="agreeShare">상담 지점에 개인정보를 제공하는 데 동의합니다. <span style="color:#94A3B8;font-weight:400;">(필수)</span></label>
-      </div>
+      
       <details class="agree-detail" style="margin:-8px 0 14px;font-size:12px;color:#64748B;line-height:1.6;text-align:left;">
         <summary style="cursor:pointer;color:#0369A1;font-weight:700;">받는 곳·제공 항목 보기</summary>
         <div style="margin-top:6px;padding:10px 12px;background:#F8FAFC;border:1px solid #E2E8F0;border-radius:8px;word-break:keep-all;">

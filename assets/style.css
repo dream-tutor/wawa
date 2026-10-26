@@ -1473,3 +1473,8 @@
   .video-crop-outer::before { height:48px; }
   .video-crop-outer::after { height:60px; }
 }
+
+/* 본문 그림 비율 (2026-10-26): 09-22 에 width·height 속성을 넣은 뒤로 인라인 style 의 width:100%·max-width 만 줄고 높이는 속성값(예 675px) 그대로라
+   그림이 세로로 늘어나 보였다(640x506 등, 모바일 335px 폭이면 2.7배). 속성·인라인 style 이 함께 있는 img 만 높이를 비율대로.
+   인라인 style 에 height 를 직접 적은 그림(홈 why-wawa 등)은 인라인이 이겨 그대로다. */
+img[width][height][style] { height:auto; }

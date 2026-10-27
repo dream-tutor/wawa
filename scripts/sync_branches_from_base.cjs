@@ -56,7 +56,8 @@ for (const t of TARGETS) {
     if (!cur[n] || !want[n]) { lines.push(`  ${n}: ${cur[n] ? '기준본에 없음' : '대상에 없음'}`); continue; }
     for (const f of new Set([...Object.keys(cur[n]), ...Object.keys(want[n])])) {
       if (JSON.stringify(cur[n][f]) !== JSON.stringify(want[n][f])) {
-        lines.push(`  ${n}.${f}: ${JSON.stringify(cur[n][f]).slice(0, 70)} → ${JSON.stringify(want[n][f]).slice(0, 70)}`);
+        // 한쪽에만 있는 칸(2026-10-27 strengths·aliases 추가)은 JSON.stringify 가 undefined 를 돌려줘 String() 으로 감싼다
+        lines.push(`  ${n}.${f}: ${String(JSON.stringify(cur[n][f])).slice(0, 70)} → ${String(JSON.stringify(want[n][f])).slice(0, 70)}`);
       }
     }
   }
